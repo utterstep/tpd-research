@@ -1,0 +1,13 @@
+{
+  "slug": "garet_2008",
+  "study": "Garet et al. 2008, Early Reading PD (LETRS institutes +/- coaching), NCEE 2008-4030",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Treatment A = 8 content-focused institute & seminar days (summer 2005 + school year); Treatment B adds ~60 hrs in-school coaching (3-day coaching institute + on-site follow-up trainings). All face-to-face (Ch.3 Teacher Institute Series & Coaching, pp.29-39).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcome = district standardized reading tests (TerraNova/CTBS in 4 districts, SAT-10 in 1, criterion-referenced state test in 1), broad independent assessments standardized within district (Table 4-3, p.51).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "Study deliberately enrolled schools already using one of two existing core reading programs; PD (LETRS, itself a PD curriculum) aimed to improve teachers' use of their existing reading program - no new student curriculum provided (footnote 6, p.~; Summary of PD Interventions).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted effects = Implementation Year, Spring 2006 (end of the intervention year); follow-up Year (Spring 2007) exists but is not the primary extracted wave (Table 4-3, p.51; notes).",
+  "confidence": "high"
+}

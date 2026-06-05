@@ -1,0 +1,13 @@
+{
+  "slug": "bleses_2021",
+  "study": "Bleses et al. 2021 — SPELL early language/literacy curriculum supplement (Denmark), cluster RCT Grade-2 follow-up; coded SPELL base arm",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "SPELL teacher training is described as short, in-person external training for the base SPELL arm (coaching=0); SPELL+PD adds extended in-person professional development/coaching. No online/remote delivery component is reported; training is face-to-face (extraction design notes; Methods).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Coded effect sizes come from the Danish mandatory national reading test in Grade 2 (IRT/computer-adaptive, standardized, independent) — a broad independent assessment not tailored to SPELL (extraction test_type=standardized_independent; Table 4).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "SPELL is a 20-week storybook-based language/preliteracy curriculum supplement that teachers deliver after training — a specific new instructional-materials package (tpd_goal='TPD for curricula'); PD is tied to adopting this curriculum (Methods; extraction design).",
+  "outcome_timing": "delayed",
+  "outcome_timing_evidence": "The extracted effect sizes are from the Grade-2 national reading test administered 3-6 years AFTER the preschool intervention ended — a long-term delayed follow-up, not the end-of-treatment preschool wave (extraction timepoint=Grade 2 follow-up; Table 4).",
+  "confidence": "medium"
+}

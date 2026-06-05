@@ -1,0 +1,13 @@
+{
+  "slug": "dolfin_2019",
+  "study": "Dolfin et al. 2019 — Teacher Potential Project (EL Education ELA curriculum + embedded PD) RCT (Mathematica)",
+  "delivery_mode": "blended",
+  "delivery_evidence": "Three PD components are a genuine in-person + online mix: (1) on-site institutes; (2) on-site AND video-based coaching; (3) online supports including online PD materials, online communities of practice, and interactive webinars. (PD model description; fidelity chapter, pp. ~30-32)",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcomes are state ELA assessments standardized to a national norming population — broad independent standardized tests not tailored to TPP content. (Table VI.1, p. 64)",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "TPP provides an open-source, CCSS-aligned EL Education ELA curriculum (grades 3-8) paired with the embedded PD; treatment schools adopt and implement this new curriculum. ('TPP provides an ELA curriculum paired with teacher professional learning supports'; ELA curriculum implementation chapter)",
+  "outcome_timing": "both",
+  "outcome_timing_evidence": "Primary impacts measured at end of schools' second study year (immediate); the table also reports a one-year follow-up contrast (S9) measured the year AFTER a single year of TPP, with TPP discontinued (delayed). (Table VI.1, p. 64; rows S4/S6 vs S9)",
+  "confidence": "high"
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "greenleaf_2011",
+  "study": "Greenleaf et al. 2011, Reading Apprenticeship in Biology, AERJ 48(3) (effect sizes from NSF ROLE final report)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "~10 days of PD delivered as a summer institute plus day-long sessions during the school year across two summers, with a follow-up summer institute (Appendix A; 'travel, food, and housing for the summer institute'). A moderated list-serve was a minor asynchronous supplement, not the primary channel.",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcomes are California Standards Tests (CST) in Biology, Reading Comprehension, and ELA—broad independent state standardized tests (Table 11).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "Reading Apprenticeship is an instructional framework/set of metacognitive routines that teachers integrate into their OWN ongoing biology instruction; not a new student curriculum ('integrate supports for literacy into their own biology instruction'). Teachers got up to $200 for supplementary reading materials, not an adopted curriculum package.",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted effect sizes are the 2006/07 (end of Year 2) wave, the end of the intervention (Table 11; both cross-sectional and longitudinal samples same timepoint).",
+  "confidence": "medium"
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "vernon_feagans_2013",
+  "study": "Vernon-Feagans et al. 2013 (Targeted Reading Intervention webcam coaching; J. Educational Psychology 105(4))",
+  "delivery_mode": "blended",
+  "delivery_evidence": "Genuine mix of in-person and online: all experimental teachers received an in-person 3-day summer institute (led by the intervention director and trained reading coaches) AND, during the year, biweekly live webcam/video-conferencing literacy coaching plus a website of downloadable materials/manuals -- 'a technology driven professional development program that included ongoing biweekly [webcam] coaching' (Method, p.1179-1181).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Included reading outcomes are the Woodcock-Johnson III Diagnostic Reading Battery subtests (Word Attack, Letter-Word Identification, Passage Comprehension, Spelling of Sounds), commercial standardized norm-referenced instruments not tailored to TRI (extraction test_type=standardized_independent; Table 5, p.1183).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting the Targeted Reading Intervention, a specific named program with its own instructional materials package -- website materials for instruction, downloadable instructions/manuals, downloadable leveled books, and a defined diagnostic protocol (Word Work, Diagnostic Map) that the classroom teacher uses in one-on-one struggling-reader sessions (Method, p.1178-1181).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "WJ-III DRB outcomes measured in spring (immediate post-test, end of the single treatment year); only one post wave, no delayed follow-up (extraction timepoint 'spring, immediate post'; Table 5, p.1183).",
+  "confidence": "high"
+}

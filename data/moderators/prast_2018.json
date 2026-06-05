@@ -1,0 +1,13 @@
+{
+  "slug": "prast_2018",
+  "study": "Prast et al. 2018 — project GROW differentiated-instruction math PD, Dutch cluster RCT, primary grades 1-6, Learning and Instruction 54:22-34",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "2-year GROW PD delivered face-to-face: ten 3-hour team meetings per school year (teachers learned the differentiation cycle, collectively prepared/videotaped/evaluated lessons via Lesson Study), school-based project coaches trained in five regional in-person meetings, plus classroom observations; principals present at team meetings (Sec. 2.5/2.5.2, p.~26-27).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcome is the Cito Mathematics Tests (CMT), the national Dutch curriculum-based progress-monitoring battery (vertically-scaled competence score) — a broad standardized instrument not tailored to the GROW differentiation PD (extraction test_type=standardized_independent; Sec. 2.4/Tables 5&7).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "GROW teaches teachers to apply the cycle of differentiation (flexible within-class ability grouping, differentiated instruction) in their existing primary-mathematics teaching; no new math curriculum or materials package is adopted — control is business-as-usual math (Intro/Sec. 2.5, p.~24-26).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted effect sizes are the PD effect on the within-year math-achievement growth slope measured at the end of the active intervention year (Cohort 1 end-Year-1; Cohort 2 end-Year-2) — immediate post; the n.s. Year-2 follow-up of Year-1 PD was not the extracted wave (Tables 5&7; extraction timepoint=end-of-year post).",
+  "confidence": "high"
+}

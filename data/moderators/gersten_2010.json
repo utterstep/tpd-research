@@ -1,0 +1,13 @@
+{
+  "slug": "gersten_2010",
+  "study": "Gersten et al. 2010, Teacher Study Group (TSG), AERJ 47(3)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "TSG = 16 facilitator-led interactive sessions held at the school site twice a month from October to mid-June, ~75 min each; all on-site face-to-face (Method section, 'held at the school site twice a month').",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "All outcomes are broad independent standardized tests: Woodcock (WDRB) vocabulary/comprehension/decoding subtests and DIBELS ORF; flagged standardized_independent in extraction (Table 7).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "PD aimed to improve comprehension/vocabulary instruction within teachers' EXISTING core reading programs; 'the purpose of the TSG program was not to change a [curriculum]'; control schools only lacked TSG access (Method/Discussion).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "All effect sizes from the spring post-test at the end of the treatment year (Table 7; timepoint 'post, spring').",
+  "confidence": "high"
+}

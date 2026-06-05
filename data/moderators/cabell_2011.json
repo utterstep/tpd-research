@@ -1,0 +1,13 @@
+{
+  "slug": "cabell_2011",
+  "study": "Cabell, Justice, Piasta et al. (2011), AJSLP 20(4):315-330 — preschool teacher responsivity education (adapted Hanen LLLI)",
+  "delivery_mode": "blended",
+  "delivery_evidence": "Genuine mix: in-person group workshops (3-day in-service, ~13 hr, held face-to-face in each geographical location) PLUS remote/off-site coaching in which teachers submitted videos and consultants provided written feedback throughout the year ('access to a consultant who provided off-site coaching'; 'view videos submitted... provide written feedback', p.319-320).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "All extracted outcomes are broad standardized norm-referenced instruments (CELF Preschool-2 Grammar & Expressive Vocabulary, PPVT-III, Preschool Print & Word Awareness, PALS alphabet); none developer-made/proximal to the specific PD content (Tables 4-5, p.324-325; extraction test_type all standardized_independent).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "Intervention is conversational responsivity strategies (adapted from Hanen's Learning Language and Loving It), which 'requires no specialized classroom materials and can be readily integrated into any existing preschool curriculum'; vs business-as-usual (p.317).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Outcomes measured in spring at the end of the academic year (~6-8 mo post-baseline), same year as the intervention; no delayed follow-up (timepoint 'spring', Tables 4-5).",
+  "confidence": "high"
+}

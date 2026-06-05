@@ -1,0 +1,13 @@
+{
+  "slug": "wiggins_2019",
+  "study": "Wiggins et al. 2019 (RISE: Research-informed school improvement, EEF evaluation)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "PD delivered face-to-face: core training for Research Leads was eight one-day training sessions held monthly (Jan-Oct 2015), plus in-person workshops for headteachers and for heads of English/mathematics; stated cost items include teacher cover and travel for attending training days ('eight one-day training sessions, held monthly'; 'Mode of delivery. Training for Research Leads and Headteachers, peer support', Intervention/logic-model sections).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Both included full-sample primary outcomes are GCSE mathematics and GCSE English point scores (NPD KS4 EBacc pillar scores), broad independent/distal national exams not tailored to the intervention; extraction test_type = standardized_independent.",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "RISE is a research-informed school-improvement model: each school appoints a Research Lead who promotes use of research/evidence (e.g., the EEF Toolkit) to improve existing teaching; no new student-facing curriculum or instructional-materials package is adopted ('research-informed school improvement model', 'Research Leads ... promoting and supporting the use of research', Overview/Intervention).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Included full-sample effects measured at the end of each cohort's intervention dose: Cohort A GCSEs summer 2016 (end of 1 year) and Cohort B GCSEs summer 2017 (end of 2 years); each is an end-of-treatment wave, not a post-treatment follow-up (extraction timepoint 'post (GCSE exams ... end of 1/2-year dose)').",
+  "confidence": "high"
+}

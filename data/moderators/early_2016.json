@@ -1,0 +1,13 @@
+{
+  "slug": "early_2016",
+  "study": "Early et al. 2016, Every Classroom Every Day (ECED), JREE 9(1)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teacher supports = instructional coaching, weekly meetings, summer workshops, and four annual IRRE site visits with half-day on-site PD sessions (Method, p.~8). Coach conference calls are for coaches/leaders, not teacher PD; teacher-facing PD is face-to-face.",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcomes = district/state standardized math & ELA tests (CST, TCAP/EOC, AIMS, NYSTP/Regents, Stanford 10), broad independent assessments standardized within test/district (Table 3, p.19).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "ECED's Literacy Matters provides 'a research-based, structured literacy curriculum' delivered in a stand-alone class ('ECED provides a literacy curriculum'); PD tied to adopting new ELA materials (Literacy Matters section, p.~). (ECED Math is a delivery system, not a curriculum, but the bundled literacy curriculum governs the shared design.)",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted primary effects = end of Year 2 (end of the 2-year treatment); Year 1 rows are interim and excluded centrally (Table 3, p.19; notes).",
+  "confidence": "high"
+}

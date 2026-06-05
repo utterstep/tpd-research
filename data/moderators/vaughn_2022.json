@@ -1,0 +1,13 @@
+{
+  "slug": "vaughn_2022",
+  "study": "Vaughn et al. 2022 (STRIVE social-studies literacy PD; J. Educational Psychology 114(2))",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "PD delivered face-to-face and distributed over time: an initial 8-hr PD session 'led by researchers' with in-person (and video) models of Unit 1 practices and time to practice with peers, plus teacher study-team meetings before Units 2 and 3; no online/remote PD delivery described ('STRIVE PD' section).",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Included outcomes span both kinds: researcher-developed content tests narrowly aligned to the STRIVE lessons (unit content knowledge, content reading comprehension, content vocabulary; test_type=researcher_made) AND the broad independent Gates-MacGinitie vocabulary/comprehension subtests (test_type=standardized_independent) (Table 6, p.266; Tables 4-5/7).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is bundled with a specific new set of researcher-(co)developed social-studies lessons/materials across three units of study that teachers then teach ('teachers implemented Unit 1 lessons', 'audio-record all STRIVE lessons', 'practice using the lesson materials'); the researcher-made content tests are tied to these units ('STRIVE PD'/Instructional Practices sections, p.262-265).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "All extracted effect sizes are posttests at the end of treatment (end of the ~18-week / school-year STRIVE implementation); no delayed follow-up wave (extraction timepoint 'post, posttest'; Tables 4-7).",
+  "confidence": "high"
+}

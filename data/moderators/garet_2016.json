@@ -1,0 +1,13 @@
+{
+  "slug": "garet_2016",
+  "study": "Garet et al. 2016, Content-Intensive Teacher PD (Intel Math) (NCEE 2016-4010)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Three in-person components: Intel Math 80-hr summer workshop, five 2-hr in-person Mathematics Learning Community meetings, and Video Feedback Cycles delivered as individual face-to-face feedback sessions by district-based facilitators (ch.3, p.~? 'District-based facilitators delivered three individual feedback sessions per study teacher'). Video is of the teacher's own lesson, not online delivery.",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Two included outcomes: a study-administered NWEA assessment 'aligned with the content of the PD' (proximal/aligned) AND a broad state math assessment (distal/independent) (Exhibit 4.4, p.40; Exhibit D.6).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "PD built teachers' mathematical content knowledge (Intel Math) plus practice supports; no new grade-4 student curriculum was adopted—teachers used their existing math curriculum (control = business-as-usual).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Both effect sizes measured Spring 2014, the end of the single treatment year (Exhibit 4.4, p.40; Exhibit D.6).",
+  "confidence": "high"
+}

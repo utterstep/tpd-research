@@ -1,0 +1,13 @@
+{
+  "slug": "hanley_2020",
+  "study": "Hanley et al. 2020 — Thinking, Doing, Talking Science (TDTS), EEF cluster RCT, primary science",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Two teachers/school attended five face-to-face training days over the academic year, discussing strategies for their own classes ('On each training day they discussed...'); trained by the designers in person (Intervention section, MS p.~5-6).",
+  "test_alignment": "aligned",
+  "test_alignment_evidence": "Outcome is a 40-min researcher-administered primary science attainment test built from standardised assessment questions (NFER/Russell & McGuigan), proximal to the TDTS science content; authors note it was 'not a nationally standardised test' (Methods/limitations; Table 4 p.33).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "TDTS is CPD to deliver more cognitively challenging, practical, discussion-rich science lessons within the existing science curriculum; no new curriculum/textbook adopted (Intervention description, MS p.~5).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Post-test at end of Year 5 (June/July 2014), immediately after the one-year intervention; no delayed follow-up wave (Table 3/4, p.32-33; extracted row_id 43 timepoint=post).",
+  "confidence": "high"
+}

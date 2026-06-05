@@ -1,0 +1,13 @@
+{
+  "slug": "sutherland_2019",
+  "study": "Sutherland et al. 2019 (EEF Digital Feedback in Primary Maths; RAND Europe eval)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teacher PD was face-to-face: a one-day training session on principles of effective feedback and using the Explain Everything app, plus in-school Professional Learning Communities (PLCs) and on-site coaching by school Research Leads; a website/online resources were mentioned only as support, not the primary delivery mode ('Intervention'/IPE sections, p.10-12; Appendix E).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Sole included achievement outcome is the ACER Essential Learning Metric (ELM) for Mathematics, a broad independently developed/administered/marked standardised maths test aligned to the National Curriculum (not tailored to the intervention); extraction test_type=standardized_independent (p.5 Table 1; p.31 Table 8).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "PD aimed to improve teachers' diagnosis and feedback practice in maths using the school's existing maths teaching; the digital element is a tablet feedback tool (Explain Everything app) + diagnostic assessments, not a new maths curriculum/textbook/materials package ('Digital Feedback in Primary Maths is a school-developed approach to improving teachers' diagnosis and feedback skills... when teaching maths', Intervention summary, p.10-11).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Primary ELM-Maths outcome measured June 2018 at the end of one school year of intervention (Sept 2017-June 2018); no delayed follow-up wave (extraction timepoint 'post, June 2018'; p.5/p.31).",
+  "confidence": "high"
+}

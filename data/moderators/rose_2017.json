@@ -1,0 +1,13 @@
+{
+  "slug": "rose_2017",
+  "study": "Rose et al. 2017 — Research Learning Communities (RLC), EEF cluster RCT, primary, KS2 Reading/Numeracy/GPS, ERIC ED581267",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Two 'Evidence Champion' teachers per school attended four face-to-face one-day RLC workshops per year over two years, delivered by UCL IOE academics with peers from up to four other schools at workshop venues; evaluators conducted in-person visits to RLC workshops (Intervention description, p.~10-13).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcomes are KS2 Reading, Numeracy/Maths, and Grammar-Punctuation-Spelling — externally set/marked National Curriculum tests obtained from the National Pupil Database, broad independent standardized measures not tailored to RLC (extraction test_type=standardized_independent; Tables 6-7, p.25-26).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "RLC PD aims to build teachers' capacity to engage with and apply research evidence to improve their own teaching/school-improvement strategies; no new curriculum or instructional-materials package is adopted; control = business-as-usual (Intervention description, p.~10-12).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "KS2 outcomes measured May 2016, at the end of the 2-year intervention (the 2014/15 Year-5 ITT cohort tested at KS2 in 2015/16) — immediate post (extraction timepoint=post, KS2 May 2016, end of 2-year intervention; Tables 6-7).",
+  "confidence": "high"
+}

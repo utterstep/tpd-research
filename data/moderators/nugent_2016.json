@@ -1,0 +1,13 @@
+{
+  "slug": "nugent_2016",
+  "study": "Nugent et al. 2016, Technology-Delivered Science Instructional Coaching (CSI), R2Ed Working Paper",
+  "delivery_mode": "blended",
+  "delivery_evidence": "Teachers received an 8-day in-person summer institute (over two weeks) PLUS 8-12 technology-delivered, asynchronous WebEx/Dropbox video-conferencing coaching sessions during the school year (Method, 'Summer Institute PD' and 'technology-delivered coaching' sections, ~pp.8-12).",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Included outcomes are a science Knowledge multiple-choice test assembled from public independent item banks (SCASS/NAEP/TIMSS; standardized_independent) and a researcher-made Student Inquiry Rubric for science Practice (researcher_made, teacher-rated) (Measures; Tables 5-6, p.23).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "CSI PD teaches a guided scientific-inquiry approach to NGSS science practices that teachers apply within their own science units; no specific new curriculum/textbook package is adopted (intervention description, Method).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted effect sizes are the post-unit measurement, same school year, immediately after the teacher delivered the 6-8 week science-practice unit (Tables 5-6, p.23); an end-of-year wave exists only for self-efficacy.",
+  "confidence": "high"
+}

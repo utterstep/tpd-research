@@ -1,0 +1,13 @@
+{
+  "slug": "speckesser_2018",
+  "study": "Speckesser et al. 2018 — Embedding Formative Assessment (EFA), EEF cluster RCT, KS4 (Year 10-11), GCSE attainment",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "EFA is delivered through monthly in-school Teacher Learning Community (TLC) workshops (75-90 min, all teaching staff in groups of 8-14) plus between-session peer lesson observations, run by a school lead teacher who attended an initial face-to-face training day; SSAT support to the lead teacher was a mixture of visits, phone calls, e-mails and an online community (ancillary, not the PD mechanism). Primarily face-to-face (intervention description).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcomes are GCSE Attainment 8 (primary) and GCSE English and Maths point scores (secondary) — national high-stakes standardised exams not tailored to EFA content (extraction test_type=standardized_independent; Tables 5 and 7).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "EFA trains teachers to embed formative-assessment techniques into their existing teaching across subjects; it provides TLC resource packs but no new subject curriculum, textbook, or instructional-materials package replacing what schools already teach (programme description).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted effects are the 2016/17 GCSE results at the end of the 2-year intervention, the end-of-treatment wave (extraction timepoint=post, end of treatment). No delayed follow-up extracted.",
+  "confidence": "high"
+}

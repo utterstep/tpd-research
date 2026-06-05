@@ -1,0 +1,13 @@
+{
+  "slug": "coyne_2013",
+  "study": "Coyne et al. 2013 — Early Reading Intervention (ERI) replication cluster RCT (vs school-designed active comparison)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Two in-person professional development days for interventionists led by the Project ERI research team (1st day before the intervention, 2nd after early lessons), plus in-person fidelity observations; no online/remote PD component. (ERI Training section, p. ~9)",
+  "test_alignment": "aligned",
+  "test_alignment_evidence": "All extracted outcomes are proximal norm-referenced early-reading subtests (WRMT-R/NU letter names/sounds/word ID/word attack, CTOPP sound matching/blending, DIBELS PSF/NWF) that narrowly target the specific phonemic-awareness/decoding skills ERI taught. (Table 10, p. 18; measures section)",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to delivering ERI (Pearson/Scott Foresman, 2004), a commercially available 126-lesson supplemental beginning-reading curriculum with scripted lessons/materials that interventionists use. (ERI program description; 'commercially available' p. ~5)",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "All 8 extracted outcomes measured at posttest in May, immediately after the ~100-session intervention; no delayed follow-up wave extracted. (Table 10, p. 18; timepoint 'post (May)')",
+  "confidence": "high"
+}

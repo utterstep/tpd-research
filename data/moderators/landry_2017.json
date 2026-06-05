@@ -1,0 +1,13 @@
+{
+  "slug": "landry_2017",
+  "study": "Landry et al. 2017 (TEEM, ECRQ 40)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "TEEM 'implemented through face-to-face, small-group teacher trainings ... combined with in-classroom coaching': a 2-day initial training, fourteen ~2-hr in-class coaching sessions (biweekly), and weekly face-to-face sessions; a web-based course platform is used as a tool DURING the in-person sessions, not for remote delivery (p.41-43 intervention description).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Extracted child outcomes are all standardized norm-referenced tests (TOPEL Print Knowledge, TOPEL Phonological Awareness, and a language composite of EOWPVT/PLS-4/TOPEL Definitional Vocabulary) not tailored to TEEM content; all test_type=standardized_independent (Table 5, p.47).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "TEEM is a comprehensive classroom instructional model with structured whole/small-group cognitive activities, progress-monitoring assessments, and provided instructional materials (Lakeshore 'Ready to Read Toolkit') that teachers implement (Methods, p.41-42).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Child outcomes measured at spring posttest at the end of the treatment school year via ANCOVA on posttest controlling for pretest; no post-year follow-up (Table 5, p.47; extraction timepoint 'posttest, spring, end of treatment year').",
+  "confidence": "high"
+}

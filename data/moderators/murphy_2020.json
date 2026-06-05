@@ -1,0 +1,13 @@
+{
+  "slug": "murphy_2020",
+  "study": "Murphy, Roschelle, Feng & Mason 2020 (Maine ASSISTments online-homework RCT, JREE 13(2); ERIC ED657283)",
+  "delivery_mode": "blended",
+  "delivery_evidence": "Teacher PD was a genuine mix: a two-day in-person summer training (plus a second summer in-person session) AND an additional day of technical assistance distributed across the school year via webinars, email, and in-person visits (Teacher Professional Development section, p.~? ; 'a single two-day summer training and an additional day of technical assistance distributed across the school year via webinars, email, and in-person visits').",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Sole included outcome is the TerraNova mathematics scale score, a standardized nationally-normed assessment independent of the ASSISTments content; extraction test_type=standardized_independent (p.255; Table 7, p.256).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting the ASSISTments online math-homework software platform (delivers homework problems with immediate student feedback and nightly teacher reports); the PD/coaching exists 'to support its use'; control = business-as-usual homework (Method; 'access to ASSISTments and teacher professional development to support its use').",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "TerraNova administered in the spring of the second (end) implementation year, immediately post-intervention; no post-treatment follow-up wave (Method; extraction timepoint 'post, end of 2nd implementation year').",
+  "confidence": "high"
+}

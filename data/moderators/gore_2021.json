@@ -1,0 +1,13 @@
+{
+  "slug": "gore_2021",
+  "study": "Gore et al. 2021, Quality Teaching Rounds (QTR) RCT, Teaching and Teacher Education 101",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teachers attended a two-day (12 h) in-service QT/QTR workshop plus four in-school PD days, then ran QTR in school-based PLCs; all face-to-face (Method, 'two-day workshop and four in-school PD days'). Applies to both extracted arms (researcher-led and trainer-led).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcomes are ACER Progressive Achievement Tests (PAT-M, PAT-R, PAT-Science)—broad independent standardized achievement tests, not aligned to QTR content (Table 6, p.9).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "QTR is a generic pedagogy-focused PD (Quality Teaching model) used to analyze lessons across any subject; no new curriculum or materials adopted by teachers (Intervention description; 'pedagogy-focused approach').",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "All effect sizes from the 8-month follow-up (Term 4 2019), the end-of-treatment wave for Cohort 1; no later waves in this report (Table 6; design description).",
+  "confidence": "high"
+}

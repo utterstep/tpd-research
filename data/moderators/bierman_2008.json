@@ -1,0 +1,13 @@
+{
+  "slug": "bierman_2008",
+  "study": "Bierman et al. 2008 — Head Start REDI enrichment program (PATHS + interactive book-reading/Sound Games) with teacher training/mentoring, cluster RCT, Pre-K",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teacher support delivered in person: a 3-day professional training workshop in August, a 1-day January 'booster' session, plus ongoing weekly on-site classroom mentoring from local 'REDI trainers' (~3 hrs/classroom/week observing/modeling) (Training and PD support section, p.~1809).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Extracted achievement outcomes use published standardized independent instruments (TOPEL Blending/Elision/Print Knowledge; EOWPVT; TOLD subtests) not tailored to REDI, reported as standardized HLM effects (extraction test_type=standardized_independent; Table 3).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "REDI bundles new manualized enrichment curricula added on top of the existing High/Scope or Creative Curriculum — Preschool PATHS plus interactive book-reading, Sound Games, and alphabet-center activities; teachers received detailed manuals and kits with all materials needed (intervention description, p.~1805-1809).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Child outcomes measured spring (March-April) at the end of the one-year Head Start program (extraction timepoint=post, end of one-year program); delayed 1-year follow-up of other measures is mentioned for prior programs but the extracted achievement waves are end-of-program.",
+  "confidence": "high"
+}

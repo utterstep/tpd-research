@@ -1,0 +1,13 @@
+{
+  "slug": "ansari_pianta_2018",
+  "study": "Ansari & Pianta 2018 — NCRECE MyTeachingPartner (MTP) web-mediated coaching, cluster RCT, Pre-K language/literacy",
+  "delivery_mode": "online",
+  "delivery_evidence": "The coded contrast is the MTP coaching arm: teachers video-record an instructional activity, send it biweekly to a coach who web-mediates feedback (clips + prompts on a website), then a videoconference discusses it; ~10 coaching cycles/yr — all remote/web-mediated (Method, intervention paragraph; described as 'web-mediated' PD).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcomes are independent norm-referenced standardized instruments (PPVT-III receptive vocab, WJ-III expressive vocab, TOPEL phonological awareness/print knowledge) not tailored to the intervention (extraction test_type=standardized_independent; Table 2 main-effect model).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "MTP coaching focuses on improving teachers' teacher-child interactions (instructional/emotional support); content-/curriculum-independent PD coaching with no new curriculum or materials package adopted (intro/Method; 'PD coaching intervention that focuses on teachers' interactions').",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Child outcomes measured in spring at the end of the preschool intervention year (extraction timepoint=spring/post, end of preschool year); no delayed follow-up wave used.",
+  "confidence": "medium"
+}

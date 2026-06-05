@@ -1,0 +1,13 @@
+{
+  "slug": "borman_2021",
+  "study": "Borman, Pyne, Rozek & Schmidt (2021/2022), AERJ 59(2):284-314 — values-affirmation writing intervention at scale",
+  "delivery_mode": "not_reported",
+  "delivery_evidence": "Teachers received a brief ~30-min training prior to implementation plus written materials/script; the publication does not state whether this teacher training was delivered in person or online (p. 'Method', 'teachers received a brief training of approximately 30 minutes prior to implementation').",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "The only reported achievement outcome is cumulative GPA from school administrative records (a broad, intervention-independent measure), used as a mediator; coded standardized_independent in extraction (p.21).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "Intervention is a brief self-affirmation/values-affirmation writing exercise (3-4 ~15-min activities) delivered as normal classroom activities within existing language-arts/homeroom classes; no new curriculum or instructional-materials package adopted ('distributed intervention materials as if they were normal classroom activities', Method).",
+  "outcome_timing": "both",
+  "outcome_timing_evidence": "Intervention delivered in grade 7; the GPA achievement outcome is cumulative across grades 7-8, so it spans the intervention year (immediate) and the year after (delayed) ('cumulative postintervention GPA', p.21).",
+  "confidence": "medium"
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "savage_2013",
+  "study": "Savage et al. 2013 (ABRACADABRA web-based literacy program, Pan-Canadian cluster RCT, J. Educational Psychology)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teachers received 'a full day of training...led by three of the research investigators' (hands-on, in-person, small-group planning) plus sustained in-class follow-up support by project staff during implementation (Procedure, p.314-315); a minor online 'Teacher's Zone' PD resource area supplemented this but the primary delivery was face-to-face.",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Included outcomes mix broad independent standardized tests (CTOPP, DIBELS, GRADE subtests) with a researcher-adapted/proximal measure (Fry Words word reading) and a developer protocol (Letter-Sound Knowledge, Savage et al. 2009) (p.318 Table 1 / p.319 Table 2; Measures section).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting ABRACADABRA (ABRA), a Web-based literacy software/program with its own activities and a 'suggested curriculum'/1-hr lesson format teachers then deliver for ~20 hr/child (Procedure, p.314-315; abstract describes ABRA as the resource taught).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Included effect sizes are posttests at the end of the one-semester intervention (timepoint 'post', extraction; abstract 'At posttest...over one full semester'; Testing Procedure).",
+  "confidence": "high"
+}

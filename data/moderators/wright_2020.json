@@ -1,0 +1,13 @@
+{
+  "slug": "wright_2020",
+  "study": "Wright et al. 2020 (URLEY early-years language PD, EEF/NIESR cluster RCT)",
+  "delivery_mode": "blended",
+  "delivery_evidence": "Teachers attended six in-person CPD training days (held in a location outside the classroom) AND received mentoring 'through a mix of face-to-face and distance (skype/phone) sessions' plus online resources -- a genuine in-person + remote mix (TIDieR p.~9 item 6 'mix of face-to-face and distance (skype/phone) sessions'; setting item 7 'CPD training days took place in a location outside the classroom').",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Included child outcomes are the composite language score and its subscales from broad standardized instruments (BPVS, RAPT Information/Grammar, CELF Preschool-2 Sentence Structure) -- norm-referenced language batteries, not researcher-made to the intervention content (extraction test_type=standardized_independent for all effects; Tables 11-13 p.32-34).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "PD trains teachers in evidence-based Language Learning Principles and how to use research tools (ERS rating scales, readings, videos) to self-evaluate and refine their EXISTING classroom practice; no new student curriculum, scheme of work, or instructional-materials package is adopted -- materials are teacher self-evaluation tools (TIDieR materials/procedures, p.~9-10).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Child language outcomes measured at post-test Jun-Jul 2018, at the end of Reception / end of the trial, same wave the intervention concluded; no post-treatment follow-up extracted (extraction timepoint 'post (Jun-Jul 2018, end of Reception / end of trial)', Table 11 p.32).",
+  "confidence": "high"
+}

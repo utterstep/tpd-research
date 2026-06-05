@@ -1,0 +1,13 @@
+{
+  "slug": "mattera_2018",
+  "study": "Mattera, Jacob & Morris 2018 (Making Pre-K Count / High 5s, MDRC)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teachers received in-person Building Blocks training over two years and met with coaches two to four times a month (in-classroom coaching by Bank Street College); facilitators trained via 16+8 in-person days. No online PD described (Ch.1/2, 'training and coaching for teachers'; coaching 2-4x/month).",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Both included math outcomes per arm are extracted: REMA-K (developer-made by Building Blocks authors; proximal/aligned, though report notes only 5/48 items overlap) AND Woodcock-Johnson III Applied Problems (nationally normed, independent/distal); test_type mixes researcher_made and standardized_independent (Tables 3.1 & 3.3, pp.19,29).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting Building Blocks, a 30-week published preschool math curriculum (Clements & Sarama, McGraw-Hill); control = pre-K-as-usual with no math enrichment; the High 5s arm adds a kindergarten math-club supplement (Ch.1, 'evidence-based early math curriculum (Building Blocks) and associated professional development').",
+  "outcome_timing": "both",
+  "outcome_timing_evidence": "Outcomes measured at end of kindergarten (spring 2016) for all included contrasts; for Comparison 1 (MPC alone, pre-K treatment) this is ~1 year after the intervention ended = delayed, while for Comparison 3 (MPC+High 5s, pre-K+K treatment) it is end-of-treatment = immediate, so the report's included effects span both (extraction timepoints; Tables 3.1, 3.3).",
+  "confidence": "high"
+}

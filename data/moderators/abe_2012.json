@@ -1,0 +1,13 @@
+{
+  "slug": "abe_2012",
+  "study": "Abe et al. 2012 — Pacific CHILD PD, REL Pacific cluster RCT (NCEE 2013-4002), grade 4-5 ELA teachers, reading",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Pacific CHILD delivered ~42 days of PD over 2 years as face-to-face workshop-style annual institutes (10-day) + 3-day mini-institutes, plus monthly in-classroom lesson demonstrations, twice-monthly classroom observations, and weekly on-site learning-team meetings (intervention description, p.~5-6; attendance Tables 4.3-4.4).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcome is the SAT-10 Reading Comprehension scale score (Hawai'i: TerraNova converted to SAT-10-equivalent) — a broad nationally-standardized independent achievement test not tailored to the intervention (extraction test_type=standardized_independent; Table B.5).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "Pacific CHILD is PD that builds teachers' reading-comprehension instructional strategies (vocabulary, text structure, question generation) for use with teachers' existing curriculum — the report repeatedly frames it as implementing core components 'with their existing curriculum'; no new curriculum/materials package adopted (p.~5; RQ wording).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Student reading outcome measured spring of Year 2, at the end of the 2-year intervention (extraction timepoint=post, spring Year 2); no later delayed follow-up wave extracted.",
+  "confidence": "high"
+}

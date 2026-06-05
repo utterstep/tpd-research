@@ -1,0 +1,13 @@
+{
+  "slug": "sloan_2018",
+  "study": "Sloan/Miller et al. 2017/2018 — Success for All (SfA), EEF cluster RCT, Reception-to-Year-1 (K-2), reading/literacy",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Schools received 16 days of in-school training and ongoing support delivered by SfA-UK trainers: 2 days of whole-school face-to-face training at the start of the year plus 14 days of on-going in-school support, coaching, co-teaching and staff meetings (intervention/cost section; 'Training delivered by 3 SfA trainers to the whole school'). No online PD component.",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Primary outcome is the WRMT III (Woodcock Reading Mastery Test) total literacy score; secondary is the national Phonics Screening Check — both broad nationally-standardised independent instruments not tailored to SfA (extraction test_type=standardized_independent; Table 6).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "SfA is a whole-school literacy programme adopted by the school: teachers deliver SfA's structured daily lesson plans and graded reading materials (Roots, Wings, Kinder Corner) with specified group-learning/phonics components — a new instructional-materials package, not the schools' prior curriculum (intervention description; cost table lists training + online resources/materials).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted full-sample effect sizes are the WRMT and Phonics Screening Check at end of Year 1 — the end of the 2-year intervention (extraction timepoint=post, end of treatment; an earlier mid-point wave is recorded separately, not the headline).",
+  "confidence": "high"
+}

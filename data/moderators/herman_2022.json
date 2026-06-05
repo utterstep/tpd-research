@@ -1,0 +1,13 @@
+{
+  "slug": "herman_2022",
+  "study": "Herman et al. 2022 — CHAMPS classroom-management TPD, cluster RCT, middle school achievement",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "CHAMPS 'delivered as large group training workshops followed by in-person coaching and feedback'; teachers attended two/three full-day group trainings plus an on-site doctoral-level coach with classroom observations (Method, CHAMPS section, MS p.~7-8).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Achievement outcomes are the Missouri Assessment Program (MAP) state standardized test and the Stanford Achievement Test 10th ed. (SAT-10), both broad standardized batteries unrelated to CHAMPS content (Tables 6-7, MS p.11).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "CHAMPS is a fully developed program teachers adopt, with a series of training/coaching materials plus 'Books, planning materials, and DVD's to support implementation' provided (CHAMPS section, MS p.~7); a management-program/materials package, though not an academic content curriculum.",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Achievement measured spring of the single intervention school year (end of year 1: spring MAP; April/May SAT-10); no delayed post-treatment wave (Tables 6-7; extraction timepoint=post).",
+  "confidence": "high"
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "humphrey_2018",
+  "study": "Humphrey et al. 2018 (EEF) — Good Behaviour Game (GBG) behaviour-management PD, cluster RCT, reading",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teachers receive two days of initial in-person training plus one day of follow-up midway, with ongoing support via monthly on-site GBG coach visits (typically a classroom observation) by Mentor UK coaches (intervention description, p.~13-14).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcome is the Hodder Group Reading Test (HGRT), a commercially published standardized reading test (standardised on >13,000 pupils), not tailored to GBG (Measures p.21; Table 6 p.36).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "GBG is a universal behaviour-management system (rules, teams, monitoring, rewards) played during typical class activities; schools receive GBG manuals plus reward/display materials, but no academic content curriculum is adopted (What/materials section, p.~13).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Primary reading outcome measured at T3 (summer 2017), the end of the two-year intervention (same period as intervention end); no post-treatment delayed follow-up extracted (Table 6 p.36; extraction timepoint=post).",
+  "confidence": "high"
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "james_burdumy_2010",
+  "study": "James-Burdumy et al. 2010 (Selected Supplemental Reading Comprehension Interventions, NCEE 2010-4015)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Curriculum developers provided face-to-face initial training (6-18 hours per program) plus in-school support; Project CRISS added monthly on-site visits; only minor telephone follow-up support is mentioned, so PD is primarily in person (Ch. II Teacher Training and Support, pp.45-47; cost/training table).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcomes are broad independent standardized comprehension measures (GRADE Passage Comprehension, ETS Social Studies & Science RC, and their composite), not tailored to the curricula (Table III.7, pp.118-119).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "Each arm requires adopting a specific new supplemental reading-comprehension curriculum (ReadAbout, Read for Real, Project CRISS) with its own materials/kits/licenses; PD exists to implement that curriculum (Ch. II; cost table listing kits + initial training).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted (primary) effect sizes are the Cohort 1 end-of-fifth-grade posttest, spring 2007, immediately at the end of the implementation year; a grade-6 follow-up exists (Table IV.3) but was not extracted (Table III.7, pp.118-119).",
+  "confidence": "high"
+}

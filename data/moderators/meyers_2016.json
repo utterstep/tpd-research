@@ -1,0 +1,13 @@
+{
+  "slug": "meyers_2016",
+  "study": "Meyers et al. 2016 (eMINTS i3 validation, AIR Year-3 report / EEPA 38(3):455-476)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Core 2-year eMINTS teacher PD (shared by both treatment arms, basis of the included effects) = ~240 hrs of intensive on-site/face-to-face PD sessions plus monthly in-classroom coaching/mentoring visits; the few WebEx/online sessions were for principals/tech coordinators, not the teacher PD. (The eMINTS+Intel arm's optional 3rd year added some online, but the validated 2-yr core is on-site.) (Ch.3 Table 3.1; 'intensive on-site professional development'; 'monthly in-classroom coaching').",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "All included outcomes are the Missouri Assessment Program (MAP) state tests in mathematics and communication arts, broad independent standardized assessments not tailored to the eMINTS model; extraction test_type=standardized_independent (Table 4.1, PDF p.73).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "eMINTS bundles an inquiry-based instructional model with a delivered technology package (interactive whiteboards, teacher/student laptops, software/hardware installed in treatment classrooms per Appendix G) that teachers adopt; control = business-as-usual (program description + Appendix G 'Equipment and Software Delivered to Treatment Schools').",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Included effects are the Year-3 (spring 2014) MAP wave, the end-of-treatment year for both arms; no post-treatment follow-up extracted (Table 4.1; extraction timepoint 'Year 3 post, end of treatment').",
+  "confidence": "medium"
+}

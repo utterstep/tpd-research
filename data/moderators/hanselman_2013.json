@@ -1,0 +1,13 @@
+{
+  "slug": "hanselman_2013",
+  "study": "Hanselman & Borman 2013 — Success for All (Reading Wings, grades 3-5), cluster RCT, reading",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "SFA is a schoolwide model with a designated full-time on-site program facilitator providing 'consistent schoolwide collaboration and professional development across all grades'; teacher training/materials delivered on-site (p.239-240).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcome is the Gates-MacGinitie Reading Test (GMRT 4th ed.), a nationally normed standardized reading test not tailored to SFA (Methods p.240; Table 4 p.245).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting the Success for All 'Reading Wings' program: a comprehensive curricular package with curricular supports, materials walking teachers through direct instruction/cooperative tasks, plus teacher training (p.238-240).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Included primary effect sizes are the end-of-treatment grade-5 waves (Cohort 1 Year 3, Cohort 2 Year 2), measured the same school year as the final year of SFA exposure; no post-treatment delayed follow-up (Table 4 p.245).",
+  "confidence": "high"
+}

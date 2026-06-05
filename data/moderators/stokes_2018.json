@@ -1,0 +1,13 @@
+{
+  "slug": "stokes_2018",
+  "study": "Stokes et al. 2018 — Mathematical Reasoning (Nunes & Bryant), EEF effectiveness cluster RCT, Year 2 (K-2), mathematics",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teacher PD was face-to-face training days delivered via a train-the-trainers model through eight Maths Hubs/NCETM: teachers attended one in-person day of training (WGLs an initial day + two follow-up days, hosted at Oxford/NCETM with venue, catering and travel/subsistence). An online Maths Hub forum was only for ad-hoc questions; pupil-facing online games are not PD (pp.~22-25).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcome is the Progress Test in Maths (PTM, GL Assessment) standard age score — a broad independent standardised maths test not tailored to the programme (extraction test_type=standardized_independent; Tables 6-7).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "Mathematical Reasoning is a specific programme of ten teaching units (~1 hour each) with programme materials and online games that teachers deliver to pupils within normal maths lessons — a new instructional-materials package, not the schools' own curriculum (programme description, p.~22).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted full-sample effect is the PTM post-test in summer 2017, at the end of the 12-15 week intervention (extraction timepoint=post, end of treatment).",
+  "confidence": "high"
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "hanley_2016",
+  "study": "Hanley et al. 2016, Let's Think Secondary Science (LTSS), EEF",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Let's Think Forum provided one day of (regional) face-to-face training plus three support sessions per year to the LTSS science teachers (Intervention description; 'observation of a regional training day'). Online references in the report concern test/questionnaire administration, not PD delivery.",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcomes are broad independent standardized tests: KS3 science SATs paper (primary) and GL Assessment Progress Tests in English (PTE) and Maths (PIM); not tailored to LTSS (Tables 3-4, p.18-19).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "LTSS is a defined programme of 19 one-hour lessons with lesson plans, PowerPoint slides, video tutorials and sort cards, delivered to students 'instead of their usual science lessons'—a packaged instructional-materials/lesson program (Intervention description).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "All effect sizes measured at the end of Year 8 (June-July 2015), the end of the two-year intervention (Tables 3-5; timepoint 'post, end of Year 8').",
+  "confidence": "high"
+}

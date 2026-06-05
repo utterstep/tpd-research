@@ -1,0 +1,13 @@
+{
+  "slug": "schmidt_2020",
+  "study": "Schmidt et al. 2020 (New Teacher Center i3 induction scale-up, SRI International final report)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "TPD = NTC induction model: instructionally focused one-on-one coaching/mentoring of beginning teachers (mentors met one-on-one with mentees, classroom observations). Virtual/video coaching tools were available 'at their discretion' but 'uptake...was low...mentors reported that they did not adopt video sharing as a regular practice, preferring in-person interactions whenever possible' (p.~18-19; abstract). As implemented, mentoring was predominantly face-to-face.",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Included math and ELA effect sizes are state standardized assessments (vary by district, standardized to district mean/SD), broad independent tests not tailored to the induction model (Exhibit 22, p.35; p.34 measures).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "Intervention is a teacher-induction/mentoring model to improve new teachers' instructional practice; no new student curriculum or instructional-materials package is adopted (abstract / NTC induction logic model, Exhibit 1; the 'tools' are coaching tools and an online mentoring platform for mentors, not a student curriculum).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Included effect sizes are the one-year impact on students' state-test scores at the end of teachers' second induction year (2017-18 Cohort 1, 2018-19 Cohort 2) - end of the intervention (Exhibit 22, p.35; p.34 'one-year impact... in their second year of teaching').",
+  "confidence": "high"
+}

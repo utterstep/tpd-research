@@ -1,0 +1,13 @@
+{
+  "slug": "vignoles_2015",
+  "study": "Vignoles et al. 2015 (EEF Mathematics Mastery Primary; UCL IoE eval)",
+  "delivery_mode": "blended",
+  "delivery_evidence": "Genuine mix of in-person and online: teachers received 1-2 days of (face-to-face) launch training, two in-school development visits, and three multi-school cluster workshops, plus access to an online toolkit with continuous CPD; the report states collaboration 'is both face-to-face and online' (Intervention/support diagram, p.10-11).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Sole included outcome is the Number Knowledge test (Okamoto & Case / Number Worlds, Clark University), an independently published externally-validated maths instrument NOT specific to Mathematics Mastery (extraction test_type=standardized_independent; p.11-12; Table 4).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is bundled with adopting a specific new curriculum: Ark Mathematics Mastery, a whole-school 'mastery' maths curriculum delivered by class teachers, with schools receiving 'training and resources to support the adoption of the programme'; the report notes it 'involves a change to the maths curriculum within schools' / a 'specified curriculum at a particular pre-determined pace' (Intervention, p.8-11).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Number Knowledge test measured at the end of one year of implementation (immediate post-test; spring/summer 2013 Cohort A, 2014 Cohort B); the extracted pooled headline effect is from this post wave, no delayed follow-up (extraction timepoint 'post, end of Year 1'; Table 4).",
+  "confidence": "high"
+}

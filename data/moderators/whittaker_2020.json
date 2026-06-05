@@ -1,0 +1,13 @@
+{
+  "slug": "whittaker_2020",
+  "study": "Whittaker et al. 2020 (MyTeachingPartner-Math/Science, JREE 13(2))",
+  "delivery_mode": "blended",
+  "delivery_evidence": "MTP-M/S PD is a genuine in-person + online mix: web-based online supports (teaching demonstrations, within-activity online supports tracked per teacher) combined with face-to-face PD workshops (an introductory summer workshop plus five 2.5-hour PD workshops in year 1, three in year 2) ('These supports are delivered within-activity, online, and via workshops', Method, ~pp.184-187).",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Included outcomes span both kinds: researcher_made proximal measures (MTP-STEAM, NSPV) and standardized_independent science measures (LENS on Science, PAS); extraction test_type mixes both (Tables 8-9).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting the MTP-M/S pre-K math and science curricula (132 standards-based activities across 33 weeks with embedded implementation supports) that treatment teachers implement vs business-as-usual ('overview of the curricula and implementation supports', Method, ~pp.184-186).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "All extracted effects measured in spring of each implementation year (end of treatment) for the two single-year cohorts; no post-treatment follow-up wave (extraction timepoint 'spring Year 1/Year 2 (end of treatment)', Tables 8-9).",
+  "confidence": "high"
+}

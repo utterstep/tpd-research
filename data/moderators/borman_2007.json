@@ -1,0 +1,13 @@
+{
+  "slug": "borman_2007",
+  "study": "Borman et al. 2007 — Success for All whole-school reading reform, national cluster RCT, K-2 reading",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "SFA implementation support delivered in person: 3 days of intensive initial training at the school, ~16 days of on-site follow-up support during the first year and ~15 days/year thereafter from SFA Foundation trainers, plus a full-time on-site program facilitator (intervention description, p.~7-9).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcomes are the Woodcock Reading Mastery Tests-Revised subtests (Word Attack, Word Identification, Passage Comprehension) — nationally normed, independent of the developer (extraction test_type=standardized_independent; Tables 4-5).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "Success for All is purchased as a comprehensive package that 'includes materials, training, ongoing support'; schools adopt a whole-school reading curriculum/program — PD is tied to a specific new curriculum/materials package (intervention description, p.~7-8).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted full-sample effects are the Year-3 (spring 2005, end of grade 2) wave — the final/end-of-intervention post for the baseline kindergarten cohort tracked through the program (extraction timepoint=Year 3 post; Table 4).",
+  "confidence": "high"
+}

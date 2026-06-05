@@ -1,0 +1,13 @@
+{
+  "slug": "kutaka_2017",
+  "study": "Kutaka et al. 2017 (Primarily Math, JTE 68(2))",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Primarily Math delivered via two 2-week Summer Institutes (8-hr days, >=80 contact hr each) plus academic-year graduate coursework and on-site math coaches; no online/remote component described (p.143-144 'The Elementary Mathematics Specialist Program' / Table of PD components).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Sole student outcome is the TEMA-3 (Test of Early Mathematics Ability, 3rd Ed.), a published norm-referenced standardized mathematics test not tailored to the PD content (p.145 measures); test_type=standardized_independent.",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "PD is an inservice mathematics-specialist program building teachers' content/pedagogical knowledge (MKT), not adoption of a new student curriculum; the district's separate rollout of the 'Math Expressions' curriculum for one cohort is noted as a confound, not part of Primarily Math (p.141 program description; p.150 curriculum-confound note).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Outcome is within-year fall-to-spring TEMA-3 growth (MASD) measured during program years 2009-2013; same-school-year measurement, no post-program follow-up wave (p.145-147; extraction timepoint 'fall-spring within-year growth').",
+  "confidence": "high"
+}

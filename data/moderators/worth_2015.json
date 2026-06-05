@@ -1,0 +1,13 @@
+{
+  "slug": "worth_2015",
+  "study": "Worth/Ager et al. 2015 (Improving Numeracy and Literacy, EEF/NFER RCT)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teachers from each arm attended one day of face-to-face training prior to implementation plus an in-school implementation-support visit from a member of the Oxford research team; remote delivery is only floated as a future-scaling recommendation, not used here (p.~5/8 'one day of training... visit', intervention description ~p.13/sec. 'For each intervention, teachers... received one day of training').",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Included primary outcomes are GL Assessment standardised tests Progress in Maths (PiM) and Progress in English (PiE) -- broad commercial standardised batteries, not tailored to the programme content; secondary KS1 national attainment is also independent (extraction test_type=standardized_independent for all effects; Methods p.~22 'Both tests were standardised').",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting two specific new programmes (Mathematics and Reasoning; Literacy and Morphemes) supplied with lesson plans, teaching units/materials and accompanying computer games that teachers deliver weekly, replacing existing lessons (Exec summary p.~5 'training and accompanying teaching materials and computer games'; p.~13 'lesson plans and materials to deliver the programme units').",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted PiM/PiE primary effects measured at end of the ~10-12 week intervention (same school year, end of Year 2); KS1 attainment also end of Year 2 -- no post-treatment follow-up wave (extraction timepoints all 'post', Table 5 p.21).",
+  "confidence": "high"
+}

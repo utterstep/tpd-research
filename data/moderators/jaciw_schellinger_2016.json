@@ -1,0 +1,13 @@
+{
+  "slug": "jaciw_schellinger_2016",
+  "study": "Jaciw, Hegseth et al. 2016 (Math in Focus 'Singapore Math' RCT, Empirical Education / JREE 9(4))",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "HMH National Specialists delivered 5 face-to-face trainings to Clark County MIF teachers (Aug intro 1.5-3h, day-long Sept & Nov grade-level sessions, Jan in-class modeling/debrief, day-long Mar); no online PD component (Training/Professional Development section, pp.9, 33).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "All three included outcomes are off-the-shelf standardized tests not tailored to MIF: SAT-10 Mathematics (Problem Solving, Procedures) and the Nevada state CRT (Tables 16-18, pp.54-57).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting Math in Focus, HMH's 'Singapore Math' grades 3-5 CORE math curriculum (textbooks + digital materials); training exists to support implementing that new curriculum ('TPD for curricula'; Intervention/Training section, pp.9, 33).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Posttests administered spring 2012 at the end of the single one-year implementation (immediate post-intervention; Tables 16-18, p.54).",
+  "confidence": "high"
+}

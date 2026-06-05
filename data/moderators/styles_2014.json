@@ -1,0 +1,13 @@
+{
+  "slug": "styles_2014",
+  "study": "Styles et al. 2014 — Vocabulary Enrichment Full Programme (VEIP + Sounds-Write + Literacy Plus), EEF pupil-randomised RCT, Year 7 low-attaining, reading/literacy",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Existing class teachers received training on all three programme elements via externally-delivered face-to-face training days: two days in July (VEIP day 1; Sounds-Write/Literacy Plus day 2, with role-play sessions) plus an additional planning day in September; Sounds-Write is a standard 4-5 day in-person course (Training section). No online PD; 'online' references are the GL Assessment scoring platform.",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcome is the GL Assessment New Group Reading Test (NGRT) composite and its two subscales — a broad independent standardised reading test not tailored to the programme (extraction test_type=standardized_independent; Table 10).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "Teachers deliver a specific curriculum package (VEIP + Sounds-Write phonics + Literacy Plus, with programme materials) IN PLACE OF schools' usual Year 7 English curriculum — a new instructional-materials/scheme-of-work package teachers then use (intervention description).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted full-sample effects are the NGRT post-test in Feb 2014, at the end of the ~19-week intervention (extraction timepoint=post, end of treatment).",
+  "confidence": "high"
+}

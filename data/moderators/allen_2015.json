@@ -1,0 +1,13 @@
+{
+  "slug": "allen_2015",
+  "study": "Allen et al. 2015 — My Teaching Partner-Secondary (MTP-S) web-mediated coaching, teacher-level RCT, secondary mixed subjects",
+  "delivery_mode": "blended",
+  "delivery_evidence": "Genuine mix: an initial in-person 3-hour workshop (master-teacher-led) before the school year and a later booster workshop, combined with the core remote component — teachers upload class video to a coach who posts segments/comments on a private Web site, then hold a phone-conference planning cycle (~5-6 cycles/yr) (MTP-S Coaching Intervention section, p.~478-479).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcome is the Virginia Standards of Learning (SOL) end-of-course state standardized achievement test, pooled across focal courses — a broad independent state assessment not tailored to the intervention (extraction test_type=standardized_independent; Table 2).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "MTP-S is explicitly content-independent: it does not target instruction/knowledge in a specific content area or curriculum but coaches the quality of teacher-student interactions (CLASS-S framework) applied across subjects; no new curriculum/materials provided (p.~476-477).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Student SOL achievement measured at the end of Year 2 of the 2-year intervention, on teachers' current-year focal class (extraction timepoint=post, end of Year 2); no delayed post-intervention follow-up.",
+  "confidence": "high"
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "lang_2009",
+  "study": "Lang et al. 2009 (READ 180 / REACH / RISE vs SOAR, JREE 2(2))",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Program-specific PD provided by publishers/program experts, district literacy coaches, the program author (RISE), and school-based reading coaches, with full-year training, on-site coaching/feedback, and monthly intervention-specific support meetings; all described modalities are face-to-face, no online/remote delivery mentioned (Method, p.154-157).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcome for all three arms is the FCAT-SSS Reading Developmental Scale Score gain, the broad Florida state accountability reading assessment (distal, not tailored to any one program); test_type=standardized_independent (Table 2, p.164).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "Each treatment arm is adoption of a specific intensive reading program/materials that teachers implement (READ 180 with rBook + software; REACH System 2002; RISE text-set units), with publisher/developer PD supporting implementation of that program (Method 'Interventions', p.155-162).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Single end-of-year wave: FCAT posttest spring 2007 at the end of the grade-9 treatment year (gain over the prior-year pretest); no later follow-up (Table 2, p.164; extraction timepoint 'post, end of grade 9, single end-of-year wave').",
+  "confidence": "medium"
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "konstantopoulos_2016",
+  "study": "Konstantopoulos, Li, Miller & van der Ploeg 2016 (Indiana interim assessments across the distribution, EPM 76(4):587-608)",
+  "delivery_mode": "not_reported",
+  "delivery_evidence": "Same Indiana 2009-2010 mCLASS/Acuity RCT; report notes treatment schools got the programs 'and their associated trainings' and that study funds paid vendors to 'provide more intensive trainings,' but the PD delivery format (in-person vs online) is not specified (Method/footnote 4).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcomes are independent standardized tests: ISTEP+ Indiana state test (math & reading, grades 3-6) and TerraNova (CTB/McGraw-Hill; math & reading, K-2), z-standardized within grade (Tables 3-4, pp.597, 599).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "Intervention bundles adoption of the mCLASS and Acuity interim-assessment software systems and associated instructional resources; PD is tied to adopting this assessment-program/software package ('TPD for curricula/digital tools'; Intervention/Method).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "ISTEP+ and TerraNova measured spring 2010, end of the single 2009-2010 treatment year = immediate (Tables 3-4, pp.597, 599).",
+  "confidence": "medium"
+}

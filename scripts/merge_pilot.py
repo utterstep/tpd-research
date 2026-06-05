@@ -26,11 +26,16 @@ Run:  uv run scripts/merge_pilot.py
 import csv
 import glob
 import json
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PILOT = ROOT / "data" / "extracted" / "pilot"
-OUT = ROOT / "data" / "extracted" / "effect_sizes.csv"
+# OUT_FILE env overrides the output path; KEEP_RESEARCHER_MADE=1 keeps proximal/
+# developer-made effects included (for the test-alignment extension analysis).
+OUT = (Path(os.environ["OUT_FILE"]).resolve() if os.environ.get("OUT_FILE")
+       else ROOT / "data" / "extracted" / "effect_sizes.csv")
+KEEP_RM = os.environ.get("KEEP_RESEARCHER_MADE") == "1"
 
 COLS = [
     "es_id", "cluster", "row_id", "report_group", "study", "outcome_subject",
@@ -89,10 +94,12 @@ def main() -> int:
             reason = ""
             tt = str(e.get("test_type", ""))
             grp = (e.get("row_id"), e.get("outcome_subject"))
+            # researcher_made checked LAST and gated on KEEP_RM, so the alignment
+            # extension can re-include proximal tests while still dropping
+            # subgroup/cognitive/redundant/no-variance effects. Order does not
+            # change the default included set (any reason -> excluded).
             if v is None:
                 reason = "no_variance"          # unusable in a variance-weighted model
-            elif tt not in ("standardized_independent",):
-                reason = "researcher_made"
             elif is_subgroup(e):
                 reason = "subgroup"
             elif is_cognitive(e):
@@ -102,6 +109,8 @@ def main() -> int:
             elif e.get("outcome_role") is None and grp in comp_groups \
                     and not has_composite(e.get("test_name")):
                 reason = "redundant_subscale"
+            elif tt not in ("standardized_independent",) and not KEEP_RM:
+                reason = "researcher_made"
             include = 0 if reason or g is None else 1
 
             out_rows.append({

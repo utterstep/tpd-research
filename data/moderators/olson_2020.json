@@ -1,0 +1,13 @@
+{
+  "slug": "olson_2020",
+  "study": "Olson et al. 2020, Pathway Project scale-up (4 NWP sites RCT), J. Educational Psychology",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Intensive 46-hour PD delivered in person via six full-day released days plus five 2-hour after-school sessions, plus coaching (Method: 'six full-day released days... and five 2-hour after-school'); 'online' in the paper refers only to journal supplementary materials, not PD mode.",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Included outcomes are the researcher/developer-made NWP Analytic Writing Continuum-Literary Analysis (AWC-LA) on-demand writing assessment (researcher_made) and the Smarter Balanced (SBAC) state standardized ELA test (standardized_independent).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "Treatment addresses educational challenges 'by providing teachers with curriculum materials and instructional [strategies]'; PD bundles the Pathway cognitive-strategies curriculum materials/tool kit that teachers use (Method).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Impact analyses use the end-of-Year-1 wave (immediate post; outcomes standardized within cohort/prompt) (extraction notes; Results).",
+  "confidence": "high"
+}

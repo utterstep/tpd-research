@@ -1,0 +1,13 @@
+{
+  "slug": "ludwig_song_2015",
+  "study": "Ludwig & Song 2015 (Wolf Trap arts-integrated math PD, AIR/AEMDD report; ERIC ED553403)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teacher PD = face-to-face summer institutes plus in-classroom coaching during the school year by teaching artists (artist-residency model, on-site co-planning/co-teaching); no online delivery described (Method, p.~6-9; 'summer institutes... as well as in-classroom coaching during the school year').",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Sole outcome is the Early Math Diagnostic Assessment (EMDA) Math Reasoning test, a published norm-referenced instrument (Pearson, derived from WIAT-II); not researcher-made or tailored to the arts-integration content; extraction test_type=standardized_independent (Exhibit 10, pp.16-17).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "PD equips teachers to 'infuse mathematics instruction with performing-arts strategies' within their existing PK/K math curriculum; teaching artists co-design lessons aligned to the curriculum but no new curriculum/textbook/materials package is adopted (Method, p.~7-9; 'connections... with the mathematics curriculum').",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted headline effect is the two-year end-of-treatment EMDA wave (spring Year 2), the same year the 2-year program ended; the Year-1 interim wave is also within-treatment, so no post-treatment follow-up (Exhibit 10, pp.16-17; extraction timepoint 'end of treatment').",
+  "confidence": "high"
+}

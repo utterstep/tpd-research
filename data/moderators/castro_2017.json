@@ -1,0 +1,13 @@
+{
+  "slug": "castro_2017",
+  "study": "Castro, Gillanders, Franco et al. (2017), ECRQ 40:188-203 — Nuestros Ninos School Readiness (NNSR) 2-year PD for DLLs",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "PD delivered face-to-face over 2 years: institutes (3 days yr1, 2 days yr2, at school-year start), bilingual consultation twice/month over 8 months (classroom modeling/observation/feedback), and professional learning community meetings; no online/remote component described (PD design section, p.192-194).",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Extracted outcomes include broad standardized norm-referenced tests (ROWPVT, WLPB-R/Bateria Picture Vocabulary & Letter-Word ID, TEMA-3 = independent) and developer/researcher-made probes (RWKP, EWKP, PAT, Name Writing = aligned) (Table 3, p.199).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "Treatment teachers received the NNSR PD (five instructional strategies for DLLs) 'in addition to their curriculum' while control had 'only their curriculum'; strategies layer onto teachers' existing curriculum, no new curriculum/materials package adopted (p.193, 196).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Child outcomes measured post at the end of the pre-K year (end of the 2-year program); same-year end-of-intervention, no post-end delayed follow-up (timepoint 'post (end of pre-k year)', Table 3).",
+  "confidence": "high"
+}

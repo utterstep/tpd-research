@@ -1,0 +1,13 @@
+{
+  "slug": "jaciw_hegseth_2016",
+  "study": "Jaciw et al. 2016 — iRAISE (Internet-based Reading Apprenticeship) teacher PD, cluster RCT, grades 9-12 disciplinary literacy",
+  "delivery_mode": "online",
+  "delivery_evidence": "iRAISE is an 'online format' of the face-to-face Reading Apprenticeship PD: a 5-day online Foundations training plus monthly online synchronous (BlackBoard Collaborate) and asynchronous (Canvas) follow-ups; described throughout as Internet-based/online (Intervention description, p.~1-3).",
+  "test_alignment": "aligned",
+  "test_alignment_evidence": "Outcome is a custom ETS scenario-based reading-for-understanding literacy assessment built for this research program and 'closely aligned with the reading processes that are primary targets of Reading Apprenticeship'; extraction labels test_type=researcher_made (Table 15 p.42; Measures).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "Reading Apprenticeship is a disciplinary-literacy instructional framework/set of strategies teachers apply to their existing science texts and curriculum; iRAISE 'builds from existing materials, protocols, and key design elements'; no new content curriculum adopted (Intervention p.~1-2).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Student post-test in spring 2015, immediately at the end of the one-year (2014-15) implementation; no delayed follow-up (Table 15 p.42; extraction timepoint=post).",
+  "confidence": "high"
+}

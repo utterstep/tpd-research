@@ -1,0 +1,13 @@
+{
+  "slug": "resendez_azin_2009",
+  "study": "Resendez & Azin 2009 — Pearson enVisionMATH efficacy RCT (2-year), teacher-randomized within schools, grades 2-5 math (per WWC report ED538671)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "enVisionMATH treatment teachers were trained in person by a Pearson staff trainer for ~5-6 hours before implementation, with a 3-hour in-person follow-up within 2-3 weeks and, at several sites, one or two additional 3-4 hour follow-up sessions; no online/remote PD (program/training description in WWC report; First Year Report).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Included outcomes are norm-referenced commercial achievement tests — MAT8 (Harcourt) Concepts & Problem-Solving / Computation and GMADE (Pearson Assessment) — broad standardized instruments not built for enVisionMATH (extraction test_type=standardized_independent; WWC Appendices C & D). The Year-1 open-ended BAM measure is partly researcher-adapted but is a secondary traceability row, not the headline.",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "The PD is tied to adopting the new Pearson enVisionMATH core K-6 mathematics curriculum that treatment teachers then taught; control teachers continued their existing/business-as-usual math curriculum (design; intervention description).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Headline effect (MAT8 Concepts & Problem-Solving) measured spring 2009 at the end of the 2-year cumulative exposure; the secondary Year-1 contrasts were measured spring 2008 at the end of year 1 — all are end-of-treatment-year (immediate) waves, none a post-intervention delayed follow-up (extraction timepoint=post Y2 / post Y1).",
+  "confidence": "high"
+}

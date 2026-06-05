@@ -1,0 +1,13 @@
+{
+  "slug": "wakabayashi_2020",
+  "study": "Wakabayashi et al. 2020 (Numbers Plus preschool math, ECRQ 53)",
+  "delivery_mode": "blended",
+  "delivery_evidence": "Numbers Plus teacher training was a genuine mix: modules 1-2 delivered face-to-face (6 days total) plus modules 3-4 delivered as online training segments, accompanied by ~20 follow-up coaching contacts ('the training was conducted as a combination of face-to-face (6 days) and online training segments', Sec. 3 Training, ~p.333).",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Two included child math outcomes: EMAS (researcher_made / developer-associated Ginsburg instrument, proximal/aligned) and WJ-III Applied Problems (broad standardized_independent, distal); extraction test_type mixes researcher_made and standardized_independent (Table 7 EMAS; Sec. 5.2 WJ-III, p.339).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting Numbers Plus, a specific supplementary preschool mathematics curriculum (seven modules, KDI activities) layered on the HighScope base that treatment teachers then implement; control = HighScope alone with no Numbers Plus ('comprehensive HighScope curriculum with the Numbers Plus Preschool Mathematics curriculum, training, and coaching', abstract/Sec. 3).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Both extracted effect sizes measured at the end of the preschool year (spring posttest), same year as treatment; no post-treatment follow-up wave (extraction timepoint 'post (end of preschool year; spring)', Table 7).",
+  "confidence": "high"
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "drummond_2020",
+  "study": "Drummond et al. 2020, Children's Literacy Initiative i3 Scale-Up (AIR)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "CLI PD = seminar training (~), classroom-embedded coaching (105 coaching hrs), instructional-lead-teacher mentoring/model classrooms, and facilitated grade-level meetings 'in schools' over 3 years (design narrative; intervention components section).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcomes = GRADE total score and state end-of-year ELA assessments (FSA/CMAS/STAAR/PARCC), broad standardized tests not tailored to CLI (Tables 8 & 10, physical pp.27,29).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "CLI 'provides classrooms with books and materials aligned with the intervention model' in Year 1, plus a CLI-developed model (intervention components section); PD tied to adopting CLI structured-literacy materials.",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted effects are Year 3 / 2018-19, the final intervention year (end of treatment); same-year measurement (Tables 8 & 10, physical pp.27,29).",
+  "confidence": "high"
+}

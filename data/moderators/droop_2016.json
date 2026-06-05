@@ -1,0 +1,13 @@
+{
+  "slug": "droop_2016",
+  "study": "Droop et al. 2016 — Strategic Reading Instruction (SRI) program cluster RCT (Netherlands, grades 3-4)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "In-person teacher training: two 3-hour meetings in September, one mid-year meeting (January) and a June evaluation, plus in-person classroom observations each followed by a coaching session by certified coaches; no online/remote delivery. (Training section, p. ~88)",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Both extracted outcomes are broad independent standardized reading-comprehension measures (Aarnoutse & Schellings Reading Comprehension Test; PIRLS-2006 reading-literacy booklet), not developer-made proximal measures. (Tables 5-6, pp. 94-95)",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "SRI is a new reading-comprehension program with its own lessons, materials, and lesson planning that completely replaces the existing curriculum: experimental schools 'were not allowed to use their own reading comprehension curriculum ... the regular program was to be completely replaced by the experimental program.' (Procedure, p. ~88)",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted primary effects measured at end of Grade 4 (June 2011), the end of the two-year intervention (end-of-Grade-3 was an interim wave, not the extracted primary). (Tables 5-6, pp. 94-95; timepoint 'Post / end of Grade 4')",
+  "confidence": "high"
+}

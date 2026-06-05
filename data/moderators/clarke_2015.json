@@ -1,0 +1,13 @@
+{
+  "slug": "clarke_2015",
+  "study": "Clarke et al. 2015 — Early Learning in Mathematics (ELM) core kindergarten curriculum RCT",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teachers received in-person PD: an initial 2-4h logistics meeting plus three 4-hour ELM curriculum trainings across fall/winter/spring, delivered by the lead author (OR) / project coordinator (TX). No online component. (Professional Development section, p. ~310)",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Extracted outcomes mix proximal aligned measures (TEMA-3 and EN-CBM, explicitly described as proximal measures of conceptual understanding/procedural fluency) with a distal broad independent standardized test (SAT-10, 'conceptualized as a distal measure of general mathematics'). (Measures, p. ~312; Table 4, p. 315)",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting ELM, a new 120-lesson Tier-1 core kindergarten mathematics curriculum that treatment teachers then deliver. (Abstract; ELM Curriculum Content section)",
+  "outcome_timing": "both",
+  "outcome_timing_evidence": "TEMA-3 and EN-CBM measured spring of kindergarten (immediate post-intervention, T2); SAT-10 measured winter of grade 1 (~8 months after intervention end, delayed follow-up, T3). (Table 3/Table 4, pp. 314-315)",
+  "confidence": "high"
+}

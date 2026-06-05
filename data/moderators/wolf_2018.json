@@ -1,0 +1,13 @@
+{
+  "slug": "wolf_2018",
+  "study": "Wolf et al. 2018 (ELLA-V i3 evaluation, Texas; JHU CRRE, ED598313)",
+  "delivery_mode": "online",
+  "delivery_evidence": "PD delivered primarily online/remote: 'ELLA-V provided ongoing virtual professional development and coaching'; treatment teachers received bimonthly virtual professional training for 18 sessions Sept-May each year (plus up to three coach observations), and fidelity is tracked as participation in the virtual PD ('treatment teachers ... received bimonthly virtual professional training for 18 sessions', Intervention/Implementation sections).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "All included full-sample outcomes are broad standardized independent tests (ITBS science, WMLS-R oral language/reading, STAAR reading, DIBELS ORF, TOPA 2+, TELPAS writing) not tailored to ELLA-V; extraction test_type = standardized_independent throughout.",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "ELLA-V is a program providing PD, coaching, AND EL-relevant curricula/materials aligned to the PD's instructional models; treatment teachers adopt and implement the supplied curriculum (T1 and T2 received equivalent PD/coaching but different curricula materials, shipped to schools) vs business-as-usual ('provided professional development, coaching, and curricula', Overview/Intervention).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "All included effects measured at spring of the treatment year (end of one-year exposure for the grade rolled out that year); no post-treatment follow-up wave (extraction timepoint 'post (spring Y1, end of one-year treatment)').",
+  "confidence": "high"
+}

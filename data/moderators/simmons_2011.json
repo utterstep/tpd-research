@@ -1,0 +1,13 @@
+{
+  "slug": "simmons_2011",
+  "study": "Simmons et al. 2011 (Early Reading Intervention (ERI) vs typical-practice intervention, kindergarten; Exceptional Children)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "ERI PD 'was limited to 2 days': hands-on sessions where interventionists viewed publisher video clips, worked hands-on with the curriculum materials, and were shown how to set up groups; the second day took place on-site in late Jan (CT)/early Feb (TX) - face-to-face training (p.213, 'ERI Training'). (Comparison TPI interventionists received no PD.)",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "All included outcomes are broad standardized norm-/criterion-referenced reading & spelling tests (WRMT-R/NU, DIBELS, CTOPP, TOWRE, TWS-4) not tailored to ERI (p.219 Table 4; Measures).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "ERI is an explicit/systematic commercial kindergarten reading program (Early Reading Intervention, Pearson/Scott Foresman 2004) with a four-part scope-and-sequence curriculum and publisher materials that interventionists adopt and deliver; the PD was 'designed to approximate training typically provided when schools adopt published programs' (p.213; abstract).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Outcomes are posttests in spring at the end of kindergarten, i.e., at the end of the ~100-session intervention (Table 4, p.219; timepoint 'post').",
+  "confidence": "high"
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "carroll_2020",
+  "study": "Carroll, Hurry, Grima, Hooper, Dunn & Ahtaridou (2020), The Curriculum Journal 31(4):605-625 — Bug Club whole-school reading programme RCT",
+  "delivery_mode": "not_reported",
+  "delivery_evidence": "Teachers 'received training in the implementation of Bug Club... shortly before implementation', with PD described as a 'teacher toolkit'; the publication does not state whether this training was delivered in person or online (Method; intro, p. on Bug Club programme).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcome is InCAS (CEM Durham), a nationally age-standardised computer-adaptive assessment with national norms, not tailored to Bug Club; coded standardized_independent per spec (Table 6; extraction flags supplement labelled it Res/Dev).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "Bug Club is a specific new commercial whole-school reading programme that schools adopt: levelled print + online reading books with embedded questions plus Phonics Bug interactive-whiteboard daily phonics lessons and materials; control is business-as-usual literacy provision (Bug Club Reading Programme section).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Headline full-sample contrasts are A1 (July 2015, end of two terms of Bug Club; immediate post). A later A2 wave (Jan 2016, 3 terms, Y1-at-baseline subset) is a longer-treatment subset within the ongoing programme, not a post-end delayed follow-up; extracted full-sample rows are A1 (Table 6, A1 panel).",
+  "confidence": "high"
+}

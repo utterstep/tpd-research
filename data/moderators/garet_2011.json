@@ -1,0 +1,13 @@
+{
+  "slug": "garet_2011",
+  "study": "Garet et al. 2011, Middle School Mathematics PD Impact Study (NCEE 2011-4024)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "PD delivered as a summer institute, one-day follow-up seminars during the school year, and in-school coaching visits; all face-to-face (ch.2 'Summer Institute and Seminar Series' / 'Coaching', pp.22-23).",
+  "test_alignment": "aligned",
+  "test_alignment_evidence": "Outcome is a customized, computer-adaptive NWEA Rational Number Test drawn from a custom item bank narrowly targeting the rational-number content the PD taught (proximal); Table B-1, Appendix B; described p.~? 'A customized, computer-adaptive rational number test'.",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "PD targeted teachers' knowledge of rational-number content and instruction; no new student curriculum was adopted—teachers continued their existing curriculum (PD providers selected on existing rational-numbers PD materials; control = business-as-usual).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted effect sizes are the spring Y2 (end of second/final year of implementation) wave, i.e., end of intervention (Table 3-4 End of Second Year panel; Table 4-3).",
+  "confidence": "high"
+}

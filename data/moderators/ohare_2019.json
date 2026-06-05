@@ -1,0 +1,13 @@
+{
+  "slug": "ohare_2019",
+  "study": "O'Hare et al. 2019, FFT Literacy Reciprocal Reading (EEF evaluation report)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teacher training by FFT Literacy was face-to-face: two external full-day off-site training sessions plus three internal half-day in-school follow-up sessions over 16 weeks (Intervention / Materials section; 'two external full-day training sessions and three internal half-day follow-up sessions'); no online PD component reported.",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcome is the New Group Reading Test (NGRT), a nationally standardised, independently published adaptive commercial test (GL Assessment) not tailored to the intervention (Outcomes; Table 13, p.38).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting the Reciprocal Reading programme; after training teachers were provided a core materials package (teacher manual, pupil books, journal activities, reading books) to deliver it (Intervention / Materials section).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "NGRT measured at post-test after ~1 academic year of intervention, same year (primary analysis, Table 13, p.38).",
+  "confidence": "high"
+}

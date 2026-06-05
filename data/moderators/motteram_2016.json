@@ -1,0 +1,13 @@
+{
+  "slug": "motteram_2016",
+  "study": "Motteram et al. 2016 (ReflectED metacognition EEF efficacy trial; ERIC ED581262)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teachers from the 30 schools were trained in person by Rosendale Primary School: an initial full-day training session plus three additional half-day sessions over the year (2.5 days face-to-face total), with a pack of lesson plans/resources; no online PD delivery described (Intervention section, p.~6; 'an initial day-long training session... followed by three additional half-day training sessions').",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Included outcomes are CEM InCAS maths (primary) and reading (secondary), age-standardised computer-adaptive standardized tests independent of the ReflectED content; extraction test_type=standardized_independent (Table 6/8; exec summary Table 1, p.5).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "ReflectED is a specific new programme/materials package teachers adopt: 28 weekly half-hour metacognition lessons with provided lesson plans/supporting resources and an Evernote app license, vs business-as-usual control (Intervention section, p.~6; 'a pack of lesson plans and supporting resources'; '28, weekly, half-hour lessons').",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "InCAS post-tests administered June 2015 at the end of the ~1 academic-year intervention; no later follow-up wave for the extracted effects (Method/results; extraction timepoint 'post, end of ~1 academic year').",
+  "confidence": "high"
+}

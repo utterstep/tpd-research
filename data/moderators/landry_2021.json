@@ -1,0 +1,13 @@
+{
+  "slug": "landry_2021",
+  "study": "Landry et al. 2021 (eTEEM remote replication, ECRQ 56)",
+  "delivery_mode": "online",
+  "delivery_evidence": "Remote-delivery replication: classroom PD = 'online The Early Education Model (eTEEM)' delivered via online courses (video models) and remote/virtual coaching via video-conference calls; title and Methods describe 'remote delivery' / 'online courses and remote coaching of Head Start teachers' (Abstract; sec 1.3-1.4 and Methods, p.149-153).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Extracted academic outcomes are all standardized norm-referenced tests (TOPEL Phonological Awareness & Print Knowledge, EOWPVT, PLS-IV Auditory Comprehension & Expressive, TEMA-3) not tailored to eTEEM content; all test_type=standardized_independent (Table 4, p.160).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "eTEEM is the remote form of the TEEM comprehensive instructional model, providing teachers the same online child progress-monitoring tools and curricular resources to implement (Methods 'eTEEM model' and reference to Crawford et al. 2020 'curricular resources', p.151-153).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Child academic outcomes measured at end-of-pre-k-year posttest via ANCOVA controlling for pretest; no post-year follow-up wave (Table 4, p.160; extraction timepoint 'post (end of pre-k year)').",
+  "confidence": "high"
+}

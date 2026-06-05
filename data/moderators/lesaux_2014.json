@@ -1,0 +1,13 @@
+{
+  "slug": "lesaux_2014",
+  "study": "Lesaux et al. 2014 (ALIAS academic vocabulary, AERJ 51(6))",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "PD = monthly in-person meetings with one of two program specialists (former district teachers) tailored to teachers' needs, plus on-site classroom observations; a password-protected website (electronic lesson materials + video clips) is a supplementary support resource, not remote PD delivery ('Professional Development' section, p.16-17 of MS).",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Extracted outcomes include standardized independent tests (Gates-MacGinitie Reading Comprehension; OWLS Written Expression) AND six researcher-developed, curriculum-aligned proximal measures (Academic Word Mastery, Word Association, etc.); test_type mixes standardized_independent and researcher_made (Tables 1-3).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "Treatment is the ALIAS 20-week academic-vocabulary curriculum (11 unit-cycles, scripted daily lessons) that teachers implement; control = business-as-usual core ELA; PD exists to support ALIAS implementation (Method, 'Intervention' / 'Professional Development', p.14-17 of MS).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Single post-intervention wave in May 2009 at the end of the 20-week treatment; no later follow-up (extraction timepoint 'post (May 2009; end of 20-week treatment)').",
+  "confidence": "high"
+}

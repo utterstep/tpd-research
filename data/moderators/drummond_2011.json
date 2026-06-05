@@ -1,0 +1,13 @@
+{
+  "slug": "drummond_2011",
+  "study": "Drummond et al. 2011, Thinking Reader (NCEE 2010-4035)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "PD = two 6-hour group trainings + three individual coaching sessions (7.5-8.5 hrs); 'Intervention teachers attended group trainings at one of four locations' (p.42-43 PD section; design p.37). Face-to-face.",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcomes = Gates-MacGinitie Reading Tests (GMRT) Vocabulary & Comprehension subtests, a published broad standardized reading battery not tailored to the software (Table 4.1, p.55).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD trains teachers to adopt and use the Thinking Reader digital reading-comprehension software (3 digital novels) as a partial substitute for regular ELA instruction; a new instructional-materials package (design/intervention section, p.37-42).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "GMRT administered spring 2009, end of the single 2008-09 implementation year; no later wave (Table 4.1, p.55; Exec Summary p.5).",
+  "confidence": "high"
+}

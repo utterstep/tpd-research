@@ -1,0 +1,13 @@
+{
+  "slug": "jerrim_2015",
+  "study": "Jerrim et al. 2015 (Mathematics Mastery, Secondary; EEF evaluation, UCL IOE)",
+  "delivery_mode": "blended",
+  "delivery_evidence": "Teachers/coordinators receive 1-2 days of in-person launch training, two in-school development visits, and three multi-school cluster workshops PLUS access to an online toolkit with continuous PD; report states collaboration 'is both face to face and online' (Intervention 'Training and in-school support' section).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcome is GL Assessment Progress in Maths (PiM), a commercially published, independently developed standardized test; ~40% of items cover content outside the Year-7 MM curriculum, i.e. distal (Table 9, p.33; notes p.14).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "Mathematics Mastery introduces a whole-school 'mastery curriculum' (a change to the maths curriculum within schools) that schools adopt; PD supports implementing that new curriculum (Intervention description, pp.~10-12).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "PiM posttest taken summer 2014 at the end of the single year of implementation = immediate (Table 9, p.33).",
+  "confidence": "high"
+}

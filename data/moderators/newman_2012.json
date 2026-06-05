@@ -1,0 +1,13 @@
+{
+  "slug": "newman_2012",
+  "study": "Newman et al. 2012 (AMSTI evaluation, NCEE 2012-4008; ERIC ED529587)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "AMSTI teacher PD = a 10-day in-person summer institute plus follow-up training during the school year and in-school support (mentoring/coaching) by AMSTI lead teachers and on-site site specialists; no online delivery described (Ch.1 program description; 'professional development delivered through a 10-day summer institute and follow-up training... in-school support by AMSTI lead teachers and site specialists').",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "All included outcomes are the Stanford Achievement Test 10th Ed. (SAT 10) math problem solving, science, and reading scale scores, broad independent norm-referenced state-accountability assessments not tailored to AMSTI; extraction test_type=standardized_independent (Tables 4.2, 4.4, 6.2).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "AMSTI provides teachers access to its own program materials, manipulatives, and technology (hands-on/inquiry kits) needed to deliver the model; control teachers 'used their existing mathematics and [science] materials' (Ch.1; 'access to program materials, manipulatives, and technology needed to deliver hands-on, inquiry-based instruction').",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted contrasts are the one-year (end of Year 1) confirmatory effects, the only pure-control wave (control entered AMSTI in Year 2); the two-year exploratory effects are not extracted, so the included effects are end-of-(year-1)-treatment = immediate (Tables 4.2/4.4/6.2; extraction 'end of Year 1').",
+  "confidence": "high"
+}

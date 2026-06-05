@@ -1,0 +1,13 @@
+{
+  "slug": "thiede_2018",
+  "study": "Thiede et al. 2018 (DMT / Formative-Assessment PD, Boise State; Teaching & Teacher Education 76)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "PD structure held constant across arms was face-to-face: a three-day summer workshop plus two 4-hour after-school workshops, followed by in-class support (three cycles of pre-unit team planning, in-class observation, and post-unit meetings); no online/remote delivery (sec. 1.3 'Overview of study and professional development', p.108-109).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Sole included achievement outcome is NWEA Measures of Academic Progress (MAP), a broad independent standardized district test not tailored to the DMT/FA content (extraction test_type=standardized_independent; Tables 4-5, p.112-113).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "DMT is a student-centered mathematics-instruction PD ('teachers facilitate conversations about students' mathematical thinking') and FA a formative-assessment PD; teachers planned units within their own/existing grade-level curriculum (grade-level teams 'selected a topic for a unit of study'), with no new curriculum/textbook adopted (sec. 1.2-1.3, p.107-109).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "MAP achievement measured in spring (end of academic year), with fall pretest the same year; no delayed follow-up after the PD year (extraction timepoint 'post, spring'; sec. 2, p.110-111).",
+  "confidence": "high"
+}

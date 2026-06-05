@@ -1,0 +1,13 @@
+{
+  "slug": "olson_2012",
+  "study": "Olson et al. 2012, Pathway Project cognitive-strategies PD (SAUSD RCT), AERJ",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Pathway teachers received 46h of in-person PD plus coaching (extraction design note; same Pathway PD format as the sister SAUSD/AUHSD studies which specify in-person released days + afterschool sessions + veteran-teacher coaching). NOTE: the OA manuscript body text is glyph-scrambled so verified via design note + sister studies Olson 2017/2020.",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Included outcomes are the researcher/developer-made Assessment of Literary Analysis (ALA) on-demand writing assessment (researcher_made) and the California Standards Test (CST) ELA, a state standardized assessment (standardized_independent) (Tables 3-4).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "Pathway PD is built around a cognitive-strategies tool kit and curriculum materials that teachers then use in class (consistent across the Pathway studies; Olson 2017/2020 'cognitive strategies tool kit and curriculum materials'); coded bundled for this same intervention.",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted wave is the Year 2 (2008-09) end-of-treatment spring posttest, same school year (Table 3; extraction notes).",
+  "confidence": "medium"
+}

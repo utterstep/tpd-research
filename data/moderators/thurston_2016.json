@@ -1,0 +1,13 @@
+{
+  "slug": "thurston_2016",
+  "study": "Thurston 2016 / Lloyd et al. 2015 (EEF Paired Reading peer tutoring; NatCen eval)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teacher PD was primarily face-to-face: 'Prior to the start of the programme, teachers from participating schools received a day of training' from the delivery team, with two teacher-training sessions held; supplemented by a programme manual and online resources (website, training films) used as support rather than the primary delivery mode (Intervention section, p.7-9; project timeline).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "All included outcomes use the New Group Reading Test (NGRT, GL Assessment), a broad independent standardized reading test (Overall Reading + Passage Comprehension/Sentence Completion subscales) not tailored to the intervention (extraction test_type=standardized_independent; Tables 12-21).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting Paired Reading, a specific named peer-tutoring programme delivered with a detailed programme manual and extensive digital resources (Thurston & Cockerill 2013) that teachers then run; it is used in conjunction with (not replacing) the English curriculum but is a distinct structured programme/materials package teachers adopt (Intervention, p.7-8: 'received training from the delivery team, a detailed programme manual and extensive digital resources').",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "NGRT measured at the end of the 16-week intervention (summer 2014); the primary/headline effect sizes come from this immediate post-test wave (extraction timepoint 'post, end of 16-week intervention'; Tables 12-13).",
+  "confidence": "high"
+}

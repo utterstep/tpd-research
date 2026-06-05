@@ -1,0 +1,13 @@
+{
+  "slug": "babinski_2018",
+  "study": "Babinski et al. 2018 — Developing Consultation & Collaboration Skills (DCCS) teacher PD, cluster RCT, K-2 English learners",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "DCCS delivered in person: a five-day summer institute plus four follow-up content/application modules, on-site instructional coaching ~every six weeks from research-team members, and weekly 30-min in-school ESL-classroom teacher collaboration across the year (PD components, p.~123-125; Figure 1).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcome is the Woodcock Munoz Language Survey-Revised (WMLS-R), a published norm-referenced standardized language/literacy battery independently developed (Schrank et al.), not tailored to the intervention (extraction test_type=standardized_independent; Table 5).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "PD aims to increase teachers' use of high-impact instructional strategies for language/literacy, ESL-classroom collaboration, and incorporation of students' cultural wealth using existing instruction; no new curriculum/materials package adopted (PD description, p.~120-123).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "WMLS-R posttest administered at the end of the school year, immediately after the one-year PD (extraction timepoint=post, end of school year); no delayed follow-up wave.",
+  "confidence": "high"
+}

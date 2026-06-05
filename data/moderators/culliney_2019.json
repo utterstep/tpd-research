@@ -1,0 +1,13 @@
+{
+  "slug": "culliney_2019",
+  "study": "Culliney et al. 2019 — Integrating English (LiLAC genre-pedagogy CPD) EEF cluster RCT",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Core delivery in person: 'Five one-day accredited modules were attended by teachers in person' at five regional hubs (non-school venues), with reading/homework between sessions; supplemented by ongoing trainer support via email and the FRONTER online VLE (supplementary, not a core component). (Intervention/delivery section, p. ~13)",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcomes are broad independent standardized assessments: KS2 Writing (a national past-paper test) plus KS2 Reading and KS2 GPS from the National Pupil Database; none tailored to the LiLAC content. (Table 8, p. 26)",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "LiLAC is a CPD training course providing teachers with linguistic/pedagogical strategies (genre pedagogy) to improve how they teach writing within existing English provision; teachers produce their own schemes of work and buy only the LiLAC manual — no new pupil curriculum/textbook is adopted. (Intervention description, pp. ~12-13)",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "All ITT outcomes measured summer 2018 at the end of Year 6 / end of the two-year trial. (Table 8, p. 26; timepoint 'post (summer 2018, end of trial)')",
+  "confidence": "high"
+}

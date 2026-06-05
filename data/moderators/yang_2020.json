@@ -1,0 +1,13 @@
+{
+  "slug": "yang_2020",
+  "study": "Yang et al. 2020 (middle-school science PD: Cog-sci vs Content, JRST 57(4))",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Both arms received a 2.5-day (18-hr) in-person summer PD session plus four 2-hr in-person professional learning community (PLC) meetings during the school year over 2 years (34 hr total); no online/remote component described (Design sec. 3.1, p.~8 'we provided a 2.5-day (18-hr) summer PD session and four 2-hr professional learning community (PLC) sessions').",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Extracted outcomes mix a broad independent state science test (distal/standardized_independent, primary contrast) and researcher-made Earth end-of-unit tests (proximal/aligned, researcher_made secondary contrast) -- extraction test_type spans standardized_independent and researcher_made (Tables 5-6, p.15-18).",
+  "curriculum_coupled": "not_clear",
+  "curriculum_evidence": "Arm-dependent and the two arms map to different rows: Cog-sci (row 143) is BUNDLED -- modified Holt curriculum units plus a Cognitive Science Manual with lessons/warm-ups/assessments teachers use (p.~6-7); Content (row 142) is PRACTICE_ONLY -- PD only deepens teachers' subject-matter knowledge of the existing Holt units, no new materials (p.~7). No single shared curriculum code applies, so not_clear at study level (note arm split).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "State science test taken at the end of grade 8, i.e., end of the 2-year treatment; researcher-made Earth end-of-unit test taken spring of grade 8 (last unit, end of treatment) -- all extracted waves are end-of-treatment, no later follow-up (extraction timepoints 'end of grade 8 (end of treatment)' / 'spring grade 8 (last unit, end of treatment)', Tables 5-6).",
+  "confidence": "medium"
+}

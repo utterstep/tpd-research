@@ -1,0 +1,13 @@
+{
+  "slug": "llosa_2016",
+  "study": "Llosa et al. 2016 (P-SELL science, AERJ 53(2))",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teacher PD = five full-day in-person workshops offered during summer and across the school year, facilitated by district coordinators (face-to-face, with collaborative planning time); no online delivery of the workshops described (Method 'Teacher workshops', p.~10-11 / pp.403-405).",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "The two full-sample included outcomes are a researcher-developed science assessment (NAEP/TIMSS/state-release items; proximal/aligned) AND the high-stakes state science assessment (broad independent/distal); test_type mixes researcher_made and standardized_independent (Tables 4-5, p.19-20).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "P-SELL is a standalone year-long fifth-grade science curriculum (with teacher's guide / educative curriculum materials) that teachers adopt and implement; the workshops focus on implementing that curriculum vs business-as-usual district-adopted textbooks (Method 'The P-SELL intervention', pp.401-405).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Outcomes measured at end of Year 1 (researcher-developed posttest spring 2013; state test April 2013), same school year as the treatment year; no post-treatment follow-up wave for the extracted effects (Table 4, p.19; extraction timepoint 'post (end of Year 1)').",
+  "confidence": "high"
+}

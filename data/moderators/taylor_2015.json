@@ -1,0 +1,13 @@
+{
+  "slug": "taylor_2015",
+  "study": "Taylor et al. 2015 (BSCS Inquiry Approach + curriculum-based PD; AERJ 52(5))",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "PD was face-to-face: a seven-day curriculum-based PD program each year composed of a three-day summer institute plus four additional days; paper repeatedly refers to 'face-to-face, curriculum-based PD' sessions (Method/PD section; '...face-to-face PD sessions complemented...').",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Sole included student-achievement outcome is the Washington High School Proficiency Exam (HSPE), 10th-grade science -- a broad independent state assessment not tailored to the BSCS curriculum (extraction test_type=standardized_independent; p.21-23, Tables 6-7).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "Intervention bundles PD with adoption of a specific new curriculum: 'BSCS Science: An Inquiry Approach' student and teacher curriculum materials, with curriculum-based PD designed around those materials ('research-based curriculum materials with curriculum-based professional development'; Curriculum Materials section).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "HSPE science measured spring of Grade 10, at the end of the 2-year program (Grades 9-10); no post-intervention follow-up wave (extraction timepoint 'post, spring Grade 10'; p.21-23).",
+  "confidence": "high"
+}

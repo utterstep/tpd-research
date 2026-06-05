@@ -1,0 +1,13 @@
+{
+  "slug": "tolan_2020",
+  "study": "Tolan et al. 2020 (GBG + MyTeachingPartner for new teachers; J. School Psychology 78)",
+  "delivery_mode": "blended",
+  "delivery_evidence": "Genuine mix of in-person and online: an intensive in-person training workshop plus ~8 biweekly MyTeachingPartner coaching cycles that began with 'initial contact in-person that then shifted to web-mediated training' (video upload, online prompts, online cycle-tracking system) -- MTP is explicitly 'a web-mediated, video-based coaching approach' (sec. 2.3.2 'Training in the GBG+MTP program', p.82-84).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Full-sample achievement outcomes are the Woodcock-Johnson III reading and math composites, broad independent norm-referenced standardized tests not tailored to the intervention (extraction test_type=standardized_independent; Table 5, p.87).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "Intervention is a combined classroom-management / teacher-interaction practice program (PAX Good Behavior Game behavior framework + MTP coaching on teacher-student interactions); it improves teachers' practice and does not provide a new academic curriculum/textbook/materials package (sec. 2.3.2, p.82-84).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "WJ-III achievement measured at a spring posttest following the single academic year of training/coaching (fall baseline to spring posttest); no delayed follow-up wave (extraction timepoint 'post, spring of training year'; p.84, Table 2).",
+  "confidence": "high"
+}

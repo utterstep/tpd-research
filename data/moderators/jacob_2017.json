@@ -1,0 +1,13 @@
+{
+  "slug": "jacob_2017",
+  "study": "Jacob, Hill & Corey 2017 (Math Solutions PD RCT, JREE 10(2):379-407)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "PD = week-long in-person summer institutes each summer plus 4-6 in-service days/year; report notes 'Distance learning and coaching were proposed by the Math Solutions team but not taken up by the teachers,' so delivery was face-to-face (Methods/PD description, narrative p.36).",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Included outcomes are a researcher-developed math assessment (proximal/aligned) and the state standardized math test (broad independent measure); both extracted (Table 8, p.67).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "Math Solutions PD is 'not designed around any specific curricular program but is designed to adapt to any curriculum in use by a district' — it improves teachers' MKT/practice with the existing district curriculum; no new curriculum/materials adopted (intro/intervention description).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted effect sizes are the T4 (spring of Year 3) wave, the end of the 3-year treatment = same-period/immediate post-intervention (Table 8, p.67).",
+  "confidence": "high"
+}

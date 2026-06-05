@@ -1,0 +1,13 @@
+{
+  "slug": "rutherford_2014",
+  "study": "Rutherford et al. 2014 (ST Math / Spatial-Temporal Math software RCT, JREE)",
+  "delivery_mode": "not_reported",
+  "delivery_evidence": "PD was 'A 4- to 5-hr professional development training session on how to use the software...provided to all study teachers' plus 1st-year technical support (p.368, Methods/Implementation); the publication does not state whether this session/support was in person, online, or remote.",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Included effect size uses the California Standards Test (CST) math scale score, a state standardized assessment (broad, independent) not tailored to ST Math, though ST Math was designed to align with the same California standards (p.358 abstract; p.~365 measures; Table 3).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting a specific new instructional-materials package: ST Math (MIND Research Institute) supplemental math software with its own grade-level games/curriculum that students use ~2x45 min/week in the computer lab; the teacher training is explicitly 'how to use the software' (p.~363-364 Description/Use of ST Math; p.368).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Included effect is the pooled 1-year main effect on the spring CST at the end of year 1 of implementation (Table 3 'Pooled', p.373); the exploratory 2-year cumulative effect (Table 5) was not the extracted wave.",
+  "confidence": "high"
+}

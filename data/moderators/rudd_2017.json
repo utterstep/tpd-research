@@ -1,0 +1,13 @@
+{
+  "slug": "rudd_2017",
+  "study": "Rudd et al. 2017 (MathsFlip: Flipped Learning, EEF evaluation, NFER/IEE)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Shireland staff trained teachers in the MathsFlip platform in 'two hands-on day-long sessions' on-site, plus ongoing in-person support: the project manager made regular school visits to coach teachers and ran in-school workshops (p.16, 'Year 5 teachers were trained...in two hands-on day-long sessions'; p.16 ongoing-support para). The flipped tool teachers/pupils used is online, but the PD to teachers was face-to-face.",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Included effect sizes are KS2 national assessment fine-grade scores (maths/reading/writing/APS) from the National Pupil Database, a standardized independent national test not tailored to MathsFlip (p.18 Table 4; abstract).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting the MathsFlip programme: a new Office 365-based online learning environment ('learning zone') with maths resources/tools that teachers then deliver via the flipped-learning approach (p.13-14 intervention description; 'The key element of the MathsFlip programme was the online learning environment').",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Intervention delivered April 2014-April 2015 across Year 5 and into Year 6 (yearlong treatment spanning two academic years); pupils sat KS2 tests May-June 2015 at the end of the intervention (p.5 'Impact was measured using pupils' KS2 maths scores in summer 2015'; p.20 timeline).",
+  "confidence": "high"
+}

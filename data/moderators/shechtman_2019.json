@@ -1,0 +1,13 @@
+{
+  "slug": "shechtman_2019",
+  "study": "Shechtman et al. 2019 (Math Curriculum Impact Study; Reasoning Mind RM-CC5 Grade 5 digital core curriculum, AERA Open)",
+  "delivery_mode": "blended",
+  "delivery_evidence": "~60 hrs of required teacher PD over 2 yrs: 'The first PD experience was an in-person workshop... Subsequent PD was delivered in modules throughout each school year, with options for both in-person and online engagement,' plus on-site implementation-coordinator coaching/observations - a genuine in-person + online mix (p.6).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Sole included outcome is the West Virginia General Summative Assessment (WVGSA) Grade 5 math scale score, the state standardized assessment (broad, independent) not tailored to RM-CC5 (p.6 Measures; p.10 Table 2).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting Reasoning Mind's RM-CC5, an adaptive/blended digital CORE curriculum that treatment schools implemented as their primary Grade 5 math resource for the year; the PD's purpose is to 'guide teachers in how to implement the blended learning approach' (abstract; p.5-6).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Included effect is the spring-2016 WVGSA at the end of Year 2 (measurement year SY2015-16), i.e., end of the 2-year treatment (p.10 Table 2; design narrative).",
+  "confidence": "high"
+}

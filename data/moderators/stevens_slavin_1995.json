@@ -1,0 +1,13 @@
+{
+  "slug": "stevens_slavin_1995",
+  "study": "Stevens & Slavin 1995 — Cooperative Elementary School (CES: CIRC reading + TAI math + cooperative learning), QED matched-school, grades 2-6, reading & math",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teachers received face-to-face training (initial training in August with subsequent on-site training during the year) plus ongoing in-school peer coaching and collaborative teacher/administrator planning meetings (Method; 'teachers using peer coaching, teachers planning cooperatively'). 1995 study, no online component.",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcomes are California Achievement Test (CAT) Form E subtests (Reading Vocabulary/Comprehension, Language, Math Computation/Application) — a broad nationally-standardised independent achievement battery not tailored to CES (extraction test_type=standardized_independent; Table 1).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "CES adopts the Johns Hopkins cooperative learning programs as curriculum: CIRC (reading/language arts) and TAI (math), which come with instructional materials, teachers' manuals, and other materials that teachers then use ('given training, materials, follow-up... to use the Johns Hopkins cooperative learning' programs).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted effects are the spring Year-2 posttests, the end of the 2-year study/intervention (extraction timepoint=post, spring Year 2, end of study).",
+  "confidence": "high"
+}

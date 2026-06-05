@@ -1,0 +1,13 @@
+{
+  "slug": "bottge_2014",
+  "study": "Bottge, Ma, Gassaway, Toland, Butler & Cho (2014), Exceptional Children 80(4):423-437 — Enhanced Anchored Instruction (EAI) math",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "PD main activity was a 2-day summer workshop conducted in person by an experienced EAI teacher who modeled strategies, plus review during the school year (Professional Development section, p.429-430).",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Extracted outcomes include both researcher-developed proximal tests (Fractions Computation Test, Problem-Solving Test) and broad standardized norm-referenced tests (ITBS Computation, ITBS Problem-Solving & Data Interpretation) (Table 3, p.432).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "EAI is a specific new blended curriculum of 5 units (computer-based interactive lessons + video-anchored problems + hands-on projects) with daily lesson plans/materials that teachers adopt and use; comparison is business-as-usual (p.427-429).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "All extracted effect sizes are posttest measured immediately after the 18-week instruction; same school year, no delayed follow-up extracted (timepoint 'post (immediately after 18-week instruction)', Table 3).",
+  "confidence": "high"
+}

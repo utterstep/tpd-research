@@ -1,0 +1,13 @@
+{
+  "slug": "cordray_2012",
+  "study": "Cordray et al. 2012 — Measures of Academic Progress (MAP) reading benchmark+PD cluster RCT (NCEE 2013-4000)",
+  "delivery_mode": "blended",
+  "delivery_evidence": "Genuine mix: in-person 'four one-day sessions' of MAP training and on-site consultative visits, PLUS remote components — on-demand consultation via conference calls and online instructional resources/reports ('training and online'). (Ch.1 description, p. ~3; activity table)",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Extracted outcomes include the independent Illinois state assessment (ISAT reading, standardized_independent) and the intervention's own NWEA MAP reading+language composite (researcher_made/developer instrument, proximal to the program). (Table 4.1, p. 61)",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting NWEA's MAP computer-adaptive benchmark-testing software/system that teachers then use to differentiate instruction; teachers keep their existing reading curriculum but the adopted MAP package = software/instructional-materials package per the codebook 'software' clause. (Ch.1, MAP program description)",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted impacts measured at end of Year 2 (spring 2010), the end of the two-year intervention. (Table 4.1, p. 61; timepoint 'post / end of Year 2')",
+  "confidence": "high"
+}

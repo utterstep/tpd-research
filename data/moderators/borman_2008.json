@@ -1,0 +1,13 @@
+{
+  "slug": "borman_2008",
+  "study": "Borman, Gamoran & Bowdon (2008), JREE 1(4):237-264 — LAUSD elementary science immersion PD",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "PD = summer institutes plus ongoing on-site coaching and mentoring to implement the immersion units; all face-to-face (Intro/Method, e.g. 'professional development in summer institutes and ongoing coaching and mentoring', p.239).",
+  "test_alignment": "aligned",
+  "test_alignment_evidence": "Outcomes are LAUSD district-developed science periodic assessments (life/earth/physical science) criterion-aligned to the instructional units; coded researcher_made/proximal in extraction (Table 8 p.261; test_type=researcher_made).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting and implementing a specific new curriculum, the inquiry-based 'immersion units' (curriculum guides/toolboxes); note: control schools were offered the immersion curriculum but NOT the associated PD, so the contrast isolates PD-on-top-of-curriculum (p.239-241).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted effect sizes are Year-1 post (end of 1st implementation year, 2006-07 periodic assessments); same school year, no delayed wave in this article (timepoint 'Year 1 post', p.246-247).",
+  "confidence": "high"
+}

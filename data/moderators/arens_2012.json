@@ -1,0 +1,13 @@
+{
+  "slug": "arens_2012",
+  "study": "Arens et al. 2012 — On Our Way to English (OWE) curriculum + RISE teacher PD, REL Central cluster RCT (NCEE 2012-4013), ELL grades 1-5",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "RISE PD delivered face-to-face to teachers in eight core training modules/sessions (teachers 'attending RISE training sessions', Table F4), typically by a publisher-trained on-site site coordinator; the 'online teacher logs' are a data-collection tool, not the PD delivery (RISE section p.38; Tables F3-F4).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Confirmatory outcome is the IDEA Proficiency Test (IPT) basic composite — a standardized independent English-language-proficiency test not tailored to OWE/RISE (extraction test_type=standardized_independent; Table 4.1).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "Dual intervention: teachers adopt the new 'On Our Way to English' ELL curriculum and materials AND receive the RISE PD to support it; control teachers 'used their existing strategies and materials' — PD is bundled with a new curriculum package (report title/design; intervention conceptualized as 'instructional resources and teacher professional development combine').",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "IPT measured spring 2010 at the end of the Year 2 implementation year (extraction timepoint=post, end of Year 2); no delayed post-intervention follow-up.",
+  "confidence": "high"
+}

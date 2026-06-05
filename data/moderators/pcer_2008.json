@@ -1,0 +1,13 @@
+{
+  "slug": "pcer_2008",
+  "study": "Preschool Curriculum Evaluation Research (PCER) Consortium 2008 (NCER 2008-2009), 14 preschool curricula RCTs",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Across teams, teacher training in the treatment curriculum was face-to-face: pre-school-year workshops (e.g., 3-day workshops, two 1-day workshops) plus ongoing in-person support (onsite consultations, mentoring/coaching visits) ('Teacher training' and 'Ongoing support' sections; amount varied by team but all in-person/onsite); no online PD reported.",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Included child-achievement outcomes are predominantly broad standardized independent tests (TERA, WJ Letter-Word/Spelling/Applied Problems, PPVT, TOLD, Pre-CTOPPP, CMA-A) plus the researcher-made Shape Composition (Building Blocks) task (Table E; per-effect test_type), so the set spans both.",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "The entire study evaluates adoption of specific new preschool curricula (e.g., Creative Curriculum, DLM+Open Court, Pre-K Mathematics, Doors to Discovery) against business-as-usual; the PD is the training/support to implement each adopted curriculum (study design; 'teacher training in the use of a treatment curriculum').",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted effect sizes are at spring of pre-kindergarten, the end of the one-year curriculum implementation (immediate post; Table E). The end-of-kindergarten follow-up wave (Table F) was not extracted.",
+  "confidence": "high"
+}

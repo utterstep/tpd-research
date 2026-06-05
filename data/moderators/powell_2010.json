@@ -1,0 +1,13 @@
+{
+  "slug": "powell_2010",
+  "study": "Powell et al. 2010, Classroom Links to Early Literacy PD (Head Start), J. Educational Psychology",
+  "delivery_mode": "blended",
+  "delivery_evidence": "The extracted TPD-vs-control contrast COMBINES the on-site (in-person) and remote (web/video hypermedia + teacher-submitted videotape) coaching arms into one intervention group; both arms also attended the same in-person 2-day (16 hr) workshop, so the combined intervention mixes in-person and remote delivery (abstract; Method 'Intervention', on-site vs remote conditions).",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Included child outcomes are standardized independent tests (WJ-III Letter-Word Identification, PPVT-III) alongside researcher-made measures (Concepts About Print, name-writing scale, TOPEL Blending, IGDI initial-sound matching) (Table 3; per-effect test_type).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "Goal was to improve teachers' use of evidence-based literacy instruction by helping them 'enhance, extend, or modify existing teaching practices'; no new curriculum/scripted materials package was adopted (Method 'Intervention', Classroom Links to Early Literacy).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Outcomes measured at end of the one-semester (fall) intervention, ~December-January, same period as delivery (Table 3, fall contrast).",
+  "confidence": "high"
+}

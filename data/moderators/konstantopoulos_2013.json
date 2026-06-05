@@ -1,0 +1,13 @@
+{
+  "slug": "konstantopoulos_2013",
+  "study": "Konstantopoulos, Miller & van der Ploeg 2013 (Indiana interim assessments, EEPA 35(4); math working-paper version)",
+  "delivery_mode": "not_reported",
+  "delivery_evidence": "Report states teachers in treatment schools received the mCLASS/Acuity tools and 'associated trainings' on using the diagnostic data, but the format of the teacher PD (in-person vs online/webinar) is never specified (Intervention/Data sections, pp.~9-11).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcome is the ISTEP+ Indiana statewide achievement test (math), a broad independent state assessment, z-standardized within grade (Tables 3 & 5, pp.27, 29).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "Intervention bundles adoption of the mCLASS:Math and CTB/McGraw-Hill Acuity diagnostic-assessment software plus its packaged 'instructional resources' (student exercises assignable from the diagnostic displays) that teachers then use; PD is inseparable from adopting this materials/software package ('TPD for digital tools'; Intervention section).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "ISTEP+ measured spring 2010, at the end of the single 2009-2010 implementation year = immediate (Tables 3 & 5, pp.27, 29).",
+  "confidence": "medium"
+}

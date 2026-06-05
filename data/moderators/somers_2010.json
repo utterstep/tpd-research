@@ -1,0 +1,13 @@
+{
+  "slug": "somers_2010",
+  "study": "Somers et al. 2010 — Enhanced Reading Opportunities (ERO): RAAL & Xtreme Reading supplemental literacy courses, NCEE 2010-4021, struggling grade-9 readers, reading",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teacher PD was face-to-face: 5-day summer training institutes held prior to each year of implementation, plus two 2-day booster training sessions, plus in-classroom coaching (Implementation of the Programs and Teacher Training section). No online PD component.",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Extracted outcome is the GRADE (Group Reading Assessment and Diagnostic Evaluation) reading-comprehension subtest, a broad independent standardised reading test not tailored to RAAL/Xtreme content (extraction test_type=standardized_independent; Table F.1).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "Both arms are year-long supplemental literacy COURSES with their own detailed curriculum and course materials that teachers deliver — RAAL (WestEd) and Xtreme Reading (Univ. of Kansas); teachers are trained to deliver the prescribed course content and materials (Implementation section; Appendix A).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted GRADE effect sizes are from the program year (spring of grade 9), at the end of the one-year supplemental course (extraction timepoint=post, end of program year). The report's follow-up year covers GPA/credits/behaviour, not the GRADE reading outcome.",
+  "confidence": "high"
+}

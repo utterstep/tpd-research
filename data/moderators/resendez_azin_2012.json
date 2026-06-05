@@ -1,0 +1,13 @@
+{
+  "slug": "resendez_azin_2012",
+  "study": "Resendez & Azin 2012 — HMH Journeys reading/LA curriculum efficacy RCT (Year 1), teacher-randomized within schools, grades K-2, ITBS",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Journeys treatment teachers met face-to-face with a Houghton Mifflin Harcourt professional trainer for an initial (~full-day) training in which the trainer described the program philosophy and modeled lessons, plus a half-day in-person follow-up session; no online/remote PD (PD/training description, p.~13-15).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcomes are ITBS (Iowa Tests of Basic Skills) Form C subtests (Reading Comprehension, Vocabulary, Word Analysis, Reading Words, Spelling, Language) — broad norm-referenced standardized tests not tailored to Journeys (extraction test_type=standardized_independent; Tables A14-A15, p.96-98).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "The PD is tied to adopting the new Houghton Mifflin Harcourt Journeys comprehensive K-6 reading/language-arts core curriculum that treatment teachers then used; control teachers continued six distinct existing reading programs (design; intervention description).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "All extracted ITBS contrasts measured Spring 2012 at the end of Year 1 (immediate post-Year-1); the separate Year-2 (Spring 2013) endpoint is a different report and not extracted for this row (extraction timepoint=post, end of Year 1; Tables A14-A15).",
+  "confidence": "high"
+}

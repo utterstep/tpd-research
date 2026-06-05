@@ -1,0 +1,13 @@
+{
+  "slug": "finkelstein_2010",
+  "study": "Finkelstein et al. 2010, Problem Based Economics (NCEE 2010-4002, REL West)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "PD = 40-hour economics course held over five days in summer 2007 (in-person workshop led by expert teachers), with five scheduled phone conferences as ongoing support during the year; primary/dominant mode is the in-person 5-day institute (Intervention section; methods). Phone conferences are a minor remote support component.",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Two co-primary outcomes: Test of Economic Literacy (TEL), a published standardized independent test (distal), AND a UCLA CRESST researcher-made open-ended performance-task composite (proximal, developer-made) (Table 4.1, p.53).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "Intervention = Buck Institute's Problem Based Economics curriculum + PD; 'teachers received the curriculum materials' and the 5-day PD introduces this new curriculum (Intervention section, p.viii; methods).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Both outcomes measured at end of the spring 2008 semester, end of the one-semester economics course (Table 4.1, p.53; design).",
+  "confidence": "high"
+}

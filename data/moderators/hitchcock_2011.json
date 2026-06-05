@@ -1,0 +1,13 @@
+{
+  "slug": "hitchcock_2011",
+  "study": "Hitchcock et al. 2011 (NCEE 2011-4001) — Collaborative Strategic Reading (CSR) PD, cluster RCT, grade 5 reading",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "CSR codeveloper provided an initial two-day in-person training, followed by four follow-up coaching sessions (with classroom observations) by coaches throughout the year (Chapter 3, Training segments; p.~34-39).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcome is the GRADE composite reading comprehension score, a published standardized reading assessment not tailored to CSR (Table 4-1, p.44).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "CSR is 'a set of instructional strategies designed to improve reading comprehension' that teachers apply while students read their existing social studies texts; no new curriculum/textbook adopted (glossary/Chapter 1; intervention description).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Post-test administered in spring at the end of the single school-year implementation; report notes no follow-up wave beyond the one-year posttest (Table 4-1, p.44; extraction notes).",
+  "confidence": "high"
+}

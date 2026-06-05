@@ -1,0 +1,13 @@
+{
+  "slug": "robinson_smith_2018",
+  "study": "Robinson-Smith et al. 2018/2019 — EasyPeasy home-learning play programme, EEF cluster RCT, nursery (ages 3-4), CELF Preschool-2 language",
+  "delivery_mode": "online",
+  "delivery_evidence": "The teacher/Pod-Leader PD element was delivered online: before the intervention each nursery Pod Leader attended a one-hour online webinar training led by EasyPeasy (introducing the dashboard and games) and used an online dashboard plus weekly email reports to coordinate the programme; no in-person teacher training (Intervention/Implementation sections, p.~12-14, ~58).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcome is the CELF Preschool-2 UK (Core Language Standard Score and four subscales), an independent, norm-referenced standardized language assessment administered by trained assessors — not tailored to EasyPeasy (extraction test_type=standardized_independent; Table 12, p.36).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "The PD/coordination is tied to adopting a specific new program package — the EasyPeasy 20-week home-learning play programme (a structured set of ~65 app/text-delivered games targeting EYFS learning areas) that the nursery then deploys via parents; control = business-as-usual (Intervention description, p.~12-14).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "CELF outcomes measured immediately after the ~20-week intervention, summer 2018 (extraction timepoint=post, immediately after the 20-week programme; Table 12).",
+  "confidence": "high"
+}

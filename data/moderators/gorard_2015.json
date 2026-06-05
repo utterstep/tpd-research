@@ -1,0 +1,13 @@
+{
+  "slug": "gorard_2015",
+  "study": "Gorard, Siddiqui & See 2015, Philosophy for Children (P4C/SAPERE), EEF",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teachers trained by SAPERE-accredited trainers in two days of (Level 1) face-to-face training plus additional days of in-school support (Teacher training section, 'two days of training... in-school support... using standardised SAPERE methods').",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcomes are broad independent standardized assessments: KS2 reading/writing-GPS/maths national tests (National Pupil Database) and CAT4 cognitive ability test; not tailored to P4C (Tables 5-7, 11; p.20-21).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "P4C is described as 'an approach to teaching' / 'a practice of dialogic teaching' applied across the curriculum with 'no complete syllabus or unyielding methodology'; SAPERE supplies recommended stimulus materials/resources but no fixed adopted curriculum (Intervention description). [Judgment call: stimulus materials exist, but report frames it as pedagogy, not a curriculum package.]",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Included KS2 effect sizes measured KS2 summer 2014 at the end of the trial; CAT4 at the Jan-Feb 2014 post-test—all end-of-intervention, same school period (Tables 5-7, 11).",
+  "confidence": "medium"
+}

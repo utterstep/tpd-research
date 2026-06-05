@@ -1,0 +1,13 @@
+{
+  "slug": "may_2016",
+  "study": "May, Sirinides, Gray & Goldsworthy 2016 (Reading Recovery i3 scale-up, CPRE; ERIC ED593261)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Reading Recovery teacher training = a year-long graduate-level training course taught by an on-site teacher leader, with required weekly in-person classes (teachers reported traveling long distances to weekly classes) plus ongoing in-person PD; no online delivery (Method/teacher-training section; 'year-long graduate-level training course... required to attend weekly classes').",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "The included confirmatory outcome is the Iowa Tests of Basic Skills (ITBS) Total Reading, a broad independent standardized test; the program's own aligned Observation Survey (researcher_made) is flagged as non-independent and filtered out, so the included full-sample effect is distal/independent (Table 2.5, p.39-40).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "Reading Recovery is a specific standardized one-to-one literacy intervention program (12-20 weeks of daily 30-min lessons with its own approach/leveled-book materials) that teachers are trained to adopt and deliver as a supplement; control = regular classroom instruction (Intro/Method, 'individual, daily, 30-minute lessons provided by a Reading Recovery-trained teacher').",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "ITBS measured immediately post-intervention (after the 12-20 week treatment, ~mid grade-1), pooled across the four study years; no post-treatment follow-up wave for the extracted effect (Table 2.5; report 'impacts estimated immediately post intervention').",
+  "confidence": "high"
+}

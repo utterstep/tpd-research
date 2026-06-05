@@ -1,0 +1,13 @@
+{
+  "slug": "smith_2016",
+  "study": "Smith et al. 2016 — Enhanced Core Reading Instruction (ECRI), Project ECRI cluster RCT, grade-1 at-risk readers, reading",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teacher PD was face-to-face: an institute before the school year plus two days of follow-up activities in October, with teaching demonstrations by ECRI expert coaches, participant practice with coach feedback, comprehensive in-class coaching support and facilitated study-group meetings; small-group instructors got 2 days fall + 1 day January PD (Method, PD section). No online PD.",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "All extracted full-sample outcomes are broad standardised independent reading instruments — WRMT Word Attack/Word ID, SAT-10 Word/Sentence/Total Reading, DIBELS NWF-WRC and ORF — none tailored to ECRI content (extraction test_type=standardized_independent; Tables 1-3).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "ECRI provides a specific instructional package teachers then use: prioritized/enhanced Tier-1 routines plus an aligned Tier-2 small-group programme with ECRI intervention materials and lessons (observers confirmed 'nearly all treatment teachers used ECRI intervention materials'). It layers onto, but adds, a new materials/lessons package beyond the district's existing core reading program.",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted primary effects are the spring (fall->spring) wave — end of the grade-1 treatment year (extraction timepoint=spring Y1, end of treatment; a winter interim wave is flagged separately, not the headline).",
+  "confidence": "high"
+}

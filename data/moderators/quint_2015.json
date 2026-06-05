@@ -1,0 +1,13 @@
+{
+  "slug": "quint_2015",
+  "study": "Quint et al. 2015 — Success for All i3 scale-up, MDRC blocked school-level RCT, reading, grades 3-5 auxiliary sample",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Success for All is a whole-school reform delivered through on-site, face-to-face long-duration teacher PD (training plus in-school coaching/continuous-improvement from program facilitators) alongside cooperative-learning instruction and tutoring; no online-PD component described (program description, Ch.1-2; logic model).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Included outcomes are the Gates-MacGinitie Reading Test (Comprehension/Vocabulary/Total) and the high-stakes state reading accountability test — broad, independent standardized assessments not tailored to SFA (extraction test_type=standardized_independent; Table 5.6, p.86).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "SFA bundles the PD with adopting the SFA reading program/curriculum: it 'combines a challenging reading program, whole-school reform elements... materials, and professional development'; control schools 'used alternative reading programs' (Ch.1, p.~3; cost/materials chapters).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted grade 3-5 auxiliary-sample effect sizes measured spring 2014, at the end of implementation year 3 while the program was active (extraction timepoint=post / spring 2014, implementation year 3; Table 5.6).",
+  "confidence": "high"
+}

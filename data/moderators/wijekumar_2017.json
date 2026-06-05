@@ -1,0 +1,13 @@
+{
+  "slug": "wijekumar_2017",
+  "study": "Wijekumar, Meyer & Lei 2017 (ITSS web-based text-structure strategy, JEP 109(6))",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teacher PD delivered face-to-face by the research team at the beginning of the academic year: a single in-person session lasting approximately 3 hours (PowerPoint on text structure, video on how ITSS works, typical student interactions); teachers completed consent forms at the PD sessions ('professional development was delivered by the research team to the intervention teachers at the beginning of the academic year. The session lasted approximately 3 hours', Method, ~p.749).",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Included outcomes span both kinds: the headline GSRT (Gray Silent Reading Test) is a standardized distal/independent reading-comprehension measure, while the signaling/comparison/main-idea/problem-solution measures are researcher-designed proximal measures; extraction test_type mixes standardized_independent and researcher_made.",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting ITSS (Intelligent Tutoring System for the Structure Strategy), a specific web-based text-structure reading-comprehension program with 100+ lessons used 1-2 sessions/week as a partial substitute for the standard language-arts curriculum; control = business-as-usual standard curriculum with no ITSS (Method).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "All included effects measured at the end of the single 6-7 month intervention school year (spring posttest); no post-treatment follow-up wave (extraction timepoint 'post (end of school year; single 6-7 month intervention year)').",
+  "confidence": "high"
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "kitmitto_2018",
+  "study": "Kitmitto et al. 2018 (Thinking, Doing, Talking Science; EEF effectiveness trial, AIR)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teachers received 4 CPD days staggered across the school year via a train-the-trainer model; trainers were prepared in 'four two-day, face-to-face sessions' and then delivered CPD to teachers, with each session leaving a gap task to try in class — face-to-face delivery (Intervention/CPD description, pp.~10-12).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Outcome is a study-delivered standardized science assessment built from an established independent item bank (IEE/University of York; Russell & McGuigan 2001 items), not a developer-made test of TDTS content (Table 8/9, p.26).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "TDTS is a set of teaching strategies/approach (exemplar materials provided) that teachers incorporate into their 'normal science lessons' / 'own teaching'; no new science curriculum is adopted (Intervention description; 'incorporate the strategies into their lesson planning and teaching').",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Science assessment administered at end of the intervention year (June 2017), end of Year 5 = immediate post-test (Table 8, p.26).",
+  "confidence": "high"
+}

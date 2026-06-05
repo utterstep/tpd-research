@@ -1,0 +1,13 @@
+{
+  "slug": "olson_2017",
+  "study": "Olson et al. 2017, Pathway Project cognitive-strategies PD (AUHSD RCT), J. Educational Psychology",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "46 hours of training per year delivered in person via six 6-hour released days interspersed through the school year plus five 2-hour afterschool sessions, plus coaching from a veteran teacher (Method: 'six 6-hour released days... and five 2-hour afterschool sessions'); no online delivery.",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Included outcomes are the researcher/developer-made Academic Writing Assessment (AWA) on-demand essay (researcher_made) and the CAHSEE state high-school exit exam (standardized_independent) (Tables 6-9).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD centers on the 'cognitive strategies tool kit and curriculum materials' that teachers use with students, plus Pathway activities and coaching (Method, 'Cognitive strategies tool kit and curriculum materials').",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "AWA measured at end of each implementation year (Year 1 spring 2013; Year 2 spring 2014), same-year posttests; Years 1 and 2 are separate student cohorts, both immediate (Tables 5-6; abstract).",
+  "confidence": "high"
+}

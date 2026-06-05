@@ -1,0 +1,13 @@
+{
+  "slug": "guzman_2021",
+  "study": "Guzman et al. 2021, Read to Learn / ToTAL early-grade literacy, Haiti, RRQ 56(4)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teachers received a three-day workshop plus standard instructional coaching visits at the schools (coaches visited at least once per month, often more); all face-to-face/on-site (Method, 'three-day workshop' + 'instructional coaching visits to ... schools').",
+  "test_alignment": "aligned",
+  "test_alignment_evidence": "Outcomes are EGRA subtasks administered by study enumerators (not a norm-referenced state test); flagged researcher_made and designed to assess the early-grade literacy skills the curriculum taught (proximal) (Tables 5-6, p.13-14).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting the new scripted ToTAL Creole/French literacy curriculum—students received reading/writing books and teachers received scripted teacher guides ('scripted Creole and French literacy [program]', 'reading and writing books ... teacher guides').",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Extracted effect sizes are the end-of-grade-2 (spring 2016) wave = end of treatment; the earlier end-of-grade-1 (spring 2015) wave is intermediate, not the included rows (Tables 5-6; per-effect notes).",
+  "confidence": "high"
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "schneider_2021",
+  "study": "Schneider et al. 2021/2022 (CESE high-school chemistry/physics PBL efficacy RCT, Educational Researcher)",
+  "delivery_mode": "blended",
+  "delivery_evidence": "Treatment teachers 'spent three in-person days learning' the units with facilitators, met in person to discuss later units, AND facilitators 'connected with the teachers via video conferences and online message boards' with a hotline/monitored email; a genuine mix of face-to-face and online support (~40 hrs total) (p.~7, 'Professional Learning and Teacher Support').",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Included outcome is a 'third-party' summative science assessment built from Michigan Dept. of Education state 11th-grade science items, IRT-scored/standardized, designed to encompass grade-level NGSS standards (broad, independent) rather than narrowly the CESE units (Measures, p.~11-12; Table 4).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting the CESE curriculum: six project-based-learning units (3 chemistry, 3 physics) with empirically tested instructional and learning materials for teachers and students that treatment teachers then deliver (Intervention/Materials, p.~3-6).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Students completed the summative assessment 'at the end of the intervention' (Measures, p.~11; Table 4 timepoint = post).",
+  "confidence": "high"
+}

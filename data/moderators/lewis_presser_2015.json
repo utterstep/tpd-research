@@ -1,0 +1,13 @@
+{
+  "slug": "lewis_presser_2015",
+  "study": "Lewis Presser et al. 2015 (NGPM, SREE 2015, ERIC ED562305)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teacher PD = a single full-day in-person professional development workshop attended by treatment teachers prior to implementing the unit (addressing math content, typical difficulties, app/curriculum use); no online teacher-PD delivery described (Findings/Method, p.3-4).",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Included outcomes span a developer-made, unit-specific proximal assessment (subitizing/equipartitioning; the only quantified effect, g=0.51, aligned) AND the standardized independent distal REMA (Research-based Early Math Assessment; extracted as a null/non-significant row); both kinds are included (p.3-4, RQ1 & RQ5).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "NGPM is a supplemental tablet-augmented mathematics curriculum unit; each classroom was provided five iPads, the digital apps, and all non-digital materials and books to implement (Method, p.3; control teachers received PD + materials only after the study).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Outcomes measured at posttest at the end of the ~6-week implementation, same school year; no delayed follow-up (Findings, p.4; extraction timepoint 'post (end of ~6-week implementation)').",
+  "confidence": "medium"
+}

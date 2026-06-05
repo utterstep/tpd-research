@@ -1,0 +1,13 @@
+{
+  "slug": "murphy_2021",
+  "study": "Murphy, Weinhardt & Wyness 2021 (peer observation/Lesson Study RCT, 181 schools, Econ Educ Rev 82; CEP DP 1565 / ERIC ED593175)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "All participating teachers received five full in-person training days held by external educational experts (Edge Hill University), and the intervention itself is in-person peer-to-peer classroom lesson observation and feedback (18 observations over 2 years); no online delivery (Intervention section; 'all participating teachers received five full training days held by educational experts').",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Included outcomes are national, compulsory, externally-marked KS2 (age-11) tests (maths, reading, SPAG; primary = combined maths+reading composite), broad independent standardized assessments; the teacher-assessed science measure is researcher_made and would be filtered (Table 4, PDF p.35).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "Intervention is a peer observation/feedback (Lesson Study) programme aimed at improving teaching practice with no new curriculum/materials; control schools 'did not receive any information about the treatment or training materials' (Method; intervention = peer-to-peer observation and feedback, no curriculum provided).",
+  "outcome_timing": "delayed",
+  "outcome_timing_evidence": "KS2 outcomes were taken one year after the intervention ended (pupils tested at age 11, a year after the 2-year programme); the extracted full-dose (cohort 2) and cohort-1 waves are both post-intervention follow-ups (abstract/results; 'national tests a year after the program ended'; Table 4 panels).",
+  "confidence": "high"
+}

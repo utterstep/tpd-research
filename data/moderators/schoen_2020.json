@@ -1,0 +1,13 @@
+{
+  "slug": "schoen_2020",
+  "study": "Schoen et al. 2020 (Replicating the CGI Experiment, Grade 1-2 math, Year 1; FCR-STEM/FSU report 2020-02)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "CGI PD (TDG) was '48 hours of face-to-face, workshop-based professional development per teacher' in Year 1: a four-day summer workshop/institute plus two two-day during-year follow-up sessions (Sec. 3.2.1, p.19; 'face-to-face, workshop-based').",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Included outcomes mix two broad independent standardized tests (ITBS Math Problems, ITBS Math Computation) with a researcher/developer-made measure (MPAC math interview) (Tables 5.1-5.2, pp.39-40; Measures).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "Explicit: 'The CGI PD program does not provide a script or curriculum for teachers to follow in the classroom' (Discussion, p.~56); CGI develops teachers' knowledge of children's mathematical thinking to use with their existing district curriculum/textbook.",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Confirmatory effect sizes are end-of-Year-1 (spring 2014) student achievement, i.e., at the end of the first program year (Sec. 5 / Tables 5.1-5.2; timepoint 'post / spring 2014').",
+  "confidence": "high"
+}

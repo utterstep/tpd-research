@@ -1,0 +1,13 @@
+{
+  "slug": "cavalluzzo_2014",
+  "study": "Cavalluzzo et al. 2014 — TERC 'Using Data' math PD RCT (Duval County, FL)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Primarily face-to-face: in-person group training events, half-day coach/principal workshops, and on-site facilitator visits to each school's data team each year; only 2 of 4 TA sessions were short 1-hour 'at a distance' phone/Skype calls. Note 'The intervention in this study used only the face-to-face program' (vs an available online course). (pp. 9-11, 'Face-to-Face Group Events' / TA-session description)",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Sole extracted student-achievement outcome is the Florida state end-of-grade math assessment (FCAT), a broad independent standardized test not tailored to the data-use PD (test_type standardized_independent). (Table 4.4, p. 54)",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "PD targets teachers' collaborative data-use practices and data literacy using existing instruction; no new student curriculum/textbook is adopted — only data-team facilitation materials (Data Coach's Kit). (Program Materials section, pp. ~12-13; design summary)",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Primary confirmatory FCAT impact measured at end of Year 2 (spring 2013), the end of the two-year intervention. (Table 4.4, p. 54; timepoint 'post / end of Year 2')",
+  "confidence": "high"
+}

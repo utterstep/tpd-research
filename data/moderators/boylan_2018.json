@@ -1,0 +1,13 @@
+{
+  "slug": "boylan_2018",
+  "study": "Boylan, Demack, Wolstenholme, Reidy & Reaney (2018), EEF ScratchMaths evaluation report",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "PD = two full days of face-to-face training in the summer term each year (2.5 days/yr) plus optional half-day sessions; one optional further half-day plus an online webinar offered to Y6 teachers, so delivery is primarily in-person with only a minor optional online element (p.5-6, Intervention description).",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Primary outcome is KS2 maths from the National Pupil Database (externally set/marked standardized SATs = independent); the secondary computational-thinking test was SHU-evaluator-built (researcher_made), so the extracted set spans both (Tables 12 & 15; extraction test_type).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "ScratchMaths is a specific new two-year computing+mathematics curriculum programme with its own materials/activities that teachers adopt and deliver (>=1 hr/week); control is business-as-usual ('two-year computing and mathematics curriculum... supported by teacher PD', p.5).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Primary KS2 maths measured May 2017 at the end of the 2-year intervention (Year 6); CT secondary at end of Year 5 during the programme; both within the intervention period, no post-end delayed follow-up extracted (Table 1, p.5).",
+  "confidence": "high"
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "wiggins_2017",
+  "study": "Wiggins, Sawtell & Jerrim 2017 (Learner Response System, EEF evaluation)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teacher PD delivered face-to-face: a 2-day baseline training plus five half-termly one-day training sessions run for each of the ten school clusters in year 1 (top-up days in year 2), all in-person training days/workshops ('Five half-termly one-day training sessions were run for each of the ten clusters', Intervention section, ~pp.10-13).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Both included outcomes are Year-6 KS2 SATs maths and reading (national standardized tests via NPD), broad independent/distal assessments not tailored to the intervention; extraction test_type = standardized_independent (p.17, p.30).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting and using the Learner Response System, a specific new classroom technology package (handheld feedback/voting devices) that teachers are trained to deploy in lessons; without the devices and training schools were not exposed to the intervention (Intervention section, ~pp.9-13).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Included effects measured at the end of intervention exposure for each cohort: Cohort A KS2 May 2015 (end of 1 year) and Cohort B KS2 May 2016 (end of 2 years); each is an end-of-treatment wave, none a post-treatment follow-up (extraction timepoint 'post ... end of 1/2 years of intervention', p.30).",
+  "confidence": "high"
+}

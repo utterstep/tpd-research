@@ -1,0 +1,13 @@
+{
+  "slug": "landry_2014",
+  "study": "Landry et al. 2014 (RECC, Developmental Psychology 50(2))",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "PD delivered via a 6-week 'priming' group training plus didactic in-class training sessions (1.5-2.0 hr) and weekly on-site in-class coaching (~2 hr) by on-site coaches; no online delivery of teacher PD (Methods, 'Group training sessions' and 'In-class coaching and training', p.530-531).",
+  "test_alignment": "mixed",
+  "test_alignment_evidence": "Extracted child cognitive outcomes include standardized independent tests (EOWPVT, Pre-CTOPP Print Knowledge, PLS-4) AND a developer/researcher-made measure (CMA-DE, informal math; Starkey et al. 2004); test_type mixes standardized_independent and researcher_made (Table 3, p.535).",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "RECC is explicitly a 'professional development and curriculum intervention' (Responsive Early Childhood Curriculum) providing teachers a new curriculum plus classroom curriculum materials (blocks, puppets, books) and stipends; RECC+ adds an explicit social-emotional curriculum supplement (Abstract; Methods 'Responsive Early Childhood Curriculum', p.529-531).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Child achievement outcomes measured at Time 3 (end-of-year spring posttest) of the 37-week intervention; no post-intervention follow-up wave (Table 3, p.535; extraction timepoint 'post (Time 3, end-of-year spring)').",
+  "confidence": "high"
+}

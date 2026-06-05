@@ -1,0 +1,13 @@
+{
+  "slug": "heller_2010",
+  "study": "Heller et al. 2010 (SREE) — Learning Science for Teaching, 3 science-PD arms vs control, electric circuits, grade 4",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Each PD course was 'eight three-hour sessions completed over a series of...period,' delivered face-to-face by local course facilitators drawn from the field (Methods/Design, p.~3).",
+  "test_alignment": "aligned",
+  "test_alignment_evidence": "Outcome is a developer/researcher-made electric-circuits content test administered pre/post (gain score), proximal to the PD content; extraction labels test_type=researcher_made (Findings p.4; Table 8/10).",
+  "curriculum_coupled": "practice_only",
+  "curriculum_evidence": "PD builds teachers' content/PCK for teaching the electric-circuits unit they already teach ('their own classrooms', following the standards-based curriculum they were responsible for); no new curriculum adopted (Design p.3).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Student post-test administered within two weeks after the electric-circuits unit in the study year (2007-08); the next-cohort follow-up year was not the extracted wave (timepoint=post, extraction).",
+  "confidence": "high"
+}

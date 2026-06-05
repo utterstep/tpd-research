@@ -1,0 +1,13 @@
+{
+  "slug": "wijekumar_2009",
+  "study": "Wijekumar et al. 2009 (CompassLearning Odyssey Math, REL Mid-Atlantic, NCEE 2009-4068)",
+  "delivery_mode": "in_person",
+  "delivery_evidence": "Teachers received five 'days' of CompassLearning PD delivered face-to-face: large-group sessions during the summer plus individual in-class coaching sessions throughout the school year ('The Odyssey package includes teacher professional development, offered in large group sessions during the summer and in individual in-class coaching sessions throughout the school year', PD section, ~p.33; Table 9).",
+  "test_alignment": "independent",
+  "test_alignment_evidence": "Sole included outcome is the TerraNova CTBS Basic Battery math subtest (norm-referenced standardized test, developer-independent), a broad distal achievement measure not tailored to Odyssey; extraction test_type = standardized_independent.",
+  "curriculum_coupled": "bundled",
+  "curriculum_evidence": "PD is tied to adopting CompassLearning Odyssey Math, a specific web-based computer math curriculum/software used ~60 min/week as a partial substitute for the regular math curriculum; control teachers used their regular curriculum with no Odyssey (Intervention/PD sections).",
+  "outcome_timing": "immediate",
+  "outcome_timing_evidence": "Outcome measured at the spring posttest (Apr-May 2008), the end of the single 2007-08 school-year intervention; no post-treatment follow-up wave (extraction timepoint 'post (spring, end of the single 2007-08 school-year intervention)').",
+  "confidence": "high"
+}
