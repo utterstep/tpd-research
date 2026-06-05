@@ -1,0 +1,43 @@
+{
+  "report": "Taylor et al. 2015",
+  "rows": [119],
+  "citation": "Taylor, J. A., Getty, S. R., Kowalski, S. M., Wilson, C. D., Carlson, J., & Van Scotter, P. (2015). An efficacy trial of research-based curriculum materials with curriculum-based professional development. American Educational Research Journal, 52(5), 984-1017. https://doi.org/10.3102/0002831215585962",
+  "report_number": "IES grant R305K060142; ERIC ED556336 (grantee submission / author-accepted manuscript)",
+  "url": "https://files.eric.ed.gov/fulltext/ED556336.pdf",
+  "pdf_path": "data/fulltext/taylor_2015.pdf",
+  "pdf_downloaded": true,
+  "design": "Cluster-randomized RCT; assignment = School; 18 high schools (9 treatment, 9 comparison) in Washington State; subject = science (BSCS Science: An Inquiry Approach curriculum + 7-day/yr curriculum-based PD vs business-as-usual); outcome measured spring of Grade 10 after 2 years of the program (Grades 9-10).",
+  "confidence": "high",
+  "problems": "Single TPD-vs-BaU student achievement contrast in the report (one outcome, one timepoint, one arm). g_se: paper reports 95% CI for g as [.01, .17] (implies g_se ~= .041); I instead recorded g_se = J*(impact_se/s_pooled) = .0424 from the model-based SE (1.75), which already accounts for clustering -- the two agree closely. Note: random assignment left a noteworthy baseline imbalance favoring the COMPARISON group (8th-grade science Hedges' g = .23); this was covariate-adjusted in the impact model (RQ1 ANCOVA/HLM with SCI8, MAT8, WRIT7 + demographics), so the reported g already reflects pretest adjustment. Multiple-imputation replication gave b01=3.37, SE=1.65, p=.041 (very similar) -- I extracted the complete-case analytic-sample estimate (b01=3.68) as the headline result.",
+  "effect_sizes": [
+    {
+      "row_id": 119,
+      "arm_label": "An Inquiry Approach curriculum + curriculum-based PD vs business-as-usual",
+      "outcome_subject": "STEM",
+      "grade_band": "9-10",
+      "test_name": "Washington High School Proficiency Exam (HSPE), 10th-grade science",
+      "test_type": "standardized_independent",
+      "timepoint": "post (spring Grade 10, end of 2-year intervention)",
+      "n_t": 1509,
+      "n_c": 1543,
+      "n_clusters": 18,
+      "icc": 0.13,
+      "impact_estimate": 3.68,
+      "impact_se": 1.75,
+      "mean_t": 384.52,
+      "sd_t": 43.305,
+      "mean_c": 380.84,
+      "sd_c": 39.119,
+      "g": 0.09,
+      "g_var": 0.0018,
+      "g_se": 0.0424,
+      "g_method": "Paper's reported Hedges' g (J*b01/s_pooled), with numerator = covariate-adjusted multilevel impact coefficient b01 = 3.68 and denominator = sample-size-weighted pooled SD of the UNADJUSTED 10th-grade science outcome (Table 6 SDs 43.305 and 39.119 -> s_pooled = 41.24). Reproduced: J*3.68/41.24 = 0.089 ~= .09. g_se = J*(impact_se/s_pooled) = 0.0424 (model-based SE accounts for clustering); paper's 95% CI [.01,.17] implies g_se ~= .041 (consistent).",
+      "pretest_adjusted": true,
+      "cluster_adjusted": true,
+      "outcome_role": "primary",
+      "is_full_sample": true,
+      "page_ref": "p. 21-23, Tables 6 and 7 (impact b01=3.68, SE=1.75, p=.035; descriptives SCI10); reported Hedges' g=.09, 95% CI [.01,.17]",
+      "notes": "Confirmatory RQ1 main effect of treatment on student science achievement (intent-to-treat). Standardized state test (HSPE 10 science), Cronbach's alpha .87. Multilevel ANCOVA/HLM: students at Level 1, schools at Level 2; TREAT at school level; grand-mean-centered covariates SCI8, MAT8, WRIT7, FRL, GEND, ELL, SPED, GRADE, race contrasts, plus school-mean aggregates (MNSCI8, MNMAT8, MNFRL). Unconditional ICC = .13. The only student-achievement outcome reported; teacher-practice (RTOP, Hedges' g=1.85) and mediation/moderation outcomes are NOT extracted per spec (teacher outcomes / non-achievement). n_clusters = 18 (9 treatment + 9 comparison schools), avg ~170 students/school in analytic sample."
+    }
+  ]
+}

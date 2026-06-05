@@ -1,0 +1,43 @@
+{
+  "report": "Murphy et al. 2020",
+  "rows": [81],
+  "citation": "Murphy, R., Roschelle, J., Feng, M., & Mason, C. A. (2020). Investigating efficacy, moderators and mediators for an online mathematics homework intervention. Journal of Research on Educational Effectiveness, 13(2), 235-270. https://doi.org/10.1080/19345747.2019.1710885",
+  "report_number": "JREE 13(2):235-270; IES grant R305A120125 (Maine ASSISTments efficacy study). Numbers extracted from the LEGAL open-access grantee/accepted-manuscript version on ERIC (ED657283), which is the identical study/dataset to the paywalled published article.",
+  "url": "https://files.eric.ed.gov/fulltext/ED657283.pdf",
+  "pdf_path": "data/fulltext/murphy_2020.pdf",
+  "pdf_downloaded": true,
+  "design": "School-level cluster RCT (three-level HLM: students nested in classrooms nested in schools). Intervention = ASSISTments online mathematics homework platform (immediate feedback to students + nightly homework-performance reports to teachers) plus teacher professional development/coaching on formative assessment to use the digital tool, delivered by a developer-hired math teacher (WPI/SRI = Res/Dev), vs business-as-usual homework practices (delayed-access control). 46 schools recruited (2 cohorts, Maine 1:1 laptop state); final analytical sample 43 schools (22 treatment, 21 control), 87 teachers, 2,769 7th-grade math students. Outcome = spring 7th-grade TerraNova mathematics scale score (standardized/independent test administered by research team); impacts estimated by three-level HLM adjusting for prior 6th-grade NECAP math (pretest) and student/class/school covariates plus 20 matched-pair indicators. Subject = mathematics (STEM); registry grade band 7-12 (grade 7).",
+  "confidence": "high",
+  "problems": "ASSIGNED STUDY = Murphy, Roschelle, Feng & Mason (2020), JREE 13(2):235-270, DOI 10.1080/19345747.2019.1710885 (Robert F. Murphy, SRI/RAND; the Maine ASSISTments online-homework efficacy RCT). This is the 'TPD for digital tools' Murphy 2020 in the meta-analysis (School RCT, grades 7-12) and is distinct from Murphy 2021 ((P)CK, grades 3-6). The PUBLISHED JREE article is paywalled (OpenAlex is_oa=false; Unpaywall returns no OA location). I therefore extracted from the LEGAL open-access U.S. Dept. of Education grantee submission / accepted manuscript hosted on ERIC (ED657283, https://files.eric.ed.gov/fulltext/ED657283.pdf) -- same authors, same single dataset, same Table 7 impact model. The study reports ONE TPD-vs-business-as-usual student-achievement contrast (main effect on TerraNova math), so one effect size is extracted. The authors themselves report Hedge's g = 0.22, 95% CI [0.15, 0.30] (p.255), computed by standardizing the HLM impact coefficient (c001 = 8.501 scale points) by the unconditional total SD of the outcome (b/g = 8.501/0.22 = 38.6 ~= sqrt of total unconditional variance 1510.61 = 38.9). I use the paper-reported g = 0.22; g_se = 0.0383 and g_var = 0.00146 are derived from the reported 95% CI (g_se = (0.30-0.15)/(2*1.95996)). cluster_adjusted=true (impact + SE from the three-level HLM, which accounts for school and classroom clustering). pretest_adjusted=true (model controls for prior 6th-grade NECAP math). ICC: not reported as a single design-effect value, but Table 7's unconditional model gives variance components school tau2=57.98, class tau2=533.41, residual=919.22; the SCHOOL-level (randomization-unit) unconditional ICC = 57.98/1510.61 = 0.038, which I record as the design-effect ICC; the within-school class-level ICC is much larger (0.353) and is noted. The main-effects Table 7 column gives c001=8.492 (SE 1.952) and the all-interactions column 8.505 (SE 1.952); the text/abstract main effect is 8.501 -- all effectively identical, SE 1.952. A subgroup/moderation result (treatment effect larger for students with lower prior math achievement; c101 = -0.284, p<.01) was found but is a within-treatment moderation, not a separate randomized arm, so it is NOT extracted as a separate full-sample contrast. The prior two-level estimate (Roschelle et al. 2016) was g=0.18; this paper's three-level estimate is g=0.22.",
+  "effect_sizes": [
+    {
+      "row_id": 81,
+      "arm_label": "ASSISTments online math homework platform + teacher PD/coaching on formative assessment (digital tool), vs business-as-usual homework (delayed-access control)",
+      "outcome_subject": "STEM",
+      "grade_band": "7-12",
+      "test_name": "TerraNova mathematics (scale score), 7th grade, spring",
+      "test_type": "standardized_independent",
+      "timepoint": "post (spring, end of 2nd implementation year)",
+      "n_t": 1587,
+      "n_c": 1182,
+      "n_clusters": 43,
+      "icc": 0.038,
+      "impact_estimate": 8.501,
+      "impact_se": 1.952,
+      "mean_t": null,
+      "sd_t": null,
+      "mean_c": null,
+      "sd_c": null,
+      "g": 0.22,
+      "g_var": 0.00146,
+      "g_se": 0.0383,
+      "g_method": "Paper-reported Hedge's g = 0.22 (p.255), obtained by standardizing the three-level HLM treatment coefficient c001 = 8.501 TerraNova scale points (Table 7; SE 1.952, p<.001) by the unconditional total SD of the outcome (b/g = 8.501/0.22 = 38.6, matching sqrt of the unconditional total variance 57.98+533.41+919.22 = 1510.61 -> SD 38.9). df large so Hedges J ~= 1.0. g_se = (0.30-0.15)/(2*1.95996) = 0.0383 derived from the reported 95% CI [0.15, 0.30]; g_var = g_se^2 = 0.00146. Pretest-adjusted (prior 6th-grade NECAP math covariate); cluster-adjusted (three-level HLM accounts for school and classroom nesting).",
+      "pretest_adjusted": true,
+      "cluster_adjusted": true,
+      "outcome_role": "primary",
+      "is_full_sample": true,
+      "page_ref": "p.255 (Main Effect of Intervention: c001=8.501, p<.001, Hedge's g=0.22, 95% CI 0.15-0.30); Table 7 p.256 (Main effects c001=8.492, SE 1.952; All interactions 8.505, SE 1.952; unconditional variance components school 57.98 / class 533.41 / residual 919.22); Table 4 p.253 (n_t=1587, n_c=1182, total 2769)",
+      "notes": "Single headline confirmatory ITT impact on the standardized TerraNova math outcome. 43 schools (22 treatment, 21 control), 87 teachers, 2,769 7th-grade students (T=1,587, C=1,182). Three-level HLM (student/class/school) controlling for prior 6th-grade NECAP math (pretest), gender, FRPL, IEP, classroom and school composition, and 20 matched-pair indicators. School-level unconditional ICC = 0.038 (design-effect ICC at randomization unit); class-level unconditional ICC = 0.353 (within-school class clustering). Moderation (not a separate arm): effect larger for students with lower prior achievement (c101 = -0.284, p<.01; treatment effect 12.13 pts at -1 SD prior math vs 4.87 pts at +1 SD). Prior two-level estimate (Roschelle et al. 2016, AERA Open) was g=0.18. Sensitivity (joiners removed): main effect 8.612, p<.001."
+    }
+  ]
+}

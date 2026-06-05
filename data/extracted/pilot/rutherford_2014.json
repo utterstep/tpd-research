@@ -1,0 +1,43 @@
+{
+  "report": "Rutherford et al. 2014",
+  "rows": [102],
+  "citation": "Rutherford, T., Farkas, G., Duncan, G., Burchinal, M., Kibrick, M., Graham, J., Richland, L., Tran, N., Schneider, S., Duran, L., & Martinez, M. E. (2014). A Randomized Trial of an Elementary School Mathematics Software Intervention: Spatial-Temporal Math. Journal of Research on Educational Effectiveness, 7(4), 358-383. https://doi.org/10.1080/19345747.2013.856978",
+  "report_number": "DOI 10.1080/19345747.2013.856978; J. Research on Educational Effectiveness 7(4):358-383; eScholarship UC Irvine permalink https://escholarship.org/uc/item/8p87p4cf (IES grant-funded evaluation)",
+  "url": "https://escholarship.org/content/qt8p87p4cf/qt8p87p4cf.pdf",
+  "pdf_path": "data/fulltext/rutherford_2014.pdf",
+  "pdf_downloaded": true,
+  "design": "School-level cluster RCT. 52 low-performing elementary schools, 10 districts, Southern California (two staggered cohorts; randomization at school level to either a 2nd/3rd-grade ST Math implementation [Group A] or a 4th/5th-grade implementation [Group B], so the off-grades in each school served as same-grade controls). Intervention = ST Math (Spatial-Temporal Math), MIND Research Institute supplemental computer-assisted math software (~2x45 min/week in computer lab) PLUS a 4-to-5 hr teacher professional-development training on how to use the software (the 'TPD for digital tools' component the meta-analysis coded). Comparison = business-as-usual (no ST Math). Subject = mathematics; analysis grades 3-5 (grade 2 mostly excluded for lack of pretest). Outcome = California Standards Test (CST) math scale score (standardized, state, independent). Analytic student N = 13,803 with pretest; OLS regression adjusted for math + ELA pretest and demographics, with Huber-White standard errors clustered on school (52 clusters), school ICC = 0.04, design effect 17.72. Intent-to-treat.",
+  "confidence": "high",
+  "problems": "Caveat on intervention classification: this is primarily an evaluation of the ST Math software (a digital tool); the only teacher-PD element was a brief 4-5 hr training on using the software, plus 1st-year technical support (p.11). The meta-analysis coded row 102 as 'TPD for digital tools' / 'Short' duration / 'Res/Dev', consistent with this. The TPD-vs-BAU contrast is therefore the ST Math (software + brief teacher training) vs business-as-usual contrast; the software and the teacher training are bundled and cannot be separated. Effect direction is positive but small and only marginally significant. The paper reports its own effect size as Cohen's d (impact coefficient / full-sample pretest SD = 72.93); I recomputed d=5.12/72.93=0.0702, matching the paper's reported d=0.07 exactly, confirming the standardizing SD. Hedges' J ~= 1.000 because of the very large N, so g == d to 3 decimals. The impact SE (in CST points) divided by the standardizing SD gives SE(d); these SEs are Huber-White clustered on 52 schools, so they already account for clustering (cluster_adjusted=true). ICC (0.04) and n_clusters (52) are recorded per spec. Posttest raw means/SDs by treatment status are in Table 2 but were extracted from a mirror-imaged (text-reversed) page; the model-based covariate-adjusted impact (Table 3) is used for g rather than raw posttest means, per the spec's preference for pretest-adjusted estimates, so per-arm mean_t/mean_c/sd_t/sd_c are left null (the regression coefficient already nets out the pretest imbalance). The 2-year effect (Table 5, d=0.16, p=0.12) is an exploratory subsample (Cohort-1 third-graders only, n_t=2677) and is NOT the immediate-post wave; the spec asks for the immediate post (= end of year 1) measurement, so the 2-year result is recorded in notes only, not as a separate row. ELA CST was also analyzed (d=-0.02, n.s., negative) but is an off-target Reading/Other outcome from a math intervention and reflects instructional-time displacement; not extracted as a TPD achievement contrast (math is the targeted subject).",
+  "effect_sizes": [
+    {
+      "row_id": 102,
+      "arm_label": "ST Math software + brief (4-5 hr) teacher PD vs business-as-usual control",
+      "outcome_subject": "STEM",
+      "grade_band": "3-6",
+      "test_name": "California Standards Test (CST) mathematics scale score",
+      "test_type": "standardized_independent",
+      "timepoint": "post / end of year 1 of implementation (immediate post; spring CST)",
+      "n_t": null,
+      "n_c": null,
+      "n_clusters": 52,
+      "icc": 0.04,
+      "impact_estimate": 5.12,
+      "impact_se": 2.97,
+      "mean_t": null,
+      "sd_t": null,
+      "mean_c": null,
+      "sd_c": null,
+      "g": 0.07,
+      "g_var": 0.001658,
+      "g_se": 0.04072,
+      "g_method": "Model-based standardized mean difference. d = impact coefficient b / standardizing SD: b = 5.12 CST points (Table 3, column 3 'Pooled'), standardizing SD = full-sample pretest SD = 72.93 (text p.16/372). d = 5.12/72.93 = 0.0702, reproducing the paper's reported d = 0.07 exactly. Hedges' g = J*d with J = 1 - 3/(4*df-1), df = N-2 = 13801, J = 0.99995, so g = 0.070. g_se = J * (impact_se / standardizing SD) = 0.99995 * (2.97/72.93) = 0.04072 (the impact SE is Huber-White clustered on 52 schools, so already cluster-adjusted); g_var = g_se^2 = 0.001658.",
+      "pretest_adjusted": true,
+      "cluster_adjusted": true,
+      "outcome_role": "primary",
+      "is_full_sample": true,
+      "page_ref": "Table 3 col 3 'Pooled' (p.373): B=5.12, SE=2.97, d=0.07, N=13,803; standardizing SD 72.93 and effect-size text p.372 ('overall...main effect...5.12 points...marginally significant (p=.089)...effect size of .07'); abstract p.358; discussion p.376.",
+      "notes": "PRIMARY CONFIRMATORY student-achievement contrast (RQ1): pooled 1-year main effect of ST Math on CST math. B=+5.12 points favoring treatment, SE=2.97, p=.089 (marginally significant), d=0.07 ('negligible' per Cohen 1988). Model adjusts for math + ELA pretest, grade, year, cohort, ELL, male, retained-flag, FRL, and ethnicity; SEs clustered on 52 schools (Huber-White). EXPLORATORY / SECONDARY (not extracted as separate rows, summarized here): by-grade 1-year effects (Table 3 cols 4-6): 3rd grade d=0.05 (B=3.44,SE=4.03,N=4619), 4th grade d=0.09 (B=6.63,SE=4.26,N=4483), 5th grade d=0.07 (B=5.02,SE=5.38,N=4551); by-cohort: Cohort1 d=0.06 (B=4.17,SE=3.47), Cohort2 d=0.10 (B=7.62,SE=5.47); none individually significant (effect sizes 0.05-0.10). Subgroup interactions (Table 4, NOT full sample): Far Below Basic d=0.04, Below Basic d=0.06, Basic d=0.05, Proficient d=0.07, Advanced d=0.07, Non-ELL d=0.08, ELL d=0.06 -- no significant moderation by prior proficiency or ELL status. 2-YEAR effect (Table 5, exploratory Cohort-1 3rd-graders only, n=2677): cumulative 2-year d=0.16 (11.48 points), p=0.12, n.s.; the authors call this 'no more than exploratory.' ELA CST (off-target): 1-year d=-0.02 (n.s., negative), reflecting possible instructional-time displacement; not a math/STEM achievement contrast. Teacher fidelity observations are not student outcomes and were not extracted."
+    }
+  ]
+}

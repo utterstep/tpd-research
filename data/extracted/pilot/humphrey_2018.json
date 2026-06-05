@@ -1,0 +1,43 @@
+{
+  "report": "Humphrey et al. 2018",
+  "rows": [49],
+  "citation": "Humphrey, N., Hennessey, A., Ashworth, E., Frearson, K., Black, L., Petersen, K., Wo, L., Panayiotou, M., Lendrum, A., Wigelsworth, M., Birchinall, L., Squires, G., & Pampaka, M. (2018). Good Behaviour Game: Evaluation report and executive summary. London: Education Endowment Foundation.",
+  "report_number": "EEF project: Good Behaviour Game (University of Manchester evaluation, July 2018; intervention delivered by Mentor UK, supported by the American Institutes for Research). ERIC: ED617332.",
+  "url": "https://files.eric.ed.gov/fulltext/ED617332.pdf",
+  "pdf_path": "data/fulltext/humphrey_2018.pdf",
+  "pdf_downloaded": true,
+  "design": "Two-armed cluster RCT (assignment = School; minimisation on % FSM and school size, conducted by Manchester Academic Health Science Centre CTU). 77 schools randomised (38 intervention / 39 usual-provision control), N=3,084 pupils. Target cohort = Year 3 pupils (aged 7-8) in Year 1 of implementation (NOT K-2: see problems). Two-year universal behaviour-management intervention (Good Behaviour Game): teacher PD = 2 days initial training + 1 day midyear follow-up per year + monthly on-site GBG coach visits (external coaches employed by Mentor UK, trained/supported by AIR). Business-as-usual ('usual provision') control. Efficacy trial, Sept 2015 - July 2017. Primary outcome = reading attainment (HGRT) at end of trial (T3, summer 2017).",
+  "confidence": "medium",
+  "problems": "GRADE-BAND MISMATCH: the registry classifies row 49 as K-2 and Average/High SES, but the actual GBG target cohort was Year 3 (aged 7-8 in Year 1; Year 4 by end of trial), i.e. England KS2 / roughly US grades 2-3, and trial schools were comparatively disadvantaged (mean ~26% FSM, higher SEND/EAL than national average) - so the registry's grade band and SES tags do not match the report well. The g extracted here is nonetheless the report's single headline TPD-vs-control STUDENT-achievement (reading) contrast, which is what the meta-analysis needs; the grade_band field below records the report's actual cohort (Year 3-4, ~grade 2-3). IDENTIFICATION: row 49 gives no DOI/URL; 'Humphrey et al. 2018' + School RCT + Unpublished + External trainer + coaching=1 + Long duration + TPD goal 'Other' (behaviour management) uniquely matches the EEF Good Behaviour Game report (Humphrey, Manchester). The other 'Humphrey 2018' candidate (Zippy's Friends, EEF) was actually evaluated by Queen's University Belfast (Sloan et al.), not Humphrey, so it is excluded. NON-ACADEMIC PRIMARY FOCUS / FLAG FOR CENTRAL FILTERING: the GBG is a behaviour-management (SEL-adjacent) programme; although the report names READING as its 'primary outcome', the intervention's main theorised targets are behaviour (concentration problems, disruptive behaviour, pro-social behaviour) measured by teacher report (TOCA-C). Those behaviour outcomes are NON-ACADEMIC and were NOT extracted. Only the reading achievement outcome is extracted. Hedges g standardizing SD = sqrt(pooled pupil-level/within-group variance from an empty 2-level MLM) per Tymms (2004); the report does not print that empty-model variance, so g is taken directly from Table 6 and g_se is back-derived from the printed 95% CI (the report states the CI = standardised group coefficient +/- 1.96*SE). Table 5 follow-up 'SD' values (HGRT 0.29 each) are model-estimated standard errors of the adjusted means, NOT the raw posttest SD and NOT the standardizing SD, so sd_t/sd_c are left null. impact_estimate (raw-score MLM coefficient) is not separately printed for reading, so it is null; only the standardised Hedges g is reported. ICC recorded is the analysis-stage design-effect ICC (0.08). Subgroup reading results (at-risk boys g=0.05, n~255; FSM-eligible g=0.05, n~591) are NON-randomised subsets and are NOT extracted as full-sample rows. Teacher-level outcomes (self-efficacy, stress, retention; Table 7) skipped per spec.",
+  "effect_sizes": [
+    {
+      "row_id": 49,
+      "arm_label": "Good Behaviour Game (single TPD arm) vs usual-provision / business-as-usual control",
+      "outcome_subject": "Reading",
+      "grade_band": "Year 3-4 (aged 7-8 at start; ~US grade 2-3) [registry tags K-2]",
+      "test_name": "Hodder Group Reading Test (HGRT, test sheet 2A), raw score (0-53)",
+      "test_type": "standardized_independent",
+      "timepoint": "post (T3, summer 2017, end of 2-year intervention, Year 4)",
+      "n_t": 1258,
+      "n_c": 1246,
+      "n_clusters": 77,
+      "icc": 0.08,
+      "impact_estimate": null,
+      "impact_se": null,
+      "mean_t": 32.49,
+      "sd_t": null,
+      "mean_c": 33.05,
+      "sd_c": null,
+      "g": 0.03,
+      "g_var": 0.003749,
+      "g_se": 0.0612,
+      "g_method": "EEF/Manchester cluster-randomised Hedges g as reported in Table 6 (p.36): standardised coefficient of the trial-group (GBG vs usual provision) effect from a 2-level (school, pupil) MLM controlling for baseline KS1 reading points at the pupil level, divided by sqrt(pooled pupil-level/within-group variance from an empty 2-level model) per Tymms (2004); Hedges (2007) correction for varying cluster sizes applied. g = 0.03 taken directly from Table 6. The report's empty-model pupil variance / raw-score coefficient are not printed, so g is not independently recomputed. g_se back-derived from the printed 95% CI (-0.08, 0.16): SE = (0.16-(-0.08))/(2*1.96) = 0.0612; g_var = g_se^2 = 0.003749. The report states CIs were computed as standardised coefficient +/- 1.96*SE(standardised coefficient), so this back-derivation matches the report's own method.",
+      "pretest_adjusted": true,
+      "cluster_adjusted": true,
+      "outcome_role": "primary",
+      "is_full_sample": true,
+      "page_ref": "p.6 (exec summary impact table); p.36 Table 6 (H1 ITT main effect, reading); p.31 Table 3 (n, ICC=0.08, 77 schools); p.21 (HGRT measure); p.22 Analysis (Hedges g method)",
+      "notes": "Headline / primary confirmatory outcome (EEF security rating: HIGH, 4/5 padlocks). ITT main effect of GBG on reading: g = 0.03, 95% CI (-0.08, 0.16), p = .299 -> no evidence of impact. n in model = 2,504 (1,258 intervention; 1,246 control); 77 schools (38 GBG / 39 control). Adjusted follow-up means (Table 5/6): GBG 32.49 (95% CI 31.92-33.06), control 33.05 (95% CI 32.47-33.63); the 'SD 0.29' printed in Table 5 are model SEs, not the standardizing SD, hence sd_t/sd_c null. Baseline KS1 reading points (1-53): GBG 15.61 (SD 3.99), control 16.06 (SD 4.00), used as the pretest covariate. HGRT is a commercially published standardized reading test (standardised on >13,000 pupils) -> standardized_independent. NOTE for central filtering: the GBG is a behaviour-management/SEL-type programme; its non-academic behaviour outcomes (concentration problems g=0.03, disruptive behaviour g=0.06, pro-social behaviour g=-0.13; all n.s., teacher-rated TOCA-C) were NOT extracted. Subgroup reading effects (at-risk boys g=0.05, CI -0.28-0.38; FSM-eligible g=0.05, CI -0.07-0.18) NOT extracted (non-randomised subsets, is_full_sample handling)."
+    }
+  ]
+}

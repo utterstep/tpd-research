@@ -1,0 +1,111 @@
+Inclusion filter: 735 -> 340 effect sizes (include==1)
+Cluster-corrected 23 effect sizes (ICC=0.20); mean SE inflation x3.04.
+Loaded 340 effect sizes across 111 clusters.
+  NOTE: continuous TPD hours absent -> exploratory model omits the hours term.
+
+================ RQ1: NULL MODEL ================
+g = 0.070, SE = 0.010, 95% CI [0.051, 0.089]
+tau^2 = 0.0115 (tau = 0.107); 95% PI [-0.141, 0.282]
+studies(clusters) = 111, effect sizes = 340
+Cannot report Shapiro normality test without dat, M, and t2.
+ Returning NA for Shapiro p-value.
+
+Cannot report Shapiro normality test without dat, M, and t2.
+ Returning NA for Shapiro p-value.
+
+Cannot report Shapiro normality test without dat, M, and t2.
+ Returning NA for Shapiro p-value.
+
+Pr(true effect > q) [parametric]:  >0=74%  >0.05=58%  >0.2=11% 
+Pr(true effect > q) [calibrated]:  >0=82%  >0.05=60%  >0.2=6% 
+[paper targets: g=0.09 [0.07,0.11]; PI [-0.15,0.32]; >0=85% >.05=65% >.20=12%]
+
+============ RQ2/3: CONFIRMATORY MODEL ===========
+                           labels    b.r    SE   CI.L   CI.U  prob
+                     X.Intercept.  0.123 0.032  0.058  0.188 0.000
+    publication_statusUnpublished -0.054 0.018 -0.089 -0.019 0.003
+                  ses_mainLow.SES -0.022 0.019 -0.060  0.017 0.256
+                  grade3Secondary  0.009 0.024 -0.039  0.057 0.706
+                      grade3Mixed -0.028 0.020 -0.070  0.014 0.182
+               tested_subjectSTEM -0.001 0.017 -0.035  0.033 0.964
+              tested_subjectOther -0.013 0.038 -0.094  0.068 0.732
+ tpd_goalComprehensive.approaches -0.013 0.028 -0.069  0.044 0.654
+        tpd_goalTPD.for.curricula -0.005 0.027 -0.059  0.050 0.860
+    tpd_goalTPD.for.digital.tools -0.044 0.031 -0.110  0.021 0.176
+                    tpd_goalOther -0.012 0.037 -0.093  0.070 0.761
+
+Omnibus moderator tests (clubSandwich CR2):
+          moderator Fstat df_num df_denom      p
+ publication_status  9.27      1     80.1 0.0032
+           ses_main  1.32      1     46.5 0.2564
+             grade3  1.25      2     35.5 0.2975
+     tested_subject  0.06      2     33.7 0.9418
+           tpd_goal  0.71      4     33.9 0.5936
+
+============== EXPLORATORY MODEL =================
+                           labels    b.r    SE   CI.L   CI.U  prob
+                     X.Intercept.  0.105 0.029  0.046  0.165 0.001
+    publication_statusUnpublished -0.051 0.018 -0.087 -0.015 0.006
+                  ses_mainLow.SES -0.019 0.017 -0.054  0.016 0.273
+                  grade3Secondary  0.010 0.024 -0.039  0.059 0.680
+                      grade3Mixed -0.030 0.023 -0.076  0.017 0.200
+               tested_subjectSTEM  0.003 0.018 -0.032  0.038 0.858
+              tested_subjectOther -0.009 0.037 -0.086  0.069 0.818
+ tpd_goalComprehensive.approaches -0.020 0.040 -0.101  0.061 0.618
+        tpd_goalTPD.for.curricula -0.006 0.023 -0.052  0.040 0.794
+    tpd_goalTPD.for.digital.tools -0.051 0.029 -0.112  0.010 0.100
+                    tpd_goalOther -0.005 0.041 -0.095  0.085 0.913
+              tpd_trainerExternal -0.021 0.023 -0.067  0.024 0.353
+                  n_principlesOne  0.028 0.022 -0.017  0.072 0.216
+                  n_principlesTwo  0.022 0.023 -0.025  0.069 0.356
+                n_principlesThree  0.024 0.025 -0.027  0.075 0.346
+                 n_principlesFour  0.050 0.082 -0.123  0.222 0.552
+
+=========== SENSITIVITY: rho sweep (S4.1) ========
+ rho     ES     SE    tau
+ 0.0 0.0703 0.0096 0.1073
+ 0.2 0.0703 0.0096 0.1074
+ 0.4 0.0703 0.0096 0.1074
+ 0.6 0.0703 0.0096 0.1074
+ 0.8 0.0703 0.0096 0.1074
+ 1.0 0.0704 0.0096 0.1074
+
+========= SENSITIVITY: winsorized (S4.2) =========
+winsorized g = 0.068, 95% CI [0.050, 0.087]
+
+============ SELECTION MODEL (S4.4) ==============
+(selection model on 111 study-level effect sizes)
+
+Unadjusted Model (k = 111):
+
+tau^2 (estimated amount of total heterogeneity): 0.0071 (SE = 0.0012)
+tau (square root of estimated tau^2 value):  0.0840
+
+Test for Heterogeneity:
+Q(df = 110) = 833.8230, p-val = 3.61557e-111
+
+Model Results:
+
+          estimate std.error z-stat      p-val   ci.lb   ci.ub
+Intercept  0.07324  0.009332  7.848 4.2187e-15 0.05495 0.09153
+
+Adjusted Model (k = 111):
+
+tau^2 (estimated amount of total heterogeneity): 0.0081 (SE = 0.0016)
+tau (square root of estimated tau^2 value):  0.0901
+
+Test for Heterogeneity:
+Q(df = 110) = 833.8230, p-val = 3.61557e-111
+
+Model Results:
+
+                 estimate std.error z-stat      p-val    ci.lb  ci.ub
+Intercept         0.07712    0.0233  3.309 0.00093535  0.03144 0.1228
+0.025 < p < 0.05  1.29945    0.5314  2.445 0.01446738  0.25797 2.3409
+0.05 < p < 0.1    1.21810    0.5316  2.291 0.02194514  0.17615 2.2601
+0.1 < p < 0.5     1.64268    0.7048  2.331 0.01976814  0.26131 3.0240
+0.5 < p < 1       0.96608    0.5842  1.654 0.09816652 -0.17884 2.1110
+
+Likelihood Ratio Test:
+X^2(df = 4) = 3.166681, p-val = 0.53033
+Wrote data/results/our_results.rds

@@ -1,0 +1,43 @@
+{
+  "report": "Fong et al. 2015",
+  "rows": [31],
+  "citation": "Fong, A. B., Finkelstein, N. D., Jaeger, L. M., Diaz, R., & Broek, M. E. (2015). Evaluation of the Expository Reading and Writing Course: Findings from the Investing in Innovation Development Grant. San Francisco, CA: WestEd. (Supported by U.S. Department of Education, Office of Innovation and Improvement, Investing in Innovation [i3] Development Grant #U411C110425.)",
+  "report_number": "WestEd i3 Development Grant evaluation report (U.S. ED Grant #U411C110425), July 2015",
+  "url": "https://wested2024.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/07/11165042/1438034849ERWC_Report-3.pdf",
+  "pdf_path": "data/fulltext/fong_2015.pdf",
+  "pdf_downloaded": true,
+  "design": "QED; student-level matching (Mahalanobis-distance one-to-four nearest-neighbor matching with replacement) plus OLS regression with covariates. Treatment = grade-12 students enrolled in the Expository Reading and Writing Course (ERWC), an English/literacy course with a teacher professional-learning + curriculum-materials component (two-day summer PD session + professional learning communities + coaching); comparison = matched grade-12 students in non-ERWC English classes (English 4, AP English Literature, world/other literature). 24 high schools in 9 California districts; 56 ERWC teachers vs 58 non-ERWC teachers. Subject = English language arts (reading/writing literacy); grade 12. Outcome measured spring 2014 (end of the 2013/14 school year) on the CSU English Placement Test (EPT), administered/scored by ETS. Final analytic sample: 3,309 ERWC students matched to 3,309 weighted non-ERWC students (regression observations = 6,618). Assignment to condition is at the student level (course enrollment), so the authors used OLS (not HLM) with cluster-robust [Huber] SEs to account for non-ERWC students appearing multiple times via matching-with-replacement.",
+  "confidence": "high",
+  "problems": "Registry grade band is 7-12 but the ERWC is a single-grade (grade-12) English course; the meta-analysis evidently binned it into the 7-12 secondary band. 'Two' (number of arms/groups in the registry treatment table) corresponds to the two-group ERWC-vs-non-ERWC contrast; there is exactly ONE student-achievement outcome (EPT total scale score) and ONE primary confirmatory contrast, so only one effect size is extracted. The report does NOT publish per-arm posttest SDs; it reports only the pooled within-group SD (9.1598, Table 3.5) used to standardize the effect, plus group posttest means (ERWC 141.929, non-ERWC 140.831). The reported effect size 0.13 is computed as the covariate-ADJUSTED regression coefficient (1.221, Table 3.4) divided by the pooled within-group SD, NOT the raw mean difference (raw diff = 1.098); I reproduced this exactly (1.221/9.1598 = 0.1333). impact_se = 0.239 is the cluster-robust SE of the ERWC coefficient (Table 3.4); g_se is derived from it (0.239/9.1598 = 0.0261). This QED is student-level (no school/teacher random effect, OLS), so n_clusters/icc are not applicable and left null and cluster_adjusted=false; the robust SE handles within-match correlation, not multilevel clustering. Five sensitivity analyses (propensity-score matching, one-to-one match, matching without replacement, full-sample) all gave positive significant effects 0.11-0.14 (Table 3.6) -- robustness checks of the SAME contrast, not separate effect sizes; noted, not extracted as rows. Teacher fidelity-of-implementation results (Chapter 4) are not student achievement and were skipped per spec.",
+  "effect_sizes": [
+    {
+      "row_id": 31,
+      "arm_label": "ERWC (Expository Reading and Writing Course) teacher PD + curriculum vs business-as-usual matched non-ERWC English classes",
+      "outcome_subject": "Reading",
+      "grade_band": "12",
+      "test_name": "California State University English Placement Test (EPT) total scale score (reading-skills MC + composing-skills MC + essay), administered/scored by ETS, spring 2014",
+      "test_type": "standardized_independent",
+      "timepoint": "post / spring 2014 (end of 2013/14 school year, end of intervention)",
+      "n_t": 3309,
+      "n_c": 3309,
+      "n_clusters": null,
+      "icc": null,
+      "impact_estimate": 1.221,
+      "impact_se": 0.239,
+      "mean_t": 141.929,
+      "sd_t": null,
+      "mean_c": 140.831,
+      "sd_c": null,
+      "g": 0.1333,
+      "g_var": 0.0006807,
+      "g_se": 0.02609,
+      "g_method": "Model-based standardized mean difference. d = adjusted mean difference / pooled within-group SD: b = 1.221 (covariate-adjusted ERWC enrollment coefficient from OLS, Table 3.4 p.26) divided by pooled within-group SD = 9.1598 (Table 3.5 p.26), giving d = 0.1333, exactly reproducing the report's stated effect size of 0.13. Hedges' g = J*d with J = 1 - 3/(4*df-1), df = n_t+n_c-2 = 6616, J = 0.99989, so g = 0.1333. g_se = J*(impact_se/pooled SD) = 0.99989*(0.239/9.1598) = 0.02609 (uses the reported cluster-robust SE of the ERWC coefficient); g_var = g_se^2 = 0.0006807. (Sample-size-formula alternative would give Var(g)=0.000606, se=0.0246 -- not used because the report's robust SE is preferred.) Per-arm SDs not reported; standardizing SD is the report's pooled within-group SD.",
+      "pretest_adjusted": true,
+      "cluster_adjusted": false,
+      "outcome_role": "primary",
+      "is_full_sample": true,
+      "page_ref": "Table 3.4 (p.26) impact coefficient + robust SE + N; Table 3.5 (p.26) group means, pooled within-group SD, effect size 0.13; Exec. Summary p.vi ('estimated standardized effect ... was .13 standard deviations'); regression model eq.(1) p.16.",
+      "notes": "PRIMARY CONFIRMATORY student-achievement contrast (the report's headline research question: 'Does the ERWC have a positive impact on the reading and writing skills of grade-12 students as measured through the English Placement Test?'). ERWC coefficient = +1.221 EPT scale points, robust SE 0.239, t=5.12, p<.001; ES 0.13 favoring ERWC. OLS covariates: grade-11 ELA CST scale score (pretest, coef 0.136), average grade-11 English grade earned (1.365), grade-11 AP English enrollment (2.533), female, ethnicity (African American omitted) -- so the estimate is pretest/covariate-adjusted. Baseline equivalence achieved (grade-11 ELA CST standardized mean diff = 0.015, Table 3.3). mean_t/mean_c are observed EPT group means (Table 3.5); the +1.221 is the covariate-adjusted impact. Sensitivity analyses (Table 3.6, p.30): propensity-score matching ES=0.13, one-to-one match ES=0.13, matching-without-replacement ES=0.11, full-sample ES=0.14 -- all positive and significant at 1%, robustness checks of this same contrast (not separate effect sizes). Only one student-achievement outcome exists (EPT total scale score; the three EPT subsections are combined into the total). Fidelity-of-implementation results (only 10/56=17.9% of ERWC teachers taught >=8 modules with strict fidelity; 35/56=62.5% under a relaxed criterion) are teacher-level, not extracted."
+    }
+  ]
+}

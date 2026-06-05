@@ -1,0 +1,43 @@
+{
+  "report": "Borman et al. 2021",
+  "rows": [10],
+  "citation": "Borman, G. D., Pyne, J., Rozek, C. S., & Schmidt, A. (2022). A replicable identity-based intervention reduces the Black-White suspension gap at scale. American Educational Research Journal, 59(2), 284-314. (Online first September 2021.) https://doi.org/10.3102/00028312211042251",
+  "report_number": "American Educational Research Journal, Vol. 59(2), pp. 284-314 (DOI 10.3102/00028312211042251); IES grants R305A110136 and R305B150003; Spencer Foundation 201500044",
+  "url": "https://doi.org/10.3102/00028312211042251",
+  "pdf_path": "data/fulltext/borman_2021.pdf",
+  "pdf_downloaded": true,
+  "design": "Student-level RCT (two independent double-blind randomized field trials = two yearly 7th-grade cohorts), randomized within school (blocked on school). 11 middle schools (all middle schools in the Madison, WI Metropolitan School District); analytic N=2,149 students (Cohort 1 n=963, Cohort 2 n=1,186); ITT N=2,328. Grades 7-8 (intervention delivered in grade 7; outcomes cumulative over grades 7-8; sixth-grade pre-measure used as covariate). Low-SES context. Brief teacher-administered self-affirmation / values-affirmation (identity-based) writing intervention (3-4 ~15-20 min exercises) vs neutral writing control. Mixed-effects/HLM (students nested in 11 schools), pretest- and covariate-adjusted, cohort fixed effects.",
+  "confidence": "high",
+  "problems": "NO QUALIFYING FULL-SAMPLE STUDENT ACADEMIC-ACHIEVEMENT OUTCOME IS REPORTED IN THIS STUDY. The paper's primary/headline outcomes are BEHAVIORAL, not academic: (1) total number of suspensions in grades 7-8 (Table 1, p.14) and (2) total number of office disciplinary referrals/ODRs in grades 7-8 (Table 2, p.20). Per the task these behavioral outcomes are skipped. Academic achievement (GPA) appears ONLY in a sensitivity/mediation section, 'Variation in Student Discipline Explained by Postintervention GPA' (pp.21), where postintervention GPA is entered as a PREDICTOR/MEDIATOR of the disciplinary outcomes rather than analyzed as a primary treatment outcome. The ONLY reported treatment-on-achievement estimate is for the BLACK SUBGROUP (not the full randomized sample): 'no statistically significant effect of the intervention on academic achievement for Black students across the two intervention cohorts (b=0.04, SE=0.05, z=0.65, p=.517, d<0.01)' (p.21, lines 907-910). The full effect-size table for this (Supplemental Table S8) is ONLINE-ONLY and is NOT contained in this PDF, so the standardizing SD, exact d, n_t/n_c, the GPA instrument, and any full-sample/White-subgroup achievement estimate cannot be verified from the report on disk. No full-sample GPA or standardized-test treatment effect is given anywhere in the article body; main-text GPA references (e.g., a 40% Black-White GPA gap reduction) are to PRIOR/related studies (Cohen et al. 2009; Borman et al. 2018; Hanselman et al. 2017), not to a within-paper full-sample contrast. The one available within-paper achievement number (Black subgroup, b=0.04, SE=0.05, d<0.01, essentially zero) is recorded below as is_full_sample=false / outcome_role=subgroup for traceability only; it should NOT be merged as a full-sample TPD-vs-control achievement contrast. REGISTRY NOTE: registry row 10 lists grades 7-12, but the study is grades 7-8 only.",
+  "effect_sizes": [
+    {
+      "row_id": 10,
+      "arm_label": "Self-affirmation (values-affirmation) writing intervention vs neutral-writing control; Black-student subgroup, pooled across both cohorts",
+      "outcome_subject": "Other",
+      "grade_band": "7-8",
+      "test_name": "Cumulative postintervention GPA (grade point average), school administrative records; reported as a standardized achievement measure",
+      "test_type": "standardized_independent",
+      "timepoint": "post (cumulative grade 7-8, pooled cohorts)",
+      "n_t": null,
+      "n_c": null,
+      "n_clusters": 11,
+      "icc": null,
+      "impact_estimate": 0.04,
+      "impact_se": 0.05,
+      "mean_t": null,
+      "sd_t": null,
+      "mean_c": null,
+      "sd_c": null,
+      "g": 0.04,
+      "g_var": null,
+      "g_se": null,
+      "g_method": "Reported HLM impact coefficient b=0.04 (SE=0.05) for the Treatment effect on Black students' postintervention GPA; paper states d<0.01 (effectively zero). GPA appears to be standardized (SD~=1), so g~=b~=0.04. Small-sample correction J could not be applied (df/n not given). NOT independently verifiable from PDF (Supplemental Table S8 is online-only).",
+      "pretest_adjusted": true,
+      "cluster_adjusted": true,
+      "outcome_role": "subgroup",
+      "is_full_sample": false,
+      "page_ref": "p.21 (section 'Variation in Student Discipline Explained by Postintervention GPA', lines 907-910); detailed numbers in online-only Supplemental Table S8 (not in PDF)",
+      "notes": "BLACK-SUBGROUP ONLY, not the full randomized sample (set is_full_sample=false). GPA was used as a MEDIATOR/predictor of the behavioral (suspension/ODR) outcomes, not as a primary achievement outcome. Paper explicitly reports the achievement effect for Black students as null (b=0.04, SE=0.05, z=0.65, p=.517, d<0.01). No full-sample, White-subgroup, or other-subgroup achievement treatment effect is reported in the article body, and the supplemental table holding the underlying numbers is not in this PDF. Do NOT treat this as the study's primary full-sample TPD-vs-control achievement contrast."
+    }
+  ]
+}

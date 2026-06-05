@@ -1,0 +1,2 @@
+es_id,row_id,report_group,study,outcome_subject,grade_band,g,v,se,n_t,n_c,n_clusters,icc_assumed,cluster_adjusted,pretest_adjusted,extraction_method,source_stat,page_ref,extractor,confidence,notes
+EXAMPLE-1,1,abe et al. 2012,Abe et al. 2012,STEM,3-6,0.123,0.0041,,520,498,42,0.20,yes,yes,means_sd,"M_t=12.3(SD=3.1) M_c=11.9(SD=3.0)",p.27 Tab.4,auto,high,"posttest adj for pretest; Hedges 2007 cluster correction"

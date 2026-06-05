@@ -1,0 +1,36 @@
+{
+  "report": "Vignoles et al. 2015",
+  "rows": [128],
+  "citation": "Vignoles, A., Jerrim, J., & Cowan, R. (2015). Mathematics Mastery: Primary Evaluation Report. February 2015. London: Education Endowment Foundation. (Independent evaluators, UCL Institute of Education.)",
+  "report_number": "EEF project: Mathematics Mastery (Primary). ERIC ED581183. February 2015.",
+  "url": "https://files.eric.ed.gov/fulltext/ED581183.pdf",
+  "pdf_path": "data/fulltext/vignoles_2015.pdf",
+  "pdf_downloaded": true,
+  "design": "Cluster randomised controlled trial (assignment = School; analysed/labelled as Teacher/Class-level whole-class maths curriculum). Simple random allocation of schools to start Mathematics Mastery in 2012 (Cohort A) or act as waitlist/control then start 2013 (Cohort B). 90 schools randomised; 5 dropped before baseline; analysis sample 83 schools / 4,176 Year-1 pupils (treatment 2,160 in 44-ish schools; control 2,016) in London & the South East. Subject = mathematics (Number Knowledge). Grade = Year 1 (age 5-6 = K-2 band). Intervention = Ark Mathematics Mastery whole-school 'mastery' curriculum delivered by class teachers after teacher training/PD (TPD for curricula); business-as-usual control. One year of implementation; immediate post-test.",
+  "confidence": "high",
+  "problems": "Single primary student-achievement contrast (one maths test, one timepoint), so only 1 effect size qualifies. Note: random assignment was at the SCHOOL level (cluster RCT), but the meta-analysis registry codes this study as 'Teacher/Class' assignment; recorded row_id 128 regardless. Test type nuance: the 'Number Knowledge' test (Okamoto & Case / Number Worlds, Clark University) is an independent, published, externally-validated instrument NOT specific to Mathematics Mastery (p.11-12), so coded standardized_independent rather than researcher_made; the registry's S3.2 'Res/Dev' label likely reflects that it is not a national/state test. The report's reported effect size (Beta = +0.099, Table 4 'Overall') is ALREADY Hedges' G: post-test z-scores standardised by the pooled post-test SD with the small-sample J correction built into the EEF 'Hedges G' SD formula (p.14), and the SE (0.054) is a school-level cluster-robust (Huber-White / STATA svy) standard error, so it accounts for clustering -> cluster_adjusted=true, g_var = SE^2 = 0.002916. Actual school-level ICC estimated 0.11 (school fixed effect) / 0.09 (random effect, conditional on pre-test); power-assumption ICC was 0.15 -> icc recorded as 0.11 (reported design ICC). Baseline imbalance: treatment scored ~0.13 SD above control at pre-test (not sig, t=1.41 p=0.16); the OLS model adjusts for pre-test. No FSM/gender subgroups (no NPD linkage; p.13). Cohort A and Cohort B are temporal start-cohorts of the same single trial (not separate TPD arms): Cohort A Beta=+0.091 (SE 0.075), Cohort B Beta=+0.105 (SE 0.078) (Table 4); only the pooled Overall is extracted as the trial's headline/confirmatory result. No raw subject means/SDs are reported (only standardised z-score distributions and the model coefficient), so mean/sd fields left null. Security rating 3/5 padlocks (moderate).",
+  "effect_sizes": [
+    {
+      "row_id": 128,
+      "arm_label": "Mathematics Mastery (Ark) vs business-as-usual control - Year 1, overall (Cohorts A+B pooled)",
+      "outcome_subject": "STEM",
+      "grade_band": "K-2 (Year 1, age 5-6)",
+      "test_name": "Number Knowledge test (Okamoto & Case; Number Worlds, Clark University) - total raw score",
+      "test_type": "standardized_independent",
+      "timepoint": "post (end of Year 1, one year of implementation; spring/summer 2013 Cohort A and 2014 Cohort B)",
+      "n_t": 2160, "n_c": 2016,
+      "n_clusters": 83, "icc": 0.11,
+      "impact_estimate": 0.099, "impact_se": 0.054,
+      "mean_t": null, "sd_t": null,
+      "mean_c": null, "sd_c": null,
+      "g": 0.099, "g_var": 0.002916, "g_se": 0.054,
+      "g_method": "Report's own 'Effect size (Hedge's G)' from OLS regression of standardised post-test z-score on Treatment, adjusting for pre-test (Table 4, Overall column): Beta = +0.099. The post-test was z-standardised by the pooled post-test SD across all 4,176 analysis-sample pupils using the EEF Hedges-G pooled-SD formula incorporating the J small-sample correction (p.14), so Beta is itself Hedges' g. g_se = reported school-level cluster-robust (Huber-White svy) SE = 0.054; g_var = SE^2 = 0.002916. (Independent check: 0.099 +/- 1.96*0.054 = (-0.007,+0.205), matching the report's 95% CI -0.01 to +0.21. J=0.9998 for df=4174 is negligible. Naive non-cluster Var(g) would be 0.00096 / SE 0.031, far smaller, confirming the 0.054 SE already absorbs the design effect.)",
+      "pretest_adjusted": true,
+      "cluster_adjusted": true,
+      "outcome_role": "primary",
+      "is_full_sample": true,
+      "page_ref": "p.4 (Exec summary table); p.21-22, Table 4 (Overall); methods p.14",
+      "notes": "Headline/confirmatory result: +0.10 SD, +2 months progress, p=0.07 (sig at 10% only). maths -> STEM. Single primary outcome (Number Knowledge total raw score). Secondary 'outcome' (Table 5) is only a treatment*pre-test interaction term (heterogeneity test, interaction Beta=+0.003 ns), not a distinct achievement contrast, so not extracted as a separate effect size. Per-cohort: A +0.091, B +0.105 (same trial, temporal cohorts). Appendix meta-analysis combining this primary trial (0.099) with the secondary trial (0.055) gives pooled 0.073 (Table A1) - not extracted (that is the meta-analytic combination across both Math Mastery reports)."
+    }
+  ]
+}

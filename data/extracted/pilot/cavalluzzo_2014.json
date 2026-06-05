@@ -1,0 +1,43 @@
+{
+  "report": "Cavalluzzo et al. 2014",
+  "rows": [17],
+  "citation": "Cavalluzzo, L., Geraghty, T. M., Steele, J. L., Holian, L., Jenkins, F., Alexander, J. M., & Yamasaki, K. Y. (2014). Using Data to Inform Decisions: How Teachers Use Data to Inform Practice and Improve Student Performance in Mathematics. Results from a Randomized Experiment of Program Efficacy (IRM-2013-U-006508). Alexandria, VA: CNA Corporation. (Prepared under IES Grant R305A100445.)",
+  "report_number": "CNA IRM-2013-U-006508 (IES Grant R305A100445); ERIC ED555557",
+  "url": "https://files.eric.ed.gov/fulltext/ED555557.pdf",
+  "pdf_path": "data/fulltext/cavalluzzo_2014.pdf",
+  "pdf_downloaded": true,
+  "design": "School-level block-randomized RCT (cluster RCT). 60 elementary schools in Duval County Public Schools (Jacksonville, FL) grouped into 4 blocks by baseline SES/math performance; 30 treatment vs 30 control. Intervention = TERC 'Using Data' (UD) teacher professional development on collaborative data use, delivered to school data teams (data coach + 4 grade-4/5 math teachers) over two school years (SY 2011-12 and 2012-13). Comparison = business-as-usual. Subject = mathematics; grades 4-5. Primary student-achievement outcome measured at end of Year 2 on the state end-of-grade math assessment (FCAT), analyzed via two-level HLM (students nested in schools). Analytic student N = 10,287 in 59 schools (one control school closed after Year 1).",
+  "confidence": "high",
+  "problems": "Registry row 17 lists grade band '3-6' but the report is grade 4-5 math (pooled across the two grades, grade indicator controlled); the meta-analysis evidently binned it as 3-6. The report itself standardizes effect sizes as Cohen's d = treatment coefficient / pooled posttest SD (footnote 11, p.37), and reports the primary effect size as .007. I reproduced this exactly: the standardizing pooled SD from Table 2.6 (treatment SD=20.2, n=5,384; control SD=21.4, n=4,903) is 20.78, and 0.16/20.78=0.0077, matching the report's .007. The model-based SE (1.06 coefficient SE / 20.78 = 0.051) is used for g_var because it already accounts for school-level clustering (two-level HLM); the small-sample (sample-size) variance formula would understate variance for this cluster design (it gives se=0.020). No ICC or n_clusters design-effect ICC is reported, so I did not guess one (cluster_adjusted=true because variance comes from the multilevel model). Per-arm posttest means: treatment mean 217.6, control mean 218.3 (Table 2.6, unadjusted descriptive means; the impact estimate is the pretest/covariate-adjusted HLM coefficient = +0.16 favoring treatment). Only the Year-2 full-sample schoolwide impact is the confirmatory student contrast; Year-1 student results and all block-specific/dosage results are exploratory and recorded as notes only (one block subgroup, lowest-needs Block 1, was significantly negative ES=-.29; highest-needs Block 4 positive but n.s. ES=.15; an exploratory ITT-of-ITT-teachers Block 4 subgroup reached ES=.40, p=.01 -- these are subgroups, not the full-sample confirmatory contrast).",
+  "effect_sizes": [
+    {
+      "row_id": 17,
+      "arm_label": "TERC 'Using Data' (UD) teacher PD vs business-as-usual control schools",
+      "outcome_subject": "STEM",
+      "grade_band": "4-5",
+      "test_name": "Florida state end-of-grade mathematics assessment (FCAT), SY 2012-13 scale score",
+      "test_type": "standardized_independent",
+      "timepoint": "post / end of Year 2 (spring 2013), end of intervention",
+      "n_t": 5384,
+      "n_c": 4903,
+      "n_clusters": 59,
+      "icc": null,
+      "impact_estimate": 0.16,
+      "impact_se": 1.06,
+      "mean_t": 217.6,
+      "sd_t": 20.2,
+      "mean_c": 218.3,
+      "sd_c": 21.4,
+      "g": 0.0077,
+      "g_var": 0.0026016,
+      "g_se": 0.05101,
+      "g_method": "Model-based standardized mean difference. d = HLM treatment coefficient b / pooled posttest SD: b=0.16 (Table 4.4); pooled SD computed from Table 2.6 posttest math scale-score SDs [sqrt(((5384-1)*20.2^2 + (4903-1)*21.4^2)/(5384+4903-2)) = 20.78], reproducing the report's stated effect size of .007. d = 0.16/20.78 = 0.0077. Hedges' g = J*d with J = 1 - 3/(4*df-1), df = n_t+n_c-2 = 10285, J = 0.99993, so g = 0.0077. g_se = J * (impact_se/pooled SD) = 0.99993 * (1.06/20.78) = 0.05101 (multilevel-model SE, already cluster-adjusted); g_var = g_se^2 = 0.0026016.",
+      "pretest_adjusted": true,
+      "cluster_adjusted": true,
+      "outcome_role": "primary",
+      "is_full_sample": true,
+      "page_ref": "Table 4.4 (p. 54) impact coefficient + N; text p. 55 ('effect size is small (.007) and not statistically significant'); pooled SD from Table 2.6 (p. 29); ES method footnote 11 (p. 37); Exec. Summary p. 2.",
+      "notes": "This is the report's PRIMARY CONFIRMATORY student-achievement contrast: Year-2 schoolwide two-level HLM impact of UD on state math scale score. Treatment effect +0.16 scale points, SE 1.06, z=0.15, p=0.883 -> no overall effect (ES .007). Model controls for prior (SY 2010-11) state math score, race/ethnicity, FRL, ELL, gifted, learning disability, grade, missing-pretest flag, and school block (random school effect). mean_t/mean_c are unadjusted descriptive posttest means (Table 2.6); the +0.16 is the covariate-adjusted impact. EXPLORATORY (not extracted as separate full-sample rows): block-specific Year-2 effects ranged from ES=-.29 (Block 1 lowest-needs, p<.05, significantly NEGATIVE) up to ES=.15 (Block 4 highest-needs, n.s.) (Table 4.6/Fig 4.1, p.56); a streamlined dosage model for students taught 2 yrs by a UD teacher gave ES=.05, p=.04 (Table 4.9, p.61); restricting to ITT teachers' students, Block 4 reached ES=.40, p=.01 (Table 4.12, p.63) -- a non-randomised subgroup, the 'effect size = .40' cited in the Executive Summary. Year-1 student results (a teacher 'learning year') were also exploratory and null overall (schoolwide treatment effect -0.56, p=0.458; Table 4.13, p.64). Teacher outcomes (data use ES .37, attitudes/beliefs ES .34, knowledge/skills ES .25) are NOT student achievement and were not extracted per spec."
+    }
+  ]
+}

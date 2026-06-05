@@ -1,0 +1,43 @@
+{
+  "report": "Abe et al. 2012",
+  "rows": [1],
+  "citation": "Abe, Y., Thomas, V., Sinicrope, C., & Gee, K. A. (2012). Effects of the Pacific CHILD Professional Development Program (Final Report, NCEE 2013-4002). Washington, DC: National Center for Education Evaluation and Regional Assistance, Institute of Education Sciences, U.S. Department of Education.",
+  "report_number": "NCEE 2013-4002 (REL Pacific); ERIC ED538073",
+  "url": "https://files.eric.ed.gov/fulltext/ED538073.pdf",
+  "pdf_path": "data/fulltext/abe_2012.pdf",
+  "pdf_downloaded": true,
+  "design": "Cluster RCT; assignment = School; 51 schools randomized (26 treatment / 25 control), impact analysis sample = 45 schools (23 treatment / 22 control); subject = reading (literacy); grade 5 students (TPD targeted grade 4-5 ELA teachers); three entities (American Samoa, CNMI, Hawai'i). Two-level HLM (students/teachers within schools), pretest/covariate-adjusted.",
+  "confidence": "high",
+  "problems": "No single pooled ICC is reported; the paper reports entity-specific unconditional ICCs (American Samoa .04, CNMI .06, Hawai'i .07) and conditional ICCs (Am. Samoa .04, CNMI .04, Hawai'i .01). The model already accounts for clustering (cluster_adjusted=true), so a central design-effect correction is not needed; icc left null to avoid misrepresenting a pooled value. Hawai'i used TerraNova converted to SAT-10-equivalent scores (appendix E); Am. Samoa and CNMI used the SAT-10 directly. The reported effect size (0.244) is the paper's standardized impact (HLM impact estimate divided by control-group SD); g recomputed from impact estimate (5.3) and its SE (2.19) gives the same value with J~1 for N=3,052.",
+  "effect_sizes": [
+    {
+      "row_id": 1,
+      "arm_label": "Pacific CHILD TPD vs business-as-usual control (single TPD arm)",
+      "outcome_subject": "Reading",
+      "grade_band": "5 (within 3-6 registry band; TPD targeted grades 4-5)",
+      "test_name": "Stanford Achievement Test 10th ed. (SAT-10) Reading Comprehension scale score (Hawai'i: TerraNova converted to SAT-10-equivalent)",
+      "test_type": "standardized_independent",
+      "timepoint": "post (spring of Year 2, end of 2-year intervention)",
+      "n_t": 1566,
+      "n_c": 1486,
+      "n_clusters": 45,
+      "icc": null,
+      "impact_estimate": 5.3,
+      "impact_se": 2.19,
+      "mean_t": 634.3,
+      "sd_t": null,
+      "mean_c": 629.0,
+      "sd_c": 21.721,
+      "g": 0.2439,
+      "g_var": 0.01016,
+      "g_se": 0.1008,
+      "g_method": "Paper-reported standardized impact d = impact/SD_control = 5.3/21.721 = 0.244 (control-group SD standardizer), from two-level HLM, pretest/covariate-adjusted. g = J*d with J = 1-3/(4*df-1), df = N-2 = 3050, J = 0.99975. SE(d) = SE(impact)/SD_control = 2.19/21.721 = 0.1008; g_se = J*SE(d) = 0.1008; g_var = g_se^2 = 0.01016. Cross-check t = impact/SE = 2.42, matching reported p = .017.",
+      "pretest_adjusted": true,
+      "cluster_adjusted": true,
+      "outcome_role": "primary",
+      "is_full_sample": true,
+      "page_ref": "p. xv-xvii (Exec. Summary); Table B.5 'Estimate of overall impact: weighted mean of three entity estimates (benchmark model)', p. B11 (PDF p.117); sample sizes p. xiv-xv (PDF p.15) and Figure 2.2 (PDF p.44); school counts p.34-36 (PDF p.35-36)",
+      "notes": "Headline confirmatory full-sample student outcome. Overall impact = weighted mean of three entity-specific HLM estimates. Entity subsamples (NOT extracted as separate full-sample rows; they are subgroups): American Samoa ES = -0.146 (n=185, p=.629), CNMI ES = 0.392 (n=692, p=.027), Hawai'i ES = 0.133 (n=2,175, p=.050). A 'combined sample' pooled estimate (entity fixed effects) gave ES = 0.068 (n=3,052, p=.247, NS) and is reported by the authors as method-sensitive; the authors adopt the weighted-mean estimate (0.244) as the primary result. A priori MDES for student outcomes was 0.16. Comparison/control = business-as-usual."
+    }
+  ]
+}

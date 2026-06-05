@@ -1,0 +1,43 @@
+{
+  "report": "Arens et al. 2012",
+  "rows": [4],
+  "citation": "Arens, S. A., Stoker, G., Barker, J., Shebby, S., Wang, X., Cicchinelli, L. F., & Williams, J. M. (2012). Effects of curriculum and teacher professional development on the language proficiency of elementary English language learner students in the Central Region. Final Report (NCEE 2012-4013). Washington, DC: U.S. Department of Education, Institute of Education Sciences, National Center for Education Evaluation and Regional Assistance, Regional Educational Laboratory Central, administered by Mid-continent Research for Education and Learning.",
+  "report_number": "NCEE 2012-4013 (REL Central); ERIC ED530839",
+  "url": "https://files.eric.ed.gov/fulltext/ED530839.pdf",
+  "pdf_path": "data/fulltext/arens_2012.pdf",
+  "pdf_downloaded": true,
+  "design": "Cluster RCT; assignment level = School (2:1 allocation); 52 schools analyzed (34 intervention, 18 control) across Colorado, Kansas, Nebraska; intervention = 'On Our Way to English' (OWE) ELL curriculum + 'Responsive Instruction for Success in English' (RISE) teacher professional development vs business-as-usual ESL instruction; subject = English language proficiency/literacy for native Spanish-speaking ELL students; grades 1-5 (curriculum K-5).",
+  "confidence": "high",
+  "problems": "The report standardized the IPT outcome to z-scores and reports the impact in standardized (z-score) units (gamma01 = -0.03, SE = 0.06) plus a matching Glass's Delta effect size of -0.03; it does NOT report Hedges' g. The report explicitly chose Glass's Delta over Hedges' g (p.31), reasoning that the intervention could change the treatment-group SD. The unadjusted posttest SDs (0.84 intervention, 0.86 control) are very close to 1.0 because scores were z-standardized, so d via Glass's Delta (control-SD standardization) and d via the z-scored impact coefficient coincide at -0.03. Single dual intervention arm (OWE+RISE combined); the study was not designed to separate curriculum vs PD effects. Confirmatory outcome is non-significant (p=.66).",
+  "effect_sizes": [
+    {
+      "row_id": 4,
+      "arm_label": "OWE curriculum + RISE teacher professional development (combined dual intervention) vs business-as-usual ESL",
+      "outcome_subject": "Reading",
+      "grade_band": "1-5",
+      "test_name": "IDEA Proficiency Test (IPT) basic composite score (listening comprehension + reading/vocabulary comprehension + writing)",
+      "test_type": "standardized_independent",
+      "timepoint": "post (spring 2010, end of Year 2 implementation year)",
+      "n_t": 1761,
+      "n_c": 851,
+      "n_clusters": 52,
+      "icc": 0.12,
+      "impact_estimate": -0.03,
+      "impact_se": 0.06,
+      "mean_t": -0.04,
+      "sd_t": 0.84,
+      "mean_c": 0.10,
+      "sd_c": 0.86,
+      "g": -0.02999,
+      "g_var": 0.0035979,
+      "g_se": 0.05998,
+      "g_method": "Reported standardized HLM impact taken directly: gamma01 = -0.03, SE = 0.06 on z-scored IPT composite (Table 4.1, p.44; Table J2, p.J-2). This equals d because the outcome was already z-standardized; the report's own Glass's Delta = -0.03 (control-SD standardization) confirms d = -0.03. Hedges' g = J*d with J = 1 - 3/(4*df-1), df = n_t+n_c-2 = 2610, J = 0.99971; g = 0.99971*(-0.03) = -0.02999; g_se = J*0.06 = 0.05998; g_var = g_se^2 = 0.0035979.",
+      "pretest_adjusted": true,
+      "cluster_adjusted": true,
+      "outcome_role": "primary",
+      "is_full_sample": true,
+      "page_ref": "Table 4.1 (p.44) confirmatory impact; Table J2 (p.J-2) full model; ICC from Table I1 (p.I-1); design/sample from Summary pp.xi-xii and Table 2.6/2.7",
+      "notes": "Confirmatory (headline) research question outcome: combined OWE+RISE impact on IPT basic composite. Two-level HLM (students nested in schools) adjusting for IPT pretest, percent White, percent Hispanic, block (district) randomization indicators, and student grade; intent-to-treat over 52 schools; multilevel model accounts for clustering so cluster_adjusted=true. ICC = 0.12 (Table I1). mean_t/mean_c are the adjusted IPT posttest means (intervention 0.00 -> reported -0.04 unadjusted; here adjusted means from Table 4.1: 0.00 vs 0.03); SDs (square brackets in Table 4.1) are unadjusted-posttest SDs of the z-scored composite (0.84 intervention, 0.86 control). Not statistically significant (p=.66, 95% CI -0.14 to 0.09). Subscale impacts (Models 6-8, Table 4.2): listening -0.02, reading -0.06, writing -0.03 (all NS); these are sensitivity/subscale analyses of the same composite and are NOT extracted as separate rows (composite is the confirmatory outcome). Sensitivity models (3-10) all NS, range -0.01 to -0.12."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# OS clutter
+.DS_Store
+**/.DS_Store
+
+# Excluded from public repo (per request): draft data-request correspondence
+email/data_request.md

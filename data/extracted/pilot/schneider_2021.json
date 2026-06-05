@@ -1,0 +1,43 @@
+{
+  "report": "Schneider et al. 2021",
+  "rows": [105],
+  "citation": "Schneider, B., Krajcik, J., Lavonen, J., Salmela-Aro, K., Klager, C., Bradford, L., Chen, I.-C., Baker, Q., Touitou, I., Peek-Brown, D., Dezendorf, R. M., Maestrales, S., & Bartz, K. (2022). Improving science achievement-Is it possible? Evaluating the efficacy of a high school chemistry and physics project-based learning intervention. Educational Researcher, 51(2), 109-121. https://doi.org/10.3102/0013189X211067742 (first published online January 21, 2022; the meta-analysis's 2020-2021 update search indexed it as 'Schneider et al. 2021').",
+  "report_number": "Crafting Engaging Science Environments (CESE); NSF OISE-1545684 (PIs Barbara Schneider & Joseph Krajcik)",
+  "url": "https://doi.org/10.3102/0013189X211067742",
+  "pdf_path": "data/fulltext/schneider_2021.pdf",
+  "pdf_downloaded": true,
+  "design": "Cluster RCT; assignment level = School. Initial 70 schools (36 T / 34 C), 129 teachers, 6,211 students; final analytic sample 61 schools (30 treatment, 31 control), 119 teachers, 4,238 students (2,127 treatment, 2,111 control) in California and Michigan. Subject = science (high school chemistry & physics, NGSS project-based learning). Grades = high school (HS-PS performance expectations; coded 9-12). TPD: treatment teachers attended 3 in-person days plus ongoing facilitator support, video conferences, message boards, hotline/email (~40 hours total professional learning per chemistry/physics); control teachers got a 1-day NGSS workshop (business-as-usual). Outcome = independently developed summative science assessment (items developed by Michigan Dept. of Education for the state's 11th-grade science test; scored via IRT, equated across chemistry/physics, then standardized). Analysis = two-level HLM (students within schools) accounting for clustering, pretest-adjusted (NAEP-bank pretest covariate) plus region, course, gender, race/ethnicity.",
+  "confidence": "high",
+  "problems": "Full text now read from the local PDF (data/fulltext/schneider_2021.pdf). Headline impact and SE recovered directly from Table 4. The outcome variable Yij is the STANDARDIZED summative assessment score (z-score, SD=1; Table 4 note: 'measured in standard deviations'), so the HLM treatment coefficient gamma_01 IS the standardized mean difference d and its SE is directly the SE of d -- no separate standardizing SD is needed and none is reported (the test was equated via IRT then standardized; the psychometric technical report was delayed by COVID-19, note 10). NO numeric ICC is printed: ICCs were only used as inputs to the a priori power analysis (Optimal Design, from Spybrook et al. 2016; note 5), with no estimated/design-effect ICC value reported in the paper, so icc is left null (spec: never guess an ICC). Because the impact estimate + SE come from a two-level multilevel model that already accounts for school-level clustering, cluster_adjusted=true and no Hedges-2007 cluster correction is applied. Small-sample correction J = 1 - 3/(4*df-1) with df = n_t+n_c-2 = 4236 gives J=0.99982, so g equals d to 4 decimals. The headline contrast is Table 4 Model (2) = 0.208 SD (p<.01), described as the most conservative full-covariate model (extracted as the primary effect). Table 4 Model (1) = 0.220 SD (SE 0.064, fewer covariates) and Table 6 three-level-HLM Models (3)=0.211/(4)=0.196 (robustness for the mediation analysis) are recorded as secondary alternatives in notes but not as separate rows since they are the same arm x outcome x test x grade x timepoint contrast under alternative specifications. Heterogeneity sub-effects by gender/race (Table 5) are subgroup/interaction analyses, not full-sample primary contrasts, and are not extracted. Teacher outcomes and the educational-ambitions exploratory logistic outcome are out of scope and skipped.",
+  "effect_sizes": [
+    {
+      "row_id": 105,
+      "arm_label": "CESE project-based learning + teacher professional learning vs business-as-usual",
+      "outcome_subject": "STEM",
+      "grade_band": "9-12",
+      "test_name": "Independently developed summative science assessment (Michigan Dept. of Education state 11th-grade NGSS science items; IRT-scored, equated across chemistry & physics, standardized)",
+      "test_type": "standardized_independent",
+      "timepoint": "post (end of intervention)",
+      "n_t": 2127,
+      "n_c": 2111,
+      "n_clusters": 61,
+      "icc": null,
+      "impact_estimate": 0.208,
+      "impact_se": 0.065,
+      "mean_t": null,
+      "sd_t": null,
+      "mean_c": null,
+      "sd_c": null,
+      "g": 0.208,
+      "g_var": 0.004224,
+      "g_se": 0.065,
+      "g_method": "Outcome is the standardized summative-assessment z-score (SD=1), so the two-level HLM treatment coefficient gamma_01 = 0.208 (Table 4, Model 2) is itself the standardized mean difference d and impact_se = 0.065 is the SE of d directly (no separate standardizing SD needed). Hedges' g = J*d with J = 1 - 3/(4*df-1), df = n_t+n_c-2 = 4236 -> J = 0.99982, so g = 0.99982*0.208 = 0.208. g_var = J^2 * impact_se^2 = 0.99982^2 * 0.065^2 = 0.004224; g_se = 0.065. Model-based SE from the multilevel model already accounts for school-level clustering.",
+      "pretest_adjusted": true,
+      "cluster_adjusted": true,
+      "outcome_role": "primary",
+      "is_full_sample": true,
+      "page_ref": "p.8, Table 4, Model (2) (Estimated Treatment Effect of the CESE System); described p.8 Results / Student Outcomes",
+      "notes": "Headline confirmatory contrast (RQ1): treatment students scored 0.208 SD higher than control on the independent summative science test (p<.01), the most conservative full-covariate model (controls: pretest, region, course chemistry/physics, gender, race/ethnicity + missing dummies). Alternative specifications of the SAME arm/outcome/test/grade/timepoint contrast (not extracted as separate rows): Table 4 Model (1) without the extra covariates = 0.220 SD (SE 0.064, p<.01); Table 6 three-level HLM (student/teacher/school) Model (3) = 0.211 SD (SE 0.059, p<.001) and Model (4) = 0.196 SD (SE 0.060, p<.01). Cohen's f^2 for the treatment effect = 0.01. Frank et al. (2013) sensitivity: 28.6% of the estimate (~1,637 cases) would have to be replaced with null cases to invalidate the inference. Generalizability index vs U.S. = 0.82. No standardizing SD or numeric ICC reported (outcome pre-standardized; ICC only used as a power-analysis input). Mediation: students' use of modeling explained ~28% of the total effect (a*b=0.055, sig at .10); teachers' incorporation of PBL ~11% (n.s.). No heterogeneity by gender/race/ethnicity (Table 5). Initial sample 70 schools/129 teachers/6,211 students; attrition to 61 schools/119 teachers/4,238 students (Table 2)."
+    }
+  ]
+}

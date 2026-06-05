@@ -1,0 +1,747 @@
+[
+ {
+  "slug": "abe_2012",
+  "display": "Abe et al. 2012",
+  "rows": [
+   1
+  ],
+  "grade": "3-6",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "allen_2015",
+  "display": "Allen et al. 2015",
+  "rows": [
+   2
+  ],
+  "grade": "Mixed",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "Other"
+ },
+ {
+  "slug": "ansari_pianta_2018",
+  "display": "Ansari & Pianta 2018",
+  "rows": [
+   3
+  ],
+  "grade": "Pre-k",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "Comprehensive approaches"
+ },
+ {
+  "slug": "babinski_2018",
+  "display": "Babinski et al. 2018",
+  "rows": [
+   5
+  ],
+  "grade": "K-2",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "Comprehensive approaches"
+ },
+ {
+  "slug": "bierman_2008",
+  "display": "Bierman et al. 2008",
+  "rows": [
+   6
+  ],
+  "grade": "Pre-k",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "bleses_2021",
+  "display": "Bleses et al. 2021",
+  "rows": [
+   7
+  ],
+  "grade": "Pre-k",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "borman_2007",
+  "display": "Borman et al. 2007",
+  "rows": [
+   8
+  ],
+  "grade": "K-2",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "Comprehensive approaches"
+ },
+ {
+  "slug": "borman_2008",
+  "display": "Borman et al. 2008",
+  "rows": [
+   9
+  ],
+  "grade": "Mixed",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "borman_2021",
+  "display": "Borman et al. 2021",
+  "rows": [
+   10
+  ],
+  "grade": "7-12",
+  "assign": "Student",
+  "design": "RCT",
+  "goal": "Comprehensive approaches"
+ },
+ {
+  "slug": "bottge_2014",
+  "display": "Bottge et al. 2014",
+  "rows": [
+   11
+  ],
+  "grade": "Mixed",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "buysse_2010",
+  "display": "Buysse et al. 2010",
+  "rows": [
+   13
+  ],
+  "grade": "Pre-k",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "Other"
+ },
+ {
+  "slug": "cabell_2011",
+  "display": "Cabell et al. 2011",
+  "rows": [
+   14
+  ],
+  "grade": "Pre-k",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "carroll_2020",
+  "display": "Carroll et al. 2020",
+  "rows": [
+   15
+  ],
+  "grade": "K-2",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "TPD for digital tools"
+ },
+ {
+  "slug": "castro_2017",
+  "display": "Castro et al. 2017",
+  "rows": [
+   16
+  ],
+  "grade": "Pre-k",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "clarke_2015",
+  "display": "Clarke et al. 2015",
+  "rows": [
+   18
+  ],
+  "grade": "K-2",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "coyne_2013",
+  "display": "Coyne et al. 2013",
+  "rows": [
+   20
+  ],
+  "grade": "K-2",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "droop_2016",
+  "display": "Droop et al. 2016",
+  "rows": [
+   24
+  ],
+  "grade": "3-6",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "early_2016",
+  "display": "Early et al. 2016",
+  "rows": [
+   28
+  ],
+  "grade": "7-12",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "gersten_2010",
+  "display": "Gersten et al. 2010",
+  "rows": [
+   36
+  ],
+  "grade": "K-2",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "gore_2021",
+  "display": "Gore et al. 2021",
+  "rows": [
+   38,
+   39
+  ],
+  "grade": "Mixed",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "Comprehensive approaches"
+ },
+ {
+  "slug": "greenleaf_2011",
+  "display": "Greenleaf et al. 2011",
+  "rows": [
+   40
+  ],
+  "grade": "7-12",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "Comprehensive approaches"
+ },
+ {
+  "slug": "guzman_2021",
+  "display": "Guzm\u00e1n et al. 2021",
+  "rows": [
+   41
+  ],
+  "grade": "K-2",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "hanley_2020",
+  "display": "Hanley et al. 2020",
+  "rows": [
+   43
+  ],
+  "grade": "3-6",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "hanselman_2013",
+  "display": "Hanselman et al. 2013",
+  "rows": [
+   44
+  ],
+  "grade": "Mixed",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "Comprehensive approaches"
+ },
+ {
+  "slug": "herman_2022",
+  "display": "Herman et al. 2022",
+  "rows": [
+   47
+  ],
+  "grade": "Mixed",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "Other"
+ },
+ {
+  "slug": "jaciw_schellinger_2016",
+  "display": "Jaciw, Schellinger et al. 2016",
+  "rows": [
+   51
+  ],
+  "grade": "3-6",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "jacob_2017",
+  "display": "Jacob 2017",
+  "rows": [
+   52
+  ],
+  "grade": "Mixed",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "jacob_2017_r53",
+  "display": "Jacob et al. 2017",
+  "rows": [
+   53
+  ],
+  "grade": "3-6",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "konstantopoulos_2013",
+  "display": "Konstantopoulos et al. 2013",
+  "rows": [
+   60
+  ],
+  "grade": "3-6",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "TPD for digital tools"
+ },
+ {
+  "slug": "konstantopoulos_2016",
+  "display": "Konstantopoulos et al. 2016",
+  "rows": [
+   61,
+   62
+  ],
+  "grade": "3-6",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "kutaka_2017",
+  "display": "Kutaka et al. 2017",
+  "rows": [
+   63
+  ],
+  "grade": "K-2",
+  "assign": "Teacher/Class",
+  "design": "QED",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "landry_2014",
+  "display": "Landry et al. 2014",
+  "rows": [
+   64
+  ],
+  "grade": "Pre-k",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "Comprehensive approaches"
+ },
+ {
+  "slug": "landry_2017",
+  "display": "Landry et al. 2017",
+  "rows": [
+   65
+  ],
+  "grade": "Pre-k",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "Comprehensive approaches"
+ },
+ {
+  "slug": "landry_2021",
+  "display": "Landry et al. 2021",
+  "rows": [
+   66
+  ],
+  "grade": "Pre-k",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "Comprehensive approaches"
+ },
+ {
+  "slug": "lang_2009",
+  "display": "Lang et al. 2009",
+  "rows": [
+   67,
+   68,
+   69
+  ],
+  "grade": "7-12",
+  "assign": "Student",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "lesaux_2014",
+  "display": "Lesaux et al. 2014",
+  "rows": [
+   70
+  ],
+  "grade": "3-6",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "lewis_presser_2015",
+  "display": "Lewis Presser et al. 2015",
+  "rows": [
+   71
+  ],
+  "grade": "prek",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "little_2014",
+  "display": "Little et al. 2014",
+  "rows": [
+   72
+  ],
+  "grade": "Mixed",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "Other"
+ },
+ {
+  "slug": "llosa_2016",
+  "display": "Llosa et al. 2016",
+  "rows": [
+   73
+  ],
+  "grade": "3-6",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "meyers_2016",
+  "display": "Meyers et al. 2016",
+  "rows": [
+   78
+  ],
+  "grade": "7-12",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "Comprehensive approaches"
+ },
+ {
+  "slug": "murphy_2020",
+  "display": "Murphy et al. 2020",
+  "rows": [
+   81
+  ],
+  "grade": "7-12",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "TPD for digital tools"
+ },
+ {
+  "slug": "murphy_2021",
+  "display": "Murphy et al. 2021",
+  "rows": [
+   82
+  ],
+  "grade": "3-6",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "olson_2012",
+  "display": "Olson et al. 2012",
+  "rows": [
+   86
+  ],
+  "grade": "7-12",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "olson_2017",
+  "display": "Olson et al. 2017",
+  "rows": [
+   87
+  ],
+  "grade": "7-12",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "olson_2020",
+  "display": "Olson et al. 2020",
+  "rows": [
+   88
+  ],
+  "grade": "7-12",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "pcer_2008",
+  "display": "PCER (2008)",
+  "rows": [
+   89
+  ],
+  "grade": "Pre-k",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "powell_2010",
+  "display": "Powell et al. 2010",
+  "rows": [
+   91
+  ],
+  "grade": "Pre-k",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "prast_2018",
+  "display": "Prast et al. 2018",
+  "rows": [
+   92
+  ],
+  "grade": "Mixed",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "Other"
+ },
+ {
+  "slug": "randel_2016",
+  "display": "Randel et al. 2016",
+  "rows": [
+   94
+  ],
+  "grade": "3-6",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "TPD for digital tools"
+ },
+ {
+  "slug": "reinke_2018",
+  "display": "Reinke et al. 2018",
+  "rows": [
+   96
+  ],
+  "grade": "Mixed",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "Other"
+ },
+ {
+  "slug": "rutherford_2014",
+  "display": "Rutherford et al. 2014",
+  "rows": [
+   102
+  ],
+  "grade": "3-6",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "TPD for digital tools"
+ },
+ {
+  "slug": "savage_2013",
+  "display": "Savage et al. 2013",
+  "rows": [
+   103
+  ],
+  "grade": "K-2",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "TPD for digital tools"
+ },
+ {
+  "slug": "schneider_2021",
+  "display": "Schneider et al. 2021",
+  "rows": [
+   105
+  ],
+  "grade": "7-12",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "shechtman_2019",
+  "display": "Shechtman et al. 2019",
+  "rows": [
+   107
+  ],
+  "grade": "3-6",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "simmons_2011",
+  "display": "Simmons et al. 2011",
+  "rows": [
+   108
+  ],
+  "grade": "K-2",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "smith_2016",
+  "display": "Smith et al. 2016",
+  "rows": [
+   110
+  ],
+  "grade": "K-2",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "song_2021",
+  "display": "Song et al. 2021",
+  "rows": [
+   113
+  ],
+  "grade": "Mixed",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "stevens_slavin_1995",
+  "display": "Stevens & Slavin 1995",
+  "rows": [
+   115
+  ],
+  "grade": "Mixed",
+  "assign": "School",
+  "design": "QED",
+  "goal": "Comprehensive approaches"
+ },
+ {
+  "slug": "taylor_2015",
+  "display": "Taylor et al. 2015",
+  "rows": [
+   119
+  ],
+  "grade": "7-12",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "thiede_2018",
+  "display": "Thiede et al. 2018",
+  "rows": [
+   120,
+   121,
+   122
+  ],
+  "grade": "Mixed",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "Comprehensive approaches"
+ },
+ {
+  "slug": "tolan_2020",
+  "display": "Tolan et al. 2020",
+  "rows": [
+   124
+  ],
+  "grade": "Mixed",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "Other"
+ },
+ {
+  "slug": "vaughn_2022",
+  "display": "Vaughn et al. 2022",
+  "rows": [
+   125,
+   126
+  ],
+  "grade": "3-6",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "vernon_feagans_2013",
+  "display": "Vernon-Feagans et al. 2013",
+  "rows": [
+   127
+  ],
+  "grade": "K-2",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "wakabayashi_2020",
+  "display": "Wakabayashi et al. 2020",
+  "rows": [
+   129
+  ],
+  "grade": "Pre-k",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "(P)CK"
+ },
+ {
+  "slug": "whittaker_2020",
+  "display": "Whittaker et al. 2020",
+  "rows": [
+   131
+  ],
+  "grade": "Pre-k",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "wijekumar_2017",
+  "display": "Wijekumar et al. 2017",
+  "rows": [
+   135
+  ],
+  "grade": "7-12",
+  "assign": "Teacher/Class",
+  "design": "RCT",
+  "goal": "TPD for curricula"
+ },
+ {
+  "slug": "yang_2020",
+  "display": "Yang et al. 2020",
+  "rows": [
+   142,
+   143
+  ],
+  "grade": "7-12",
+  "assign": "School",
+  "design": "RCT",
+  "goal": "(P)CK"
+ }
+]

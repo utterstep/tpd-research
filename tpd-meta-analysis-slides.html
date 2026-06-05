@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>When do TPD interventions improve student achievement? — Slide deck</title>
+<style>
+  :root{
+    --bg:#0d1b2a;
+    --panel:#ffffff;
+    --ink:#1b263b;
+    --muted:#5a6b82;
+    --accent:#2a6f97;
+    --accent2:#e09f3e;
+    --good:#2a9d8f;
+    --bad:#c1432e;
+    --line:#d9e1ec;
+    --soft:#f3f6fb;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{height:100%;}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+    overflow:hidden;
+  }
+  /* deck container keeps 16:9 */
+  #deck{
+    position:fixed;
+    inset:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .slide{
+    position:absolute;
+    width:min(96vw, calc(96vh * 16 / 9));
+    height:min(96vh, calc(96vw * 9 / 16));
+    background:var(--panel);
+    border-radius:14px;
+    box-shadow:0 30px 80px rgba(0,0,0,.45);
+    padding:4.2vh 4.4vw;
+    display:none;
+    flex-direction:column;
+    overflow:hidden;
+  }
+  .slide.active{display:flex;animation:fade .35s ease;}
+  @keyframes fade{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:none;}}
+
+  /* responsive font scale based on slide width */
+  .slide{font-size:clamp(13px,1.55vh,22px);}
+
+  h1{font-size:2.55em;line-height:1.08;letter-spacing:-.5px;color:var(--ink);}
+  h2{font-size:1.85em;line-height:1.1;color:var(--accent);margin-bottom:.55em;letter-spacing:-.3px;}
+  h3{font-size:1.12em;color:var(--ink);margin-bottom:.25em;}
+  p{font-size:1.02em;line-height:1.45;color:var(--ink);}
+  .eyebrow{
+    text-transform:uppercase;letter-spacing:.18em;font-size:.78em;font-weight:700;
+    color:var(--accent2);margin-bottom:1.1em;
+  }
+  .kicker{font-size:.85em;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.4em;}
+
+  .topbar{
+    display:flex;align-items:center;gap:.6em;
+    padding-bottom:.8em;border-bottom:2px solid var(--line);margin-bottom:1.1em;
+  }
+  .topbar .num{
+    background:var(--accent);color:#fff;font-weight:700;font-size:.8em;
+    border-radius:6px;padding:.25em .6em;
+  }
+  .topbar .label{color:var(--muted);font-weight:600;font-size:.85em;letter-spacing:.04em;}
+
+  ul{list-style:none;}
+  li{position:relative;padding-left:1.5em;margin:.55em 0;line-height:1.42;font-size:1.02em;}
+  li::before{content:"";position:absolute;left:0;top:.55em;width:.55em;height:.55em;border-radius:2px;background:var(--accent2);}
+  li.good::before{background:var(--good);}
+  li.bad::before{background:var(--bad);}
+
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:1.4em;flex:1;min-height:0;}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1em;flex:1;min-height:0;}
+  .col{display:flex;flex-direction:column;}
+
+  .card{
+    background:var(--soft);border:1px solid var(--line);border-radius:10px;
+    padding:1em 1.15em;display:flex;flex-direction:column;gap:.2em;
+  }
+  .card h3{color:var(--accent);font-size:1.05em;}
+
+  .stat{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;}
+  .stat .big{font-size:3.1em;font-weight:800;line-height:1;color:var(--accent);letter-spacing:-1px;}
+  .stat .big.good{color:var(--good);}
+  .stat .big.bad{color:var(--bad);}
+  .stat .cap{font-size:.92em;color:var(--muted);margin-top:.4em;line-height:1.3;}
+
+  .statrow{display:flex;gap:1.2em;margin:.4em 0 1em;}
+  .statrow .stat{flex:1;background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:1em .7em;}
+
+  .pill{display:inline-block;background:var(--accent);color:#fff;border-radius:999px;
+    padding:.2em .8em;font-size:.8em;font-weight:700;margin:.15em .25em .15em 0;}
+  .pill.alt{background:var(--accent2);}
+  .pill.g{background:var(--good);}
+  .pill.r{background:var(--bad);}
+
+  .note{font-size:.86em;color:var(--muted);font-style:italic;margin-top:auto;padding-top:1em;}
+  .footer{position:absolute;bottom:1.6vh;left:4.4vw;right:4.4vw;display:flex;justify-content:space-between;
+    font-size:.74em;color:var(--muted);border-top:1px solid var(--line);padding-top:.6em;}
+
+  /* title slide */
+  .title-slide{justify-content:center;background:linear-gradient(135deg,#0d1b2a 0%,#1b3a5b 55%,#2a6f97 100%);color:#fff;}
+  .title-slide h1{color:#fff;font-size:3em;max-width:18em;}
+  .title-slide .sub{color:#cfe0ef;font-size:1.25em;margin-top:1em;max-width:34em;line-height:1.4;}
+  .title-slide .authors{color:#a9c4dc;margin-top:2.2em;font-size:1.02em;line-height:1.6;}
+  .title-slide .eyebrow{color:var(--accent2);}
+  .title-slide .journal{position:absolute;bottom:5vh;color:#86a4c0;font-size:.92em;}
+
+  /* bar chart */
+  .bars{display:flex;flex-direction:column;gap:.6em;margin-top:.5em;}
+  .bar-row{display:grid;grid-template-columns:9.5em 1fr 3em;align-items:center;gap:.7em;font-size:.95em;}
+  .bar-label{color:var(--ink);font-weight:600;text-align:right;}
+  .bar-track{background:var(--line);border-radius:6px;height:1.5em;position:relative;overflow:hidden;}
+  .bar-fill{background:var(--accent);height:100%;border-radius:6px;display:flex;align-items:center;}
+  .bar-val{font-weight:700;color:var(--accent);}
+
+  /* range / prediction interval visual */
+  .range-wrap{margin:1.2em 0;}
+  .range-track{position:relative;height:3.2em;background:linear-gradient(90deg,#f4c8bf 0%,#f7e7c8 50%,#c9e7e2 100%);border-radius:8px;border:1px solid var(--line);}
+  .range-zero{position:absolute;top:-.5em;bottom:-.5em;width:2px;background:var(--ink);}
+  .range-mean{position:absolute;top:-1.1em;bottom:-1.1em;width:3px;background:var(--accent);border-radius:2px;}
+  .range-tick{position:absolute;top:100%;transform:translateX(-50%);margin-top:.3em;font-size:.78em;color:var(--muted);white-space:nowrap;}
+  .range-tag{position:absolute;bottom:100%;transform:translateX(-50%);margin-bottom:.4em;font-size:.78em;font-weight:700;white-space:nowrap;}
+
+  .flow{display:flex;align-items:stretch;gap:.5em;margin:1.2em 0;}
+  .flow .step{flex:1;background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:.8em;text-align:center;font-size:.92em;font-weight:600;display:flex;align-items:center;justify-content:center;}
+  .flow .arrow{display:flex;align-items:center;color:var(--accent2);font-size:1.6em;font-weight:800;}
+  .flow .step.missing{border:2px dashed var(--bad);background:#fdf1ef;color:var(--bad);}
+
+  .lead{font-size:1.25em;line-height:1.45;color:var(--ink);}
+  .lead b{color:var(--accent);}
+
+  .two-col-text{column-count:2;column-gap:2em;}
+
+  .tag-good{color:var(--good);font-weight:700;}
+  .tag-bad{color:var(--bad);font-weight:700;}
+
+  /* progress dots */
+  #dots{position:fixed;bottom:1vh;left:50%;transform:translateX(-50%);display:flex;gap:.4em;z-index:20;}
+  #dots .dot{width:.6em;height:.6em;border-radius:50%;background:rgba(255,255,255,.32);cursor:pointer;transition:.2s;}
+  #dots .dot.active{background:var(--accent2);transform:scale(1.25);}
+
+  #help{position:fixed;top:1.4vh;right:1.4vw;color:rgba(255,255,255,.55);font-size:.72em;z-index:20;}
+
+  table.mini{border-collapse:collapse;width:100%;font-size:.92em;margin-top:.4em;}
+  table.mini th,table.mini td{text-align:left;padding:.4em .5em;border-bottom:1px solid var(--line);}
+  table.mini th{color:var(--muted);font-weight:700;text-transform:uppercase;font-size:.78em;letter-spacing:.05em;}
+  table.mini td.v{font-weight:700;color:var(--accent);text-align:right;}
+</style>
+</head>
+<body>
+<div id="deck">
+
+  <!-- 1. TITLE -->
+  <section class="slide title-slide active">
+    <div class="eyebrow">Meta-analysis · Educational Research Review 49 (2025)</div>
+    <h1>(When) do teacher professional development interventions improve student achievement?</h1>
+    <div class="sub">A meta-analysis of <b>128 high-quality studies</b> and 356 effect sizes spanning 31 years of in-service TPD research (1990–2021).</div>
+    <div class="authors">
+      Adrie J. Visscher · Natasha Dmoshinskaia · Marta Pellegrini · Anny Rey-Naizaque<br>
+      University of Twente (NL) · University of Cagliari (IT)
+    </div>
+    <div class="journal">doi.org/10.1016/j.edurev.2025.100742 · CC BY · open access</div>
+  </section>
+
+  <!-- 2. THE PROBLEM -->
+  <section class="slide">
+    <div class="topbar"><span class="num">01</span><span class="label">Why this question matters</span></div>
+    <h2>Billions spent — but does it reach students?</h2>
+    <div class="grid2">
+      <div class="col">
+        <ul>
+          <li>Teacher quality explains ~<b>10–15%</b> of variance in student achievement — teachers matter, and skills plateau after 5–10 years.</li>
+          <li>In-service TPD is the main lever to keep improving teaching <em>at scale</em>.</li>
+          <li>Spending is enormous — the U.S. alone spent <b>~$18 billion/year</b> on TPD (2014 estimate), likely more today.</li>
+          <li>The recurring question: <b>does that investment pay off in student achievement?</b></li>
+        </ul>
+      </div>
+      <div class="col" style="justify-content:center;">
+        <h3 style="text-align:center;margin-bottom:.8em;color:var(--muted);">Desimone's (2009) theory of action</h3>
+        <div class="flow" style="flex-direction:column;gap:.45em;">
+          <div class="step">TPD interventions</div>
+          <div class="arrow" style="justify-content:center;transform:rotate(90deg);">➜</div>
+          <div class="step">Better teacher competences</div>
+          <div class="arrow" style="justify-content:center;transform:rotate(90deg);">➜</div>
+          <div class="step">Better instruction <em>in class</em></div>
+          <div class="arrow" style="justify-content:center;transform:rotate(90deg);">➜</div>
+          <div class="step missing">Better student achievement<br><small>← the link rarely measured well</small></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>Visscher, Dmoshinskaia, Pellegrini &amp; Rey-Naizaque (2025)</span><span>TPD = teacher professional development</span></div>
+  </section>
+
+  <!-- 3. RESEARCH QUESTIONS -->
+  <section class="slide">
+    <div class="topbar"><span class="num">02</span><span class="label">Research questions</span></div>
+    <h2>Three questions</h2>
+    <div class="grid3">
+      <div class="card">
+        <div class="pill">RQ1</div>
+        <h3>How big is the effect?</h3>
+        <p>What is the <b>average effect</b> of in-service TPD on students' academic achievement?</p>
+      </div>
+      <div class="card">
+        <div class="pill alt">RQ2</div>
+        <h3>Does the goal matter?</h3>
+        <p>What is the average effect <b>per TPD goal</b> (e.g. content knowledge, curricula, digital tools)?</p>
+      </div>
+      <div class="card">
+        <div class="pill g">RQ3</div>
+        <h3>What conditions help?</h3>
+        <p>What <b>factors moderate</b> the effect — study design, context, and TPD design features?</p>
+      </div>
+    </div>
+    <p class="lead" style="margin-top:1.2em;">A distinctive angle: the team tested four <b>learning-theory principles</b> as moderators — something prior TPD reviews had barely examined.</p>
+    <div class="footer"><span>Section 1 · Introduction</span><span>02 / 14</span></div>
+  </section>
+
+  <!-- 4. DESIGN / METHOD -->
+  <section class="slide">
+    <div class="topbar"><span class="num">03</span><span class="label">Design — built to minimize bias</span></div>
+    <h2>Strict inclusion criteria for high-quality evidence</h2>
+    <div class="grid2">
+      <div class="col">
+        <ul>
+          <li><b>RCTs &amp; quasi-experiments</b> only, with business-as-usual control groups.</li>
+          <li><b>Independent outcome measures</b> — researcher/developer-made tests excluded.</li>
+          <li>Pre-K to grade 12, regular schools; <b>≥20 teachers/classes</b> per condition.</li>
+          <li>Duration <b>≥12 weeks</b>; TPD delivered by teachers (not researchers in class).</li>
+          <li>Baseline equivalence (&lt;0.25 SD); differential attrition &lt;15%.</li>
+          <li>Published <b>1990–2021</b> — 31 years, broader than any prior review.</li>
+        </ul>
+      </div>
+      <div class="col">
+        <div class="card" style="flex:1;justify-content:center;">
+          <h3>A distinctive verification step</h3>
+          <p style="font-size:1.05em;">The team conducted <b>115 interviews</b> with researchers &amp; TPD facilitators worldwide — covering <b>90% of included publications</b> — to verify and complete details that publications left vague.</p>
+          <p style="margin-top:.7em;">Analysis: Hedges' <em>g</em>, random-effects, <b>correlated-effects model with robust variance estimation</b>; coded with the MUTOS framework.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>Section 2 · Method (PRISMA + Pigott &amp; Polanin guidelines)</span><span>03 / 14</span></div>
+  </section>
+
+  <!-- 5. SAMPLE -->
+  <section class="slide">
+    <div class="topbar"><span class="num">04</span><span class="label">The evidence base</span></div>
+    <h2>128 studies · 356 effect sizes</h2>
+    <div class="statrow">
+      <div class="stat"><div class="big">4,447</div><div class="cap">records screened (databases + reviews + hand search)</div></div>
+      <div class="stat"><div class="big">128</div><div class="cap">studies met all inclusion criteria</div></div>
+      <div class="stat"><div class="big">356</div><div class="cap">effect sizes analysed</div></div>
+      <div class="stat"><div class="big">48%</div><div class="cap">from gray (unpublished) literature</div></div>
+    </div>
+    <div class="grid3" style="flex:0 0 auto;margin-top:.4em;">
+      <div class="card"><h3>Who</h3><p>96.5% RCTs · 65% school-level assignment · 88% targeted <em>all</em> students</p></div>
+      <div class="card"><h3>Where</h3><p>74% U.S. · 21% U.K. · 60% primary, 20% secondary, 20% mixed</p></div>
+      <div class="card"><h3>What</h3><p>65% reading · 27% STEM · avg <b>48 TPD hours</b> (SD 44)</p></div>
+    </div>
+    <p class="note">Including ~50% unpublished studies was crucial for a balanced, not-overestimated picture — most prior reviews under-sampled the gray literature.</p>
+    <div class="footer"><span>Table 3 · Descriptive characteristics</span><span>04 / 14</span></div>
+  </section>
+
+  <!-- 6. MODERATORS / PRINCIPLES -->
+  <section class="slide">
+    <div class="topbar"><span class="num">05</span><span class="label">What was tested as a moderator</span></div>
+    <h2>Six moderators — and four learning-theory principles</h2>
+    <div class="grid2">
+      <div class="col">
+        <h3 style="color:var(--accent2);margin-bottom:.4em;">Four learning-theory principles</h3>
+        <p style="color:var(--muted);margin-bottom:.5em;">Forms of support for teachers learning complex skills:</p>
+        <ul>
+          <li class="good">Teacher <b>performance standards</b> — clear definition of "good" teaching</li>
+          <li class="good">Teacher <b>self-regulation</b> — monitoring &amp; planning one's own learning</li>
+          <li class="good">Teacher <b>coaching</b> — feedback in the classroom</li>
+          <li class="good">Teacher <b>cooperation</b> — mutual exchange among teachers</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3 style="color:var(--accent);margin-bottom:.4em;">Plus study &amp; design features</h3>
+        <ul>
+          <li>Number of <b>TPD hours</b></li>
+          <li><b>Trainer type</b> — external vs. researcher/developer</li>
+          <li><b>TPD goal</b> — (P)CK, comprehensive approaches, curricula, digital tools, other</li>
+          <li>Grade level, SES, tested subject, publication status</li>
+        </ul>
+        <p class="note" style="margin-top:1em;">Key idea: the principles were studied <b>as a set</b>, not in isolation — combinations may matter more than any single one.</p>
+      </div>
+    </div>
+    <div class="footer"><span>Table 2 · Codebook of moderators</span><span>05 / 14</span></div>
+  </section>
+
+  <!-- 7. RQ1 HEADLINE -->
+  <section class="slide">
+    <div class="topbar"><span class="num">06</span><span class="label">Main finding · RQ1</span></div>
+    <h2>On average, TPD works — a medium effect</h2>
+    <div class="grid2">
+      <div class="col" style="justify-content:center;align-items:center;">
+        <div class="stat">
+          <div class="big good">+0.09</div>
+          <div class="cap" style="font-size:1.1em;">average weighted effect size (Hedges' <em>g</em>)<br>95% CI [0.07, 0.11] · <em>p</em> &lt; .001</div>
+        </div>
+      </div>
+      <div class="col" style="justify-content:center;">
+        <ul>
+          <li class="good">By Kraft's (2020/2023) benchmarks for standardized tests, 0.09 counts as a <b>medium-size</b> effect on achievement.</li>
+          <li>Consistent with the most rigorous recent reviews (Sims et al. 2023: 0.05; Fletcher-Wood &amp; Zuccollo 2020: 0.09).</li>
+          <li>Even slightly higher than comparable reviews <em>despite</em> stricter inclusion criteria.</li>
+          <li>At scale, a 0.09 effect across millions of students is meaningful.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="note">"TPD activities are not a goal in themselves" — the point is improved teaching and, ultimately, student learning.</p>
+    <div class="footer"><span>Section 3.2 · Overall treatment effect</span><span>06 / 14</span></div>
+  </section>
+
+  <!-- 8. HETEROGENEITY -->
+  <section class="slide">
+    <div class="topbar"><span class="num">07</span><span class="label">The "(When)" in the title</span></div>
+    <h2>No guarantee — effects vary enormously</h2>
+    <p class="lead" style="margin-bottom:.3em;">The 95% prediction interval spans <b>−0.15 to 0.32</b>. Comparable TPD programs can help a lot, do nothing, or even <b>harm</b>.</p>
+    <div class="range-wrap">
+      <div class="range-track">
+        <div class="range-zero" style="left:31.9%;"></div>
+        <span class="range-tag" style="left:31.9%;color:var(--ink);">zero</span>
+        <div class="range-mean" style="left:51%;"></div>
+        <span class="range-tag" style="left:51%;color:var(--accent);">mean +0.09</span>
+        <span class="range-tick" style="left:0%;">−0.15</span>
+        <span class="range-tick" style="left:31.9%;">0.00</span>
+        <span class="range-tick" style="left:100%;">+0.32</span>
+      </div>
+    </div>
+    <div class="statrow" style="margin-top:1.8em;">
+      <div class="stat"><div class="big">~15%</div><div class="cap">of TPD effects were <b>zero or negative</b></div></div>
+      <div class="stat"><div class="big">85%</div><div class="cap">probability the effect is &gt; 0</div></div>
+      <div class="stat"><div class="big">65%</div><div class="cap">probability the effect is &lt; 0.20 (i.e. small–medium)</div></div>
+    </div>
+    <p class="note">The real challenge is no longer "does TPD work?" but <b>"why do some TPD programs work and others don't?"</b></p>
+    <div class="footer"><span>Fig. 3 · 95% prediction interval</span><span>07 / 14</span></div>
+  </section>
+
+  <!-- 9. RQ2 TPD GOALS -->
+  <section class="slide">
+    <div class="topbar"><span class="num">08</span><span class="label">Main finding · RQ2</span></div>
+    <h2>The <em>goal</em> of TPD did not significantly matter</h2>
+    <div class="grid2">
+      <div class="col">
+        <div class="bars">
+          <div class="bar-row"><span class="bar-label">(P)CK</span><div class="bar-track"><div class="bar-fill" style="width:77%;"></div></div><span class="bar-val">0.10</span></div>
+          <div class="bar-row"><span class="bar-label">Curricula</span><div class="bar-track"><div class="bar-fill" style="width:77%;"></div></div><span class="bar-val">0.10</span></div>
+          <div class="bar-row"><span class="bar-label">Other</span><div class="bar-track"><div class="bar-fill" style="width:69%;"></div></div><span class="bar-val">0.09</span></div>
+          <div class="bar-row"><span class="bar-label">Comprehensive</span><div class="bar-track"><div class="bar-fill" style="width:62%;"></div></div><span class="bar-val">0.08</span></div>
+          <div class="bar-row"><span class="bar-label">Digital tools</span><div class="bar-track"><div class="bar-fill" style="width:31%;"></div></div><span class="bar-val">0.04</span></div>
+        </div>
+        <p class="note" style="margin-top:1.2em;">F-test for the goal moderator: <b>not significant</b> (<em>p</em> = .306).</p>
+      </div>
+      <div class="col" style="justify-content:center;">
+        <ul>
+          <li>Goal categories were <b>similarly effective</b> — no single content focus stood out.</li>
+          <li>This challenges a common claim that TPD focused on (pedagogical) content knowledge is especially powerful.</li>
+          <li class="bad">Caveat: many important goals (classroom management, differentiation, metacognition) still have <b>too few high-quality studies</b> to judge.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer"><span>Table 4 · Confirmatory model (conditional means)</span><span>08 / 14</span></div>
+  </section>
+
+  <!-- 10. RQ3 MODERATORS -->
+  <section class="slide">
+    <div class="topbar"><span class="num">09</span><span class="label">Main finding · RQ3</span></div>
+    <h2>What <em>did</em> move the needle</h2>
+    <div class="grid2">
+      <div class="col">
+        <div class="card">
+          <h3>Grade level <span class="pill g" style="font-size:.7em;">significant</span></h3>
+          <table class="mini">
+            <tr><td>Primary (pre-K–6)</td><td class="v">0.10</td></tr>
+            <tr><td>Secondary (7–12)</td><td class="v">0.09</td></tr>
+            <tr><td>Mixed grades</td><td class="v">0.06</td></tr>
+          </table>
+          <p style="margin-top:.4em;font-size:.9em;">Primary &gt; mixed (<em>p</em> = .046). Younger students still have more room to grow in subject matter.</p>
+        </div>
+        <div class="card" style="margin-top:1em;">
+          <h3>Publication status <span class="pill g" style="font-size:.7em;">significant</span></h3>
+          <table class="mini">
+            <tr><td>Published</td><td class="v">0.10</td></tr>
+            <tr><td>Unpublished</td><td class="v">0.05</td></tr>
+          </table>
+          <p style="margin-top:.4em;font-size:.9em;">Published effects are <b>twice</b> unpublished ones (<em>p</em> = .003) — a clear <b>publication-bias</b> signal.</p>
+        </div>
+      </div>
+      <div class="col" style="justify-content:center;">
+        <h3 style="color:var(--muted);">Did NOT significantly moderate</h3>
+        <ul>
+          <li class="bad">Number of <b>TPD hours</b> — "more hours" ≠ more effective (avg 48h)</li>
+          <li class="bad"><b>Trainer type</b> — external trainers = developers/researchers</li>
+          <li class="bad">TPD goal · targeted population · SES · tested subject</li>
+        </ul>
+        <p class="note" style="margin-top:1em;">Trainer finding is good news for <b>scaling</b>: external trainers (always needed at scale) work as well as the program's own developers.</p>
+      </div>
+    </div>
+    <div class="footer"><span>Tables 4 &amp; 5 · Confirmatory + exploratory models</span><span>09 / 14</span></div>
+  </section>
+
+  <!-- 11. LEARNING THEORY PRINCIPLES -->
+  <section class="slide">
+    <div class="topbar"><span class="num">10</span><span class="label">The most theory-relevant finding</span></div>
+    <h2>More learning-theory principles → bigger effect</h2>
+    <div class="grid2">
+      <div class="col">
+        <div class="bars">
+          <div class="bar-row"><span class="bar-label">0 principles</span><div class="bar-track"><div class="bar-fill" style="width:23%;background:var(--bad);"></div></div><span class="bar-val" style="color:var(--bad);">0.03*</span></div>
+          <div class="bar-row"><span class="bar-label">1 principle</span><div class="bar-track"><div class="bar-fill" style="width:46%;"></div></div><span class="bar-val">0.06</span></div>
+          <div class="bar-row"><span class="bar-label">2 principles</span><div class="bar-track"><div class="bar-fill" style="width:62%;"></div></div><span class="bar-val">0.07</span></div>
+          <div class="bar-row"><span class="bar-label">3 principles</span><div class="bar-track"><div class="bar-fill" style="width:77%;"></div></div><span class="bar-val">0.08</span></div>
+          <div class="bar-row"><span class="bar-label">4 principles</span><div class="bar-track"><div class="bar-fill" style="width:100%;background:var(--good);"></div></div><span class="bar-val" style="color:var(--good);">0.13</span></div>
+        </div>
+        <p class="note" style="margin-top:1em;">*baseline. Estimates from the <b>exploratory</b> model — read as a promising trend, not proof.</p>
+      </div>
+      <div class="col" style="justify-content:center;">
+        <ul>
+          <li class="good">The more of the four principles a program applied, the <b>larger</b> the impact on learning (0.03 → 0.13).</li>
+          <li>Suggests <b>no single silver bullet</b> — combinations of supports may be what makes complex teaching skills learnable.</li>
+          <li class="bad">Yet <b>19 interventions used none</b> of the four; only <b>13 used all four</b>.</li>
+          <li class="bad">~80% gave no clear performance standards — making it hard for teachers to know what "good" looks like.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer"><span>Tables 5 &amp; 6 · Exploratory model + principle combinations</span><span>10 / 14</span></div>
+  </section>
+
+  <!-- 12. UNCERTAINTIES -->
+  <section class="slide">
+    <div class="topbar"><span class="num">11</span><span class="label">Uncertainties &amp; limitations</span></div>
+    <h2>Read with these caveats</h2>
+    <div class="grid2">
+      <div class="col">
+        <ul>
+          <li class="bad"><b>Geography:</b> 95% of studies from the US/UK — generalization elsewhere is unknown.</li>
+          <li class="bad"><b>Coverage skew:</b> 67% primary, 65% reading — little evidence for other levels and subjects.</li>
+          <li class="bad"><b>Missing SES:</b> 28% of studies didn't report SES; assumed average — may mask a real SES effect.</li>
+          <li class="bad"><b>Correlation ≠ cause:</b> moderator results describe relationships, not causal effects.</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul>
+          <li class="bad"><b>Short horizon:</b> effects measured right after TPD; only 4 studies ran 3 years. Long-run impact is unknown.</li>
+          <li class="bad"><b>Thin reporting:</b> fidelity of implementation reported in only ~12% of studies; the "black box" (Desimone blocks 2 &amp; 3) stays closed.</li>
+          <li class="bad"><b>Averages hide subgroups:</b> a near-zero average may still hide strong gains (or harms) for specific teacher/student groups.</li>
+          <li class="bad"><b>Publication bias</b> present despite efforts to include gray literature.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer"><span>Section 4.5 · Limitations</span><span>11 / 14</span></div>
+  </section>
+
+  <!-- 13. IMPLICATIONS -->
+  <section class="slide">
+    <div class="topbar"><span class="num">12</span><span class="label">Implications for practice</span></div>
+    <h2>What designers &amp; school leaders can take away</h2>
+    <div class="grid3">
+      <div class="card">
+        <h3>Expect modest, real gains</h3>
+        <p>On average TPD delivers a positive, medium effect — but with <b>no guarantees</b>. Plan for variability.</p>
+      </div>
+      <div class="card">
+        <h3>Build in learning-theory support</h3>
+        <p>Combine <b>performance standards, self-regulation, coaching &amp; cooperation</b> — more principles trended toward more impact.</p>
+      </div>
+      <div class="card">
+        <h3>Don't over-invest in hours</h3>
+        <p>Simply adding TPD <b>hours</b> didn't raise effectiveness. Design quality beats sheer quantity.</p>
+      </div>
+      <div class="card">
+        <h3>Scaling is feasible</h3>
+        <p><b>External trainers</b> were as effective as program developers — encouraging for rollout at scale.</p>
+      </div>
+      <div class="card">
+        <h3>Strongest bet: primary grades</h3>
+        <p>Effects were largest for <b>primary</b> education; weaker for mixed-grade programs.</p>
+      </div>
+      <div class="card">
+        <h3>For researchers</h3>
+        <p>Report fidelity, evidence base, SES, and <b>publish null results</b> to enable better future syntheses.</p>
+      </div>
+    </div>
+    <div class="footer"><span>Section 4.6 · Implications for practice</span><span>12 / 14</span></div>
+  </section>
+
+  <!-- 14. KEY TAKEAWAYS -->
+  <section class="slide">
+    <div class="topbar"><span class="num">13</span><span class="label">In one slide</span></div>
+    <h2>Key takeaways</h2>
+    <div class="grid2">
+      <div class="col" style="justify-content:center;">
+        <ul style="font-size:1.08em;">
+          <li class="good">TPD <b>works on average</b>: +0.09 (medium effect on achievement).</li>
+          <li class="bad">But it <b>varies wildly</b> (−0.15 to +0.32); ~15% of effects are null/negative.</li>
+          <li>The <b>goal</b> of TPD and the <b>number of hours</b> didn't predict success.</li>
+          <li class="good">Applying more <b>learning-theory principles</b> trended toward bigger impact.</li>
+          <li class="good">Larger effects in <b>primary</b> grades; external trainers work fine for scaling.</li>
+        </ul>
+      </div>
+      <div class="col" style="justify-content:center;">
+        <div class="card" style="background:var(--bg);border:none;">
+          <p class="lead" style="color:#fff;">The field has answered <span style="color:var(--accent2);">"does TPD work?"</span></p>
+          <p class="lead" style="color:#cfe0ef;margin-top:.6em;">The frontier is now <b style="color:#fff;">"why do some programs work and others don't?"</b></p>
+          <p style="color:#a9c4dc;margin-top:1em;font-size:.95em;">A learning-theory lens — and better reporting of what actually happens inside TPD — is the way forward.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer"><span>Most comprehensive TPD review to date</span><span>13 / 14</span></div>
+  </section>
+
+  <!-- 15. CLOSING -->
+  <section class="slide title-slide">
+    <div class="eyebrow">Thank you</div>
+    <h1 style="font-size:2.4em;">The investment pays off — when TPD is designed for how teachers actually learn.</h1>
+    <div class="authors" style="margin-top:2em;">
+      Visscher, A. J., Dmoshinskaia, N., Pellegrini, M., &amp; Rey-Naizaque, A. (2025).<br>
+      <em>(When) do teacher professional development interventions improve student Achievement?</em><br>
+      Educational Research Review, 49, 100742.
+    </div>
+    <div class="journal">Open access · CC BY · doi.org/10.1016/j.edurev.2025.100742</div>
+  </section>
+
+</div>
+
+<div id="dots"></div>
+<div id="help">← / → or Space to navigate · F = fullscreen</div>
+
+<script>
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const dotsWrap = document.getElementById('dots');
+  let idx = 0;
+
+  slides.forEach((_, i) => {
+    const d = document.createElement('div');
+    d.className = 'dot' + (i === 0 ? ' active' : '');
+    d.addEventListener('click', () => go(i));
+    dotsWrap.appendChild(d);
+  });
+  const dots = Array.from(dotsWrap.children);
+
+  function go(n){
+    idx = Math.max(0, Math.min(slides.length - 1, n));
+    slides.forEach((s, i) => s.classList.toggle('active', i === idx));
+    dots.forEach((d, i) => d.classList.toggle('active', i === idx));
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (['ArrowRight','PageDown',' '].includes(e.key)) { e.preventDefault(); go(idx + 1); }
+    else if (['ArrowLeft','PageUp'].includes(e.key)) { e.preventDefault(); go(idx - 1); }
+    else if (e.key === 'Home') go(0);
+    else if (e.key === 'End') go(slides.length - 1);
+    else if (e.key.toLowerCase() === 'f') {
+      if (!document.fullscreenElement) document.documentElement.requestFullscreen();
+      else document.exitFullscreen();
+    }
+  });
+
+  // click right/left half of screen to navigate
+  document.getElementById('deck').addEventListener('click', (e) => {
+    if (e.target.closest('.dot')) return;
+    go(e.clientX > window.innerWidth / 2 ? idx + 1 : idx - 1);
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "report": "Kutaka et al. 2017",
+  "rows": [
+    63
+  ],
+  "citation": "Kutaka, T. S., Smith, W. M., Albano, A. D., Edwards, C. P., Ren, L., Beattie, H. L., Lewis, W. J., Heaton, R. M., & Stroup, W. W. (2017). Connecting teacher professional development and student mathematics achievement: A 4-year study of an elementary mathematics specialist program. Journal of Teacher Education, 68(2), 140-154. https://doi.org/10.1177/0022487116687551",
+  "report_number": "Journal of Teacher Education, 68(2), 140-154 (Primarily Math, University of Nebraska-Lincoln); ERIC EJ1132659",
+  "url": "https://doi.org/10.1177/0022487116687551",
+  "pdf_path": "data/fulltext/kutaka_2017.pdf",
+  "pdf_downloaded": true,
+  "design": "QED (quasi-experimental, matched comparison group; comparison teachers matched on building-level free/reduced lunch %, total enrollment, racial/ethnic composition). Assignment/treatment level = Teacher/Class (the individual teacher was the recipient of PD and the unit of replication; students within classrooms were the unit of analysis). Longitudinal multiple-cohort design (3 cohorts, 2009-2013) of the 'Primarily Math' inservice elementary mathematics specialist program (Nebraska). Subject = mathematics (STEM). Grades: K-3 teachers participated, but the student-achievement study was restricted to K-2 because ~half of third graders hit the TEMA-3 ceiling in fall. Teachers whose students were tested (Table 1): ~80 Primarily Math + 104 comparison = 184 total; restricted to K-2 contributing teachers ~73 PM + ~90 comparison. Student-level Ns not reported (12-15 students randomly sampled per classroom each fall, >=10 tested).",
+  "confidence": "medium",
+  "problems": "The paper reports NO standardized effect size (no Cohen's d / Hedges' g) for the student outcome; it only describes 'a small but positive effect.' g was therefore computed from the HLM impact coefficient (Table 6: 1.85, SE 0.99) divided by the standardizing SD of the outcome metric. The dependent variable is MASD (Math Ability Score Difference) = the change in age-adjusted TEMA-3 math ability score (a child scoring at typical growth has MASD=0); the underlying TEMA-3 ability score has a published population SD of 15 (mean 100), which was used as the standardizing SD. This is defensible for an age-normed standard score but is an assumption, not a value the paper reports as the standardizing SD. Student-level sample sizes (n_t, n_c) are NOT reported. The unconditional/design-effect ICC is NOT reported; the only available variance components (Table 6) are conditional on the model covariates (teacher var 18.44, teacher x time 4.70, residual 69.7; implied conditional teacher ICC ~0.20), so icc is left null per the 'never guess an ICC' rule. Clustering is nonetheless accounted for because the impact estimate and SE come from the multilevel HLM (cluster_adjusted=true). Timepoint: the model pools across all measurement occasions (fall-spring within-year growth across 2009-2013) rather than a single immediate post-treatment wave; effect is largest in years 2-3 (Figure 2). The treatment main effect is significant only at the study's prespecified alpha=.10 (p=.061), not at .05.",
+  "effect_sizes": [
+    {
+      "row_id": 63,
+      "arm_label": "Primarily Math (3 cohorts pooled) vs matched comparison group",
+      "outcome_subject": "STEM",
+      "grade_band": "K-2",
+      "test_name": "Test of Early Mathematics Ability, 3rd Edition (TEMA-3) age-adjusted math ability score; outcome modeled as MASD = fall-spring change relative to expected age-adjusted growth",
+      "test_type": "standardized_independent",
+      "timepoint": "fall-spring within-year growth, pooled across measurement occasions 2009-2013 (HLM final model)",
+      "n_t": null,
+      "n_c": null,
+      "n_clusters": 184,
+      "icc": null,
+      "impact_estimate": 1.85,
+      "impact_se": 0.99,
+      "mean_t": null,
+      "sd_t": null,
+      "mean_c": null,
+      "sd_c": null,
+      "g": 0.123,
+      "g_var": 0.004323,
+      "g_se": 0.066,
+      "g_method": "d = b/s = 1.85/15 = 0.1233, where b is the 'Participation in Primarily Math' fixed effect from the HLM student impact model (Table 6, p.147) and s=15 is the TEMA-3 math ability score population SD (mean 100, SD 15; outcome described p.145). SE(d)=SE(b)/s=0.99/15=0.066, Var(d)=0.004356. Hedges' J=1-3/(4*df-1) with df large (~200 teachers/many students) -> J=0.9962, so g=J*d=0.123, Var(g)=J^2*Var(d)=0.004323, SE(g)=0.066. Standardized by the TEMA-3 reference SD because the paper reports no posttest/gain SD and the impact estimate is in TEMA-3 ability-score units.",
+      "pretest_adjusted": true,
+      "cluster_adjusted": true,
+      "outcome_role": "primary",
+      "is_full_sample": true,
+      "page_ref": "p.147 Table 6 (impact estimate 1.85, SE 0.99, t=1.88, p=.061; variance components); p.145 (TEMA-3 mean 100, SD 15); p.147-148 results text",
+      "notes": "QED matched-comparison study. Only one student achievement outcome reported (TEMA-3 mathematics). HLM controls for fall math ability score (pretest), SES (building free/reduced lunch %), time, plus teacher-level predictors (Numbers & Operations MKT, Anxiety, Student-Centered Beliefs); model already nests students within teachers so the SE accounts for clustering -> cluster_adjusted=true. Positive g favors Primarily Math. Significant at the study's prespecified alpha=.10 (p=.061) but not at .05. Effect described by authors as 'small but positive,' consistent with g~0.12. Teacher (not student) outcomes (MKT subscales, FSMAS attitudes, MBS beliefs) were NOT extracted per instructions. n_clusters=184 is the count of teachers whose students were tested (Table 1, 80 PM + 104 comparison; K-2 subset ~73+90); student-level Ns not reported. If standardized instead by the model's residual SD (8.35) g would be ~0.221, or by the total MASD SD (sqrt(18.44+4.70+69.7)=9.64) g~0.192 -- the TEMA-3 reference SD of 15 was chosen as the most defensible standardizing SD for an age-normed score and yields the more conservative estimate."
+    }
+  ]
+}
