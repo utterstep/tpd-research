@@ -1,0 +1,19 @@
+{
+  "slug": "clarke_2015",
+  "study": "Clarke et al. 2015 (Early Learning in Mathematics [ELM] K core curriculum + teacher PD)",
+  "eval_independence": "developer",
+  "eval_evidence": "Study authored by the program developers under IES Award R305A080699; 'In Oregon, the lead author of ELM provided the trainings. In Texas, the lead author led trainings' — the ELM developers conducted the efficacy evaluation.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The lead author of ELM (developer/research team) provided/led the teacher trainings in both states.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Lead author (developer) delivered the trainings directly to the kindergarten teachers; no train-the-trainer intermediary.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control classrooms 'taught mathematics as they would typically' / adhered to standard district mathematics instruction (business-as-usual); they received a stipend only.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "PD = an initial 2-4h logistics meeting plus three 4-hour ELM curriculum workshop trainings (fall/winter/spring). Classroom visits by project staff were fidelity observations (COSTI-M), not ongoing in-class instructional coaching.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "ELM is a Tier-1 whole-class core kindergarten math curriculum taught by the regular teacher during normal math time; no pull-out, tutoring, or extra student dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Single kindergarten implementation year per cohort (Oregon 2008-09, Texas 2009-10); teachers were new to ELM and outcomes measured at end of that first implementation year (the grade-1 SAT-10 is a follow-up of the same first-year cohort).",
+  "confidence": "high"
+}

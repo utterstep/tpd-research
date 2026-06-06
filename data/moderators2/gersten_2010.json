@@ -1,0 +1,19 @@
+{
+  "slug": "gersten_2010",
+  "study": "Gersten et al. 2010, Teacher Study Group (TSG) reading PD, AERJ 47(3)",
+  "eval_independence": "developer",
+  "eval_evidence": "The TSG model was developed by the authors' research team ('based on our earlier...'); the same research team designed and conducted the RCT, so the evaluation is developer-authored.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Five TSG facilitators (research-team-affiliated; two of them helped develop the TSG curriculum) led the study-group sessions; delivery was by the program team/their facilitators, not by the school system.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Research-team facilitators ran the 16 study-group sessions with teachers directly; no train-the-trainer intermediary hop.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control schools received only the district's mandated Reading First PD and did not participate in TSG; a treatment-as-usual condition.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Intervention was 16 facilitator-led collaborative study-group (after-school) sessions; no ongoing in-class coaching/observation of individual teachers.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "TSG changes grade-1 teachers' vocabulary/comprehension instruction only; no student-facing tutoring or added dose.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "TSG implemented as a one-academic-year program (16 sessions over ~9 months); outcomes measured at end of that single implementation year; no multi-year maturity axis.",
+  "confidence": "high"
+}

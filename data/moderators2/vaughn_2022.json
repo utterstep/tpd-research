@@ -1,0 +1,19 @@
+{
+  "slug": "vaughn_2022",
+  "study": "Vaughn et al. (2022), STRIVE comprehension/vocabulary PD for Grade-4 content literacy (ELs and non-ELs), J. Educ. Psychology",
+  "eval_independence": "developer",
+  "eval_evidence": "IES-funded grant project (R305A150407, STRIVE) conducted and authored by the Vaughn/Swanson Meadows Center research team who developed the STRIVE PD and the content/comprehension measures (Swanson et al. 2018). Developer-conducted, not an independent third-party evaluator.",
+  "developer_delivered": "yes",
+  "developer_evidence": "All teachers attended an initial PD session delivered by the research team; in the RPD arm the research team also led the follow-up study groups. The developing research team delivered the PD (RPD directly; SPD via a school educator the team trained).",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "MIXED across the two pooled arms: RPD = research team supports teachers directly (developer_direct); SPD = the PD model is handed to 'a key educator in the school' who then leads the follow-up study groups (a train-the-trainer/lead-educator hop). Because STRIVE pools RPD+SPD, the combined study includes a cascade arm -> coded cascade (RPD-only would be developer_direct).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Third arm was 'business-as-usual (BAU)' — control schools continued usual Grade-4 social-studies/literacy instruction with no STRIVE PD. Standard BAU contrast (STRIVE = pooled RPD+SPD vs BAU).",
+  "coaching_intensity": "none",
+  "coaching_evidence": "PD model = an initial PD session before the school year plus 'teacher study groups' (group follow-up PD) across the 18-week / three-unit period; RPD vs SPD differs only in WHO leads the follow-up (research team vs a school educator), not in coaching cadence. No ongoing in-class coaching/observation-feedback cycles for teachers described (audio-recording of lessons was for fidelity measurement only) -> none.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "STRIVE changes the teacher's regular content-area (social studies) literacy instruction — comprehension and vocabulary practices in normal lessons. No tutoring, pull-out, extra minutes, or student-facing software dose added.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Each of three cohorts is a fresh set of schools/teachers participating for a single year (PD before the school year, then ~18 weeks / three units of implementation); outcomes measured at the end of that first implementation year, teachers new to STRIVE -> first_year.",
+  "confidence": "medium"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "duncan_2018",
+  "study": "Duncan et al. 2018, Math for All (EDC, IES R305A140488)",
+  "eval_independence": "developer",
+  "eval_evidence": "Study conducted and authored by Education Development Center (EDC) staff (Moeller et al.), the program's developer/grantee (IES grant awarded to EDC).",
+  "developer_delivered": "yes",
+  "developer_evidence": "'MFA developers deliver' the PD; MFA is 'intended to be co-facilitated by two staff developers'; in this study facilitation was 'either by the developers or by district-based staff' but developer-delivered is the design.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "PD co-facilitated by two EDC staff developers working directly with the grade 4-5 teachers (5 one-day workshops); no train-the-trainer cascade for this study's delivery.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Explicit BAU control across RQ1-3 ('compared to business-as-usual (BAU) experiences of a control group'); no active alternative math PD given to controls.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "MFA = 5 one-day workshops + classroom-based assignments (~50 hrs); the listed 'peer coaching' and 'lesson study' are teacher-collaboration activities within the model, not ongoing external in-class coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "MFA changes teachers' math instruction/differentiation; not curriculum- or student-dose-based ('not focused on delivery of a specific curriculum'); no tutoring/pull-out/software for students.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Extracted Year-1 (2015-2016) results are the implementation year; 'the first year of the study (2015-2016) was intended to be the implementation year' with teachers new to MFA (Year 2 excluded for attrition).",
+  "confidence": "high"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "tolan_2020",
+  "study": "Tolan et al. (2020), Good Behavior Game + MyTeachingPartner (GBG+MTP) RCT for early-career teachers, J. School Psychology",
+  "eval_independence": "developer",
+  "eval_evidence": "Authors are at University of Virginia (MTP developers — Downer, Pianta's center) and Johns Hopkins (GBG-in-schools developers — Ialongo, Bradshaw); the trial of the combined GBG+MTP program was conducted by the program developers' teams, not an independent third party.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The intervention team delivered the 'intensive training workshop' and the biweekly MTP coaching cycles; MTP coaching is the developers' web-mediated model staffed by project MTP coaches. Developer/research team delivered the PD.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "MTP coaches worked directly with each intervention teacher (biweekly coaching cycles, initial in-person then web-mediated); no train-the-trainer or lead-teacher cascade -> developer_direct.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control teachers served as 'controls (business as usual)'; no alternative PD/program assigned to control. Standard BAU contrast.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "'Each teacher in the intervention condition was provided biweekly MTP coaching cycles throughout the training year' — recurring (biweekly) video-based coaching cycles focused on the teacher's own classroom practice -> frequent_inclass.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "GBG is a group-contingency classroom behavior-management game the teacher plays with the whole class, and MTP changes teacher-student interaction quality; both work THROUGH changing the teacher's regular classroom practice. No tutoring, pull-out, extra instructional minutes, or student-facing software dose is added.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Sample = novice teachers (first three years of teaching) in their 'training year'; achievement measured spring of that single training/implementation year. Teachers new to the program at the measurement wave -> first_year.",
+  "confidence": "medium"
+}

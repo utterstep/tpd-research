@@ -1,0 +1,19 @@
+{
+  "slug": "pcer_2008",
+  "study": "PCER Consortium 2008 (Preschool Curriculum Evaluation Research; NCER 2008-2009) -- 14 curricula / 15 arms collapsed to registry row 89",
+  "eval_independence": "independent",
+  "eval_evidence": "Impact analyses summarized in the report were conducted by independent IES contractors RTI International and Mathematica (MPR): 'The developers/implementers of these curricula did not conduct the impact analyses... Members of the RTI data analysis team completed the impact analyses' (Disclosure of Conflicts, p.~vi). 4 of 12 grantee teams were curriculum developers, but the headline evaluation is independent.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Each grantee research team itself delivered the teacher training for its curriculum directly to teachers (Table 1.7), not via school-system intermediaries -> research-team-delivered. NUANCE: only 4 of 12 teams (Curiosity Corner/SFA, Literacy Express, Pre-K Math, ELLM) were the curriculum DEVELOPERS; the other teams implemented external/published curricula. Coded yes at the deliverer level (research teams delivered) with this caveat; arguably mixed.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Grantee research teams (and their own project coaches, e.g. ELLM literacy coaches) trained the treatment teachers directly (Table 1.7, Ch.2-13); no train-the-trainer cascade to a separate intermediary org for the teacher PD -> developer_direct.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "'The 14 curricula were evaluated in comparison to the local control condition that, in general, was the local curriculum-as-usual' (p.~1). NUANCE: control curricula were heterogeneous and in some arms included district-developed or PUBLISHED curricula (a few even used by other research teams), so some arms approach an active comparison; dominant report-level framing is curriculum-as-usual -> business_as_usual.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Ongoing support across arms is heterogeneous and mostly periodic (Table 1.7): e.g. onsite consultation a few times/year, monthly training, mentoring visits, 3 coaching visits; ELLM is the exception with WEEKLY classroom visits. Modal report-level pattern = occasional/periodic; not uniformly recurring in-class cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "All arms are teacher-delivered preschool curricula -> only the teachers' own classroom instruction changes; no added third-party tutoring/pull-out dose. (DLM Math includes classroom software but as part of the teacher-led curriculum, not an added pull-out dose.)",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Child outcomes measured at end of the single pre-K implementation year (spring pre-K = immediate post); teachers/children in the program's first full implementation year. NUANCE: the 7 RTI teams had a 2002-03 pilot year (so those teachers had prior exposure) while the 5 MPR teams had no pilot year (truly first-year); designed essentially as a single pre-K curriculum year -> first_year.",
+  "confidence": "low"
+}

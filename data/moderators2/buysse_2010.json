@@ -1,0 +1,19 @@
+{
+  "slug": "buysse_2010",
+  "study": "Buysse, Castro & Peisner-Feinberg (2010), Nuestros Ninos language/literacy PD for pre-K DLLs, ECRQ",
+  "eval_independence": "developer",
+  "eval_evidence": "Authored/conducted by the Nuestros Ninos developers (Castro et al., UNC FPG Child Development Institute); the consultation model was 'developed and manualized by Buysse and Wesley.' Developer-conducted RCT, no independent evaluator.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Delivered by the research team's own staff: two bilingual Latina consultants (graduate degrees) facilitated the institutes and individualized consultation; they were trained and supervised weekly by the research team. Developer-team delivery arm rather than school personnel.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Research-team consultants trained/supported the teachers directly; no train-the-trainer or lead-teacher tier where trainees then train other teachers (teachers do not re-deliver).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control was business-as-usual (received institutes only at the end of the study). No alternative PD/program during the contrast.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Each consultant visited 'individual teachers once every other week' (biweekly) over the consultation window plus 'bimonthly visits to monitor a teacher's progress'; individualized in-class consultation on implementation - recurring in-class coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention changes the lead teacher's language/literacy practices; no tutoring, pull-out, or student-facing software dose added beyond regular classroom instruction.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Single school-year implementation (institutes at start, consultation across the year, spring outcomes); program designed as a one-year PD with no second-year/teacher-experience maturity axis.",
+  "confidence": "medium"
+}

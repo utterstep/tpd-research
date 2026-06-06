@@ -1,0 +1,19 @@
+{
+  "slug": "styles_2014",
+  "study": "Styles et al. 2014 — EEF Vocabulary Enrichment Intervention Programme (VEIP/VEFP), Bolton (pupil-randomised efficacy trial)",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF-commissioned trial with independent evaluators = National Foundation for Educational Research (NFER — Styles, Stevens, Bradshaw, Clarkson); separate from the program developers.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Training and ongoing support came from the development team: teachers 'had supervision and support from the development team and from a visiting educational psychologist'; the programme 'is closely managed by the developers' and training was 'delivered by the developers'.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Existing class teachers 'received training on all three elements' directly from the developers/development team and then delivered to pupils; no train-the-trainer intermediary between developers and the delivering teachers.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Pupil-randomised trial comparing the intervention to a 'business-as-usual' control group; control pupils received the normal Year 7 English curriculum.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Delivering teachers had 'regular supervision and support from an educational psychologist based at Bolton Local Authority' plus development-team support — periodic supervision/support rather than recurring in-class expert coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "The programme was 'delivered in place of schools' usual Year 7 English curriculum' (replaces, not adds to, regular instruction) — no extra student-facing minutes/tutoring beyond the substituted lessons.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "'the first formal evaluation of the Full Programme'; teachers were new to delivering VEFP and outcomes measured at the end of the ~5-month single implementation period.",
+  "confidence": "high"
+}

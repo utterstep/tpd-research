@@ -1,0 +1,19 @@
+{
+  "slug": "bierman_2008",
+  "study": "Bierman et al. 2008 (Head Start REDI, Penn State, Child Development 79(6))",
+  "eval_independence": "developer",
+  "eval_evidence": "The authors (Bierman, Domitrovich, Greenberg et al., Penn State) developed REDI (and the embedded Preschool PATHS curriculum) and conducted the evaluation -- developer-conducted.",
+  "developer_delivered": "no",
+  "developer_evidence": "Weekly mentoring/coaching was 'provided by local educational consultants (“REDI trainers”), experienced' staff trained for the project -- not the developers/research team themselves.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "The research team trained local educational consultants ('REDI trainers'), who in turn provided the on-site weekly mentoring/coaching to the teachers (developer -> REDI trainers -> teachers, >=1 extra hop).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Comparison condition was 'usual practice' Head Start (business-as-usual control).",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "'Ongoing weekly mentoring support' (~3 hrs/classroom/week) by REDI trainers to support teachers' use of the curricula/strategies in their own classrooms -- recurring weekly in-class coaching.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "REDI is a manualized enrichment curriculum (Preschool PATHS lessons, interactive book-reading, Sound Games) 'delivered by classroom teachers and integrated into their ongoing' Head Start day -- teacher-delivered enrichment, not a separate tutoring/pull-out/added-minutes student dose.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "REDI is a single Head Start (preschool) year enrichment program; outcomes measured at the end of that one program year for teachers new to it -- one-year design, no maturity axis.",
+  "confidence": "high"
+}

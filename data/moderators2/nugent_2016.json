@@ -1,0 +1,19 @@
+{
+  "slug": "nugent_2016",
+  "study": "Nugent et al. 2016 (Coaching Science Inquiry / CSI, R2Ed Working Paper, IES R305C090022)",
+  "eval_independence": "developer",
+  "eval_evidence": "R2Ed (Univ. of Nebraska-Lincoln) working paper authored by the program's own research team (Nugent, Kunz, et al.) under their IES development grant; no third-party/independent evaluator. They developed CSI and evaluated it themselves.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Summer institute was 'led by project coaches with support from university project faculty' and content was delivered by project coaches and science educators (p.~16); the technology-delivered coaching sessions were delivered by the project's own coaches.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Project coaches/university faculty (the research team) delivered both the summer institute and the coaching directly to the science teachers; no train-the-trainer intermediary hop.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control = business-as-usual: control teachers received no summer institute and no coaching (per design/extraction record); science instruction as usual.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "8-12 technology-delivered (WebEx), ASYNCHRONOUS coaching sessions (~1-2/week) across 6-8 weeks, delivered OUTSIDE classroom instruction time via review of teacher-submitted classroom videos -> recurring but remote/video-based, not physical in-class coaching cycles; coded occasional (conservative; not the in-the-teacher's-own-classroom level required for frequent_inclass).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Pure teacher PD; only the teachers' own science (guided-inquiry) instruction changes. No tutoring, pull-out, or added student-facing dose.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "CSI is a single-year intervention (summer institute then 6-8 weeks of coaching during that school year); outcomes measured post-unit in the same year; no multi-year maturity axis (designed as a one-time PD sequence).",
+  "confidence": "high"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "wiggins_2017",
+  "study": "Wiggins/Sawtell/Jerrim 2017, Learner Response System (handheld classroom-feedback devices) teacher PD, EEF eval (UCL IoE)",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF-funded trial 'independently evaluated by a team from the Institute of Education at University' (UCL IoE); the intervention was developed by a separate party (Edge Hill University).",
+  "developer_delivered": "yes",
+  "developer_evidence": "The Edge Hill University project team (which devised the LRS intervention) trained teachers to deliver it; 'A team from Edge Hill University developed the intervention and trained teachers to deliver it to pupils.'",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "The Edge Hill project team (project lead and Head of Training and Support) ran the training events directly for the participating teachers; no train-the-trainer / lead-teacher hop.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control condition was 'business as usual' within schools; control schools received no LRS training or devices.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "PD was an initial 2-day introductory training event plus five half-termly one-day training sessions and web-based resource sharing; no ongoing in-class coaching/observation cycles of teachers in their own classrooms.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention changes teacher practice via handheld classroom-feedback devices used within normal lessons; no tutoring, pull-out, extra minutes, or independent student-facing software dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Program newly rolled out into all schools simultaneously; outcomes include an end-of-Year-1 cohort (Cohort A, teachers new to LRS) and an end-of-Year-2 cohort (Cohort B). First measurement wave is the first implementation year, so coded first_year (note: a 2-year-dose cohort also exists).",
+  "confidence": "high"
+}

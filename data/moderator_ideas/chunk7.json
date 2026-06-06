@@ -1,0 +1,71 @@
+{
+  "chunk": 7,
+  "studies": [
+    "jaciw_schellinger_2016",
+    "jacob_2017",
+    "james_burdumy_2010",
+    "jay_2017",
+    "jerrim_2015",
+    "kitmitto_2018",
+    "konstantopoulos_2013",
+    "konstantopoulos_2016"
+  ],
+  "suggestions": [
+    {
+      "moderator": "PD change mechanism / theory of action",
+      "definition": "The proximal lever the PD pulls to change instruction, beyond the coarse 'TPD goal' code. Candidate levels: (a) data/diagnostic-assessment-driven (teachers act on periodic student-level diagnostic data), (b) curriculum-implementation (train teachers to deliver a specific new program/materials), (c) generic dialogic/talk or inquiry pedagogy (transferable classroom discourse routines), (d) subject-content-knowledge deepening (raise teacher domain knowledge/MKT).",
+      "rationale": "In this batch the mechanism family tracks effect size far better than the existing goal code: the two data-driven interim-assessment studies (Konstantopoulos) show the largest, significant effects (g up to 0.36), curriculum-implementation studies cluster near zero (MIF, James-Burdumy curricula, Jerrim, Jacob), and generic dialogic/inquiry PD is small/null (Jay, Kitmitto). A data-driven lever may act faster on tested outcomes because it directly redirects teaching toward assessed gaps.",
+      "studies_observed": ["konstantopoulos_2013", "konstantopoulos_2016", "jaciw_schellinger_2016", "james_burdumy_2010", "jerrim_2015", "jacob_2017", "jay_2017", "kitmitto_2018"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Delivery cascade (developer-direct vs train-the-trainer)",
+      "definition": "Who actually faces the teachers in the PD sessions: (a) program developers/researchers deliver directly, (b) a train-the-trainer / cascade model where developers train local trainers who then deliver to teachers (often for at-scale effectiveness trials).",
+      "rationale": "Kitmitto (TDTS) is explicitly an at-scale effectiveness trial using a train-the-trainer cascade and returns a null (g=0.01), whereas the earlier developer-delivered efficacy trial of the same program reported a positive effect; the report itself flags the cascade as the likely reason for fade-out. Cascading adds a transmission step that can dilute fidelity and content. Distinct from the already-coded trainer identity (researcher/developer vs external) because it captures the number of relay steps, not just the source.",
+      "studies_observed": ["kitmitto_2018", "jay_2017"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Embedded in-school facilitator / mentor",
+      "definition": "Whether the PD places an ongoing on-site support person inside the school (school-based mentor, peer lead, or monthly on-site coaching visits with lesson observation and feedback) vs external-trainer-only off-site workshops. Levels: in-school embedded mentor/coach present / monthly on-site visits / off-site workshops only.",
+      "rationale": "Jay (Dialogic Teaching) staffed every school with a nominated mentor running regular review cycles; Project CRISS in James-Burdumy uniquely added monthly on-site visits with one-on-one coaching and lesson observation/feedback, while its sibling curricula had no on-site support. An embedded supporter can sustain implementation between workshops, plausibly moderating transfer to practice. Goes beyond the binary coaching principle by capturing locus (in-school vs external) and continuity of support.",
+      "studies_observed": ["jay_2017", "james_burdumy_2010", "jacob_2017"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Degree of structure / scripting of the PD and instruction",
+      "definition": "How prescribed the intervention is for teachers: from a tightly scripted, cycle-by-cycle manual specifying each lesson/session, through a structured-but-flexible program, to broad principles teachers adapt freely. Levels: highly scripted/cycle-by-cycle / structured program / loose principles.",
+      "rationale": "Strong within-batch variation: Jay runs 11 prescribed cycles with an extensive cycle-by-cycle handbook; curriculum programs (MIF, the James-Burdumy curricula, Mathematics Mastery) supply structured materials; the data-driven and generic studies leave more to teacher discretion. Scripting can raise fidelity (helping) or suppress responsive teaching (hurting), so it is a plausible two-sided moderator worth testing directly.",
+      "studies_observed": ["jay_2017", "jaciw_schellinger_2016", "jerrim_2015", "james_burdumy_2010"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Voluntary / discretionary student-facing dosage",
+      "definition": "Whether the student-facing component teachers are trained to use is mandatory/fixed for all classrooms vs left to teacher discretion in frequency and intensity (low take-up possible even with PD delivered). Levels: mandated-fixed dose / discretionary or variable take-up.",
+      "rationale": "Konstantopoulos notes the Indiana interim-assessment plan 'required that the assessments be voluntary' — so the active ingredient reached students only where teachers chose to use it, and observed effects were uneven across grades. Discretionary uptake decouples PD delivery from student exposure and could explain heterogeneity that hours-of-PD cannot. Captures realized dose of the active ingredient, distinct from PD hours.",
+      "studies_observed": ["konstantopoulos_2013", "konstantopoulos_2016"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Confirmed change in the proximal teacher outcome",
+      "definition": "Whether the study verified that the PD actually moved its intended intermediate teacher outcome (teacher knowledge/MKT or observed classroom practice) — and whether it did move it. Levels: proximal outcome measured and moved / measured and did NOT move / not measured.",
+      "rationale": "Jacob is the clean case: the PD significantly raised teachers' mathematical knowledge for teaching yet produced no student-achievement effect, breaking the assumed knowledge-to-achievement chain. Coding whether the intermediate link was even established (and moved) lets the meta-analysis separate 'PD that failed to change teachers' from 'PD that changed teachers but not students' — different failure modes with different policy implications.",
+      "studies_observed": ["jacob_2017", "jaciw_schellinger_2016", "kitmitto_2018", "jay_2017"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Calendar exposure length (terms/years) and first-year-of-implementation snapshot",
+      "definition": "Elapsed implementation time at the point achievement is measured, in calendar terms/years, and whether the outcome captures only the first year a school/teacher used the program. Levels e.g.: <=2 terms / 1 full year / multi-year, plus a flag for first-year-of-rollout measurement.",
+      "rationale": "Distinct from the already-coded TPD contact hours: several EEF trials here measure outcomes after only 2 terms (Jay) or a single first year of a multi-year program (Jerrim, Kitmitto, MIF), and their authors explicitly argue the window was too short for a new approach to mature; James-Burdumy's Cohort 2 (schools with one prior year of experience) often outperformed Cohort 1. Early-implementation 'startup cost' could systematically depress measured effects independent of total PD dose.",
+      "studies_observed": ["jay_2017", "jerrim_2015", "kitmitto_2018", "jaciw_schellinger_2016", "james_burdumy_2010"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    }
+  ]
+}

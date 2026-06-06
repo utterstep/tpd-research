@@ -1,0 +1,19 @@
+{
+  "slug": "wijekumar_2017",
+  "study": "Wijekumar/Meyer/Lei 2017, ITSS (Intelligent Tutoring System for the Structure Strategy) web-based reading-comprehension program + teacher PD, grade 7 RCT, J. Educ. Psych. 109(6):741-760",
+  "eval_independence": "developer",
+  "eval_evidence": "Authored by the ITSS developers (Wijekumar & Meyer, the program's creators, on the IES ITSS efficacy/replication grant) who conducted the evaluation of their own program.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The ~3-hour start-of-year teacher PD was 'delivered by the research team to the intervention teachers' (the ITSS developers/research staff), who also provided biweekly progress reports.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "The research/developer team delivered the PD directly to the intervention (language-arts) teachers; no train-the-trainer / lead-teacher intermediary.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control teachers 'used the school's standard language arts curriculum' with no ITSS (business as usual).",
+  "coaching_intensity": "none",
+  "coaching_evidence": "PD was a single ~3-hour start-of-year session plus biweekly written progress reports; no ongoing in-class coaching/observation cycles of teachers in their classrooms.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "ITSS is a web-based student-facing software program used 1-2 sessions/week (~30-45 min) as a partial substitute for the language arts period — a substantial student-facing software dose beyond the teacher's regular instruction.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Single 6-7 month school-year intervention with a single end-of-year post-test wave; implemented for one year with no prior-implementation/maturity axis.",
+  "confidence": "high"
+}

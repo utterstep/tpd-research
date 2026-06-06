@@ -1,0 +1,19 @@
+{
+  "slug": "kitmitto_2018",
+  "study": "Kitmitto et al. 2018 — EEF Thinking, Doing, Talking Science (effectiveness trial); AIR evaluation",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF effectiveness trial independently evaluated by the American Institutes for Research (AIR); registered ISRCTN22499525. Developers (the 'Oxford team') ran the programme but did not conduct the impact evaluation.",
+  "developer_delivered": "no",
+  "developer_evidence": "Key adaptation of this effectiveness trial: the developers did NOT deliver CPD to teachers. TDTS 'was delivered to 233 Year 5 teachers through 4 CPD days... led by pairs of experts who were trained in the TDTS model by the programme developers' — i.e., trained intermediary trainers delivered, not the developers themselves.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Explicit train-the-trainer model (developer -> trainer -> teacher). The Oxford team (developers) trained pairs of expert trainers, who then delivered the CPD to school teachers — ≥1 extra transmission hop; report contrasts this with the earlier developer-delivered efficacy trial.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Two-arm trial with a 'business as usual' waitlist control group; control schools received no alternative science PD during the trial year.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Intervention = 4 CPD days staggered across the year (plus in-school planning time). Report states there was 'no intention that trainers would act as coaches or mentors between sessions' — no ongoing in-class coaching.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Teacher-facing CPD only (two teachers per school attended); changes the teacher's Year 5 science instruction. No tutoring, pull-out, extra minutes, or student-facing software dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Effectiveness trial run in a single year (2016-17) with trainers delivering for the first time and teachers new to TDTS; outcomes measured at end of that first implementation year (June 2017).",
+  "confidence": "high"
+}

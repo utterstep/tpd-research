@@ -1,0 +1,19 @@
+{
+  "slug": "cavalluzzo_2014",
+  "study": "Cavalluzzo et al. 2014 (TERC 'Using Data' math data-use PD)",
+  "eval_independence": "independent",
+  "eval_evidence": "Evaluation conducted and authored by CNA Corporation (a third-party research firm) under IES Grant R305A100445; TERC developed the program, CNA evaluated it (title page; report no. CNA IRM-2013-U-006508).",
+  "developer_delivered": "yes",
+  "developer_evidence": "Two TERC facilitators delivered the professional development directly: 'Two TERC facilitators worked with the data teams'; 'facilitators from TERC used grade 4 data...'; facilitator logs each time a TERC facilitator conducted a PD/TA event.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "TERC facilitators trained the school data teams (designated data coach + 4 grade 4/5 math teachers) directly, including the teachers themselves; the within-school 'data coach' is a team facilitation role, not an intermediary trainer who re-delivers the PD to the teachers.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Comparison = business-as-usual control schools (no Using Data PD); design/notes describe 30 control vs 30 treatment schools with no alternative data-use program.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Support was periodic TERC facilitator visits / school technical-assistance sessions (in-person plus phone/web), described as one to two hours at a school plus a few visits per year; data-team facilitation and resource suggestions, not recurring in-class instructional coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention is teacher-/data-team-facing PD on collaborative data use; only the teachers' regular math instruction is affected, no student-facing tutoring or extra dose.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Two-year rollout (SY 2011-12 and 2012-13); confirmatory student-achievement outcome measured at end of Year 2 (spring 2013), so teachers had a prior implementation year. (Year-1 student results reported only as exploratory.)",
+  "confidence": "high"
+}

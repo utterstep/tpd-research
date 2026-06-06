@@ -1,0 +1,62 @@
+{
+  "chunk": 3,
+  "studies": ["cavalluzzo_2014", "clarke_2015", "cordray_2012", "coyne_2013", "culliney_2019", "decesare_2017", "dolfin_2019", "droop_2016"],
+  "suggestions": [
+    {
+      "moderator": "Comparison-condition strength (active alternative vs business-as-usual)",
+      "definition": "Whether the control group received its own structured alternative treatment vs ordinary practice. Levels: business-as-usual / weak active (some routine support) / strong active comparator (a competing evidence-based program or PD-trained alternative).",
+      "rationale": "A TPD effect is a CONTRAST, so its size depends on what the counterfactual gets. Coyne's ERI vs a 'school-designed intervention' delivered by teachers who had themselves received extensive prior reading PD produced a clean null (the comparator was strong); DeCesare's mentoring is contrasted only against a thin 15-hour 'buddy' control; Cavalluzzo/Clarke/Droop/Culliney use true business-as-usual. Studies with strong active comparators will systematically show smaller effects regardless of how good the PD is, so this is a prime explainer of cross-study heterogeneity that is NOT the same as the already-coded design/assignment fields.",
+      "studies_observed": ["coyne_2013", "decesare_2017", "cavalluzzo_2014", "clarke_2015", "droop_2016", "culliney_2019"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Cumulative teacher exposure / years of treatment before the measured cohort",
+      "definition": "How many full implementation years the teacher has done with the PD before the student outcome is measured. Levels: <1 year / 1 year / 2+ years. Distinct from raw TPD hours: same dosage can be in year 1 (teacher still learning) or year 2 (consolidated).",
+      "rationale": "Across this batch, effects repeatedly appear only after a teacher-ramp-up period. Dolfin's TPP is null at one year (g~0.01) but significant after two (g~0.08-0.10); Droop's SRI is null at end of Grade 3 but significant at end of Grade 4; Cavalluzzo treats Year 1 explicitly as a teacher 'learning year' (null) before the Year-2 confirmatory test. A study measuring during the first implementation year understates a PD's true ceiling. Captures a maturation mechanism (practice change takes time) that raw hours and the existing duration codes miss.",
+      "studies_observed": ["dolfin_2019", "droop_2016", "cavalluzzo_2014", "culliney_2019", "decesare_2017"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "PD theory of action: build teacher judgment/data-use vs install a specified instructional program",
+      "definition": "Whether the PD's lever is changing how teachers DECIDE (analyze data, differentiate, adapt instruction) with no fixed lessons, vs equipping teachers to DELIVER a defined program/curriculum/strategy set. Levels: decision/data-use PD / program-delivery PD / hybrid.",
+      "rationale": "These are mechanistically different routes to achievement and may have different yields. Cavalluzzo (TERC Using Data) and Cordray (MAP benchmark + differentiation training) try to improve teacher data-driven decision-making, adding a long inferential chain (data -> decision -> instruction -> learning) and both return ~null; Coyne, Droop, Clarke and Dolfin install a concrete instructional program/strategy set with a shorter chain to practice. If 'decision-support' PD systematically underperforms 'program-delivery' PD, this dimension explains a chunk of the spread and is orthogonal to the already-coded TPD-goal/subject fields.",
+      "studies_observed": ["cavalluzzo_2014", "cordray_2012", "coyne_2013", "droop_2016", "clarke_2015", "dolfin_2019"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Coaching individualization ratio (1:1 vs team/cohort vs none)",
+      "definition": "When in-class support exists, the granularity at which it is delivered. Levels: one-to-one individual coaching / small-team or grade-level-team coaching / cohort-workshop only / none. Goes beyond the already-coded binary 'coaching present'.",
+      "rationale": "Individualized feedback on a teacher's own practice is a stronger lever than shared/diffused support. DeCesare's mentoring is strictly 1:1 weekly; Droop pairs each teacher's classroom observation with an individual coaching/feedback session; Dolfin gives per-teacher on-site + video coaching days. By contrast Cavalluzzo's 'Using Data' support is delivered to a 5-person school data TEAM (no individual feedback on instruction) and Clarke is workshop-only. The coaching tick-box hides this: dose-per-teacher and individualization vary enormously and plausibly drive whether practice actually changes.",
+      "studies_observed": ["decesare_2017", "droop_2016", "dolfin_2019", "cavalluzzo_2014", "clarke_2015"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Structured in-class observation-then-feedback cycle present",
+      "definition": "Whether the PD includes a deliberate loop in which a coach/expert OBSERVES the teacher delivering the target practice in their own classroom and then gives tailored feedback, vs PD that is off-site training/CPD only with no in-classroom observation. Levels: present / absent.",
+      "rationale": "This 'enact-in-class -> get observed -> get feedback' loop is the concrete active-learning mechanism that converts training into changed practice. Droop runs an early classroom observation followed by a coaching session to ensure correct enactment; Dolfin's coaching explicitly includes observations and modeling; Cordray's MAP coaches make consultative on-site visits. Culliney is the contrast: a five-day-per-year accredited CPD with homework tasks but essentially NO in-classroom observation/feedback, and its own process evaluation flags that 'the CPD model may not have' embedded change. Where the loop is absent, training may not reach practice.",
+      "studies_observed": ["droop_2016", "dolfin_2019", "cordray_2012", "culliney_2019", "clarke_2015"],
+      "reportability": "sometimes",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Degree of scripting / lesson-level structure of the instructional model",
+      "definition": "How tightly the day-to-day instruction teachers are trained to deliver is specified. Levels: fully scripted lessons + explicit manual / structured-but-flexible program / open protocol or general principles only.",
+      "rationale": "Scripting reduces the variance in what reaches students and lowers the skill bar for faithful enactment, which can raise floor effects (but may cap ceiling). Droop's teachers report the instruction 'was scripted [so] they knew exactly what to do' (paired with a developer video-modeled manual); Coyne's ERI supplies 'explicit instructional language'; Clarke's ELM is 120 specified lessons. At the open end, Cavalluzzo's 'Using Data' is an open inquiry protocol with no prescribed instruction. Scripting is a coherent design dimension distinct from curriculum-coupling (a study can be curriculum-coupled yet loosely scripted) and plausibly moderates how reliably PD changes student-facing instruction.",
+      "studies_observed": ["droop_2016", "coyne_2013", "clarke_2015", "cavalluzzo_2014", "cordray_2012"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "PD dose actually received vs prescribed (attendance/completion)",
+      "definition": "The share of the prescribed PD that treated teachers actually attended/completed, where reported, vs the nominal scheduled dose. Levels: high uptake (e.g. most teachers complete >=80%) / mixed / low; or a continuous attendance rate. A pre-outcome teacher-side exposure measure (distinct from post-treatment instructional fidelity).",
+      "rationale": "Scheduled TPD hours overstate real exposure when teachers skip sessions, and uptake varies with teacher burden and staff turnover. Culliney records attendance for every participant and only counts those at >=80% attendance + task completion as compliant, explicitly citing 'burden on staff time to attend training and changes to school management'; Dolfin tracks per-teacher days of institutes/coaching/online supports received. The gap between prescribed and received dose is a teacher-side dilution channel separate from the already-coded TPD-hours and from downstream classroom fidelity, and could explain why generously-resourced PD still yields nulls.",
+      "studies_observed": ["culliney_2019", "dolfin_2019", "cordray_2012"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    }
+  ]
+}

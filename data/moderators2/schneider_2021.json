@@ -1,0 +1,19 @@
+{
+  "slug": "schneider_2021",
+  "study": "Schneider et al. 2021/2022, CESE project-based learning chemistry/physics",
+  "eval_independence": "developer",
+  "eval_evidence": "CESE was developed by PIs Barbara Schneider & Joseph Krajcik (NSF grant to them); they authored this efficacy trial of their own program.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Treatment teachers attended 3 in-person professional-learning days plus ongoing facilitator support; team members and experienced teacher facilitators (the project team) delivered and supported the PD.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Project facilitators/team members delivered the professional learning directly to treatment teachers; no train-the-trainer hop.",
+  "counterfactual": "active_or_contaminated",
+  "counterfactual_evidence": "Control teachers received a 1-day NGSS workshop at the start of the year (an active alternative PD), though the report also confirms via exit surveys that control taught 'business as usual'.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Several times during the school year treatment teachers met in person with facilitators, who also connected via video conference / message boards / hotline; periodic facilitator support, not recurring in-class coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Project-based learning changes the teacher's regular chemistry/physics instruction; no separate student tutoring, pull-out, or added instructional dose.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Efficacy trial delivered over one school year (2018-2019), with outcomes measured at end of intervention; course-length single-year delivery, no multi-year maturity axis.",
+  "confidence": "high"
+}

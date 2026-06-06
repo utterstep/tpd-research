@@ -1,0 +1,71 @@
+{
+  "chunk": 9,
+  "studies": [
+    "ludwig_song_2015",
+    "mattera_2018",
+    "may_2016",
+    "meyers_2016",
+    "motteram_2016",
+    "murphy_2020",
+    "murphy_2021",
+    "newman_2012"
+  ],
+  "suggestions": [
+    {
+      "moderator": "In-class coaching dose/frequency",
+      "definition": "Amount of job-embedded, in-classroom coaching/mentoring delivered after the formal PD, coded as e.g. none / occasional (a few visits or remote-only) / regular (about monthly) / intensive (multiple times per month or a sustained residency). Distinct from total TPD hours (which lumps workshops + coaching).",
+      "rationale": "Job-embedded observation-and-feedback in the real classroom is the part of PD most directly tied to changing daily practice, and it varies enormously here independent of total hours. Studies with heavy in-class coaching (eMINTS monthly visits, Wolf Trap teaching-artist residencies, Making Pre-K Count coaches 2-4x/month) contrast with studies whose 'coaching' was essentially remote/light (ASSISTments: one day of webinars/email/visits spread over the year). A dedicated coaching-dose variable could separate transfer-to-practice from sheer seat-time.",
+      "studies_observed": ["meyers_2016", "ludwig_song_2015", "mattera_2018", "murphy_2020", "newman_2012"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "In-class support provider type",
+      "definition": "Who delivers the in-classroom support to teachers: external expert/coach vs program developer or teaching-artist vs in-school peer/lead teacher vs none. Different from the already-coded 'trainer (researcher/developer vs external)', which describes who ran the off-site PD course, not who is in the room with teachers.",
+      "rationale": "The person providing in-class feedback carries different expertise, credibility and accountability. Murphy_2021's Lesson Study deliberately uses ONLY peer teachers with no external observer in the room (authors flag 'absence of external observers' as a defining, scalability-driven feature), and it produced near-null effects; by contrast eMINTS used expert coaches, Wolf Trap used skilled teaching artists, AMSTI used dedicated site specialists, and Mattera used Bank Street coaches. Expert-vs-peer in-class support is a plausible driver of whether feedback actually shifts instruction.",
+      "studies_observed": ["murphy_2021", "meyers_2016", "ludwig_song_2015", "newman_2012", "mattera_2018", "may_2016"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Coupled student-facing direct component",
+      "definition": "Whether the intervention adds a component delivered directly TO students (one-to-one/small-group tutoring or a student-used digital tool) on top of (or instead of) changing the regular teacher's whole-class practice. Levels: teacher-practice-only / + small-group pullout / + one-to-one tutoring / + student digital platform.",
+      "rationale": "Some 'TPD' interventions actually reorganize who teaches the child, not just how the regular teacher teaches. Reading Recovery is daily one-to-one tutoring by a specially trained teacher (large effects), High 5s adds small-group math clubs with a facilitator, and ASSISTments gives students an adaptive feedback platform. These add direct student dosage that pure teacher-practice PD (Lesson Study, ReflectED, AMSTI) lacks, so the mechanism and expected effect size differ fundamentally. This may explain a chunk of between-study heterogeneity.",
+      "studies_observed": ["may_2016", "mattera_2018", "murphy_2020", "murphy_2021", "motteram_2016"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Provision of physical/technology infrastructure",
+      "definition": "Whether the program supplies new hardware/equipment or relies on the school's existing resources: none / manipulatives & print materials / classroom technology installed (computers, interactive boards) / 1:1 student devices. Beyond the coded curriculum-coupled and delivery-mode flags, this is about capital equipment the school keeps.",
+      "rationale": "When a program installs a tech suite or supplies manipulatives, observed 'PD effects' may partly reflect the new resources and time lost/gained to install them, not the PD per se. eMINTS installed a full hardware/software suite (and its rollout was delayed to mid-February, cutting first-year exposure); AMSTI shipped materials and manipulatives; ASSISTments rode on a 1:1 laptop state. Infrastructure intensity confounds and could moderate PD->achievement.",
+      "studies_observed": ["meyers_2016", "newman_2012", "murphy_2020"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Cascade vs direct training model",
+      "definition": "Whether teachers are trained directly by program experts, or through a multi-tier cascade (experts train trainers/teacher-leaders, who then train the front-line teachers). Levels: direct / one-tier cascade (designated lead teacher) / multi-tier cascade.",
+      "rationale": "Cascade ('train the trainer') models trade scalability for potential dilution of fidelity at each handoff. Reading Recovery runs a deliberate cascade (university trainers -> teacher leaders -> teachers) and AMSTI designates an in-school lead teacher to mentor peers, whereas eMINTS/Wolf Trap teachers are trained directly by program staff. The number of relay steps between the source and the teacher could moderate how faithfully the intended PD reaches the classroom.",
+      "studies_observed": ["may_2016", "newman_2012", "murphy_2021"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Gradual-release / fade-out coaching design",
+      "definition": "Whether the in-class support is explicitly designed to start with the coach modeling/leading and then hand responsibility to the teacher over time (a 'gradual release' / responsibility-transfer arc) vs static support that does not deliberately fade. Binary, with a 'not described' level.",
+      "rationale": "Wolf Trap explicitly built its residencies so the teaching artist 'first took a more prominent role as the coach and then gradually released the management of the integration to the teacher' - a design feature aimed at durable, independent teacher change rather than dependence on the coach. Whether PD scaffolds and then withdraws may predict whether gains persist once support ends, which is exactly the policy-relevant question.",
+      "studies_observed": ["ludwig_song_2015", "mattera_2018"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "PD temporal profile (front-loaded vs sustained multi-year)",
+      "definition": "How PD/support is distributed over time relative to outcome measurement: short front-loaded burst (e.g. a summer institute plus light follow-up) vs support sustained across multiple school years. Levels: single-year front-loaded / single-year distributed / multi-year sustained.",
+      "rationale": "Programs differ in whether teachers get one concentrated dose or ongoing support across years, independent of total hours. eMINTS and Making Pre-K Count sustain coaching across two years; AMSTI runs two years; ASSISTments is essentially two summer trainings plus thin year-round contact; Lesson Study front-loads in year 1 (cohort 2 got 2 years, cohort 1 only 1 - a within-study dose contrast). Sustained support may be needed for practice change to consolidate, making temporal profile a plausible moderator.",
+      "studies_observed": ["meyers_2016", "mattera_2018", "newman_2012", "murphy_2020", "murphy_2021"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    }
+  ]
+}

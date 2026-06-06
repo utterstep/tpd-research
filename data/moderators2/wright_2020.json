@@ -1,0 +1,19 @@
+{
+  "slug": "wright_2020",
+  "study": "Wright et al. 2020 (NIESR/BIT eval), URLEY (Oxford/UCL) early-years language PD, EEF",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF efficacy trial independently evaluated by NIESR and the Behavioural Insights Team (BIT); the URLEY programme was developed and delivered by a separate Oxford/UCL team.",
+  "developer_delivered": "yes",
+  "developer_evidence": "'The intervention was developed and delivered by a team from Oxford University, University College London' (exec summary, p.5); the five core training days were delivered by the developer team.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Participating nursery/reception teachers attended the URLEY developer team's training days directly. (Trained mentors gave in-school support and teachers were expected to cascade to other classroom staff, but the PD-receiving teacher was trained directly by the developers.)",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Two-arm cluster RCT testing URLEY 'compared to business as usual in control schools' (exec summary, p.5); control schools continued usual provision.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Each school received on average ~17.5 hours of mentoring (face-to-face + skype/phone) and ~3 days of in-class mentoring/coaching across the two-year programme — periodic/light support, not recurring monthly+ in-class coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "URLEY changes teacher/classroom practice (language pedagogy + Environment Rating Scales); no tutoring, pull-out, extra child instructional minutes, or student-facing software dose.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Defined two-year programme (training Feb 2018 onward; post-test Jun-Jul 2018, end of trial) delivered once to schools new to URLEY; no recurring annual rollout / no prior implementation-year maturity wave.",
+  "confidence": "high"
+}

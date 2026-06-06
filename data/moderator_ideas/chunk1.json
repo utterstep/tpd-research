@@ -1,0 +1,62 @@
+{
+  "chunk": 1,
+  "studies": ["abe_2012", "allen_2015", "ansari_pianta_2018", "arens_2012", "babinski_2018", "bierman_2008", "bleses_2021", "borman_2007"],
+  "suggestions": [
+    {
+      "moderator": "Individualized-coaching dose (cycles or coaching-contact hours per year)",
+      "definition": "Among PD models that include coaching/mentoring, the realized intensity of the one-to-one component: number of coaching cycles per teacher per year, or coaching-contact hours per week/month. Candidate levels (continuous, or binned): high (~weekly / >=10 cycles/yr) / moderate (biweekly-to-monthly / 5-9 cycles) / low (every ~6 weeks or fewer). Distinct from total TPD hours (already coded) and from the binary coaching principle: it is the dose of the individualized feedback channel specifically.",
+      "rationale": "Allen explicitly halved coaching intensity for scalability (5-6 cycles/yr vs 10-12 in the original MTP-S efficacy trial) and still got g=0.48, while Babinski's lighter coaching (on-site only every ~6 weeks) returned mostly nulls and Bierman/Abe's near-weekly on-site mentoring (~3 hrs/classroom/wk) produced the strongest emergent-literacy effects. If coaching is the active ingredient, its per-teacher dose - not aggregate program hours - is the lever, and these papers vary it widely and discuss it as causal.",
+      "studies_observed": ["allen_2015", "ansari_pianta_2018", "babinski_2018", "bierman_2008", "abe_2012"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Independence of the evaluation from the program developer",
+      "definition": "Whether the study's authors/evaluators have a financial or proprietary stake in the program being tested. Levels: developer-conducted / developer-affiliated authors (co-own or distribute the program) / independent third-party evaluation (e.g., government REL/IES contractor with no stake). Distinct from the already-coded 'trainer = researcher/developer vs external', which is about who delivers the PD, not who runs and reports the trial.",
+      "rationale": "Classic source of effect inflation. In this batch the positive headline effects come from developer-linked teams (Allen & Ansari: R. Pianta co-owns the MTP dissemination company; Borman: several SFA co-authors are Success-for-All-Foundation-affiliated, study hosted on the developer's site), whereas the independent REL/IES evaluations (Abe REL Pacific, Arens REL Central) return small or null confirmatory effects. Independence plausibly moderates measured g and is reportable from author affiliations/COI statements.",
+      "studies_observed": ["allen_2015", "ansari_pianta_2018", "borman_2007", "abe_2012", "arens_2012"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Follow-up lag between end of PD and outcome measurement (in years)",
+      "definition": "Elapsed time from the end of the teacher's PD/student-facing intervention to the achievement measurement, as a continuous lag. Levels: 0 (immediate, same-year posttest) / ~1 yr / multi-year (2+). Goes beyond the already-coded binary immediate/delayed: it captures the magnitude of the gap, including very long horizons.",
+      "rationale": "Bleses is the extreme case - the SPELL preschool intervention is measured on a Grade-2 national reading test 3-6 years later, and every long-term effect is null, while the immediate post-tests had been positive; all other studies in this batch measure at end of treatment and several are significant. Effects of early PD may wash out (or, rarely, sleeper-emerge) over years, so a long measurement lag could systematically depress observed g independent of PD quality. The lag length is almost always stated.",
+      "studies_observed": ["bleses_2021", "borman_2007", "abe_2012", "bierman_2008"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Embedded teacher-collaboration / co-teaching structure",
+      "definition": "Whether the PD's theory of action centers on building structured collaboration between adults around the same students (e.g., ESL-and-classroom-teacher co-planning/co-teaching frameworks, whole-school teaching teams), vs PD that targets each teacher's individual practice in isolation. Levels: collaboration/co-teaching central / individual-teacher focus. Distinct from the student-level 'cooperation' learning principle already coded (that is about pupils cooperating, not teachers).",
+      "rationale": "Babinski's entire DCCS program is a teacher-collaboration-and-consultation framework designed to close the 'implementation gap' between ESL and classroom teachers, and Borman's SFA organizes the whole school into coordinated teaching teams with a facilitator; by contrast Allen and Ansari coach individual teachers. Collaboration can sustain practice change between PD sessions and align instruction across the adults a child sees, plausibly moderating transfer to achievement.",
+      "studies_observed": ["babinski_2018", "borman_2007"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Standalone teacher PD vs PD bundled in a comprehensive/multi-component reform",
+      "definition": "Whether the tested intervention is teacher PD as such, or PD packaged inside a larger multi-component program that also adds non-PD elements (new curriculum/materials, one-to-one student tutoring, family-support services, a full-time on-site facilitator). Levels: standalone PD / PD + curriculum / comprehensive whole-school reform (PD + tutoring + family/structural supports). Goes beyond the already-coded 'curriculum-coupled' flag by capturing additional student-facing and structural components.",
+      "rationale": "Borman's Success for All bundles PD with one-to-one tutoring, family-support teams, and a full-time facilitator and yields significant reading effects (g 0.21-0.36); Bierman/Bleses bundle PD with a manualized curriculum; Allen/Ansari are near-pure coaching. When non-PD components (especially direct student tutoring) ride along, attributing the effect to 'teacher PD' overstates PD's lever, and bundling could explain larger effects. This decomposition is reportable from the intervention description.",
+      "studies_observed": ["borman_2007", "bierman_2008", "bleses_2021", "allen_2015", "ansari_pianta_2018"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Within-study PD-intensity (dose-response) arm present",
+      "definition": "Whether the study itself randomizes more than one intensity/version of the same PD against a common control, giving an internal dose-response contrast (e.g., base program vs base + extended PD/coaching). Levels: single TPD arm / multiple TPD-intensity arms. A study-design feature that flags where dose effects can be estimated within rather than only across studies.",
+      "rationale": "Bleses randomizes SPELL vs SPELL+PD (the latter adds 14 hours of extended professional development/coaching) vs BAU, and the SPELL+PD arm shows the larger - though still ns - reading coefficients (g~0.08-0.10 vs ~-0.02 to -0.07 for base SPELL). Multi-arm studies provide cleaner, confound-free evidence on whether more PD helps; coding their presence lets the meta-analysis weight or sensitivity-check the cross-study dose findings against internal contrasts.",
+      "studies_observed": ["bleses_2021"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Outcome-measure breadth (narrow targeted skill battery vs broad omnibus achievement test)",
+      "definition": "How closely the outcome instrument's content is scoped to what the PD targets vs a broad standardized achievement test, independent of proximal/distal alignment. Levels: narrow targeted battery (e.g., a specific language/literacy subtest battery) / broad omnibus state or norm-referenced achievement test. Distinct from the already-coded proximal/distal alignment: alignment is about content match to the intervention; breadth is about how diffuse the construct the test samples is.",
+      "rationale": "Babinski explicitly invokes the Hill et al. (2008) benchmark that a 'narrow-focus' measure should be judged against g~0.23 (and its significant effects sit right at that value), whereas Allen and Borman use broad state/normed achievement tests where the same nominal g means something different. Expected effect size scales with measure breadth, so pooling narrow batteries with broad omnibus tests without accounting for breadth can distort heterogeneity; breadth is readable from the instrument description.",
+      "studies_observed": ["babinski_2018", "bierman_2008", "ansari_pianta_2018", "allen_2015", "borman_2007"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    }
+  ]
+}

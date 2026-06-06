@@ -1,0 +1,19 @@
+{
+  "slug": "cabell_2011",
+  "study": "Cabell et al. (2011), teacher responsivity-education PD (adapted Hanen/LLLI), pre-K, Am. J. Speech-Lang. Pathology",
+  "eval_independence": "developer",
+  "eval_evidence": "Authored/conducted by the team that developed/adapted the responsivity-education program ('as part of our intervention, we included content...'); IES grant R305F05124. Developer-conducted RCT, no independent evaluator.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Delivered by the research team's own staff: SLP/facilitators led the group workshops (one facilitator per session Hanen-certified) and 'classroom teachers ... were assigned to a trained research assistant serving as a consultant' for the distance coaching.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Research-team facilitators/RAs trained and coached the teachers directly; no train-the-trainer or lead-teacher tier (teachers do not re-deliver to others).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control was an explicit 'business-as-usual' condition; control teachers 'engaged in business-as-usual practices' and were not supported in any way. No active alternative PD.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Reduced-intensity model: a fall and winter workshop plus DISTANCE coaching (the paper explicitly studies 'reduced intensity training and distance coaching'). Periodic remote coaching with video feedback rather than frequent recurring in-person in-class cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention changes teacher conversational/responsivity practices; no tutoring, pull-out, or student-facing software dose added beyond regular instruction.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Single academic-year implementation (fall/winter workshops, spring outcomes); program designed as a one-year PD with no second-year/teacher-experience maturity axis.",
+  "confidence": "high"
+}

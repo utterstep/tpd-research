@@ -1,0 +1,19 @@
+{
+  "slug": "borman_2007",
+  "study": "Borman et al. 2007 (Success for All national RCT, Year-3 reading, AERJ 44(3))",
+  "eval_independence": "developer",
+  "eval_evidence": "Co-authored by the SFA developers / Success for All Foundation affiliates (Slavin, Madden, Chamberlain, Chambers); Slavin and Madden are the program developers. Per codebook, developer co-authorship => 'developer' (despite the IES grant and lead academic Borman).",
+  "developer_delivered": "yes",
+  "developer_evidence": "Training and ongoing support delivered by 'Trainers from the Success for All Foundation' (the developer organization): 3 days initial training, ~16 days first-year on-site support, ~15 days/year thereafter, quarterly implementation visits; trainers visited classrooms.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Success for All Foundation (developer) trainers train and support the school staff/teachers directly, plus a full-time on-site program facilitator; no external trained-trainer tier.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control = business-as-usual; control schools could purchase/implement any innovation other than Success for All (no active alternative imposed).",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Full-time on-site program facilitator overseeing daily operation, ~16 days first-year on-site support, ~15 days/year ongoing PD, quarterly SFAF fidelity/implementation visits with trainers visiting classrooms -- recurring on-site, in-class support.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "SFA includes one-to-one tutoring for struggling readers in grades 1-3 by specially trained certified teachers/paraprofessionals -- a direct student-facing dose beyond regular instruction (designed component; the paper notes few schools fully implemented it).",
+  "program_maturity": "mature",
+  "maturity_evidence": "Outcomes are the Year-3 (spring grade 2) wave; schools had implemented SFA for ~3 years (>=1 prior implementation year), so the program/teachers are past their first implementation year.",
+  "confidence": "high"
+}

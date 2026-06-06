@@ -1,0 +1,19 @@
+{
+  "slug": "stevens_slavin_1995",
+  "study": "Stevens & Slavin 1995 — Cooperative Elementary School (schoolwide cooperative learning), Johns Hopkins (QED, matched schools)",
+  "eval_independence": "developer",
+  "eval_evidence": "Authored by the model's developers at Johns Hopkins (Stevens & Slavin); the Cooperative Elementary School model uses Johns Hopkins cooperative-learning programs (CIRC, TAI) developed by the authors — developer-conducted evaluation.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Treatment teachers 'are given training, materials, follow-up, and assistance to use the Johns Hopkins cooperative learning' model; the developer team (Johns Hopkins) provided the training and follow-up support as components were phased in.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Johns Hopkins team trained the school faculty directly as each component was introduced ('the faculty was given training or an introduction to the component'); no separate train-the-trainer intermediary reaching teachers.",
+  "counterfactual": "active_or_contaminated",
+  "counterfactual_evidence": "Matched-comparison (QED) schools continued business-as-usual basal/whole-class instruction but used the SAME district-adopted basal reader and a district-adopted language-arts program; not a clean no-treatment BAU (shared district materials), and comparison schools had their own school-improvement teams.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Support is PEER coaching ('Teachers coaching one another'; experienced teachers serve as peer coaches for later adopters) plus 'periodic follow-up' from the program — light/periodic in-school support, not recurring external expert in-class coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Schoolwide cooperative-learning model changes the teachers' regular reading/language-arts/math instruction (CIRC, TAI, STAD); no separate tutoring or pull-out student-facing dose for the general sample.",
+  "program_maturity": "mature",
+  "maturity_evidence": "2-year study with components 'gradually phased in during the first year'; the extracted headline outcomes are end-of-Year-2 posttests, i.e. measured after a full prior implementation year (teachers experienced with the model).",
+  "confidence": "medium"
+}

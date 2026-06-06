@@ -1,0 +1,19 @@
+{
+  "slug": "culliney_2019",
+  "study": "Culliney et al. 2019 (Integrating English / LiLAC genre-pedagogy CPD; EEF trial)",
+  "eval_independence": "independent",
+  "eval_evidence": "Independent EEF evaluation by Sheffield Institute of Education, Sheffield Hallam University; the evaluators are explicitly distinct from the Enfield LA delivery team ('the evaluators would like to thank... the Integrating English delivery team').",
+  "developer_delivered": "yes",
+  "developer_evidence": "The program developer (Enfield LA School Improvement Team) developed AND delivered the CPD: 'The programme was developed and delivered by Enfield LA School Improvement Team'; 'the Integrating English course was delivered by qualified teacher trainers recruited by the Enfield programme team.'",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Enfield's trainers delivered the CPD to the participating Year 5/6 teachers directly at five regional hubs (teachers then taught their own pupils); no train-the-trainer / lead-teacher re-delivery hop reported.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Two-armed cluster RCT with a business-as-usual control (control schools continued normal English provision); design note and exec summary describe BAU comparison.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Delivery = centre-based CPD workshops at five regional 'hubs' with a virtual learning environment between sessions; teachers produced schemes of work. No in-class coaching component reported.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention is genre-pedagogy CPD that changes the teacher's English instruction (schemes of work delivered by the teacher in normal lessons); no tutoring, pull-out, or extra student dose.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Single cohort taught Integrating English across Year 5 (2016/17) and Year 6 (2017/18); the KS2 (Writing/Reading/GPS) outcomes were measured at end of Year 6, i.e. after a prior Year-5 implementation year. (Teachers were new to it in Year 5.)",
+  "confidence": "high"
+}

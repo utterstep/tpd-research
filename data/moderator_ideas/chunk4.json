@@ -1,0 +1,62 @@
+{
+  "chunk": 4,
+  "studies": ["drummond_2011", "drummond_2020", "duncan_2018", "early_2016", "fancsali_2015", "finkelstein_2010", "fong_2015", "garet_2008"],
+  "suggestions": [
+    {
+      "moderator": "Dose actually delivered/received vs planned (PD take-up rate)",
+      "definition": "The gap between the prescribed PD dose and what teachers actually received: percent of planned PD hours attended, or share of treatment teachers/schools that completed the intended dose. Candidate levels: high take-up (>=80% of planned) / partial / low. A continuous 'received / planned' ratio where reported. Distinct from the already-coded NOMINAL number of TPD hours, which is what was offered, not what landed.",
+      "rationale": "Two studies coded with similar nominal hours can differ enormously in delivered dose. Garet's teachers attended only 35 of 45 implemented institute hours; Duncan repeatedly flags low participation/turnover as the reason for null full-sample effects; Fong reports only ~18% of ERWC teachers taught with strict fidelity. The achievement signal plausibly tracks delivered dose far better than the planned-hours field already coded.",
+      "studies_observed": ["garet_2008", "duncan_2018", "fong_2015", "drummond_2011"],
+      "reportability": "sometimes",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Magnitude of instructional change the PD demands (practice-shift size)",
+      "definition": "How large a departure from teachers' existing routines the target practices represent: incremental refinement of current teaching vs a wholesale change in core pedagogy. Levels: small/aligned-with-prior-practice / moderate / large pedagogical shift. Often inferable from the PD's framing and from which teacher subgroups it moves most.",
+      "rationale": "Fancsali's RAISE effect was significant ONLY for science teachers and the authors explicitly attribute this to Reading Apprenticeship being a far larger shift in core practice for science teachers than for ELA/history teachers (history was null/negative). Early's ECED is framed as broad-based reform. A bigger required shift can mean either bigger gains (more room to move) or implementation failure; either way it is a candidate source of heterogeneity not captured by hours or learning-theory counts.",
+      "studies_observed": ["fancsali_2015", "early_2016"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "PD-as-wrapper-for-a-packaged-product (teaching the tool vs improving teaching)",
+      "definition": "Whether the PD's primary purpose is to train teachers to operate a specific packaged student-facing product (software, a fixed curriculum, a course), with the product as the intended active ingredient, vs PD that targets the teacher's general instructional practice as the lever. Levels: product-operation PD / general-practice PD. Related to but distinct from the already-coded curriculum-coupled binary: this is about where the change mechanism is located (in the product vs in the teacher).",
+      "rationale": "Several of these are 'modest PD to deploy product X' designs: Drummond 2011 explicitly calls the PD 'modest professional development' to run the Thinking Reader software; Finkelstein and Fong wrap PD around the Problem Based Economics / ERWC packages. When the product is the active ingredient, achievement may hinge on product dose and quality rather than on PD features, so PD moderators behave differently for this class of study.",
+      "studies_observed": ["drummond_2011", "finkelstein_2010", "fong_2015"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Student-facing component dosage/usage",
+      "definition": "For interventions with a measurable student-facing component (software minutes, weeks of curriculum coverage, modules taught), how much of it students actually received relative to design. Levels: full/as-designed / partial / minimal. Reported as minutes, days/week, or modules covered.",
+      "rationale": "Even with well-trained teachers, the student-side dose can be the binding constraint. Drummond 2011 tracked software usage and found it on the low end of the expected range (1.4 days/week; 37% below target days), offering a direct explanation for its null. Fong measured how many ERWC modules teachers actually taught. Where the student dose is thin, the PD cannot translate into achievement regardless of PD quality.",
+      "studies_observed": ["drummond_2011", "fong_2015", "finkelstein_2010"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Counterfactual PD intensity (what the control group received)",
+      "definition": "Whether the control condition was a true business-as-usual baseline with little/no comparable PD, vs an active counterfactual where control teachers received substantial regular PD (or were offered the program later). Levels: light/no-PD control / active-PD control / control offered treatment PD (delayed).",
+      "rationale": "The estimated effect is a contrast, so a strong control-group PD shrinks the measurable gap even if the treatment PD 'works'. Finkelstein's control teachers took their regular annual PD and were offered the program PD later; most others are nominal business-as-usual. Variation in counterfactual richness could explain why otherwise-similar PD shows smaller effects in some studies.",
+      "studies_observed": ["finkelstein_2010", "garet_2008", "duncan_2018"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Program duration in years (single-year vs multi-year sustained PD)",
+      "definition": "Calendar span over which the PD is delivered to teachers, in years rather than total hours: a one-school-year program vs a sustained 2-3 year program. Levels: <=1 year / 2 years / 3+ years. Distinct from total TPD hours (a 3-year program and a 1-year program can have similar nominal hours).",
+      "rationale": "Sustained multi-year PD gives teachers repeated practice-feedback cycles and time to consolidate change; Drummond 2020 explicitly notes only teachers stable across all 3 years showed positive effects, and Early's effect emerges at end of Year 2. Single-year programs (Duncan Y1, Garet, Finkelstein one semester) may catch teachers mid-change. Year-span is a cleaner intensity axis than raw hours for this set.",
+      "studies_observed": ["drummond_2020", "early_2016", "duncan_2018", "garet_2008"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Recruitment-stage buy-in / voluntariness of teacher participation",
+      "definition": "How teachers/schools entered the study: actively volunteered/self-selected into the program vs were assigned with weaker prior commitment, and how much principal/teacher agreement was secured up front. Levels: strong volunteer buy-in / mixed / low commitment with recruitment churn. Often visible in recruitment and attrition narratives.",
+      "rationale": "Motivated, self-selected teachers implement more fully. Duncan attributes much of its implementation/attrition trouble to principals and teachers who had agreed but did not sustain commitment (administrator turnover); Fong's ERWC teachers chose to teach the course. Buy-in plausibly gates whether the PD ever changes practice, and it varies across these recruitment designs.",
+      "studies_observed": ["duncan_2018", "fong_2015", "garet_2008"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    }
+  ]
+}

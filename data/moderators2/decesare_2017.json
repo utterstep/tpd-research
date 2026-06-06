@@ -1,0 +1,19 @@
+{
+  "slug": "decesare_2017",
+  "study": "DeCesare et al. 2017 (Retired Mentors for New Teachers mentoring program)",
+  "eval_independence": "independent",
+  "eval_evidence": "Independent NCEE/IES evaluation by REL Central (report REL 2017-225); the program was developed by Aurora Public Schools, evaluated by the REL team (separate parties).",
+  "developer_delivered": "no",
+  "developer_evidence": "Program developed by Aurora Public Schools; the PD (mentoring) was delivered by recruited retired district educators serving as mentors, not by the program developers or a research team themselves.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "District-developed mentoring program delivered through an intermediary tier of retired educators recruited and deployed as mentors to the new teachers (developer -> retired mentors -> mentee teachers).",
+  "counterfactual": "active_or_contaminated",
+  "counterfactual_evidence": "Control received an active alternative: the district's typical business-as-usual 'buddy' mentoring (~15 hours over the year from a more experienced buddy teacher); the program group got that PLUS the retired mentor.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Mentees met weekly one-on-one with their mentor and monthly in the classroom; mentors used classroom observation and feedback, modeling, co-teaching, and lesson design/delivery support — recurring in-class coaching in the teacher's own classroom.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention is teacher mentoring/coaching of new teachers; only the teacher's instruction is affected, no direct student-facing dose.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Two-year intervention (2013/14 + 2014/15); end-of-treatment student outcomes (the primary records) measured at end of Year 2, after a prior implementation year. (Year-1 wave reported separately as interim, and was the only significant math result.)",
+  "confidence": "high"
+}

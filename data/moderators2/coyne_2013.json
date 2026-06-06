@@ -1,0 +1,19 @@
+{
+  "slug": "coyne_2013",
+  "study": "Coyne et al. 2013 (Early Reading Intervention [ERI] supplemental K reading; replication study)",
+  "eval_independence": "developer",
+  "eval_evidence": "Study run and authored by the Project ERI research team under IES Grant R324E060067 (Texas A&M); the same research team designed the PD and delivered it ('Project ERI researcher team members led both professional development sessions... the same researchers also provided PD during the initial study').",
+  "developer_delivered": "yes",
+  "developer_evidence": "'Project ERI researcher team members led both professional development sessions' for the ERI interventionists; the research team delivered the PD directly.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "ERI research-team members delivered the PD directly to the classroom teachers/interventionists; no train-the-trainer intermediary.",
+  "counterfactual": "active_or_contaminated",
+  "counterfactual_evidence": "Comparison is an ACTIVE alternative: a 'school-designed intervention' (SDI), a typical-practice supplemental reading intervention also taught 30 min/day in small groups for ~equivalent sessions; SDI teachers had prior evidence-based-reading PD and FCRR resources (SDI in fact slightly outperformed ERI).",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Support = two PD sessions plus research staff observing each interventionist three times (fidelity observation with feedback on a 1-4 scale); light/periodic, not recurring in-class coaching cycles.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "ERI is a supplemental pull-out small-group beginning-reading intervention delivered to at-risk kindergartners 30 min/day, 5 days/week, ~100 sessions — a direct student-facing dose beyond regular instruction (both arms receive a supplemental dose).",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Program designed as a single kindergarten year of supplemental small-group intervention (~100 sessions across one school year), measured at end of that year; no multi-year maturity axis.",
+  "confidence": "high"
+}

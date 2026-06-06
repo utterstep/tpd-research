@@ -1,0 +1,19 @@
+{
+  "slug": "robinson_smith_2018",
+  "study": "Robinson-Smith et al. (2018/2019), EasyPeasy home-learning play programme, cluster RCT, EEF, language",
+  "eval_independence": "independent",
+  "eval_evidence": "Independent EEF evaluation: 'The project was independently evaluated by a team from Durham University and York Trials Unit, University of York' (School of Education, Durham). The intervention developer (EasyPeasy) is separate from the evaluators.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The TPD element - training each nursery's 'Pod Leader' - was delivered by the developer: 'a member of nursery staff (the Pod Leader), trained by EasyPeasy' (a one-hour online webinar plus dashboard training from EasyPeasy). The developer trained the in-school coordinators directly.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "EasyPeasy trained nursery Pod Leaders, who then coordinated parental engagement; the actual delivery to children ran through parents at home (and the Pod Leader is an intermediary coordinator). Transmission passes through the Pod Leader/parents rather than developer-to-classroom-teacher directly. (Non-standard TPD: largely a parent-facing programme.)",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Two-armed trial comparing EasyPeasy to 'business as usual in control schools' (nurseries that did not receive EasyPeasy); no alternative programme for controls.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "The teacher-facing component was a one-hour online webinar plus dashboard training for Pod Leaders; no ongoing in-class coaching of teachers.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "Substantial direct child-facing dose beyond regular nursery instruction: parents received weekly texts linking to 65 play-based games over 20 weeks to play with their children at home (a parent-delivered home-learning dose). Adds instruction beyond the teacher's regular classroom instruction.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "EasyPeasy is a single 20-week home-learning programme delivered once (Sept 2017-summer 2018) with outcomes measured immediately after; no multi-year rollout / maturity axis.",
+  "confidence": "high"
+}

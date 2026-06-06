@@ -1,0 +1,19 @@
+{
+  "slug": "motteram_2016",
+  "study": "Motteram et al. 2016, ReflectED metacognition (Rosendale) EEF efficacy trial, Year-5 pupils, ~1-year post (ERIC ED581262)",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF efficacy trial with an independent evaluation team (University of Manchester); report header lists 'Independent evaluators:' (Manchester) distinct from the developer, Rosendale Primary School.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The developer delivered the PD: 'Rosendale Primary School trained teachers from 30 schools'; 'A team of mentors from Rosendale Primary School trained and supported the primary schools'; report notes 'close involvement of the original developer in the delivery of the programme.'",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Rosendale (the developer) trained the intervention teachers directly via its own mentor team and launch/training days; one hop developer->teacher, no train-the-trainer intermediary.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "'There were two arms: intervention (ReflectED) and control (business as usual)'; controls continued normal practice.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Five training days plus an assigned Rosendale school mentor, weekly emailed reminders/tips, and online support from the London Connected Learning Centre; periodic/light mentor support rather than recurring in-class coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Metacognition lessons are delivered by the trained classroom teachers as part of regular instruction ('these lessons teach children specific metacognitive strategies', taught by the teacher); no separate tutoring/pull-out/added-minutes dose to pupils.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Efficacy trial; teachers newly trained in 2014 (launch summer 2014), with the cohort taught and post-tested at the end of one academic year (June 2015) -> first implementation year for these teachers.",
+  "confidence": "high"
+}

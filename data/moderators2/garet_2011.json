@@ -1,0 +1,19 @@
+{
+  "slug": "garet_2011",
+  "study": "Garet et al. 2011, Middle School Math PD Impact Study (NCEE 2011-4024)",
+  "eval_independence": "independent",
+  "eval_evidence": "IES/NCEE-commissioned impact study; prime contractor AIR with MDRC. Evaluators distinct from the PD providers (America's Choice, Pearson Achievement Solutions).",
+  "developer_delivered": "yes",
+  "developer_evidence": "PD designed and delivered by external commercial providers America's Choice and Pearson Achievement Solutions (their own facilitators/coaches delivered the institutes, seminars, and coaching).",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Provider facilitators delivered institutes/seminars and the same seminar facilitators (provider coaches) delivered the coaching visits to teachers directly; no train-the-trainer hop.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control was the district's 'business as usual' math PD; report explicitly contrasts treatment vs business-as-usual control hours (Table 2-7).",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "In-school coaching tied to each of ~5 seminar days/year (two-day coaching visits, ~4-5 hrs/teacher), i.e. periodic in-class support across the year rather than monthly+ recurring cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention targets teachers' own grade-7 math instruction (rational numbers); no tutoring, pull-out, or added student-facing dose.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Two-year PD program; extracted outcomes are the end-of-second-year (two-year-district) wave, i.e. after a prior year of implementation.",
+  "confidence": "high"
+}

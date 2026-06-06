@@ -1,0 +1,19 @@
+{
+  "slug": "wiggins_2019",
+  "study": "Wiggins et al. 2019, RISE (Research leads Improving Students' Education) whole-school research-use program, EEF eval (UCL IoE)",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF efficacy trial 'independently evaluated by a team from UCL Institute of Education' (Meg Wiggins et al.); the program was developed and delivered by a separate party (Huntington School, York).",
+  "developer_delivered": "yes",
+  "developer_evidence": "The RISE programme was 'developed and delivered by a team from Huntington School in York', which trained the school Research Leads and ran workshops for headteachers and subject leads.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Lead-teacher cascade: the Huntington team trained/supported a senior teacher 'Research Lead' in each school, who was then responsible for promoting and supporting research use throughout the school's teachers (>=1 extra hop to classroom teachers).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control schools 'continued with business as usual'; no RISE programme, Research Lead role, or research-use training.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Support consisted of training/workshops for Research Leads, headteachers, and subject leads (attendance high over 30 months); no ongoing in-class coaching of classroom teachers.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "RISE is a whole-school, research-informed improvement program acting through teacher/leader practice; no tutoring, pull-out, extra minutes, or student-facing software dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Program newly introduced to all schools at once; outcomes span an end-of-Year-1 GCSE cohort (Cohort A, exposed 1 year) and an end-of-Year-2 cohort (Cohort B, exposed 2 years). First measurement wave is the first implementation year, so coded first_year (note: a 2-year-dose cohort also exists).",
+  "confidence": "high"
+}

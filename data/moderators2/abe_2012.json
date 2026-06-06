@@ -1,0 +1,19 @@
+{
+  "slug": "abe_2012",
+  "study": "Abe et al. 2012 (Pacific CHILD, REL Pacific, NCEE 2013-4002)",
+  "eval_independence": "independent",
+  "eval_evidence": "Berkeley Policy Associates (BPA), a third-party evaluator with no financial stake, 'worked independently of REL Pacific, the organization that developed and implemented Pacific CHILD'; BPA led the impact study under IES funding.",
+  "developer_delivered": "yes",
+  "developer_evidence": "REL Pacific staff (the program developers) designed AND implemented/delivered Pacific CHILD to teachers in the three entities; delivery was carried out by REL Pacific program staff, separate from the BPA evaluation team.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "REL Pacific program staff (developers) delivered the annual institute, mini-institutes, lesson demonstrations and classroom observations directly to the grade 4-5 teachers; no train-the-trainer intermediary.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control schools received business-as-usual reading instruction; comparison/control = business-as-usual per design and extraction record.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Beyond the annual institute/mini-institutes, the model includes monthly lesson demonstrations, twice-monthly in-class classroom observations, and weekly structured learning team meetings in teachers' own schools/classrooms.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Pure teacher PD; only the teachers' own grade 4-5 reading-comprehension instruction changes. No tutoring, pull-out, or added student-facing dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Pacific CHILD is a designed two-year intervention; outcomes measured at end of Year 2 for the single cohort of teachers new to the program (its first rollout in these schools, no prior implementation year).",
+  "confidence": "high"
+}

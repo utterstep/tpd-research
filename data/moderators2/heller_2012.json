@@ -1,0 +1,19 @@
+{
+  "slug": "heller_2012",
+  "study": "Heller et al. 2012 (JRST), WestEd Making Sense of SCIENCE PD (electric circuits) [same trial as heller_2010]",
+  "eval_independence": "developer",
+  "eval_evidence": "Journal version of the same RCT; conducted by WestEd, the developers of the Making Sense of SCIENCE / Learning Science for Teaching courses (authors are WestEd staff). NSF-funded but developer-conducted.",
+  "developer_delivered": "no",
+  "developer_evidence": "'Interventions were delivered by staff developers trained to lead the teacher courses in their regions'; 'courses implemented by local facilitators trained at WestEd', with two local facilitators per site co-delivering each course (San Francisco Bay Area excepted, where WestEd developers were solo facilitators).",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "WestEd trained local facilitators at WestEd in Oakland; those facilitators then delivered the courses to teachers in their regions: developer -> trained local facilitator -> teacher (>=1 hop).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Three PD arms vs a shared no-treatment control; control teachers received no course (offered it the following summer). Business-as-usual.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Each course comprised eight three-hour facilitated sessions (content + pedagogy-analysis components) over weeks; a course/workshop format, no recurring in-class coaching cycles in teachers' own classrooms.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention builds teacher content/pedagogical-content knowledge for the existing electric-circuits unit; only the teacher's regular instruction changes, no added student-facing dose.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Single-year PD course; the primary (study-year) student content-knowledge outcome is the immediate post-intervention gain. No maturity axis for the core contrast (a separate follow-up-year cohort exists but is a different student sample).",
+  "confidence": "medium"
+}

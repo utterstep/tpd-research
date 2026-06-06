@@ -1,0 +1,19 @@
+{
+  "slug": "cordray_2012",
+  "study": "Cordray et al. 2012 (NWEA MAP benchmark assessment + teacher training/coaching; reading)",
+  "eval_independence": "independent",
+  "eval_evidence": "Independent NCEE/IES evaluation by REL Midwest (Learning Point Associates, an AIR affiliate); report NCEE 2013-4000. NWEA (developer) only provided implementation support and commented on a draft.",
+  "developer_delivered": "yes",
+  "developer_evidence": "NWEA (the MAP developer) delivered the teacher training and provided the on-site MAP coach: 'NWEA provides training sessions and face-to-face consultative services. MAP training consists of four one-day sessions, along with on-demand consultation... and on-site visits from an NWEA MAP coach.'",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "NWEA trainers/coach trained the teachers directly (four one-day NWEA sessions + NWEA MAP coach), no intermediary cascade.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control = business-as-usual schools with no benchmark/MAP-style assessment or training (design note). Appendix L assessed and addressed control-group contamination; grade-4 confirmatory contrast treated as clean BAU.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Support was an NWEA MAP coach providing on-demand consultation and on-site visits, with the option of three to four consultative sessions across the school year (data-interpretation/differentiation consultation), not recurring in-class instructional coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "The student-facing element is periodic NWEA computer-adaptive benchmark assessment (a few times/year), not added instruction; the intervention is teacher data-use training/coaching, so the teacher's regular reading instruction is what changes.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Two-year implementation; impacts measured at end of Year 2 (spring 2010), after a prior Year-1 implementation year (Year-1 was interim).",
+  "confidence": "high"
+}

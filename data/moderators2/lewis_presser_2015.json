@@ -1,0 +1,19 @@
+{
+  "slug": "lewis_presser_2015",
+  "study": "Lewis Presser et al. 2015, Next Generation Preschool Math (NGPM) tablet-augmented curriculum, pre-k (SREE)",
+  "eval_independence": "developer",
+  "eval_evidence": "Conference paper authored by the developers at EDC and SRI International (NSF DRL-1119118), who designed the NGPM curriculum and digital apps and ran the evaluation.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Treatment teachers attended a full-day PD workshop run as part of the developer-led efficacy study (p.97); not stated to be delivered by an outside intermediary, so taken as developer/research-team delivered (medium confidence).",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Single developer-run workshop to treatment teachers in a small 16-center efficacy trial; no train-the-trainer/lead-teacher hop described.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control teachers continued business as usual and were 'provided the professional development and materials at the conclusion of the study' (waitlist BAU control) (p.102-103).",
+  "coaching_intensity": "none",
+  "coaching_evidence": "PD = a single full-day workshop prior to implementation (content, technology orientation, game/activity overview); no ongoing in-class coaching described (p.97-101).",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "Each classroom received five iPads (four for children in a digital learning center) plus tablet-based math games children played directly (5:1 manipulatives-to-digital ratio, 8 digital games) - a substantial student-facing software dose beyond regular teacher instruction (p.92-102).",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "A single short (~6-week) supplemental math unit implementation; a discrete one-shot design with no multi-year maturation axis.",
+  "confidence": "medium"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "hanley_2020",
+  "study": "Hanley et al. 2020, Thinking Doing Talking Science (EEF efficacy trial)",
+  "eval_independence": "developer",
+  "eval_evidence": "Authors include the TDTS creators (Helen Wilson and Bridget Holligan, who 'established Thinking, Doing, Talking Science ... in 2012' via Science Oxford / Oxford Brookes) alongside the York Trials Unit; the impact evaluation is co-authored by the program developers, so developer-conducted (not an independent third party).",
+  "developer_delivered": "yes",
+  "developer_evidence": "PD was delivered by 'the designers and deliverers of the original project'; the paper contrasts this efficacy trial (developers delivering) with the later Kitmitto et al. 2018 effectiveness trial that used 'trainers new to TDTS, rather than the programme developers, training the teachers.'",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "In this trial the program developers/designers trained the teachers directly; the later 'train-the-trainer' cascade model (Kitmitto 2018) is explicitly described as a separate, subsequent trial. No intermediary hop in this efficacy study.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Two-armed RCT; control schools continued business-as-usual science and were offered TDTS the following year (wait-list BAU). No active alternative PD.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Two teachers per school attended five training days (later reduced to four) over one academic year, discussing/selecting strategies between sessions; no ongoing in-class coaching or classroom observation visits described.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "TDTS changes only the teacher's regular science instruction (more cognitively challenging, practical, discussion-rich lessons); no tutoring, pull-out, extra minutes, or student-facing software dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Outcomes measured at the end of the single implementation year (pre-test Dec 2012/Jan 2013, post-test June/July 2014; teachers new to TDTS in the program's first implementation year for these schools).",
+  "confidence": "high"
+}

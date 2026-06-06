@@ -1,0 +1,19 @@
+{
+  "slug": "sloan_2018",
+  "study": "Miller/Biggart/Sloan/O'Hare 2017 — EEF Success for All (SfA) effectiveness trial",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF-commissioned effectiveness trial; independent evaluators = Centre for Evidence and Social Innovation, Queen's University Belfast (Miller et al.). No developer stake in the evaluation.",
+  "developer_delivered": "yes",
+  "developer_evidence": "PD delivered by the Success for All Foundation (program developers): 'Initial training is delivered by SfA-UK'; SfA trainers provided training, coaching, co-teaching and staff meetings to schools.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "SfA Foundation trainers train the school's teachers and TAs directly ('Delivered by 3 SfA trainers to the whole school'; teachers/TAs 'trained and supported by the Success for All Foundation') — no intermediary hop.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control schools 'continued with business as usual which consisted of curriculum delivery as normal' (paid GBP2000/yr); no alternative literacy program supplied.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "SfA provides 16 days of in-school training plus 'ongoing support', including coaching and co-teaching in classrooms across the 2-year rollout — recurring in-class support.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Whole-school literacy program restructures the teacher's regular daily instruction (group learning, phonics, structured lessons); the evaluated Reception->Year 1 cohort receives no separate student-facing pull-out/tutoring dose reported in this trial.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Schools were new adopters; SfA delivered over 2 years and pupils were followed from the start of Reception (first implementation year for these schools/teachers).",
+  "confidence": "high"
+}

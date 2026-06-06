@@ -1,0 +1,19 @@
+{
+  "slug": "ludwig_song_2015",
+  "study": "Ludwig & Song 2015, Wolf Trap arts-integrated mathematics PD (AEMDD i3), PK-K, 2-year impact (AIR final grant report; ERIC ED553403)",
+  "eval_independence": "independent",
+  "eval_evidence": "Impact evaluation conducted/authored by AIR, the external evaluator under the AEMDD grant; report states 'American Institutes for Research (AIR) is an independent...' and Wolf Trap is the program developer/grantee. AIR has no developer stake in the Wolf Trap program.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The PD was delivered by Wolf Trap's own teaching artists (the developer's staff/contractors): 'the development program developed by Wolf Trap's project team includes annual summer institutes as well as in-classroom coaching... teaching artists coached teachers in the classroom.'",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Wolf Trap teaching artists (developer staff/contractors) train and coach the participating teachers directly via the summer institutes and the artist-residency coaching cycle; no train-the-trainer/lead-teacher cascade hop.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control schools were assigned to the 'business-as-usual condition'; no alternative arts/math PD provided to controls (Methods).",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Model = summer institutes (5+3 days) PLUS in-classroom coaching across the school year via the artist-residency 'coaching cycle' (artist co-plans and coaches the teacher in the teacher's own classroom over the residency, gradually releasing to the teacher); recurring in-class coaching.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Framed as 'embedded professional development for teachers'; the arts-integrated lessons replace/transform the teacher's regular math instruction (arts integration during regular instruction), not an added tutoring/pull-out/extra-minutes dose. Note: the teaching artist is physically present and co-teaches lessons with children during the residency (borderline), but the design is teacher-PD/coaching-centric, not a separate student dose.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Headline contrast (row 74) is the TWO-YEAR end-of-treatment impact of a 2-year residency program (after a separate planning year); outcomes at end of Year 2, so measured after >=1 prior implementation year. The Year-1 interim wave (secondary) would be first_year.",
+  "confidence": "high"
+}

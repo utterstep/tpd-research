@@ -1,0 +1,19 @@
+{
+  "slug": "resendez_azin_2012",
+  "study": "Resendez & Azin (2012), HMH Journeys reading curriculum + PD efficacy RCT (Year 1), PRES Associates",
+  "eval_independence": "developer",
+  "eval_evidence": "Borderline. Report authored by PRES Associates ('An Independent Evaluation Company'), BUT it is a vendor efficacy study: 'Houghton Mifflin Harcourt has contracted with PRES Associates' to evaluate HMH's own Journeys program - a clear developer/commercial stake. Coded 'developer' on the stake criterion; the authoring firm is a contracted third party.",
+  "developer_delivered": "yes",
+  "developer_evidence": "PD delivered by the publisher/developer: HMH provided ~5-6 hr initial training plus a half-day follow-up to treatment teachers (Table 2, 2009-10/2011-12 training sessions by site). The developer delivered the training.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "HMH's own trainers trained treatment teachers directly; no lead-teacher/train-the-trainer intermediary reported.",
+  "counterfactual": "active_or_contaminated",
+  "counterfactual_evidence": "Control teachers continued one of six distinct existing reading/language-arts core programs the schools already used (an active alternative reading curriculum), not a no-program BAU.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Only initial training (~5-6 hr) plus a half-day follow-up; no ongoing in-class coaching cycles reported.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Journeys is a core reading/language-arts curriculum replacing the teacher's regular literacy instruction; no added tutoring, pull-out, extra minutes, or separate student-facing software dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Row 98 = Year 1 (2011-12) of a 2-year study, the program's first implementation year; teachers were new to Journeys (the report states 'come from the first year of a two-year' RCT and stronger effects are expected only after Year 2).",
+  "confidence": "medium"
+}

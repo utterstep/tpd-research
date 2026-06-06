@@ -1,0 +1,62 @@
+{
+  "chunk": 6,
+  "studies": ["hanley_2020", "hanselman_2013", "heller_2010", "heller_2012", "herman_2022", "hitchcock_2011", "humphrey_2018", "jaciw_hegseth_2016"],
+  "suggestions": [
+    {
+      "moderator": "Sustained in-class coaching attached to the workshop vs workshop/course-only",
+      "definition": "Whether the PD couples its group training with ongoing, job-embedded support in the teacher's own classroom (observation + feedback cycles across the year) OR is delivered purely as workshops/a course with no in-class follow-up. Levels: workshop-only / workshop+sustained-coaching. This is the structural presence of an in-class support component, distinct from the already-coded binary 'coaching principle' (which can be ticked for any feedback) and from in-person-vs-online delivery.",
+      "rationale": "My batch splits cleanly on this axis and the split tracks the effects. The pure workshop/course programs that nonetheless moved achievement are the developer-made science courses (Heller A/B/C, g~0.37-0.60; Hanley TDTS g=0.22 on a science test) where teachers just enact what they learned. The programs that added monthly/ongoing classroom coaching but still produced near-null student gains are CSR (g=0.05), GBG (g=0.03) and iRAISE (g=0.002). So 'more support' is not monotonic with impact here; whether coaching is present, and how it interacts with what is being taught, is a live moderator worth isolating.",
+      "studies_observed": ["hanley_2020", "heller_2010", "heller_2012", "hitchcock_2011", "herman_2022", "humphrey_2018", "jaciw_hegseth_2016"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "PD content target: subject-specific instruction vs generic classroom/behaviour management",
+      "definition": "Whether the PD teaches subject-matter pedagogy/content (how to teach science, reading, etc.) vs domain-general classroom or behaviour management that is not tied to any subject. Levels: academic/subject-specific / behaviour-or-classroom-management. May partly overlap the coded 'TPD goal' field but cuts orthogonally to it: it is about the proximity of the PD's content to the achievement test.",
+      "rationale": "Two of my eight (CHAMPS, GBG) are behaviour-management programs whose theory targets conduct/time-on-task, with student achievement as a hoped-for downstream spillover; both yield small/mixed achievement effects (CHAMPS d=0.14-0.17 on some tests, null on others; GBG g=0.03). The subject-pedagogy programs sit closer to the tested construct. A PD whose content is two causal steps from the achievement outcome should plausibly show smaller, noisier achievement effects than one teaching the tested subject directly.",
+      "studies_observed": ["herman_2022", "humphrey_2018", "hanley_2020", "heller_2010", "heller_2012", "hitchcock_2011", "jaciw_hegseth_2016", "hanselman_2013"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Who employs/delivers the ongoing in-class support",
+      "definition": "When sustained support exists, the role/affiliation of the person providing it. Levels: external delivery-organisation coach (third-party NGO/vendor staff) / on-site full-time school staff facilitator (employed by the school) / program developer or researcher / local site facilitator. Distinct from the already-coded 'TPD trainer (researcher/developer vs external)' binary, which describes who runs the workshop, not who sustains in-class support.",
+      "rationale": "The support-delivery model varies a lot across my batch: GBG uses external coaches contracted by Mentor UK; Success for All embeds a full-time on-site program facilitator in every school plus a school 'solutions team'; Heller draws on local site facilitators; iRAISE uses remote SLI facilitators. A full-time on-site facilitator who owns implementation school-wide is a very different lever than an external coach making monthly visits, and could explain why otherwise similar programs diverge.",
+      "studies_observed": ["humphrey_2018", "hanselman_2013", "heller_2010", "jaciw_hegseth_2016", "hitchcock_2011"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "PD schedule concentration: massed block vs distributed across the school year",
+      "definition": "Holding total PD hours roughly constant, whether the contact time is delivered in a concentrated block (e.g., a 5-day summer institute) vs spread out across the school year in shorter spaced sessions. Levels: massed/block / distributed-across-year / mixed (summer institute + spaced follow-ups). This is about temporal spacing of the same dose, not the dose (hours) itself, which is already coded.",
+      "rationale": "Heller explicitly delivered the identical course content either as eight 3-hour sessions spread over 8-14 school-year weeks OR as a 5-day summer block - a within-study spacing contrast - and others mix a summer 'Foundations' institute with monthly spaced follow-ups (iRAISE, GBG). Spaced practice with intervening classroom application could let teachers consolidate and try out practices between sessions, plausibly raising transfer to students relative to a single massed dose of equal length.",
+      "studies_observed": ["heller_2010", "heller_2012", "jaciw_hegseth_2016", "humphrey_2018", "hanley_2020"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Proportion of a school's relevant staff trained / cascade-vs-direct reach",
+      "definition": "What share of the teachers who actually teach the target students received the PD: every relevant teacher trained directly (full saturation) vs only a subset trained and expected to cascade/share with colleagues. Levels: all-relevant-teachers-trained / subset-trained-with-cascade / whole-school-model. Different from raw sample size and from assignment unit.",
+      "rationale": "Hanley's TDTS trained only two teachers per school who were then meant to spread the approach to colleagues (a cascade), whereas CHAMPS/GBG/CSR train the actual classroom teacher of the measured students directly, and Success for All is an explicit whole-school model. When student outcomes depend on practice diffusing from 2 trained teachers to the rest of the staff, dilution is likely; direct training of the measured students' own teacher should transmit more of the treatment. The later train-the-trainer (cascade) effectiveness trial of TDTS notably failed to replicate the efficacy result, consistent with this mechanism.",
+      "studies_observed": ["hanley_2020", "hanselman_2013", "herman_2022", "humphrey_2018", "hitchcock_2011"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Cumulative student exposure / program maturity at the point of measurement",
+      "definition": "How many years/cycles the program had been running in the school, and how long the measured student cohort was actually exposed, at the time achievement was measured. Levels: first-implementation year (immature) / multi-year/established; and student dose 1 year vs multi-year. Separate from teacher TPD hours - this is the student-facing exposure and organisational ramp-up.",
+      "rationale": "Hanselman directly contrasts 2 vs 3 years of Success for All exposure (and stresses that SFA's established benefits 'may depend on early exposure' and on mature whole-school implementation), and Heller measured a study-year cohort and a later follow-up-year cohort of the same teachers (follow-up ES 0.48-0.75 vs study-year 0.37-0.60), suggesting teachers got better with a second cohort. First-year/immature implementation plausibly understates a program's steady-state effect, so exposure/maturity could explain cross-study heterogeneity and within-study timepoint differences.",
+      "studies_observed": ["hanselman_2013", "heller_2010", "heller_2012", "humphrey_2018"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Mature off-the-shelf disseminated program vs novel research-built PD",
+      "definition": "Whether the PD is an established, widely-disseminated, commercially/operationally mature program with fixed manuals and a delivery organisation (a 'product') vs a PD newly designed by researchers for the trial. Levels: established-disseminated-program / novel-research-PD. Captures brand maturity/standardisation, not the trainer's identity.",
+      "rationale": "My batch spans both: Success for All, CHAMPS and the Good Behaviour Game are long-standing, manualised, widely-implemented programs delivered by dedicated organisations; Heller's three courses, Hanley's TDTS and iRAISE were research/developer creations. Mature programs may have ironed-out materials and trainer quality control (favouring effects) but are often evaluated at scale in effectiveness trials with weaker fidelity control (depressing effects). Either way, program maturity/standardisation is a feature that varies systematically and could moderate the achievement effect.",
+      "studies_observed": ["hanselman_2013", "herman_2022", "humphrey_2018", "heller_2010", "heller_2012", "hanley_2020", "jaciw_hegseth_2016"],
+      "reportability": "usually_reported",
+      "strength": "weak"
+    }
+  ]
+}

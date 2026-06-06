@@ -1,0 +1,19 @@
+{
+  "slug": "powell_2010",
+  "study": "Powell et al. 2010 (Classroom Links to Early Literacy, Head Start; J. Educ. Psych. 102(2); IES R305M040167)",
+  "eval_independence": "developer",
+  "eval_evidence": "Authored/conducted by the program developers (Powell, Diamond, Burchinal, Koehler, Purdue/Michigan State) under their own IES grant; developer-run RCT and analyses, no independent evaluator.",
+  "developer_delivered": "yes",
+  "developer_evidence": "PD (2-day workshop + 7 expert-coaching sessions) was delivered by the project's own staff: 'Three early childhood specialists served as literacy coaches' and 'Coaches were university employees' (p.~304) -- the developer team's staff.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "The project's university-employed literacy coaches/specialists delivered the workshop and coaching directly to the Head Start teachers; no train-the-trainer intermediary -> developer_direct.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Wait-listed business-as-usual control: control teachers 'assigned to the business-as-usual group' continued existing Head Start curriculum/practice (p.~304); design/extraction record confirms BAU.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Seven individualized expert-coaching sessions across a 15-week semester (~biweekly); on-site condition averaged ~90-min in-classroom observation + ~30-min feedback per visit in the teacher's own classroom -> recurring biweekly in-class coaching cycles (frequent_inclass). (Remote arm reviewed teacher videos; combined arm vs control is the extracted contrast.)",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Pure teacher PD; coaching helps teachers 'enhance, extend, or modify existing teaching practices' -- only the teachers' own early-literacy instruction changes. No tutoring, pull-out, or added student-facing dose.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Program is a one-semester (~15-week) PD intervention; outcomes measured at end of that fall semester. Single-semester design with no multi-year maturity axis -> single_year_design.",
+  "confidence": "high"
+}

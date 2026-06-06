@@ -1,0 +1,19 @@
+{
+  "slug": "schoen_2020",
+  "study": "Schoen et al. 2020, Cognitively Guided Instruction (CGI), Year 1 (FCR-STEM/FSU)",
+  "eval_independence": "independent",
+  "eval_evidence": "Report states it 'involves a third-party evaluation of a highly regarded PD program (CGI)... designed and implemented by Teachers Development Group (TDG)'; IES grant to FSU, eval team distinct from the program deliverer.",
+  "developer_delivered": "no",
+  "developer_evidence": "TDG (Teachers Development Group) facilitators designed and delivered the CGI PD; the FSU/FCR-STEM authors are the third-party evaluators, not the PD deliverers.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "'Three facilitators delivered the workshops' from TDG (the program-delivery organization) directly to the participating grade 1-2 teachers; no train-the-trainer hop.",
+  "counterfactual": "active_or_contaminated",
+  "counterfactual_evidence": "Comparison schools were invited to participate in a different district-chosen PD program (active alternative PD that did not target number/operations/algebraic thinking).",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "8 workshop days/year: a 4-day summer workshop plus two two-day follow-up sessions, each including one 'classroom-embedded workshop day' where facilitators observed and discussed a classroom lesson; periodic classroom-embedded support, not recurring monthly in-class coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "CGI changes the teacher's regular mathematics instruction; no separate student tutoring/pull-out or added instructional dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Explicitly the 'First Program Year' — outcomes (spring 2014) measured at the end of the first year of CGI implementation, Year 1 of a 3-year model (teachers new to it).",
+  "confidence": "high"
+}

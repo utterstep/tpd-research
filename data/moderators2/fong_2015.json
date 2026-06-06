@@ -1,0 +1,19 @@
+{
+  "slug": "fong_2015",
+  "study": "Fong et al. 2015, Expository Reading and Writing Course (ERWC), WestEd i3 (QED)",
+  "eval_independence": "independent",
+  "eval_evidence": "Evaluation by WestEd under a U.S. ED i3 Development grant; WestEd is the external evaluator, not the ERWC/CSU program developer.",
+  "developer_delivered": "no",
+  "developer_evidence": "ERWC teacher PD (two-day summer session + PLCs + coaching) is part of the CSU ERWC program delivered through the school/district system; the publication does not show the developers/research team delivering the PD themselves.",
+  "cascade_depth": "unclear",
+  "cascade_evidence": "Report focuses on the QED student-level course-enrollment contrast; it does not specify whether ERWC PD reached teachers via developer-direct trainers or a cascade/site-based model.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Comparison = matched grade-12 students in non-ERWC English classes (English 4, AP English Lit, world/other literature) -> BAU regular English courses, not an active alternative PD program.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Teacher professional-learning component listed as a two-day summer PD plus professional learning communities and coaching; coaching is mentioned as a support but no in-class coaching cycle frequency is given (light/periodic).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "ERWC is itself the students' grade-12 English course (a different curriculum), compared to other English courses; no add-on tutoring/pull-out/extra minutes beyond the regular English class.",
+  "program_maturity": "unclear",
+  "maturity_evidence": "Outcomes measured spring 2014; the report does not state whether the 56 ERWC teachers were in their first ERWC year or had prior years of ERWC experience.",
+  "confidence": "medium"
+}

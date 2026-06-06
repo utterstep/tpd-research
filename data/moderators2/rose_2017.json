@@ -1,0 +1,19 @@
+{
+  "slug": "rose_2017",
+  "study": "Rose et al. (2017), Research Learning Communities (RLC) evidence-use TPD, cluster RCT, EEF, KS2 attainment",
+  "eval_independence": "independent",
+  "eval_evidence": "Independent EEF evaluation by the University of Bristol (with NFER instruments); the intervention was developed and delivered by a separate party (UCL Institute of Education, led by Dr Chris Brown). Third-party evaluator with no developer stake.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The RLC workshops were 'delivered by academics from the Institute of Education at University College London' - the team that developed the intervention - across 2014/2015 and 2015/2016. Developer/research team delivered the PD to the Evidence Champion teachers.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Train-the-lead-teacher cascade: UCL IOE academics trained two 'Evidence Champion' teachers per school in workshops; the Evidence Champions then 'support other teachers in the school' and lead school/key-stage improvement strategies. Classroom teachers receive the practice second-hand via the Evidence Champions (>=1 extra hop).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Business-as-usual control (a GBP 1,000 incentive for full participation); control schools received no RLC intervention.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "PD delivered via four off-site RLC workshops per year over two years; no ongoing in-class coaching of teachers in their own classrooms (Evidence Champions then ran in-school strategies themselves, not coached by the developer).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention is teacher/school-level (evidence-informed improvement strategies); no direct student-facing tutoring, pull-out, added minutes, or software dose. Only teachers' practice changes.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Program rolled out once over two academic years (Oct 2014-June 2016) with KS2 outcomes measured at the end of that first/only rollout; teachers were new to RLC throughout (same Evidence Champions for the full duration, no prior implementation year). Not measured after a separate prior implementation year, so not 'mature'.",
+  "confidence": "medium"
+}

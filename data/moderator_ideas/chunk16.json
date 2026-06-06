@@ -1,0 +1,62 @@
+{
+  "chunk": 16,
+  "studies": ["worth_2015", "worth_2017", "wright_2020", "yang_2020"],
+  "suggestions": [
+    {
+      "moderator": "Cascade / lead-teacher delivery structure",
+      "definition": "How the PD propagates inside the school: external trainer trains all measured teachers directly vs trains designated lead teachers who then cascade/train colleagues, vs PD on a generic process that lead teachers roll out school-wide. Levels: direct-to-all / cascade-via-lead / whole-school-process. Distinct from the already-coded 'who delivers' (researcher vs external) binary, which is about the FIRST hop only.",
+      "rationale": "Each cascade hop loses fidelity and dilutes dose for teachers who never met the trainer. Worth 2017 trained only departmental lead teachers, who then cascaded to colleagues, and the trial found exactly zero effect; the directly-trained Worth 2015 and the cohort-trained Wright/Yang teachers received the content first-hand. The number of transmission hops between trainer and measured classroom is a plausible lever on whether PD reaches student outcomes.",
+      "studies_observed": ["worth_2017", "wright_2020"],
+      "reportability": "sometimes",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Trained-teacher to measured-student continuity (staff turnover)",
+      "definition": "Whether the teacher who actually received the PD is the teacher of the measured students throughout the outcome window, vs trained teachers leaving / the measured class being taught by an untrained colleague. Levels: stable (most trained teachers taught measured students throughout) / partial / high turnover. Could be operationalized via reported staff-turnover or trained-to-class linkage rates.",
+      "rationale": "PD acts on students only through the specific teacher who was trained; broken linkage breaks the causal chain. URLEY reports only 56% of listed participants were constant throughout, mentors named turnover the greatest barrier to legacy, and one research question explicitly asks about reception classes taught by staff who never received training. Yang notes instability in school/district leadership and ran summer PD for new teachers only. Where the trained teacher is gone, the dose to students is effectively zero regardless of nominal hours.",
+      "studies_observed": ["wright_2020", "yang_2020"],
+      "reportability": "sometimes",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Scale-up shift from a prior efficacy/researcher-delivered study",
+      "definition": "Whether the evaluated program is a scaled, teacher-delivered, whole-class version of a student-facing intervention that previously showed effects under researcher delivery to individuals/small groups, vs a program designed natively for the tested delivery mode. Levels: scaled-from-researcher-efficacy / native-at-this-scale. Captures the efficacy-to-effectiveness translation step, not just the static researcher-vs-external trainer code.",
+      "rationale": "Worth 2015 is explicit: the same Mathematics-and-Reasoning and Literacy-and-Morphemes content earned 0.3-0.6 SD when researchers delivered it one-to-one/small-group (Nunes & Bryant), but collapsed to g approximately 0.20 / -0.05 once class teachers delivered it whole-class after one training day. Programs whose evidence base rests on a higher-touch delivery mode may systematically shrink when re-packaged as teacher PD at scale, explaining why otherwise 'evidence-based' PD nulls out.",
+      "studies_observed": ["worth_2015"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "PD substantive focus: subject-matter content vs how-students-learn pedagogy",
+      "definition": "Whether the PD's primary lever is the teacher's own subject-matter/content knowledge vs pedagogical knowledge of how students learn (cognitive-science principles, language-learning principles, formative routines). Levels: content-knowledge-centric / pedagogy-and-learning-centric / mixed. Orthogonal to the four already-coded learning-theory principles and to TPD goal.",
+      "rationale": "Yang ran a clean head-to-head at identical 34-hr dose with no coaching: the pure content-knowledge arm produced a negative state-test estimate (g -0.13) while the cognitive-science/PCK arm edged positive (g +0.11). The authors find content-knowledge PD raised teacher knowledge but failed to transfer to students. URLEY's pedagogy-of-language focus and Worth's reasoning/morphemes content sit on the pedagogy side. Whether PD targets what teachers know vs how they teach for learning may sort the wins from the nulls.",
+      "studies_observed": ["yang_2020", "wright_2020", "worth_2015"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Realized PD/dose compliance vs intended dose",
+      "definition": "Gap between the intended PD-driven practice dose and what teachers actually delivered, as reported by the process evaluation. Levels: dose largely met / substantially under-delivered. Captures take-up of the prescribed practice (e.g., observations conducted, lesson time delivered), distinct from raw intended TPD hours.",
+      "rationale": "Intended hours overstate exposure when teachers under-comply. Worth 2017 reports teachers did the minimum observations rather than the suggested number, below the developer's expectation, and even high-dosage departments barely exceeded low; Worth 2015 reports teachers found one hour/week too much content and adapted/cut delivery. Two trials whose intended dose looks adequate but whose realized dose collapsed both nulled out; realized-vs-intended dose may explain heterogeneity better than the coded hours.",
+      "studies_observed": ["worth_2017", "worth_2015"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Demonstrated teacher-practice change (proximal mediator achieved)",
+      "definition": "Whether the study's own process/observation data show the PD actually shifted measured teacher classroom practice or knowledge, regardless of student effect. Levels: practice/knowledge change demonstrated / not demonstrated / not measured. A study-level flag for whether the proximal mediator on the PD-to-achievement path was attained.",
+      "rationale": "Several of these nulls are 'practice changed, students did not': URLEY moved classroom-quality (ERS) scores by g approximately 0.5-0.7 yet child language was null; Yang states the Cog-sci PD changed teacher practice and raised teacher knowledge but student achievement did not move. Distinguishing 'PD never changed practice' from 'practice changed but did not transfer to students' isolates where the causal chain breaks, and the transfer gap itself may correlate with features like outcome distality.",
+      "studies_observed": ["wright_2020", "yang_2020"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Technology dependence of the core PD-prescribed practice",
+      "definition": "Whether enacting the PD's target practice requires functioning hardware/software (tablets, apps, online tools) as a hard precondition, vs being enactable with ordinary classroom resources. Levels: tech-gated / tech-optional / non-tech. Distinct from the already-tested in-person/blended/online DELIVERY-mode code; this is about the technology intensity of the classroom practice itself.",
+      "rationale": "When the prescribed practice is tech-gated, hardware friction and adoption failure can suppress the whole intervention. Worth 2017's entire model hinged on iPads plus RANDA TOWER software for logging observations, and uptake/usage stayed low; Worth 2015 flags that access to computers/tablets was a factor in successful implementation. Tech-gating adds an implementation failure point that non-tech PD avoids, a plausible source of cross-study null/positive divergence.",
+      "studies_observed": ["worth_2017", "worth_2015"],
+      "reportability": "usually_reported",
+      "strength": "weak"
+    }
+  ]
+}

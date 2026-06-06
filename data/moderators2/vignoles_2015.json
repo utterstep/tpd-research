@@ -1,0 +1,19 @@
+{
+  "slug": "vignoles_2015",
+  "study": "Vignoles, Jerrim & Cowan (2015), Mathematics Mastery (Primary) — EEF cluster RCT (Ark developer/deliverer; UCL Institute of Education independent evaluators)",
+  "eval_independence": "independent",
+  "eval_evidence": "'Independently evaluated by Dr John Jerrim ... and Professor Richard Cowan (Institute of Education, University of London)', commissioned by EEF. Independent third-party evaluators with no developer stake; the program (delivered by the charity Ark) was the subject.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The Mathematics Mastery program 'was delivered by the education charity Ark'; participating schools 'received training and resources to support the adoption of the programme' from Ark. The developer/deliverer charity delivered the PD.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Ark delivered launch training (1-2 days) and two in-school development visits plus multi-school workshops directly to headteachers, maths coordinators and class teachers; no train-the-trainer/lead-teacher cascade described -> developer_direct.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Waitlist design: control (Cohort B) schools continued business-as-usual maths teaching during the measured trial year before adopting the program the following year. During measurement the control got BAU with no alternative program -> business_as_usual.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "School support = '1-2 days of launch training, two in-school development visits, three multi-school' workshops. Two in-school visits = a few light/periodic support visits, not recurring in-class coaching cycles -> occasional.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Mathematics Mastery is a whole-class/whole-school maths curriculum approach taught by the class teacher; it changes only the teacher's regular maths instruction. No tutoring, pull-out, extra minutes, or student-facing software dose added.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Outcomes measured on Year-1 pupils after the FIRST year of program implementation in schools new to Mathematics Mastery (one year of implementation, immediate post-test) -> first_year.",
+  "confidence": "high"
+}

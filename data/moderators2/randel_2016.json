@@ -1,0 +1,19 @@
+{
+  "slug": "randel_2016",
+  "study": "Randel et al. (2016 / NCEE 2011-4005), CASL classroom-assessment PD, cluster RCT, REL Central, math",
+  "eval_independence": "independent",
+  "eval_evidence": "Conducted and authored by REL Central (Mid-continent Research for Education and Learning / McREL) under the IES Regional Educational Laboratory program; authors explicitly state no financial interests in CASL. A third-party IES/REL contractor evaluating a commercially developed program (CASL by Stiggins/ATI).",
+  "developer_delivered": "no",
+  "developer_evidence": "CASL was developed by the Assessment Training Institute (Stiggins/Chappuis), not the evaluators. PD was self-administered via textbook+DVDs and teacher learning teams; REL Central only 'provided schools... with the complete set of CASL [materials]', ran participant orientations, and provided a facilitator. The program is 'designed to be self-executing, without a coach or external facilitator', so neither the developer nor evaluator delivered ongoing PD to teachers.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Each intervention school had 'access to a facilitator who had attended a training workshop conducted by the CASL developers', who then ran the school's teacher learning teams. CASL developers -> school facilitator -> learning-team teachers = >=1 transmission hop.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Comparison schools continued business-as-usual professional development (no CASL); 67 schools, 33 intervention / 34 control.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Explicitly no in-class coaching: 'The CASL program is designed to be self-executing, without a coach or external facilitator.' PD delivered through self-study and periodic teacher learning-team meetings, not classroom coaching.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention changes only teachers' classroom (formative/classroom assessment) practice; no tutoring, pull-out, added student minutes, or student-facing software dose.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Two-phase design: a CASL training year followed by an implementation year; the primary student-achievement outcome (spring 2009 CSAP) was measured at the END of the implementation year, i.e. after a prior training-year of CASL exposure for teachers.",
+  "confidence": "high"
+}

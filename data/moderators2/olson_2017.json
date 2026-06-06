@@ -1,0 +1,19 @@
+{
+  "slug": "olson_2017",
+  "study": "Olson et al. 2017 (Pathway Project, AUHSD replication; J. Educ. Psych. 109(1))",
+  "eval_independence": "developer",
+  "eval_evidence": "Authored/conducted by the Pathway Project developers (Carol Booth Olson et al.); developer-run RCT and impact analyses under the Pathway to Academic Success grant; no independent evaluator.",
+  "developer_delivered": "yes",
+  "developer_evidence": "p.18: 'Training was led by the developers of the Pathway Project and supported by literacy coaches who participated as Pathway teachers in a previous quasi-experimental research study.' Developers delivered the 46h/year PD.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Developers led the training directly; veteran Pathway teacher-coaches provided support (not a train-the-trainer intermediary) -> developer_direct.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Comparison = business-as-usual district training (extraction record/design: control got typical district training). Coded business_as_usual (the report frames control as BAU district practice; no equal-dose active alternative PD documented as in the SAUSD 2012 trial).",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "46h/year training (six 6-hour release days + five 2-hour afterschool sessions) plus coaching from a veteran Pathway teacher; recurring monthly+/biweekly in-class coaching cycles are not documented -> occasional.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Pure teacher PD; only the teachers' own ELA (analytical reading/writing) instruction changes. No tutoring, pull-out, or added student-facing dose.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Headline/primary contrast is Year 2 (2013-14), teachers in their second program year (Year-2 students taught by second-year-program teachers); a Year-1 cohort (first_year) is also reported. Coded mature for the headline wave; note Year-1 cohort exists.",
+  "confidence": "medium"
+}

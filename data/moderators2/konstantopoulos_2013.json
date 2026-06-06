@@ -1,0 +1,19 @@
+{
+  "slug": "konstantopoulos_2013",
+  "study": "Konstantopoulos, Miller & van der Ploeg 2013 (EEPA) — Indiana mCLASS/Acuity interim-assessment RCT",
+  "eval_independence": "independent",
+  "eval_evidence": "Impact evaluation conducted by IES-funded academic researchers (Konstantopoulos et al., grant R305E090005); the program was Indiana DOE's statewide interim-assessment rollout using commercial vendor products (Wireless Generation mCLASS, CTB/McGraw-Hill Acuity). Evaluators had no developer stake.",
+  "developer_delivered": "no",
+  "developer_evidence": "PD was delivered as part of Indiana's statewide system rollout — 'Indiana began the roll-out of the assessment program in summer 2008 by training' users, and the vendors provided 'training associated with each product.' The impact-evaluation research team did not deliver the PD; the state/vendor system did.",
+  "cascade_depth": "unclear",
+  "cascade_evidence": "The papers say the state/vendors trained users in the statewide rollout but do not specify whether trainers reached classroom teachers directly or via a district/lead-trainer cascade. Publication silent on transmission hops.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control schools 'did not receive any treatment' / 'did not receive access to these assessments and their associated trainings, and operated under business-as-usual conditions.' True BAU.",
+  "coaching_intensity": "unclear",
+  "coaching_evidence": "Intervention = interim-assessment system plus vendor training on using the diagnostic data; the publication does not describe the PD format/intensity or any ongoing in-class coaching component (no coaching mentioned, but format not detailed).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Students take the interim/diagnostic assessments directly (mCLASS face-to-face probes; Acuity online tests during class periods), but these are diagnostic assessments informing the teacher's regular instruction, not an added tutoring/pull-out/extra-instruction dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "RCT treatment year was 2009-2010, the first implementation year for the volunteer schools (volunteered spring 2009); the paper repeatedly frames 'the first year of the experiment.' Outcomes measured at end of that year. (Companion 2016 paper notes ~10 schools had some prior vendor exposure.)",
+  "confidence": "medium"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "wijekumar_2009",
+  "study": "Wijekumar et al. 2009, CompassLearning Odyssey Math (web-based digital tool) + CompassLearning PD, grade 4 RCT, NCEE 2009-4068 (REL Mid-Atlantic)",
+  "eval_independence": "independent",
+  "eval_evidence": "Independent impact evaluation conducted by the federally funded Regional Educational Laboratory (REL) Mid-Atlantic / NCEE-IES (NCEE 2009-4068, Penn State contractor); the product (Odyssey Math) was made by the third-party vendor CompassLearning, not the evaluators.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The product developer/vendor CompassLearning delivered the teacher PD (five 'days': a summer large-group session plus consultant-led in-class coaching sessions) to intervention teachers; control teachers received the same CompassLearning PD only after the study.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "CompassLearning's own trainers/consultants delivered the summer training and in-class coaching directly to the grade-4 intervention teachers; no train-the-trainer / lead-teacher hop.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control = same regular math curriculum with no Odyssey Math (delayed-treatment BAU); control teachers got the Odyssey PD only after the study.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Beyond the summer group training, intervention teachers received consultant-led individual in-class coaching sessions (planned ~four one-to-two-hour in-school coaching sessions across the year) — periodic, light in-class support rather than recurring monthly/biweekly cycles.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "Odyssey Math is a web-based student-facing software program used ~60 minutes/week as a partial substitute for the regular math curriculum — a substantial student-facing software dose beyond the teacher's regular instruction.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Single 2007-08 school-year intervention with a single confirmatory post-test wave; the program was implemented for one year with no prior-implementation/maturity axis.",
+  "confidence": "high"
+}

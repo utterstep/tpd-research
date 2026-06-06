@@ -1,0 +1,19 @@
+{
+  "slug": "worth_2017",
+  "study": "Worth/Sizmur/Walker/Bradshaw/Styles 2017 (NFER eval), Teacher Observation (CMPO/RANDA TOWER), EEF",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF efficacy trial independently evaluated by NFER; the intervention was delivered by a separate provider, the Centre for Market and Public Organisation (CMPO), University of Bristol.",
+  "developer_delivered": "no",
+  "developer_evidence": "CMPO (the delivery org) trained lead teachers, who then ran the peer-observation programme in their departments; the trial team did not deliver the observations to classroom teachers (p.9).",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "CMPO researchers trained lead teachers from maths and English departments, and lead teachers cascaded/organised the RANDA TOWER peer observations among department teachers (train-the-lead-teacher, ≥1 extra hop).",
+  "counterfactual": "active_or_contaminated",
+  "counterfactual_evidence": "'Almost three-quarters of the control group schools were already doing some peer observation' — controls used a similar existing practice, so the contrast is against an active/contaminated counterfactual (p.6).",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Intervention was structured peer observation among teachers plus software training; no ongoing in-class coaching of teachers by the developer/provider.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention changes only teacher practice (peer observation of teaching); no tutoring, pull-out, extra minutes, or student-facing software dose.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Intervention designed as a defined two-year block of peer observation; primary GCSE outcome measured at its end for the two-year-exposure cohort, with no separate prior-rollout maturity wave.",
+  "confidence": "high"
+}

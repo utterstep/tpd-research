@@ -1,0 +1,19 @@
+{
+  "slug": "portes_2018",
+  "study": "Portes et al. 2018 (Instructional Conversation / IC efficacy RCT; AERJ 55(3); IES R305A100670)",
+  "eval_independence": "developer",
+  "eval_evidence": "Authored/conducted by the IC research team (Portes et al., Univ. of Georgia) under their own IES grant; developer-run efficacy trial and analyses, no independent evaluator (the paper's PD-comparison table notes prior IC studies' experimental teachers were 'part of research team').",
+  "developer_delivered": "yes",
+  "developer_evidence": "The research team provided the intensive 100-hour assisted-teaching PD; 'Trained coaches provided additional support and feedback' (p.~12) -- the team's own trained coaches delivered the program.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "The research team and its own trained coaches delivered the 100h assisted-teaching PD directly to treatment teachers; no separate intermediary organization between developer and teachers -> developer_direct.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "p.~12: 'Control teachers (N=34) were also provided incentives to conduct business-as-usual teaching'; BAU control monitored via logs/videos.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Intensive 100-hour program of ASSISTED TEACHING in the teachers' own classrooms during the practice year, with trained coaches providing ongoing support/feedback and collecting monthly implementation evaluations -> recurring in-class coaching cycles (frequent_inclass).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "IC reorganizes the TEACHER'S OWN instruction into small-group dialogic lessons (1-2x/week, ~30 min, taught by the regular teacher); it is a pedagogical change in the teacher's regular instruction, not an added third-party tutoring/pull-out dose -> none.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Treatment teachers completed a full PD 'practice year' implementing IC BEFORE the efficacy year; student outcomes were collected in the second ('efficacy') year, so teachers had >=1 prior implementation year -> mature.",
+  "confidence": "medium"
+}

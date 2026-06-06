@@ -1,0 +1,19 @@
+{
+  "slug": "finkelstein_2010",
+  "study": "Finkelstein et al. 2010, Problem Based Economics (Buck Institute), NCEE 2010-4002 / REL West",
+  "eval_independence": "independent",
+  "eval_evidence": "REL West / WestEd contractor evaluation (NCEE 2010-4002); 'Neither the authors nor WestEd and its key staff have financial' stake; Buck Institute (developer) is acknowledged separately.",
+  "developer_delivered": "yes",
+  "developer_evidence": "'The Buck Institute provided trainers who were current or former economics' teachers; the developer (Buck Institute) supplied/led the 5-day, 40-hr PD workshop.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Buck Institute provided expert-teacher trainers who introduced the curriculum to teachers in a 5-day workshop directly; no train-the-trainer / school-cascade hop.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "'Teachers in control schools participated in their regular annual professional development' and taught BAU high-school economics; no active alternative program.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Beyond the summer workshop, support was 'a series of five scheduled phone conferences with fellow participating teachers' to discuss pacing/challenges; no in-class coaching.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention = Problem Based Economics curriculum + teacher PD for the regular one-semester economics course; no tutoring/pull-out/extra minutes or student software dose.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Curriculum/PD delivered once for a single one-semester economics course (PD summer 2007, course spring 2008, outcomes at semester end); no multi-year maturity axis (and first time teachers used it).",
+  "confidence": "high"
+}

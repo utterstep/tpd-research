@@ -1,0 +1,19 @@
+{
+  "slug": "wolf_2018",
+  "study": "Wolf et al. 2018, ELLA-V (English Language and Literacy Acquisition-Validation) ESL curricula + virtual mentoring/coaching, i3 RCT, Texas (eval by CRRE Johns Hopkins)",
+  "eval_independence": "independent",
+  "eval_evidence": "The Center for Research and Reform in Education (CRRE) at Johns Hopkins University 'were contracted to conduct the independent evaluation'; CRRE also did the random assignment. The ELLA-V program was developed by Texas A&M researchers, a separate party.",
+  "developer_delivered": "yes",
+  "developer_evidence": "PD and coaching were 'provided by Texas A&M University' — the program developers (professors/researchers at Texas A&M who created the ELLA-V curricula and the Virtual Professional Development / Virtual Mentoring and Coaching) delivered the supports to teachers.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Texas A&M (developer) coaches/PD providers delivered training and virtual coaching directly to the treatment teachers; no train-the-trainer / lead-teacher intermediary described.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Both treatment arms (T1, T2) were compared against a common Business-as-Usual control; BAU teachers continued their usual ESL/literacy instruction with no ELLA-V curricula, PD, or coaching.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Virtual Mentoring and Coaching gave teachers 'up to three rounds of lesson feedback' per year (Jan-May) via field notes/observation records — a few periodic coaching/observation cycles, light rather than recurring monthly/biweekly in-class coaching.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "ELLA-V is a set of teacher-delivered ESL/literacy curricula replacing/augmenting regular instruction; the intervention changes the teacher's classroom instruction, with no separate tutoring, pull-out, or student-facing software dose.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Backwards grade rollout (one grade per year); teachers and students were exposed for a single school year per cohort/grade, each measured at the end of that one year — a single-year exposure design with no prior-implementation maturity wave.",
+  "confidence": "high"
+}

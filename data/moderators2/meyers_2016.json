@@ -1,0 +1,19 @@
+{
+  "slug": "meyers_2016",
+  "study": "Meyers et al. 2016, eMINTS Comprehensive (2-yr PD) +/- Intel i3 validation, MO middle schools, Year-3 outcomes (AIR report / EEPA 2016)",
+  "eval_independence": "independent",
+  "eval_evidence": "Impact evaluation conducted/authored by AIR (American Institutes for Research) under the i3 validation grant; AIR is the independent external evaluator, distinct from the eMINTS National Center (the program developer).",
+  "developer_delivered": "yes",
+  "developer_evidence": "The developer delivered the PD: 'The eMINTS National Center provided teacher professional development, coaching sessions, and unit plan reviews'; PD/coaching delivered by certified eMINTS instructional specialists (eIS) assigned to school cohorts.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "In this study the eMINTS National Center's own certified instructional specialists (eIS) delivered the formal PD sessions and in-class coaching directly to the teachers; not a local train-the-trainer cascade (that is only the general eMINTS dissemination model).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "20 of 60 schools randomized to a business-as-usual control arm (no eMINTS PD); the two TPD arms (eMINTS, eMINTS+Intel) are each compared vs BAU control.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "PD 'spanning two years and support that includes monthly in-classroom coaching and mentoring visits'; eIS supplement formal sessions with 'nine to 10 on-site' coaching visits per year in teachers' classrooms -> recurring (~monthly) in-class coaching.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention changes the teacher's own instruction (inquiry-based, technology-integrated practice) plus classroom equipment/software for the teacher to use; no tutoring/pull-out/added-minutes student dose delivered to students independent of the teacher's regular instruction.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Extracted wave is the Year-3 (spring 2014) end-of-treatment outcome; the eMINTS Comprehensive PD ran Years 1-2 (plus Intel Year 3), so outcomes measured after >=1 prior implementation year (teachers experienced with the program).",
+  "confidence": "high"
+}

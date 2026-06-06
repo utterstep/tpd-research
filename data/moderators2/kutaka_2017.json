@@ -1,0 +1,19 @@
+{
+  "slug": "kutaka_2017",
+  "study": "Kutaka et al. 2017, Primarily Math elementary math specialist program (J. Teacher Education)",
+  "eval_independence": "developer",
+  "eval_evidence": "Authored by the Primarily Math research team at UNL; several original-grant PIs are senior authors and the program's architects (p.143). Lead author/RAs were not the original architects, but the developers co-authored and ran the evaluation.",
+  "developer_delivered": "yes",
+  "developer_evidence": "PD = six graduate-level university courses / summer institutes delivered by the Primarily Math program (university faculty who designed it); 'lead author and graduate research assistants ... sometimes helped deliver the PD' (p.142-143).",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Program faculty/research team teach the graduate coursework and institutes directly to participating teachers; no train-the-trainer/lead-teacher intermediary layer described.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Comparison group = teachers in matched non-participating buildings with no Primarily Math, matched on building FRL%, enrollment, racial composition; received no alternative PD (p.144, comparison-group para).",
+  "coaching_intensity": "none",
+  "coaching_evidence": "PD is coursework-based (6 grad courses over 13 months, 2 summer institutes); no ongoing in-class coaching/observation cycles described in the logic model or methods.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention changes the teacher's own mathematics instruction only; no tutoring, pull-out, extra minutes, or student software dose. TEMA-3 'pull-out' was assessment only.",
+  "program_maturity": "mature",
+  "maturity_evidence": "4-year multi-cohort longitudinal design; student-achievement HLM pools fall-spring growth across measurement occasions 2009-2013 (Table 3, Fig 2), with effects largest in years 2-3 of teacher participation; not restricted to the first implementation year.",
+  "confidence": "high"
+}

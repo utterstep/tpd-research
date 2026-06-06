@@ -1,0 +1,19 @@
+{
+  "slug": "jaciw_schellinger_2016",
+  "study": "Jaciw, Hegseth et al. 2016 / Empirical Education 2012 — Math in Focus (Singapore Math), HMH",
+  "eval_independence": "independent",
+  "eval_evidence": "HMH contracted Empirical Education Inc. (a self-described independent research company) to conduct the RCT; report states the contract 'provided Empirical Education Inc. with independence in reporting the results.' Developer (HMH) sponsored but did not author the impact evaluation.",
+  "developer_delivered": "yes",
+  "developer_evidence": "PD was delivered by HMH's own staff — an HMH Account Manager / Associate Product Manager (Aug) and two HMH 'Math in Focus National Specialists' (Sept, Nov, Jan, Mar). HMH is the program developer/publisher, so the developer delivered the PD (not trained intermediaries).",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "HMH's National Specialists trained the Clark County teachers directly across the 5 sessions; no train-the-trainer/lead-teacher intermediary layer.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control group received 'business as usual' — the district's existing variety of math methods/curricula; no alternative PD/program assigned.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Workshop-style PD (5 sessions Aug-Mar). The January session included an HMH Specialist modeling a lesson in one MIF teacher's classroom with a group debrief; this is a single in-class modeling visit, not recurring per-teacher in-class coaching cycles, so periodic/light = occasional.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "MIF was adopted as the CORE math curriculum (replacing the teacher's regular curriculum); only the teacher's classroom instruction changes. No tutoring, pull-out, extra minutes, or student-facing software dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Outcomes measured at the end of the single 2011-12 implementation year; teachers were new to Math in Focus (first year teaching it).",
+  "confidence": "high"
+}

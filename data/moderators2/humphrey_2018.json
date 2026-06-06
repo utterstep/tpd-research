@@ -1,0 +1,19 @@
+{
+  "slug": "humphrey_2018",
+  "study": "Humphrey et al. 2018, Good Behaviour Game (EEF efficacy trial)",
+  "eval_independence": "independent",
+  "eval_evidence": "Report explicitly lists 'Independent evaluators: University of Manchester' (Humphrey et al.); the program was delivered by Mentor UK (delivery organisation) under licence from the American Institutes for Research, separate from the evaluation team. EEF independent-evaluator model.",
+  "developer_delivered": "no",
+  "developer_evidence": "GBG was delivered by trained GBG coaches employed by Mentor UK (the delivery organisation), supported/licensed by AIR; teachers were trained 'by coaches ... contracted by Mentor, and trained by AIR.' Neither the evaluators nor the program licensor (AIR) delivered directly to teachers.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Transmission runs AIR (licensor, holds GBG under licence) -> trains Mentor UK coaches -> coaches train and support teachers: >=1 extra hop (train-the-trainer cascade).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Two-armed RCT; control schools ('usual provision' arm) continued normal practices. Business-as-usual, no active alternative behaviour program assigned.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Each school was allocated a GBG coach who 'paid approximately monthly visits to support their implementation throughout the trial', monthly coach visits 'typically involve an observation' followed by feedback — recurring in-class coaching (monthly cadence).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "GBG is a universal classroom behaviour-management game embedded in regular instruction; it changes the teacher's classroom management, with no tutoring/pull-out/extra-minutes or student-facing software dose added.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Two-year intervention (Sept 2015-July 2017); the primary reading outcome (HGRT) is measured at the end of the second implementation year (T3), so by the outcome wave teachers had >=1 prior year of GBG experience. (Program designed as a fixed 2-year intervention; coded mature for the end-of-program measurement wave.)",
+  "confidence": "high"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "rutherford_2014",
+  "study": "Rutherford et al. 2014, ST Math (MIND Research Institute)",
+  "eval_independence": "independent",
+  "eval_evidence": "IES grant to UC Irvine; 'This article is a product of the evaluation conducted by [Farkas & Duncan], without oversight from MIND.' (Caveat: MIND staff S. Schneider/M.E. Martinez are co-authors, a partial developer stake, but the impact evaluation is explicitly framed as developer-independent.)",
+  "developer_delivered": "unclear",
+  "developer_evidence": "A 4-to-5-hr PD on how to use the software 'was provided to all study teachers' plus 1st-year technical support; the report does not specify whether MIND, the districts, or the eval team ran the session.",
+  "cascade_depth": "unclear",
+  "cascade_evidence": "Source/route of the brief software-use training to teachers not specified (observers were trained by MIND staff, but teacher-PD delivery route is not stated).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control = no ST Math (off-grade same-school comparison); business-as-usual math instruction.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Only a 4-5 hr training session plus 1st-year technical support; no ongoing in-class coaching of teachers reported.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "ST Math is a supplemental computer-assisted math software used ~2x45 min/week in the computer lab — a substantial student-facing software dose beyond regular instruction.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Primary confirmatory effect is the 1-year main effect (end of first implementation year); report notes students 'new to the districts for their school's 1st year'.",
+  "confidence": "medium"
+}

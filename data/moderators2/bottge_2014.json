@@ -1,0 +1,19 @@
+{
+  "slug": "bottge_2014",
+  "study": "Bottge et al. (2014), Enhanced Anchored Instruction (EAI) blended math, special-ed resource rooms, Exceptional Children",
+  "eval_independence": "developer",
+  "eval_evidence": "Conducted/authored by the EAI developers (Bottge et al.; IES grant H324A090179). No independent third-party evaluator; the program's research team ran the RCT.",
+  "developer_delivered": "no",
+  "developer_evidence": "The PD workshop was delivered by an experienced practitioner, not the research team: 'a 2-day summer workshop conducted by a middle school math teacher who had taught with EAI for several years.'",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "One transmission hop: the developers' approach was delivered to study teachers by an experienced EAI middle-school teacher (an intermediary trainer), not by developer/research-team trainers directly.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Comparison was explicit Business-As-Usual ('BAU = business as usual'); BAU teachers taught their regular special-ed math (e.g., Calendar Math, NCTM-aligned). No alternative PD/program assigned to control.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "PD was a 2-day summer workshop plus detailed daily lesson plans; teacher modeling occurred at the workshop. Classroom observers were for fidelity measurement only. No ongoing in-class coaching of teachers reported.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "EAI is curriculum taught by the teacher during the regular resource-room math block (explicit instruction + video-anchored problems + hands-on projects); no separate tutoring/pull-out or independent student software dose added beyond instruction.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Single 18-week implementation measured immediately post; program is a single-semester design with no second-year/teacher-experience maturity axis described.",
+  "confidence": "high"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "may_2016",
+  "study": "May et al. 2016, Reading Recovery i3 four-year scale-up, one-to-one grade-1 literacy intervention (CPRE; ERIC ED593261)",
+  "eval_independence": "independent",
+  "eval_evidence": "'four-year independent external evaluation... conducted by the Consortium for Policy Research in Education (CPRE) at the University of Pennsylvania'; CPRE/CRESP is a third-party evaluator with no Reading Recovery developer stake.",
+  "developer_delivered": "no",
+  "developer_evidence": "PD/training delivered through the Reading Recovery national network (university trainers and teacher leaders trained the teachers); CPRE (the research team) did not deliver the PD, only evaluated it.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Classic multi-hop cascade: university training centers/trainers train Reading Recovery teacher leaders, who in turn train the classroom Reading Recovery teachers ('veteran Reading Recovery teacher leaders and trainers'); >=1 extra hop.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "'Students in the control group received regular classroom literacy instruction' (delayed-treatment BAU); no alternative tutoring program assigned to controls.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Teacher PD is a year-long training course with ongoing professional development including a 'minimum of four behind-the-glass sessions' per year (group observation/feedback of the teacher's RR lessons at training sites); periodic observation/coaching of practice, not recurring in-class coaching cycles in the teacher's own regular classroom.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "Reading Recovery IS a direct student-facing intervention: 'individual, daily, 30-minute lessons provided by a Reading Recovery-trained teacher' for 12-20 weeks one-to-one with struggling 1st graders = intensive pull-out tutoring dose beyond regular instruction.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "i3 scale-up trained ~3,675 NEW Reading Recovery teachers; students 'served with one-to-one Reading Recovery lessons provided by teachers trained with i3 funds' / 'by newly trained teachers' -> first-implementation/new-teacher emphasis (pooled across 4 scale-up years; predominantly newly trained teachers).",
+  "confidence": "high"
+}

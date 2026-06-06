@@ -1,0 +1,19 @@
+{
+  "slug": "hanselman_2013",
+  "study": "Hanselman & Borman 2013, Success for All (Reading Wings, grades 3-5)",
+  "eval_independence": "developer",
+  "eval_evidence": "Co-author Geoffrey Borman is a long-standing Success for All researcher (Borman et al. 2007 SFA RCT) with a research stake in the program; the trial is part of the same SFA research program (though IES-funded, U. Wisconsin-Madison). Not a stake-free independent third party. Coded developer with this caveat.",
+  "developer_delivered": "no",
+  "developer_evidence": "The PD/implementation supports were delivered through the Success for All Foundation's model (curricular materials, training for teachers, and an on-site facilitator), not by the study authors themselves; the authors evaluated the rollout.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "SFA is a whole-school reform delivered via the SFA Foundation's training plus a school-based 'full-time program facilitator' who coordinated components and supported teachers; transmission runs developer/Foundation -> on-site facilitator -> teacher (>=1 hop).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control schools were business-as-usual ('no Success for All implementation'); the contrast is full SFA implementation vs BAU. No active alternative PD assigned to control.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Each SFA school 'designated a full-time program facilitator who provided assistance where needed and coordinated the various components' — an on-site, ongoing in-class coaching/support role embedded in the SFA model.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Reading Wings changes the school's regular reading instruction (curriculum, cooperative learning, regrouping); no separate tutoring/pull-out/extra-minutes student dose is part of the grade 3-5 Reading Wings contrast extracted here.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Schools began SFA implementation in fall 2002; the end-of-treatment grade-5 outcomes are Year 2 (secondary cohort) and Year 3 (primary cohort), i.e. measured after >=1 prior implementation year, so teachers were experienced with the program by the outcome wave.",
+  "confidence": "medium"
+}

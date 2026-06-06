@@ -1,0 +1,62 @@
+{
+  "chunk": 14,
+  "studies": ["sutherland_2019", "taylor_2015", "thiede_2018", "thurston_2016", "tolan_2020", "vaughn_2022", "vernon_feagans_2013", "vignoles_2015"],
+  "suggestions": [
+    {
+      "moderator": "Evaluator independence (independently evaluated vs developer/researcher-run)",
+      "definition": "Whether the study's impact analysis was conducted by an evaluation team independent of the programme developer/deliverer (e.g. EEF-commissioned NatCen/RAND/UCL evaluations) vs run by the developers or the research team that created the intervention. Levels: independent / developer-or-researcher-run. Distinct from the already-coded 'trainer' (who delivers the PD) and from publication status: here it is who measures the effect.",
+      "rationale": "In this batch the split is stark and aligned with results. The three independently-evaluated EEF efficacy trials (Sutherland digital feedback, Thurston paired reading, Vignoles maths mastery) all returned near-zero or negative effects (g approx -0.04, -0.02 to -0.06, +0.10/p=.07), whereas the developer/researcher-run journal RCTs (Taylor, Thiede DMT arm, Vaughn, Vernon-Feagans) produced several positive effects (g up to 0.5-0.6). Allegiance/expectancy effects and developer-favourable design choices are a well-documented source of inflated effects, so this could explain a large slice of cross-study heterogeneity.",
+      "studies_observed": ["sutherland_2019", "thurston_2016", "vignoles_2015", "taylor_2015", "thiede_2018", "vaughn_2022", "vernon_feagans_2013"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "PD targets teacher diagnostic/assessment skill (knowing each student's level)",
+      "definition": "Whether the PD's core lever is improving teachers' ability to read and respond to individual student learning state (formative assessment, judgment accuracy, diagnostic data, real-time feedback) vs PD that delivers a curriculum/instructional model agnostic to per-student diagnosis. Levels: diagnostic-responsive PD / curriculum-or-practice PD.",
+      "rationale": "Thiede shows PD that improved teachers' judgment accuracy (DMT) raised achievement and that judgment accuracy MEDIATED the effect, while the formative-assessment-only arm did neither. Sutherland (digital diagnostic feedback) and Vernon-Feagans (targeting individually identified struggling readers) also hinge on per-student diagnosis. The mechanism — instruction matched to where each student actually is — is a plausible reason some PD converts to learning and some does not.",
+      "studies_observed": ["thiede_2018", "sutherland_2019", "vernon_feagans_2013"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Student-facing delivery agent (peer/pupil-mediated vs teacher-delivered)",
+      "definition": "Whether the achievement-changing classroom activity is delivered by the trained teacher directly vs handed off to a peer/pupil-mediated mechanism (e.g. cross-age peer tutoring) where the teacher's role is to set up and support pupils tutoring each other. Levels: teacher-delivered / peer-or-pupil-mediated.",
+      "rationale": "Thurston's Paired Reading trains teachers but the actual reading practice is delivered by Year 9 pupils tutoring Year 7 pupils; the teacher is one step removed from the instructional dose. Effects were null/negative. Where the PD-to-achievement chain has an extra hand-off (teacher -> pupil tutor -> learner), dilution and fidelity loss are larger than when the trained teacher instructs directly (as in the other seven studies), which could systematically attenuate effects.",
+      "studies_observed": ["thurston_2016", "sutherland_2019", "vaughn_2022"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Sustainability/cascade delivery (in-school key educator vs external team delivers follow-up PD)",
+      "definition": "For PD with ongoing/follow-up support, whether that support is delivered by the external research/developer team directly to teachers vs cascaded through an in-school 'key educator'/lead teacher who then supports colleagues (train-the-trainer for scalability). Levels: external-team-delivered / in-school-cascade / mixed. Distinct from the coded 'trainer' variable, which is about the INITIAL trainer; this is about who delivers sustained follow-up.",
+      "rationale": "Vaughn explicitly randomized researcher-supported PD (RPD) vs school-supported PD (SPD) precisely to test whether a more sustainable in-school delivery model gives comparable impact. Cascade models trade fidelity/expertise for scalability, and the gap between them is a direct, design-relevant moderator of whether PD effects survive realistic implementation.",
+      "studies_observed": ["vaughn_2022", "vernon_feagans_2013", "thurston_2016"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Coaching dose/frequency (cycles or sessions of individualized feedback)",
+      "definition": "Among studies that include coaching, the AMOUNT of individualized coaching delivered: number of coaching cycles/sessions, frequency (e.g. biweekly), or coached hours per teacher. Candidate levels: none / light (one-off or few) / intensive recurring (e.g. biweekly cycles across the year). This is the dose of the coaching, separate from the already-proposed coaching delivery channel and the coaching presence/absence principle.",
+      "rationale": "The batch varies enormously in coaching dose: Vernon-Feagans (biweekly webcam cycles all year) and Tolan (~8 biweekly MTP cycles) and Sutherland (heavy ongoing coaching) sit at the intensive end, while Taylor, Thiede and Vignoles are essentially workshop/curriculum PD with little or no recurring individualized coaching. If coaching is the active ingredient, the number of feedback cycles a teacher actually receives (not just its presence) should track effect size.",
+      "studies_observed": ["vernon_feagans_2013", "tolan_2020", "sutherland_2019", "taylor_2015", "thiede_2018"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Teacher career stage / baseline experience of treated teachers",
+      "definition": "The career stage of the teachers receiving the PD: novice/early-career (e.g. first 1-3 years) vs an experienced/mixed-tenure workforce. Levels: predominantly novice / mixed / experienced. Captured as the sample's experience composition, distinct from grade level or subject.",
+      "rationale": "Tolan deliberately restricts to early-career K-3 teachers (first three years) and argues novices are 'more open to innovations and receptive to feedback' and have the most room to grow, while their effects were strongest where baseline distress/classroom difficulty was high. If PD payoff depends on how much practice headroom teachers have, studies dominated by novices vs veterans should differ systematically.",
+      "studies_observed": ["tolan_2020", "taylor_2015", "vernon_feagans_2013"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Outcome measure provenance (researcher-developed content test vs independent standardized test) within the same study",
+      "definition": "Whether the reported achievement effect is on a measure built by the research team around the intervention's content vs an off-the-shelf independent standardized test, with the contrast observable WITHIN a study that reports both. Levels: researcher-developed-content / independent-standardized. Related to but sharper than the already-coded proximal/distal alignment: this is instrument authorship, the strongest form of alignment.",
+      "rationale": "Vaughn is a clean within-study demonstration: the same STRIVE PD yields g approx 0.50-0.56 on researcher-developed content/vocabulary tests but g approx 0.06 / -0.04 on the independent Gates-MacGinitie. Where a study's headline effect rests on a self-authored content measure, it may not generalize to independent achievement; coding instrument authorship could separate 'taught-the-test' gains from transferable learning across the full corpus.",
+      "studies_observed": ["vaughn_2022", "sutherland_2019", "thiede_2018"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    }
+  ]
+}

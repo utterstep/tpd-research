@@ -1,0 +1,19 @@
+{
+  "slug": "konstantopoulos_2016",
+  "study": "Konstantopoulos, Li, Miller & van der Ploeg 2016 (EPM) — Indiana mCLASS/Acuity interim-assessment RCT (same experiment as 2013)",
+  "eval_independence": "independent",
+  "eval_evidence": "Impact evaluation by IES-funded academic researchers (Konstantopoulos et al., grant R305E090005); program = Indiana DOE statewide interim-assessment rollout using commercial vendor products (Wireless Generation mCLASS, CTB/McGraw-Hill Acuity). Evaluators independent of the vendors.",
+  "developer_delivered": "no",
+  "developer_evidence": "Training was the vendor/state 'training associated with each product' delivered through Indiana's statewide rollout, not by the impact-evaluation research team. Control schools lacked 'access to these assessments and their associated trainings.'",
+  "cascade_depth": "unclear",
+  "cascade_evidence": "Statewide vendor/state training of users is described, but the paper does not specify whether classroom teachers were trained directly or via a district/lead-trainer cascade. Silent on transmission hops.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control schools 'did not receive access to these assessments and their associated trainings, and operated under business-as-usual conditions.' True BAU.",
+  "coaching_intensity": "unclear",
+  "coaching_evidence": "Intervention = interim-assessment system plus associated vendor training; the publication describes 'reports on test outcomes and training' but does not detail PD format/intensity or any ongoing in-class coaching. Silent on coaching.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Students take the interim/diagnostic assessments directly (mCLASS face-to-face probes; Acuity online tests within a class period), but these are diagnostic assessments feeding the teacher's regular instruction, not an added tutoring/pull-out/extra-instruction dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Same 2009-2010 RCT as the 2013 paper; treatment year was the first implementation year for volunteer schools. The paper notes only 10 of ~70 schools had used a vendor product the prior year, so the large majority were first-year.",
+  "confidence": "medium"
+}

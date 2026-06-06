@@ -1,0 +1,19 @@
+{
+  "slug": "jerrim_2015",
+  "study": "Jerrim et al. 2015 — EEF Mathematics Mastery (Secondary), delivered by Ark; UCL IoE evaluation",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF/DfE-funded efficacy trial independently evaluated by UCL Institute of Education; Ark (the developer/delivery charity) recruited schools and delivered the programme but did not conduct the impact evaluation.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Mathematics Mastery was 'initially developed by Ark Schools' and the programme 'was delivered by the education charity Ark' — the developer organisation delivered the training and support directly.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Ark delivered 1-2 days of launch training, in-school development visits, and multi-school cluster workshops directly to headteachers, maths coordinators and class teachers; no train-the-trainer intermediary layer.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control schools 'proceed with business as usual' during 2013/14; eligible to access MM only after the trial. No alternative PD/program for controls.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Support model = 1-2 launch training days + TWO in-school development visits + three multi-school cluster workshops + online CPD toolkit across the year. Two periodic in-school visits = light/periodic support, not recurring monthly in-class coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Whole-class 'mastery' maths curriculum/pedagogy delivered by the Year 7 maths teacher in normal lessons; no tutoring, pull-out, extra minutes, or student-facing software dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Report explicitly notes 'this was the first year the programme had been introduced'; outcomes measured at end of that first implementation year (summer 2014). Teachers new to MM.",
+  "confidence": "high"
+}

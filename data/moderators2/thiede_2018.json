@@ -1,0 +1,19 @@
+{
+  "slug": "thiede_2018",
+  "study": "Thiede et al. (2018), Developing Mathematical Thinking (DMT) and Formative-Assessment PD, 2x2 cluster RCT, Teaching & Teacher Education",
+  "eval_independence": "developer",
+  "eval_evidence": "Boise State University research team; co-author Brendefur is a developer of the DMT program (Brendefur, Carney et al. 2015). 'This grant-funded project' was conducted by the program developers, not an independent third party.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The Boise State research/project team provided the PD ('For teachers who received professional development, the structure ... was held constant'; the team 'engaged in extensive classroom observations' and ran the in-class support). Developers/research team delivered the PD.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Research-team facilitators delivered the workshops and in-class support cycles directly to participating teachers; no train-the-trainer/lead-teacher cascade described.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control teachers received NO professional development (true BAU); the 2x2 factorial Control cell got neither DMT nor FA PD. Clean business-as-usual contrast.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "PD = 3-day summer workshop + two 4-h after-school sessions, 'followed by in-class support involving three cycles of pre-unit meeting, in-class observation of implementation, and a post-unit meeting.' Three coaching cycles across the school year (roughly per-unit/per-term) = light/periodic in-class support, not monthly+/biweekly+ -> occasional.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Both DMT (student-centered math instruction) and FA (formative assessment) PD change only the teacher's regular classroom mathematics instruction; no tutoring, pull-out, extra minutes, or student-facing software dose added.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "PD 'began in the' first year and teachers received it during their implementation year; MAP achievement was measured fall-pre to spring-post within that single PD year. Teachers were new to the PD when outcomes were measured (replicated across cohorts/years, but each teacher's outcome is their first implementation year).",
+  "confidence": "medium"
+}

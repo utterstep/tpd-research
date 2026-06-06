@@ -1,0 +1,19 @@
+{
+  "slug": "landry_2021",
+  "study": "Landry et al. 2021, remote eTEEM teacher PD x ePALS (2x2 factorial), Head Start pre-k (ECRQ)",
+  "eval_independence": "developer",
+  "eval_evidence": "Remote-delivery replication conducted/authored by the Children's Learning Institute team that developed eTEEM/ePALS (IES R305A140386); developers ran and reported the evaluation.",
+  "developer_delivered": "yes",
+  "developer_evidence": "eTEEM online courses + remote coaching delivered by project coaches trained by senior research staff over multiple training days (p.697, 728); program built via 'partnership between the researchers' (p.257).",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Research-team-trained project coaches deliver online coaching directly to teachers remotely; no school lead-teacher train-the-trainer cascade.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "TPD contrast = eTEEM main effect; 'No eTEEM' = control/business as usual (n=33 classrooms) (abstract p.43-45, p.297-298). ePALS is a separate crossed parent factor.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "eTEEM = 14 online course sessions + up to 14 individualized remote coaching sessions, approximately biweekly Nov-April (~3 hr/month), each cycle co-viewing/reflecting on videotaped classroom activities (p.808-851).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "TPD-vs-control contrast = eTEEM main effect (teacher PD) only; ePALS is a separate crossed parent-directed home program, collapsed across in the eTEEM main effect; no direct student tutoring/software dose.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Children measured pre-post across one Head Start pre-k year; single-academic-year school-readiness program with no multi-year maturation axis.",
+  "confidence": "high"
+}

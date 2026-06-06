@@ -1,0 +1,19 @@
+{
+  "slug": "wakabayashi_2020",
+  "study": "Wakabayashi et al. 2020, Numbers Plus supplementary preschool math curriculum + PD (HighScope), ECRQ 53:329-342 (IES R305A110483)",
+  "eval_independence": "developer",
+  "eval_evidence": "Authored by the HighScope Educational Research Foundation team (Schweinhart et al.) that both developed Numbers Plus and ran the IES efficacy study; the paper notes 'Numbers Plus was developed by HighScope, and training and coaching are offered by HighScope trainers.'",
+  "developer_delivered": "yes",
+  "developer_evidence": "All training and in-class coaching were delivered by HighScope-certified trainers/coaches; teachers 'were trained and coached by HighScope trainers affiliated with' the developer.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Train-the-trainer model: HighScope Early Childhood Specialists ran a 4-day Numbers Plus Training of Trainers; those site/supervisor trainers/coaches then trained and coached the classroom teachers (>=1 extra hop).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control = HighScope curriculum alone with no Numbers Plus (delayed-treatment BAU); control teachers were offered Numbers Plus training only after post-data collection.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Recurring in-class coaching: coaches planned to visit each classroom about once every two weeks, delivering up to ~20 in-class coaching contacts per classroom across the program year (over-the-shoulder coaching plus debrief).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Numbers Plus is a supplementary math curriculum delivered by the teacher within regular preschool instruction; no tutoring, pull-out, or student-facing software dose added.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Outcomes measured at the end of the single program year for teachers newly trained on Numbers Plus; data collected in a different state each year (MI/ME/OH) with fresh first-year cohorts, no prior-implementation maturity wave.",
+  "confidence": "high"
+}

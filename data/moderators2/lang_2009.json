@@ -1,0 +1,19 @@
+{
+  "slug": "lang_2009",
+  "study": "Lang et al. 2009, intensive grade-9 reading interventions (READ 180 / REACH / RISE) vs SOAR (JREE)",
+  "eval_independence": "developer",
+  "eval_evidence": "Author list includes the program publishers/developers: Scholastic Education (READ 180; C. Chanter) and FL DOE (RISE author E. Lefsky), alongside FSU researchers (Lang, Torgesen, Petscher) and the district (p.90). Developers co-authored/co-ran the evaluation; not an independent third party.",
+  "developer_delivered": "yes",
+  "developer_evidence": "PD 'conducted by program experts, district literacy coaches, and school-based' staff; specifically the publishers of the two commercial interventions and the author of the third delivered/led the PD (p.244, 527).",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Program publishers/author provide the teacher PD directly; in-class support is then via a school reading coach assigned to each school. Initial PD is developer-direct (the publishers/author train teachers).",
+  "counterfactual": "active_or_contaminated",
+  "counterfactual_evidence": "Control = SOAR (School Offered Accelerated Reading), a school-designed 90-min intensive reading class that also used content-enhancement/reading strategies; an active alternative reading program, not a no-treatment BAU (p.234, 521).",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "A reading coach assigned to each school provided ongoing coaching and feedback to intensive-reading teachers throughout the year, stepping in to model comprehension/vocabulary/self-monitoring strategies (p.242-245, 569).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "All four conditions (3 programs + SOAR control) were delivered as a 90-min daily reading block replacing electives; the extra instructional dose is held constant across treatment and control, so no differential added dose for the TPD-vs-control contrast (p.239).",
+  "program_maturity": "mature",
+  "maturity_evidence": "Impact year 2006-07 was Year 3 of the project; 28 of 31 teachers were implementing the same program they taught in Year 2, and 'all but 3 teachers had a full-year professional development and experience with the specific curriculum' before the impact year (p.513-521).",
+  "confidence": "high"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "castro_2017",
+  "study": "Castro et al. (2017), Nuestros Ninos School Readiness (NNSR) 2-year PD for pre-K DLLs, ECRQ",
+  "eval_independence": "developer",
+  "eval_evidence": "Authored/conducted by the NNSR developers (Castro, Gillanders et al., UNC FPG); this is the program's own efficacy study. No independent third-party evaluator.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Delivered 'by project staff over two years via institutes, consultation, and professional learning communities'; 'Consultants were part of the project staff' (bilingual, BA-level), i.e., the developing team's own delivery staff trained/supervised by the PIs.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Project-staff consultants delivered institutes and in-class consultation directly to the teachers; no train-the-trainer or school-lead-teacher tier (teachers do not re-deliver to other teachers).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control received 'only their curriculum' (curriculum-as-usual / business-as-usual); treatment = NNSR PD 'in addition to their curriculum'. No active alternative PD given to control.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Institutes plus ongoing consultation; in Year 2 'teachers were expected to receive consultation meetings twice a month', consultants videotaped lessons and reviewed aspects of practice - recurring (biweekly) in-class coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "PD changes the lead teacher's language/literacy/math practices; no tutoring, pull-out, or student-facing software dose added beyond the regular pre-K instruction.",
+  "program_maturity": "unclear",
+  "maturity_evidence": "Program is a 2-year PD with an explicit maturity axis (authors distinguished teachers in their 1st vs 2nd year), but each child participates only one year and the headline child academic effects (Table 3) pool across teachers' first- and second-year participation, so the measurement wave is neither cleanly first-year nor mature.",
+  "confidence": "medium"
+}

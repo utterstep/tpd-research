@@ -1,0 +1,19 @@
+{
+  "slug": "garet_2016",
+  "study": "Garet et al. 2016, Content-Intensive Math PD (Intel Math) (NCEE 2016-4010)",
+  "eval_independence": "independent",
+  "eval_evidence": "IES/NCEE-commissioned RCT conducted by AIR; evaluators are independent of the Intel Math / MLC program developers.",
+  "developer_delivered": "no",
+  "developer_evidence": "Intel Math delivered by experienced external Intel Math instructors; the Mathematics Learning Community and Video Feedback Cycles delivered by trained, district-based facilitators (intermediaries), not by the research/evaluation team.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "MLC sessions and the video-feedback coaching were delivered by district-based facilitators who were trained to deliver them (train-the-trainer hop between program and classroom teachers).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Within-school RCT; control grade-4 teachers continued business-as-usual instruction and PD.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Coaching = three individualized Video Feedback Cycles (~3 hrs total) based on video excerpts of teachers' lessons during 2013-14; light/periodic, video-based rather than recurring live in-class cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention changes the grade-4 teacher's math instruction only; no student tutoring, pull-out, or added dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "All PD (80-hr summer Intel Math + MLC + video cycles) delivered in a single year (summer 2013 + 2013-14); outcomes measured spring 2014, the first/only implementation year.",
+  "confidence": "high"
+}

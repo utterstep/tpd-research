@@ -1,0 +1,19 @@
+{
+  "slug": "carroll_2020",
+  "study": "Carroll et al. (2020), Bug Club whole-school reading programme (Pearson) RCT, The Curriculum Journal",
+  "eval_independence": "independent",
+  "eval_evidence": "Independent academic evaluators (Carroll, Hurry et al., UCL/St Mary's University) conducted an RCT of Pearson's commercial Bug Club programme; the evaluators are not the developer (Pearson).",
+  "developer_delivered": "no",
+  "developer_evidence": "Teachers were trained for implementation shortly before rollout, but the publication does not state the developers/research team delivered the PD; Bug Club is a commercial Pearson product and the evaluators are independent. Training appears to be vendor/implementation training, not researcher-delivered.",
+  "cascade_depth": "unclear",
+  "cascade_evidence": "'Teachers received training in the implementation of Bug Club ... shortly before implementation', but the report does not identify who delivered the training or any train-the-trainer tier, so transmission depth cannot be determined.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Waiting-list control on the standard national KS1 English/Literacy programmes of study (business-as-usual); control adopted Bug Club only in Year 2 (after the A1 primary contrast).",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Teachers received implementation training shortly before rollout; no ongoing in-class coaching of teachers is described in the report.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "Beyond teacher instruction, pupils get a substantial student-facing digital dose: online Bug Club books assigned to each child's account for independent/at-home reading with embedded comprehension/phonics questions reported back to the teacher (plus print home-reading books).",
+  "program_maturity": "first_year",
+  "maturity_evidence": "A1 primary outcome (July 2015) is measured after two terms of the schools' first implementation of Bug Club, with teachers new to the programme.",
+  "confidence": "medium"
+}

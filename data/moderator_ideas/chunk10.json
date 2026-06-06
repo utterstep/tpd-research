@@ -1,0 +1,62 @@
+{
+  "chunk": 10,
+  "studies": ["nugent_2016", "ohare_2019", "olson_2012", "olson_2017", "olson_2020", "pcer_2008", "portes_2018", "powell_2010"],
+  "suggestions": [
+    {
+      "moderator": "Coaching cycle count (number of individualized coaching sessions)",
+      "definition": "When the PD includes coaching, the number of discrete one-to-one coaching/feedback cycles each teacher receives over the program (counted, not just present/absent). Candidate levels: low (<=5) / moderate (6-10) / intensive (>10) / none. A countable dose distinct from the already-coded binary 'coaching' principle and from total TPD hours.",
+      "rationale": "My batch deliberately fixes the number of cycles: Powell = 7 individualized coaching sessions, Nugent = 8-12 technology-delivered sessions over 6-8 weeks, Portes = 100h assisted-teaching plus monthly coaching across a practice + efficacy year. More feedback cycles give more chances to observe, adjust, and re-enact target practice, so the count (not mere presence) plausibly drives how much practice actually changes and thus achievement.",
+      "studies_observed": ["powell_2010", "nugent_2016", "portes_2018", "olson_2012", "olson_2017"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Program maturity / teacher's implementation year",
+      "definition": "How many cumulative years the treated teachers have been running the specific program at the time the measured student cohort is taught: first-implementation year vs second-or-later year (or 'pre-seasoned' by a required practice year). Levels: year-1 / year-2+ / practice-year-then-measured. A teacher-experience-WITH-THIS-PROGRAM clock, separate from generic teaching experience or raw PD hours.",
+      "rationale": "Within the Pathway lineage the effect grows as teachers mature in the program (Olson 2017: Year-1 writing d=0.48 vs Year-2 d=0.60, same dose). Portes built a full no-stakes 'practice year' into the design before the efficacy year, explicitly because teachers need a year to enact the pedagogy. Studies that measure students in teachers' first program year may understate the steady-state effect, generating heterogeneity across studies.",
+      "studies_observed": ["olson_2017", "portes_2018", "olson_2020", "nugent_2016"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Scale-up stage / evaluator independence",
+      "definition": "Whether the trial is an early single-site/single-district efficacy study run and evaluated by the program developers vs a later multi-district scale-up evaluated by an independent third party. Levels: developer-evaluated efficacy / independent-evaluator scale-up. Distinct from the already-coded 'trainer = researcher/developer vs external', which is about who DELIVERS the PD, not who runs/evaluates the trial or its breadth.",
+      "rationale": "The identical Pathway PD shrinks as it moves from developer-run single-district efficacy (Olson 2012 SAUSD, 2017 AUHSD; writing d~0.48-0.67) to a 7-district scale-up independently evaluated by SRI (Olson 2020; writing d=0.32, state-test d=0.06). O'Hare is an independent EEF evaluation of a developer-led program that found ~null universal effects. Effect attenuation under independent/at-scale conditions is a classic moderator and is cleanly observable here.",
+      "studies_observed": ["olson_2012", "olson_2017", "olson_2020", "ohare_2019"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Demandingness of the counterfactual (active/curriculum control vs business-as-usual)",
+      "definition": "What the control teachers actually do: pure business-as-usual / locally-developed practice vs an active comparison that is itself a structured curriculum or another PD. Levels: business-as-usual / active-or-curriculum control. Different from 'curriculum-coupled' (which is about the TREATMENT bundling new materials); this is about the CONTROL condition's strength.",
+      "rationale": "PCER's New Hampshire arm tests Creative Curriculum + Ladders-to-Literacy against a Creative-Curriculum-ONLY control (an active curriculum counterfactual), whereas most PCER arms and the other studies use teacher-developed/business-as-usual controls. Even Olson's control teachers got 26h of district PD plus textbooks/novels. A more capable counterfactual compresses the contrast, so otherwise-similar PD looks weaker where the control is itself an active program.",
+      "studies_observed": ["pcer_2008", "olson_2012", "ohare_2019"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Targeted construct breadth (narrow code-focused skill vs broad language/comprehension)",
+      "definition": "Whether the achievement outcome the PD aims to move is a narrow, directly-trainable skill (e.g., letter naming, concepts-about-print, on-demand essay on the taught prompt) vs a broad, slow-moving construct (receptive vocabulary, general reading comprehension, broad state ELA). Levels: narrow-constrained / broad-unconstrained. Distinct from proximal/distal test alignment: a distal state test can still be narrow, and a researcher test can target a broad construct.",
+      "rationale": "Within single studies the SAME PD moves narrow skills but not broad ones: Powell raised letter knowledge (d=0.29) and concepts-about-print (d=0.22) but not PPVT receptive vocabulary (d=-0.03); the Pathway PD moved analytic writing strongly (d~0.5-0.6) yet barely shifted broad state ELA (d~0.06). Constrained skills are quicker to teach and assess, so the breadth of the targeted construct could explain why some PD-outcome pairs show effects and others (same program) do not.",
+      "studies_observed": ["powell_2010", "pcer_2008", "olson_2017", "olson_2020", "nugent_2016"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Student-facing delivery format (whole-class universal vs targeted small-group)",
+      "definition": "How the PD-taught instruction reaches students: embedded in whole-class teaching for all pupils vs delivered as pull-out/small-group sessions to a selected subset (often with a fixed cadence such as 1-2x/week for ~30 min). Levels: whole-class universal / targeted small-group / both.",
+      "rationale": "O'Hare delivered the SAME Reciprocal Reading PD in two formats and the targeted small-group arm (selected poor comprehenders) produced reading gains (g~0.14-0.18) while the universal whole-class arm was null (g~0.00). Portes's IC pedagogy was also delivered as small-group instruction 1-2x/week. Concentrated small-group dose to selected students may convert teacher practice change into measurable achievement more reliably than diffuse whole-class delivery.",
+      "studies_observed": ["ohare_2019", "portes_2018"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Coaching channel: review of teacher's own recorded lesson vs live observation",
+      "definition": "When coaching is present, whether feedback is built on the teacher's OWN video-recorded lesson (teacher records, uploads, coach reviews and gives feedback, often remotely) vs live in-person classroom observation, vs viewing generic best-practice exemplars only. Levels: own-video-feedback / live-observation / exemplar-only / none.",
+      "rationale": "Nugent and Powell both center coaching on the teacher's own recorded practice (WebEx/Dropbox cycles; review of submitted videotapes) and argue this individualized feedback on one's real instruction outperforms generic video exemplars; Powell explicitly contrasts remote video-based vs on-site coaching (found equivalent). Grounding feedback in the teacher's actual lesson is a sharper active-learning lever than exemplar-watching, and the channel varies across studies in ways that may moderate practice change.",
+      "studies_observed": ["nugent_2016", "powell_2010"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    }
+  ]
+}

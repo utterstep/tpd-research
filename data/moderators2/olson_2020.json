@@ -1,0 +1,19 @@
+{
+  "slug": "olson_2020",
+  "study": "Olson et al. 2020 (Pathway Project i3 scale-up; J. Educ. Psych. 112(4))",
+  "eval_independence": "independent",
+  "eval_evidence": "i3 Validation grant required an independent evaluator: SRI International (an independent nonprofit research center) collected and analyzed all impact data and conducted the evaluation (pp.~16-17); developers built the program, SRI independently evaluated it.",
+  "developer_delivered": "no",
+  "developer_evidence": "Explicit scale-up test of whether PD 'previously delivered by the program developer could be... effectively delivered by literacy specialists not previously affiliated with [the program]'; PD was delivered by the four NWP Site Directors / Teacher Leaders, NOT by the developer.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Train-the-trainer: the developer's team trained the four NWP Site Directors and their key Teacher Leaders (2 full days experiencing the intervention PD), who then delivered the PD to teachers in their districts -> >=1 extra hop (developer -> site directors/teacher leaders -> teachers).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control teachers maintained business-as-usual using the district ELA textbook/core novels (delayed-treatment control, p.~31). Both arms got one half-day intro to the donated Collections textbook (i3 matching), a minor shared element that does not make the control an active alternative PD -> business_as_usual.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Pathway PD model = ~46h/year training (release days/afterschool) delivered by site teams plus Pathway coaching support; recurring in-class coaching cycles are not documented in this scale-up report -> occasional.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Pure teacher PD; only the teachers' own analytical-writing/ELA instruction changes. No tutoring, pull-out, or added student-facing dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Impact analyses use the end of Year 1 wave (the meta-analysis coded this study 'Short'/Year-1); teachers and new NWP sites are in the program's first implementation year of the scale-up -> first_year.",
+  "confidence": "high"
+}

@@ -1,0 +1,70 @@
+{
+  "chunk": 5,
+  "studies": ["garet_2011", "garet_2016", "gersten_2010", "gorard_2015", "gore_2021", "greenleaf_2011", "guzman_2021", "hanley_2016"],
+  "suggestions": [
+    {
+      "moderator": "Counterfactual / control-group PD intensity",
+      "definition": "How much teacher PD (especially same-subject PD) the CONTROL group received, i.e. the strength of the business-as-usual counterfactual. Candidate levels: pure/near-zero counterfactual (waitlist, no PD) / moderate (some district PD) / active (control already saturated with substantial subject PD). Could be coded categorically or as control PD hours / treatment-vs-control PD-hours contrast where reported.",
+      "rationale": "An RCT estimates treatment MINUS control, so the same intervention looks 'null' where the control is already PD-rich and 'large' where the control gets nothing. Garet 2011 controls received math PD equal to ~68% of treatment study-PD hours, Garet 2016 found no significant treatment-vs-control difference in self-reported math PD, and Gersten's controls were all in Reading First with mandated, content-focused PD - all three are null or non-robust. By contrast Gore, Gorard and Hanley used waitlist controls with no comparable PD. This counterfactual-contrast is distinct from raw TPD hours (which only counts the treatment side) and is a leading candidate for why intensive PD repeatedly fails to beat 'business as usual'.",
+      "studies_observed": ["garet_2011", "garet_2016", "gersten_2010", "gore_2021", "gorard_2015", "hanley_2016"],
+      "reportability": "sometimes",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Deliverer expertise: developer/researcher vs trained intermediary delivered at scale",
+      "definition": "Whether the PD workshops/coaching were delivered by the program's own developers/researchers vs by trained intermediaries (train-the-trainer 'advisers', commercial-vendor facilitators) operating at scale. Levels: developer/researcher-delivered / trained-intermediary-delivered / commercial-vendor-delivered. Sharper than the already-coded researcher-vs-external trainer binary because it isolates the SAME protocol delivered by originators vs scaled-up trainers.",
+      "rationale": "Gore 2021 is a clean within-trial test: researcher-led QTR raised maths (g=0.12, significant) while the identical protocol delivered by trained 'QTR Advisers' was null (g=0.02); the authors attribute the gap directly to Adviser experience and confidence in workshop delivery. Garet's PD was delivered by competing commercial vendors (America's Choice, Pearson) and was null. If effects shrink when delivery is handed from originators to scaled trainers, this explains both heterogeneity and the well-known scale-up fade.",
+      "studies_observed": ["gore_2021", "garet_2011", "garet_2016", "gorard_2015"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Within-school critical mass / collaborating-teacher density (PLC requirement)",
+      "definition": "How many teachers per school are trained and expected to work together: the PD targets isolated individual teachers vs requires a minimum collaborating group (e.g. a 3-4 person professional learning community) vs is whole-department/whole-school. Levels: individual / small-PLC-required / departmental-or-schoolwide.",
+      "rationale": "Gore's QTR mandates four-teacher PLCs running rounds together and is the only arm here that moved achievement; the authors foreground collaboration/PLCs as the mechanism (and peer-observation-only PLCs were insufficient). Hanley attributes part of the LTSS null to schools where 'only a few teachers' delivered, leaving the approach un-embedded. Greenleaf and Garet 2016 trained comparatively isolated subject teachers. Collegial density plausibly sustains practice change and is distinct from cohort group SIZE - it is about how many adopters share a building.",
+      "studies_observed": ["gore_2021", "hanley_2016", "greenleaf_2011", "garet_2016"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Curriculum scripting / degree of prescription of the student-facing materials",
+      "definition": "Among PD programs that come with student-facing materials, how scripted/prescribed those materials are: fully scripted lesson-by-lesson curriculum / structured-but-flexible protocol / unscripted teacher-designed enactment. Levels: scripted / semi-structured / unscripted. Distinct from the already-coded curriculum-coupled binary (which only asks whether materials exist).",
+      "rationale": "Guzman 2021 explicitly frames the literacy field around scripted-vs-unscripted curricula and notes the Read to Learn materials were UNscripted yet produced large gains when paired with coaching - suggesting scripting and coaching may substitute. Gorard's P4C uses a structured classroom protocol that 'must be adhered to' but with flexible stimuli. Scripting reduces the teacher-skill and fidelity burden, so the same nominal PD could work or fail depending on how much it constrains what teachers actually do in front of students.",
+      "studies_observed": ["guzman_2021", "gorard_2015", "hanley_2016"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Direct student-facing lesson dose (fixed lesson sequence delivered to pupils)",
+      "definition": "Whether the intervention delivers a defined sequence of student-facing lessons (and how many), vs changing only general teacher practice with no prescribed pupil-lesson count. Levels: no fixed pupil lessons (practice-change only) / low dose (~<20 lessons) / higher dose, optionally with delivered-vs-intended completion rate where reported.",
+      "rationale": "Effects may ride on how much NEW instruction pupils actually receive, not just on teacher learning. Gorard delivered ~one P4C hour per week (a 27-lesson dose in the cited prior trial) and Hanley a 19-lesson LTSS sequence - but Hanley flags that many pupils did not receive all 19 lessons, plausibly diluting the null. Gore and the Garet studies change teacher practice with no fixed pupil-lesson sequence. A short or under-delivered student dose is a concrete, measurable reason a 'good' PD yields no measured achievement gain.",
+      "studies_observed": ["gorard_2015", "hanley_2016", "gore_2021"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Coaching dose/frequency (continuous), separate from the coaching yes/no principle",
+      "definition": "Among programs that include coaching, the AMOUNT: number of in-class coaching visits or hours per teacher, and their cadence (e.g. tied to each seminar, monthly, bimonthly). Levels: light (1-2 visits) / moderate / intensive recurring cycle. A continuous moderator layered on the already-coded binary coaching principle.",
+      "rationale": "Coaching is treated as present/absent in the existing codings, but these studies vary the DOSE widely: Garet scheduled coaching visits within days of each seminar; Guzman provided recurring bimonthly in-class coaching visits alongside the materials (and got large effects); Gore embedded ongoing in-school PD days. If achievement responds to coaching intensity rather than mere presence, the binary masks a graded dose-response that could explain heterogeneity within the 'has coaching' group.",
+      "studies_observed": ["garet_2011", "garet_2016", "guzman_2021", "gore_2021"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Length of the theory-of-action chain (knowledge -> practice -> achievement)",
+      "definition": "How many causal hops the PD's logic model must traverse before reaching student achievement: PD that directly equips teachers with a pupil-facing routine/lesson (short chain) vs PD that first builds teacher content knowledge, expecting it to later change practice and only then achievement (long chain). Levels: short / long. Codable from the stated theory of action.",
+      "rationale": "Garet 2016 is the textbook long-chain failure: content-intensive PD measurably raised teacher knowledge AND classroom practice yet 'did not translate into a positive impact on student achievement,' and teacher knowledge was unrelated to achievement - the chain leaked at the last hop. Shorter-chain programs that hand teachers a direct pupil routine (Gorard's enquiry protocol, Guzman's lessons) more often move scores. The number of intermediate links is a plausible structural moderator of leakage between PD and pupils.",
+      "studies_observed": ["garet_2016", "garet_2011", "gorard_2015", "guzman_2021"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Differential (selective) attrition magnitude",
+      "definition": "The size and selectivity of teacher/student attrition between randomization and outcome measurement: balanced low attrition / high but symmetric / differential (treatment and control differ in who is lost). Levels could follow WWC attrition standards (low/high overall x differential).",
+      "rationale": "Greenleaf's significant cross-sectional effects appear only after covariate adjustment and the authors explicitly warn that differential attrition (low-performing-class teachers leaving, more so in control) may have inflated them; the pretest-linked longitudinal sample is fully null. Gore, Hanley and Guzman all lose non-trivial samples to follow-up. Selective attrition can manufacture or erase a PD effect independent of the PD itself, making attrition magnitude/selectivity a credibility moderator across the achievement estimates.",
+      "studies_observed": ["greenleaf_2011", "gore_2021", "hanley_2016", "guzman_2021"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    }
+  ]
+}

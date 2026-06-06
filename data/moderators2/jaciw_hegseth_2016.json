@@ -1,0 +1,19 @@
+{
+  "slug": "jaciw_hegseth_2016",
+  "study": "Jaciw et al. 2016, iRAISE (Internet-based Reading Apprenticeship), i3 evaluation",
+  "eval_independence": "independent",
+  "eval_evidence": "Conducted by Empirical Education Inc. under subcontract with WestEd; the report states Empirical Education 'was provided with independence in reporting' and is 'the independent evaluator of WestEd's 2012 Investing in Innovation (i3)' grant. Third-party independent eval firm.",
+  "developer_delivered": "yes",
+  "developer_evidence": "iRAISE is WestEd Strategic Literacy Institute's (SLI's) own online Reading Apprenticeship PD; SLI (the developer) ran the year-long online learning community (5-day Foundations + monthly Ignite/PLC sessions with facilitators). No separate trainer organisation; the developers delivered the PD.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "SLI/WestEd staff facilitated the online sessions directly to the participating science teachers; no train-the-trainer intermediary cadre is described. Developer-to-teacher direct delivery.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control = 'business as usual'; control teachers continued normal practice. Minor noted contamination: three control (and four treatment) teachers reported 1-3 days of prior 'RA training', but the assigned control condition was BAU with no alternative PD.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "iRAISE is an online year-long learning community (online synchronous sessions with facilitators/peers plus asynchronous work, monthly follow-up Ignite/PLC meetings); no ongoing in-class coaching or classroom-observation visits to teachers.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Reading Apprenticeship is a disciplinary-literacy instructional framework that changes the science teacher's regular instruction; no tutoring/pull-out/extra-minutes or student-facing software dose added.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Impact study ran in 2014-15, the first full implementation year of the online iRAISE program (SLI had only piloted it with 25 teachers in 2013-14); study teachers were new to iRAISE, with student outcomes measured at the end of that single year.",
+  "confidence": "high"
+}

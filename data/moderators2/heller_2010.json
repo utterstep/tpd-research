@@ -1,0 +1,19 @@
+{
+  "slug": "heller_2010",
+  "study": "Heller et al. 2010 (SREE), WestEd Making Sense of SCIENCE PD (electric circuits)",
+  "eval_independence": "developer",
+  "eval_evidence": "Conducted by WestEd / Heller Research Associates, the developers of the Making Sense of SCIENCE courses (authors Heller, Daehler, Shinohara are WestEd staff); NSF-funded but developer-conducted, not an independent third-party evaluation.",
+  "developer_delivered": "no",
+  "developer_evidence": "Courses were 'delivered by professionals in the field (not the course developers)'; local course facilitators drawn from each site delivered the PD (the journal version: 'Interventions were delivered by staff developers trained to lead the teacher courses in their regions'), with the SF Bay Area as a partial exception where developers were solo facilitators.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Local facilitators were trained at WestEd to lead the courses in their regions, then delivered them to teachers: developer -> trained local facilitator -> teacher (>=1 extra hop). Train-the-trainer style delivery by design.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Fourth condition was a no-treatment control; control teachers received no PD (and were offered the course the following summer). Business-as-usual, no active alternative.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Each course was eight three-hour sessions completed over 8-14 weeks during the school year (or a 5-day summer block); a face-to-face course/workshop format with no ongoing in-class coaching of teachers in their own classrooms.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention targets teachers' science content/pedagogical knowledge for teaching the existing electric-circuits unit; only the teacher's regular instruction changes, no added student-facing dose.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "The PD course is a single-year (one course completion) intervention; student content-test outcomes measured in the immediate study year (gain within two weeks of completing the unit). No multi-year maturity axis for the core contrast (a separate follow-up-year cohort exists but is a different student sample).",
+  "confidence": "medium"
+}

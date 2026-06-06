@@ -1,0 +1,19 @@
+{
+  "slug": "gore_2021",
+  "study": "Gore et al. 2021, Quality Teaching Rounds (QTR) RCT, Teaching & Teacher Education",
+  "eval_independence": "developer",
+  "eval_evidence": "Trial designed, conducted, and authored by the QTR developers (Gore et al., Univ. of Newcastle Teachers & Teaching Research Centre, who developed QT and QTR); not a third-party evaluation.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Headline Researcher-led QTR arm (row 38): the 2-day workshop was delivered by the lead researcher who co-developed QT/QTR. (Trainer-led QTR arm, row 39, was delivered by trained QTR Advisers instead.)",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Researcher-led QTR (primary arm) = developer trains teachers directly. The parallel Trainer-led QTR arm (row 39) IS a cascade: 3 QTR Advisers received 25 days of developer training then ran the workshops (train-the-trainer).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Extracted contrast is QTR (and QTR-T) vs the wait-list / PD-as-usual control. (The separate Peer Observation arm was an active-alternative control and was not the extracted comparison.)",
+  "coaching_intensity": "none",
+  "coaching_evidence": "After the 2-day workshop + 4 in-school PD days, teachers run Quality Teaching Rounds within their own school PLCs (peer observation/analysis); no ongoing external in-class coaching of individual teachers.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Pedagogy-focused PD changing teachers' regular Stage-2 instruction; no student tutoring, pull-out, or added student-facing dose.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Short PD delivered within one school year; single 8-month follow-up wave (Cohort 1); no multi-year rollout/maturity axis.",
+  "confidence": "high"
+}

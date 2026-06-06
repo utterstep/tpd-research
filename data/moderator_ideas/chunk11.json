@@ -1,0 +1,62 @@
+{
+  "chunk": 11,
+  "studies": ["prast_2018", "quint_2015", "randel_2016", "reinke_2018", "resendez_azin_2009", "resendez_azin_2012", "robinson_smith_2018", "rose_2017"],
+  "suggestions": [
+    {
+      "moderator": "Self-administered PD vs human-facilitated PD",
+      "definition": "Binary: whether the PD is delivered/supported by a live human facilitator/coach/trainer, OR is designed to be worked through by teachers on their own from self-study materials (text, DVD, online dashboard) with no external expert in the loop. Levels: facilitated / self-administered.",
+      "rationale": "Randel's CASL is explicitly 'designed to be self-executing, without a coach or external facilitator' and showed near-null student impacts, while the strongly-facilitated programs (Prast project coaches, Reinke IY coach) build in live observation and feedback. Removing the human facilitator may remove the active ingredient (accountability, modeling, just-in-time correction) even when content and nominal hours are held constant. This is sharper than 'coaching channel' (in-class vs remote): it is the presence vs total absence of any field facilitation.",
+      "studies_observed": ["randel_2016", "prast_2018", "reinke_2018", "resendez_azin_2009"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Dose-completion gap (received vs intended PD)",
+      "definition": "Ratio or shortfall between the PD dose teachers actually received/completed and the dose the developer prescribed. Levels could be banded (e.g., >=90% of intended, 50-90%, <50%) or treated continuously. Distinct from absolute hours (already coded) because it captures under-delivery relative to design.",
+      "rationale": "Randel reports teachers logged ~31 of the developer-recommended 60 hours (about half), alongside weak impacts; Robinson reports <=25% of parents actually accessed the program. A PD that is potent at full dose can read as ineffective when only partially delivered, so the realized fraction of the intended dose may explain heterogeneity that raw 'hours' misses. Note: post-treatment / endogenous, so a flag-and-stratify variable rather than a clean cause.",
+      "studies_observed": ["randel_2016", "robinson_smith_2018", "resendez_azin_2009"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Length of the PD-to-student causal chain (proximal change agent)",
+      "definition": "How many human links separate the PD from the student, i.e. who actually delivers the student-facing practice. Levels: trained teacher delivers directly (1 link); a specialist/tutor or in-class facilitator delivers (still school-based); or a non-teacher third party (parents) delivers at home (PD -> staff coordinator -> parent -> child).",
+      "rationale": "These studies span the full range: teacher-direct (Prast, Randel, Reinke, Resendez, Rose) vs SFA's full-time facilitator + dedicated tutoring delivering reading outside the regular teacher's class (Quint) vs EasyPeasy where the trained nursery staff member never teaches the child at all and impact flows only through parents at home (Robinson). Each added link is another point where the intervention can attenuate; longer chains should predict weaker, noisier student effects. Distinct from 'cascade delivery' (who trains whom) - this is who faces the child.",
+      "studies_observed": ["robinson_smith_2018", "quint_2015", "prast_2018", "reinke_2018"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "PD scope: single-practice vs comprehensive multi-component reform",
+      "definition": "Breadth of what the PD changes. Levels: narrow single practice/strategy (e.g., one assessment routine), broad instructional approach (e.g., differentiation across the maths block), or comprehensive whole-school reform bundling curriculum + tutoring + structures + staffing + PD.",
+      "rationale": "Quint's Success for All is a whole-school reform (challenging reading program, computerized tutoring, schoolwide structures, full-time facilitator) - the PD is one piece of a large bundle; Randel's CASL targets a single classroom-assessment practice; Reinke targets a focused set of management skills. Bundled reforms add non-PD levers (tutoring, materials) that can lift achievement independent of teacher change, while narrow-skill PD lives or dies on a single behavioral shift - so scope may moderate both effect size and what the estimate is really attributing to 'PD'.",
+      "studies_observed": ["quint_2015", "randel_2016", "reinke_2018", "prast_2018"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Active rehearsal with performance feedback (vs information-transfer training)",
+      "definition": "Whether the PD requires teachers to practice/role-play the new skill and receive feedback on their own performance, vs PD that transmits information (lecture, demo, reading, discussion) without rehearsal-plus-feedback. Levels: rehearsal+feedback / information-transfer only.",
+      "rationale": "Reinke's IY TCM has teachers view video vignettes, role-play strategies, and get feedback from leaders/peers, then a coach observes and gives performance feedback; Prast has teachers co-plan, teach, videotape, and evaluate a lesson. By contrast the commercial-curriculum trainings (Resendez 5-6 hr + follow-ups) are largely demonstration/orientation. Practice-with-feedback is the mechanism behavioral-skill acquisition theory predicts to transfer to the classroom; its presence may separate programs that change teacher behavior from those that only change teacher knowledge. (Related to but narrower than chunk2's 'video self-observation' - the key element is feedback on enacted practice, by video or live.)",
+      "studies_observed": ["reinke_2018", "prast_2018", "resendez_azin_2009", "resendez_azin_2012"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Realized end-user engagement / take-up of the student-facing component",
+      "definition": "The proportion of the intended end users (teachers, or in home-delivered programs the parents/students) who actually engaged with the delivered practice at the intended intensity, as reported in implementation/process data. Levels: high / mixed / low take-up.",
+      "rationale": "Robinson's EasyPeasy hinged on parents playing games at home, but Pod Leaders reported <=25% of parents accessing it and named lack of time as the barrier; small near-null effects followed. Even a well-designed PD produces no student gain if the downstream user never enacts the practice. This differs from teacher buy-in at the PD stage and from PD-side fidelity: it is uptake of the student-facing behavior. Most relevant where there is a discretionary or out-of-school user link.",
+      "studies_observed": ["robinson_smith_2018", "randel_2016", "quint_2015"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "PD spread over multiple school years vs single-year",
+      "definition": "Whether the PD is designed as a sustained multi-year program with an explicit training year plus implementation year(s), vs a single-year (or single-burst) effort. Levels: multi-year staged / single-year. Captured separately from total hours.",
+      "rationale": "Prast (2-year GROW), Randel (training year + implementation year), Rose (two academic years of workshops, Oct 2014-June 2016), and Quint (3 implementation years) all build in time for practice to mature; the commercial-curriculum studies (Resendez) front-load a few hours before a single year of use. Sustained, distributed PD allows iteration and habit formation that a one-shot cannot, and the year in which the outcome is measured (early vs mature implementation) can swing the estimate. Distinct from raw hours and from the already-coded outcome timing (which is about delayed vs immediate post-test of the same cohort).",
+      "studies_observed": ["prast_2018", "randel_2016", "rose_2017", "quint_2015", "resendez_azin_2009"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    }
+  ]
+}

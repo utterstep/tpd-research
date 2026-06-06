@@ -1,0 +1,19 @@
+{
+  "slug": "babinski_2018",
+  "study": "Babinski et al. 2018 (DCCS teacher PD for ELs, Duke, AERJ 55(1))",
+  "eval_independence": "developer",
+  "eval_evidence": "The authors (Babinski et al., Duke University) developed the DCCS program ('we developed a list of...') and conducted the RCT under IES grant R305A120290 to Duke -- developer-conducted.",
+  "developer_delivered": "yes",
+  "developer_evidence": "'On-site instructional coaching was available approximately every six weeks from a member of the research team'; the research team delivered the PD modules and coaching.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Research-team members delivered the workshops and on-site coaching directly to teachers; no intermediary trainer tier.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Comparison was a waitlist / business-as-usual control (matched school pairs, control got usual practice).",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "On-site instructional coaching available approximately every six weeks from the research team, plus 30-min weekly ESL/classroom-teacher collaboration; the every-6-week on-site coaching falls just below the monthly+ anchor for frequent_inclass.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Teacher PD program (workshops, coaching, teacher-teacher collaboration); only the teachers' instruction changes. No student-facing tutoring/pull-out dose.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "DCCS is delivered across a single school year (modules, coaching, collaboration throughout the school year) with end-of-year student assessment; one-year program, teachers new to it, no maturity axis.",
+  "confidence": "high"
+}

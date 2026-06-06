@@ -1,0 +1,19 @@
+{
+  "slug": "west_2016",
+  "study": "West/Morton/Herlihy 2016, Achievement Network (ANet) data-driven instruction PD, i3 expansion eval (CEPR Harvard)",
+  "eval_independence": "independent",
+  "eval_evidence": "Independent impact evaluation conducted by the Center for Education Policy Research (CEPR) at Harvard University, the i3 independent evaluator, which 'partnered' with ANet; CEPR is not the program developer.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The PD/support was delivered by Achievement Network's own staff (ANet coaches and ANet staff) — the program organization itself, not the independent evaluators or the school system.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Each school was assigned an ANet coach who worked directly with the school leader and data leadership team; ANet staff delivered the program to schools directly (no train-the-trainer hop).",
+  "counterfactual": "active_or_contaminated",
+  "counterfactual_evidence": "Control schools were not barred from using their own interim assessments and district data support, so the contrast is ANet over-and-above typical district-led data-driven-instruction efforts (active/contaminated counterfactual).",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "ANet coaches visited schools on average ~17 times per year, but coaching targeted school leaders/data leadership teams in data meetings, not recurring in-class coaching of individual teachers in their classrooms.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention is interim assessments + data platform/reporting + leader/teacher data coaching; only teacher and leader practice changes, no tutoring, pull-out, or student-facing instructional dose.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Confirmatory student impacts measured at the end of Year 2 (after a full prior implementation year); schools/teachers had >=1 year of ANet experience by the measurement wave.",
+  "confidence": "high"
+}

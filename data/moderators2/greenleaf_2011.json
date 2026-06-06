@@ -1,0 +1,19 @@
+{
+  "slug": "greenleaf_2011",
+  "study": "Greenleaf et al. 2011, Reading Apprenticeship in Biology RCT, AERJ 48(3) / NSF final report",
+  "eval_independence": "developer",
+  "eval_evidence": "RCT conducted/authored by WestEd's Strategic Literacy Initiative (the developers of Reading Apprenticeship) with UCLA/CRESST as analytic partner; developers have a clear stake.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Reading Apprenticeship PD designed and delivered by the Strategic Literacy Initiative (WestEd) team / SLI professional-development facilitators and coaches.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "SLI facilitators delivered the institutes/training to the biology teachers directly; no train-the-trainer intermediary between SLI and the participating teachers.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Wait-listed control schools represent a treatment-as-usual condition (no alternative PD); randomization within matched pairs to minimize contamination.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Intervention = ~10 days of summer institutes + follow-up training days across two summers/school year; no recurring in-class coaching cycles in teachers' own classrooms (the 'in-class support' captured was teacher-reported instruction, not coach visits).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Changes the high-school biology teacher's own instruction (literacy routines integrated into biology); no student tutoring, pull-out, or added dose.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Two-year program (PD across two summers + school years); extracted headline outcomes are end of Year 2 (2006/07), after a prior implementation year.",
+  "confidence": "medium"
+}

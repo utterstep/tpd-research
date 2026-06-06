@@ -1,0 +1,62 @@
+{
+  "chunk": 13,
+  "studies": ["sloan_2018", "smith_2016", "somers_2010", "song_2021", "speckesser_2018", "stevens_slavin_1995", "stokes_2018", "styles_2014"],
+  "suggestions": [
+    {
+      "moderator": "Trial stage / developer involvement in delivery (efficacy vs effectiveness)",
+      "definition": "Whether the PD was delivered under developer-led 'ideal' conditions with the program originators directly training/supporting teachers (efficacy trial) vs scaled, business-as-usual delivery where the developer is at arm's length and the system runs it (effectiveness trial). Levels: developer-led efficacy / developer-light effectiveness / unclear.",
+      "rationale": "This is the single strongest recurring signal in my batch: Stokes, Sloan, and Styles all explicitly frame their (mostly null) results as effectiveness-stage delivery and contrast them with larger efficacy-stage effects of the same program. Stokes states the same Mathematical Reasoning program gave ~0.2 under developer-led efficacy but ~0.08 at scale; the authors name reduced developer fidelity as the mechanism. Visscher's coded 'trainer = researcher/developer vs external' is related but NOT the same: it is about who runs the workshop, not whether the whole trial is a tightly-supported developer-led efficacy study vs an at-scale effectiveness study. Captures a coherent dilution mechanism across many TPD programs that are tested twice.",
+      "studies_observed": ["stokes_2018", "sloan_2018", "styles_2014", "somers_2010"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Cascade / train-the-trainers delivery depth",
+      "definition": "Number of transmission hops between the program developer and the classroom teacher: developer trains teachers directly (0 hops) vs developer trains intermediaries (hub leads / lead teachers / trainers) who then train the teachers (1+ hops, 'train-the-trainers' / cascade). Levels: direct / one-hop cascade / multi-hop or peer-cascade.",
+      "rationale": "Cascade models lose fidelity and dilute message quality at each hop, a mechanism the authors themselves invoke. Stokes used a Maths-Hub 'train-the-trainers' chain (developer -> Work Group Leads -> teachers) and attributes the reduced effect to it; Speckesser cascaded via a single school lead teacher trained by an SSAT practitioner who then ran peer workshops; Stevens & Slavin relied on teacher peer coaching. Distinct from the already-coded trainer identity and from generic 'coaching': this is about the structural distance of the training chain.",
+      "studies_observed": ["stokes_2018", "speckesser_2018", "stevens_slavin_1995"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "PD includes demonstration + rehearsal-with-feedback on the teacher's own practice",
+      "definition": "Whether the PD model embeds an active cycle in which teachers see the target practice modeled/demonstrated and then practice it and receive feedback on their own enactment (live or recorded), vs PD that only delivers information/data/materials with no structured rehearsal of practice. Levels: demonstration+rehearsal+feedback present / information-or-data-only / absent.",
+      "rationale": "Provides a concrete active-learning contrast that tracks results in my batch. Smith's ECRI is built on 'teaching demonstrations by expert coaches and participant practice with coach feedback' plus monthly in-class visits, and produced significant effects. Song's intervention is the opposite pole: it gives teachers performance feedback/observation ratings/value-added reports but no skill demonstration or guided rehearsal, and student achievement effects are null/marginal. This is sharper than the coded binary 'coaching' principle because it isolates the rehearse-and-get-feedback-on-your-own-teaching mechanism.",
+      "studies_observed": ["smith_2016", "somers_2010", "song_2021", "speckesser_2018"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Onsite coaching / observation-visit frequency",
+      "definition": "How often a coach physically visits the teacher's classroom for observation, modeling, or feedback during the program: e.g., monthly classroom visits vs a few visits per year vs none. Candidate levels: high (>=monthly) / low (1-3 visits total) / none; or visits-per-term as continuous. Distinct from the binary coaching tick and from the total-TPD-hours count.",
+      "rationale": "Job-embedded contact frequency is the active ingredient that turns a workshop into changed practice, and it varies cleanly here. Smith's ECRI delivered classroom/small-group coaching visits 'once per month' plus study-group meetings; Somers' ERO provided coaching (including 'two-day visits' in year 2); Speckesser's lead practitioner support was occasional; Song had none. Frequency, not mere presence, plausibly explains why some coaching-labeled programs move achievement and others do not.",
+      "studies_observed": ["smith_2016", "somers_2010", "speckesser_2018"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Added student-facing instructional time (supplemental dose)",
+      "definition": "Whether the intervention adds dedicated extra instructional time for students (a supplemental class/period beyond the regular timetable) vs embedding entirely within existing lessons with no added time. Candidate levels: substantial added time (e.g., a daily supplemental period) / modest added time / none (delivered within normal lessons). Quantifiable as added student minutes/week.",
+      "rationale": "Some 'TPD' contrasts confound teacher development with a dose of extra student instruction, which is a direct achievement lever independent of teacher learning. Somers' ERO is a supplemental literacy CLASS meeting 225 min/week (~15 extra hours/month) in small groups, and is its strongest arm; by contrast Stokes, Speckesser, Sloan, and Styles deliver within normal lessons with little or no added time. Studies that bolt on student instructional time may show larger effects for reasons unrelated to the PD itself, a confound worth coding.",
+      "studies_observed": ["somers_2010", "stokes_2018", "styles_2014", "speckesser_2018"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Implementation maturity at the measured outcome wave (years since rollout)",
+      "definition": "How far into implementation the program is when student outcomes are measured: first-year (still ramping, teachers newly trained) vs a more mature year (teachers experienced, routines bedded in). Levels: first-implementation-year outcome / second-or-later-year outcome / steady-state. Captured separately from raw program duration.",
+      "rationale": "Several papers show effects that depend on how settled implementation is rather than on total dose. Stevens & Slavin's effects grew from year 1 to year 2; Sloan reports only 1 of 15 schools reached 'refined delivery' status even after two years and links low maturity to weak effects; Somers notes implementation/fidelity differed by year; Song reports the cumulative two-year wave. A program measured during its shaky first year will look weaker than the identical program measured once mature, plausibly driving cross-study heterogeneity.",
+      "studies_observed": ["stevens_slavin_1995", "sloan_2018", "somers_2010", "song_2021"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Teacher/school buy-in and recruitment voluntariness",
+      "definition": "The degree to which participating teachers/schools actively opted in and committed vs were enrolled with weaker engagement, and reported teacher resistance/skepticism. Levels: high voluntary buy-in / mixed / notable resistance or coerced enrollment. A pre-treatment selection feature (distinct from post-treatment fidelity).",
+      "rationale": "Engagement gates whether the PD ever changes practice. Sloan explicitly notes some schools were reluctant given the heavy commitment and that 'lack of engagement' produced poorer implementation and likely depressed effects; Styles records teachers feeling certain pupils 'should not be in the study.' Where buy-in is high the same PD plausibly translates into practice change; where it is low the PD is nominally delivered but inert. Buy-in is a candidate antecedent of the heterogeneity Visscher sees, and is upstream of (not the same as) the already-discussed fidelity measure.",
+      "studies_observed": ["sloan_2018", "styles_2014"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    }
+  ]
+}

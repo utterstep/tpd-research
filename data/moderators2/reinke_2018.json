@@ -1,0 +1,19 @@
+{
+  "slug": "reinke_2018",
+  "study": "Reinke, Herman & Dong (2018), Incredible Years Teacher Classroom Management (IY TCM), group RCT, Prevention Science",
+  "eval_independence": "developer",
+  "eval_evidence": "Evaluation conducted and authored by the IES-funded research team (Reinke & Herman, Univ. of Missouri; IES R305A100342) that also implemented/delivered the IY TCM trial. While the IY TCM curriculum itself was created by Webster-Stratton (third party), the impact study was run and authored by the team delivering the program, with no independent third-party evaluator.",
+  "developer_delivered": "yes",
+  "developer_evidence": "PD was delivered directly by the research team's certified personnel: trainings 'were cofacilitated by two doctoral-level IY TCM group leaders' and coaching by a certified IY TCM group facilitator. The study team (not trained school intermediaries) delivered the workshops and coaching.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Research-team-certified IY TCM group leaders trained the teachers directly in the monthly workshops and coached them directly; no train-the-trainer/lead-teacher intermediary hop.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control teachers placed on a 'wait list, business as usual control group' (offered IY TCM two years later); no alternative treatment. All 9 schools already implemented SW-PBIS, so both arms shared that backdrop, but the control got no alternative PD.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "IY TCM embeds in-class coaching in its model: 'After and between each training session, teachers are followed by a coach', across the ~6 monthly workshops (Oct-Feb). Recurring in-classroom coaching cycles by a certified coach.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention targets teachers' classroom-management practice only; no direct student-facing tutoring, pull-out, added minutes, or software dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Outcomes measured at the end of the single intervention school year (pre ~October, post ~April/May of the same year); teachers were new to IY TCM that year (control on a 2-year wait list). First implementation year.",
+  "confidence": "high"
+}

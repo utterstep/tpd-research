@@ -1,0 +1,19 @@
+{
+  "slug": "drummond_2011",
+  "study": "Drummond et al. 2011, Thinking Reader (NCEE 2010-4035, REL-NEI)",
+  "eval_independence": "independent",
+  "eval_evidence": "AIR/REL Northeast & Islands led the evaluation; the developer (CAST) and distributor (Tom Snyder Productions) were deliberately kept out of evaluation roles 'to minimize a potential source of bias' (front matter; design ch.).",
+  "developer_delivered": "yes",
+  "developer_evidence": "CAST, 'the developer of Thinking Reader, oversaw implementation and conducted teacher training along with staff from Tom Snyder Productions, the software distributor' (PD chapter).",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Developer (CAST) staff and the distributor's trainers trained the grade-6 teachers directly; two 6-hr group sessions + three individual coaching visits, no train-the-trainer layer.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control = business-as-usual regular grade-6 ELA instruction; intervention used as a partial substitute for regular ELA (design/notes).",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "PD = two 6-hr group sessions plus three individual coaching visits over 2008-09 (~7.5-8.5 hrs total); a few periodic coaching visits, not recurring monthly in-class cycles.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "Thinking Reader is a digital reading-comprehension software (3 digital novels) with animated coaches that 'act as instructors'; students worked in the software as a partial substitute for regular ELA -> substantial student-facing software dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Outcomes measured spring 2009 at the end of the single 2008-09 implementation year; teachers newly trained that summer/fall (single immediate post wave).",
+  "confidence": "high"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "simmons_2011",
+  "study": "Simmons et al. 2011, Early Reading Intervention (ERI) vs typical-practice intervention",
+  "eval_independence": "developer",
+  "eval_evidence": "ERI is a commercial program co-authored by D. C. Simmons (with Kame'enui); Simmons is first author of this evaluation, conducted under the developers' IES Early Reading Intervention project.",
+  "developer_delivered": "no",
+  "developer_evidence": "School-based interventionists (classroom teachers, reading specialists, and trained paraprofessionals) delivered ERI; the research team provided them a modest 2-day PD rather than delivering the intervention itself.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "The research team trained the interventionists directly via a 2-day PD; no train-the-trainer cascade (researchers trained the people who delivered to students).",
+  "counterfactual": "active_or_contaminated",
+  "counterfactual_evidence": "Control = TPI (typical practice intervention), an active school-designed supplemental small-group reading intervention matched on time (30 min/day) and group size; some TPI groups used commercial code-based programs. Authors stress it is NOT a no-treatment/BAU control.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "ERI interventionists received only a 2-day training; TPI interventionists received no study PD. Fidelity was observed/coded but no ongoing in-class coaching of interventionists is reported.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "Supplemental Tier-2 small-group pull-out intervention (groups of 3-5, 30 min/day, ~100 sessions, delivered outside the regular classroom) — a direct student-facing dose beyond regular instruction.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Single kindergarten-year supplemental program (~100 sessions over one year); no multi-year rollout or maturity axis.",
+  "confidence": "high"
+}

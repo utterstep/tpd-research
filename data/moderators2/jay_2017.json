@@ -1,0 +1,19 @@
+{
+  "slug": "jay_2017",
+  "study": "Jay et al. 2017 — EEF Dialogic Teaching (Sheffield Hallam evaluation)",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF-commissioned efficacy trial independently evaluated by Sheffield Hallam University; the developer team (CPRT/York) separately ran its own video analysis but the impact evaluation was the independent evaluator's.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Report: the intervention was 'developed and delivered by a team from the Cambridge Primary Review Trust (CPRT) and the University of York,' with training 'led by Robin Alexander' (the developer). The developer team delivered the training and ongoing support.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "The developer/delivery team trained the Year 5 class teachers (and a nominated school mentor + headteacher) directly via induction and plenary sessions; the school mentor is an in-school support/peer role for that school's teachers, not a developer-replacing cascade trainer.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Cluster RCT with control schools continuing 'business as usual'; no alternative PD assigned to controls.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Programme included 'ongoing in-school monitoring and support': each school appointed a mentor supporting Year 5 teachers across eleven plan/review/refocus cycles, with recurring mentoring sessions and video/audio self-evaluation of the teacher's own lessons — recurring in-class support cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Dialogic Teaching is a pedagogical approach delivered by the regular Year 5 class teacher within normal across-curriculum lessons; no tutoring, pull-out, extra minutes, or student-facing software added.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Two-term intervention measured at immediate post-test (May 2016) in its first/only implementation year; teachers were new to the approach.",
+  "confidence": "high"
+}

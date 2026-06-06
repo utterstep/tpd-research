@@ -1,0 +1,19 @@
+{
+  "slug": "quint_2015",
+  "study": "Quint et al. (2015), Success for All whole-school reading reform i3 scale-up, cluster RCT, MDRC",
+  "eval_independence": "independent",
+  "eval_evidence": "Independent i3 evaluation conducted and authored by MDRC ('for MDRC to conduct an independent' evaluation of the SFA scale-up); MDRC is a third-party research firm, not the SFA Foundation developer.",
+  "developer_delivered": "yes",
+  "developer_evidence": "PD was provided by the program developer's staff: 'Professional development and coaching by school and SFAF staff'; the SFAF 'point coach' assigned to each school plus 'personnel trained by SFAF to provide professional development and technical assistance to program schools along with SFAF coaches'. The Success for All Foundation (developer) delivered the PD/coaching.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Mixed/cascade transmission: SFAF point coaches and SFAF-trained personnel deliver PD, but each school must staff a full-time on-site SFA 'program facilitator' who, with the point coach, provides ongoing PD to the school's teachers ('the SFAF point coach... and the school's SFA facilitator provide professional development to teachers'). The on-site facilitator is an extra transmission hop between developer and classroom teacher.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control schools continued their existing reading programs (business as usual); 37 schools randomized 19 program / 18 control, control got no SFA materials/coaching.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "SFA model includes an on-site full-time program facilitator plus an SFAF point coach providing ongoing classroom-based coaching and continuous data-driven instructional support throughout the year. Recurring in-class coaching.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "SFA adds substantial direct student-facing dose beyond regular instruction: tutoring for struggling readers - 'small pull-out groups, followed by one-to-one tutoring' - plus SFA's computerized small-group tutoring system (Team Alphie). Tutoring/pull-out beyond the classroom.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Row-93 grade 3-5 auxiliary sample was tested in spring 2014, the program's THIRD implementation year (2013-2014); schools/teachers had >=2 prior years with SFA. Measured after >=1 prior implementation year.",
+  "confidence": "high"
+}

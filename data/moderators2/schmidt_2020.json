@@ -1,0 +1,19 @@
+{
+  "slug": "schmidt_2020",
+  "study": "Schmidt et al. 2020, New Teacher Center induction (SRI eval of i3 scale-up)",
+  "eval_independence": "independent",
+  "eval_evidence": "SRI International conducted the independent evaluation of the New Teacher Center's i3 scale-up grant; report explicitly distinguishes SRI's findings from NTC positions.",
+  "developer_delivered": "no",
+  "developer_evidence": "'NTC did not provide mentoring to teachers directly, but rather trained mentors who then worked with their assigned [beginning teachers]'; NTC built district capacity rather than delivering PD itself.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Train-the-trainer: NTC trained induction mentors (with NTC tools/training), and those mentors coached the beginning teachers (>=1 extra hop).",
+  "counterfactual": "active_or_contaminated",
+  "counterfactual_evidence": "Control teachers received their districts' business-as-usual induction/mentoring; report found NTC treatment mentoring 'was not substantially different in key respects from the mentoring received by control teachers' (contaminated/active comparison).",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "NTC model = intensive, instructionally focused coaching via regular coaching cycles; mentors expected to meet beginning teachers weekly or more for an hour-plus.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention targets teachers (induction coaching/mentoring); no direct student-facing dose added.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Comprehensive induction newly implemented in the 5 scale-up districts; targets first/second-year (brand-new) teachers, impacts measured during this first scale-up implementation; fidelity was below thresholds at all sites.",
+  "confidence": "high"
+}

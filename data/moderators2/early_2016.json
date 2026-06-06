@@ -1,0 +1,19 @@
+{
+  "slug": "early_2016",
+  "study": "Early et al. 2016, Every Classroom Every Day (ECED), IRRE; JREE 9(1)",
+  "eval_independence": "independent",
+  "eval_evidence": "Paper states the trial was 'conducted by independent researchers'; authors were university-based (Rochester/NYU/UNC), distinct from IRRE, the program developer.",
+  "developer_delivered": "no",
+  "developer_evidence": "PD/support delivered through school-employed instructional coaches and IRRE consultants; the developer IRRE trained coaches rather than the research team delivering PD; coaches 'employed by the school but trained by IRRE'.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "'Instructional coaches are employed by the school but trained by IRRE'; IRRE trains the school-based coaches who in turn work with classroom teachers -> a train-the-coach hop.",
+  "counterfactual": "active_or_contaminated",
+  "counterfactual_evidence": "Nominal BAU, but 'six of the 10' control schools 'did employ instructional coaches' -> control contaminated with similar coaching practice.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Teachers supported through ongoing instructional coaching, weekly meetings, and recurring in-class EAR-Protocol observation/feedback over the two years (school-based coaches trained by IRRE).",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "ECED delivers a structured literacy curriculum 'in a required, stand-alone class that is in addition to the regular ninth- and tenth-grade English courses, doubling the amount of ELA exposure' -> extra instructional minutes for students.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Primary extracted wave = end of Year 2 (end of the 2-year treatment); teachers/coaches had completed >=1 prior implementation year (Year-1 interim wave reported separately).",
+  "confidence": "high"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "gorard_2015",
+  "study": "Gorard, Siddiqui & See 2015, Philosophy for Children (P4C/SAPERE), EEF",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF-funded trial with Durham University as the independent evaluator; delivery org (SAPERE) was separate from the evaluation team.",
+  "developer_delivered": "yes",
+  "developer_evidence": "P4C training and ongoing in-school support delivered by SAPERE (the program's owning society/developer) via SAPERE-accredited trainers using standardised SAPERE methods.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "SAPERE-accredited trainers trained the teachers directly and provided in-school support; no separate train-the-trainer intermediary between SAPERE and the participating teachers.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Waitlist control schools continued regular lessons / business as usual during the trial year (received P4C later).",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Beyond 2 days' initial training, ~9 in-school support days over two years: trainers demonstrated P4C with children, helped plan lessons and gave feedback; periodic, not monthly+ recurring cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "P4C delivered as ~1 enquiry lesson/week by the pupils' own teachers within regular timetable (changed instruction), not an added tutoring/pull-out/extra-minutes dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "The measured KS2 cohort was exposed to P4C for 'just under a year' (single year of exposure for those pupils/teachers).",
+  "confidence": "high"
+}

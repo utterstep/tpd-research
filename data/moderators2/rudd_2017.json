@@ -1,0 +1,19 @@
+{
+  "slug": "rudd_2017",
+  "study": "Rudd et al. 2017, MathsFlip Flipped Learning (EEF)",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF efficacy trial independently evaluated by NFER / Institute for Effective Education; the program was developed by Shireland Collegiate Academy, a separate party.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Shireland Collegiate Academy staff (directors, project manager, e-learning team) — the program's developers — trained the Year 5 teachers over two days and provided ongoing support (report 'Staff from Shireland trained Year 5 teachers').",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Shireland (developer) staff trained the participating primary-school teachers directly; no train-the-trainer hop.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "12 control schools delivered maths lessons 'in the usual' way; true BAU control.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Project manager made regular visits, provided feedback on lessons and 'coached teachers who needed extra support', plus periodic in-school workshops; periodic support rather than recurring monthly in-class coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Flipped-learning reorganizes the teacher's regular maths instruction (pupils preview content via the MathsFlip platform); no separate tutoring/pull-out or extra instructional minutes added beyond regular class teaching.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Trial teachers were trained over 2 days and delivered MathsFlip Apr 2014-Apr 2015; outcomes (KS2 2015) measured in these schools' first implementation year (teachers new to it).",
+  "confidence": "high"
+}

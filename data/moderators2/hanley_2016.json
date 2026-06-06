@@ -1,0 +1,19 @@
+{
+  "slug": "hanley_2016",
+  "study": "Hanley et al. 2016, Let's Think Secondary Science (LTSS), EEF",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF-funded trial independently evaluated by the Institute for Effective Education, University of York; separate from the delivery org (Let's Think Forum) and program developers.",
+  "developer_delivered": "yes",
+  "developer_evidence": "LTSS CPD delivered by Let's Think Forum, the program developer/delivery body, via its own team of ~7 named tutors who built long-term relationships with each school's science department.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Let's Think Forum tutors delivered the CPD/training and tutor support to the science teachers directly; no train-the-trainer intermediary between the program and the participating teachers.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "School-level RCT vs business-as-usual control; control schools continued their usual science lessons.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Support = 1 initial + 6 in-school training days and ~8 face-to-face tutor meetings, supporting an in-school learning group/peer coaching; the program did not incorporate a fixed schedule of tutor in-class observation cycles (observations led by the school's senior leader), so periodic rather than frequent in-class coaching.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "The 19 LTSS lessons over Years 7-8 are taught by the schools' own science teachers and replace standard science curriculum lessons (changed instruction), not an added tutoring/extra-minutes student dose.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Two-year program (Years 7-8); primary science outcome measured at end of Year 8, i.e. after a prior year of implementation.",
+  "confidence": "high"
+}

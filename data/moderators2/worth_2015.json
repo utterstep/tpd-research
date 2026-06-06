@@ -1,0 +1,19 @@
+{
+  "slug": "worth_2015",
+  "study": "Ager/Styles/Sizmur/Worth 2015 (NFER eval), Oxford Improving Numeracy and Literacy Programme, EEF",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF-funded efficacy RCT independently evaluated by NFER (its own Code of Practice, separate ethical review); the programme was developed/delivered by a separate University of Oxford team.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The University of Oxford team (programme developers) delivered the one day of training and the implementation support visit, and provided ongoing technical support 'as and when required' (p.6, p.13).",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Class teachers attended a day of training delivered by the Oxford research/developer team and received a support visit from an Oxford team member; no train-the-trainer/lead-teacher intermediary.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Shared control group received 'no training and continued to teach literacy and numeracy in the way they would normally' (true BAU); report flags only a risk of contamination, not an active alternative.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Beyond one day of training, support was one implementation visit plus ongoing technical support provided 'as and when required'; no recurring in-class coaching cycles.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "Programme lessons (replacing ~1hr/week) included a pupil-facing online computer-games/activities component; greater game use was associated with greater numeracy impact (p.7, pp.40-41) — a substantial student-facing software dose.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Single 10-12 week programme delivered once to Year 2 pupils within one school year; no recurring annual rollout / no prior implementation-year maturity axis.",
+  "confidence": "high"
+}

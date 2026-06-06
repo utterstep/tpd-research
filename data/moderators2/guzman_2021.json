@@ -1,0 +1,19 @@
+{
+  "slug": "guzman_2021",
+  "study": "Guzman et al. 2021, Read to Learn (ToTAL) early-grade reading RCT, Haiti, RRQ 56(4)",
+  "eval_independence": "developer",
+  "eval_evidence": "Evaluation authored by University of Notre Dame researchers, one of whom (Schuenke-Lucien) led the Read to Learn program; the evaluation team is tied to the implementing program (program stake), so not a neutral third party. (Curriculum ToTAL was developed separately by RTI International.)",
+  "developer_delivered": "no",
+  "developer_evidence": "ToTAL curriculum was developed by RTI International, but the Read to Learn PD/coaching was delivered by the implementing program's own staff (Read to Learn coaches / Diocesan-supported program), not by RTI the curriculum developer.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Program coaches (intermediaries trained to deliver RTI's ToTAL approach) trained and coached the teachers; ≥1 hop between the curriculum developer (RTI) and the classroom teachers.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control schools continued standard literacy instruction (status quo); treatment vs business-as-usual comparison.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Coaches conducted in-class instructional coaching visits at least once per month, many schools twice or more per month, throughout the program (recurring in-class cycles).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention provides curriculum/materials + teacher training/coaching; the daily scripted lessons are delivered by the regular classroom teacher (changed instruction), not added tutoring/pull-out/extra minutes.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Program ran fall 2014-spring 2016; extracted outcomes are the end-of-grade-2 wave (spring 2016), after a prior year (grade 1) of implementation with the same teachers/cohort.",
+  "confidence": "medium"
+}

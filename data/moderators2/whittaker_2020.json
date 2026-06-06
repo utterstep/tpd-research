@@ -1,0 +1,19 @@
+{
+  "slug": "whittaker_2020",
+  "study": "Whittaker et al. 2020, MyTeachingPartner-Math/Science (MTP-M/S) curricula + teacher supports vs BaU, JREE 13(2):177-212 (IES R305A120631)",
+  "eval_independence": "developer",
+  "eval_evidence": "Authored by the University of Virginia research team that designed the MTP-M/S curricula and teacher support system ('we designed the MTP-M/S curricula...'); the developers conducted the impact evaluation.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The research team delivered the curricula, workshops, and online/within-activity supports they developed; they ran the introductory summer workshop and academic-year PD workshops and provided the web-based teacher support system.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "The developer/research team provided the PD workshops and online supports directly to the participating pre-K teachers; no train-the-trainer / lead-teacher intermediary described.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Treatment compared to a Business-as-Usual (BaU) control; BaU teachers continued their usual instruction (and submitted videos for measurement parity) but received no MTP-M/S curricula or supports.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Teacher support = an introductory summer workshop plus a series of 2.5-hour PD workshops (five in year 1, three in year 2) and online video/within-activity supports; no recurring one-on-one in-class coaching cycles (videos were used for measurement/coding, not individualized coaching feedback).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "MTP-M/S is a teacher-delivered math/science curriculum integrated into regular pre-K instruction; no tutoring, pull-out, or student-facing software dose added.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Two consecutive single-year cohorts each measured at the end of their first (and only) implementation year; teachers were new to MTP-M/S in the wave used (the experimental Year-1 cohort is first-year; the Year-2 cohort is a separate, attrition-compromised new sample, not the same teachers gaining experience).",
+  "confidence": "high"
+}

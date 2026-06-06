@@ -1,0 +1,19 @@
+{
+  "slug": "speckesser_2018",
+  "study": "Speckesser et al. 2018 — EEF Embedding Formative Assessment (EFA) effectiveness trial",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF-commissioned effectiveness trial; independent evaluation team (NIESR/UCL — Speckesser, Runge, Foliano, Anders et al.), separate from the program originators (Wiliam/Leahy) and the delivery body.",
+  "developer_delivered": "no",
+  "developer_evidence": "PD was delivered by SSAT (the Schools, Students and Teachers network), 'an independent membership organisation', which supplied resource packs and Lead Practitioner support — not the original developers; schools then ran their own monthly Teacher Learning Communities (TLCs).",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Train-the-trainer/lead-teacher cascade: 'Each school appointed a lead teacher who attended an initial training day and received ongoing implementation support from an SSAT Lead Practitioner'; the lead teacher then ran the monthly TLC workshops for the rest of the staff (>=1 extra hop).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Two-arm effectiveness trial vs a business-as-usual control group; control schools continued normal practice (no EFA resource pack/TLCs).",
+  "coaching_intensity": "none",
+  "coaching_evidence": "No external in-class coaching; the in-school mechanism is monthly 75-90 min TLC workshops plus teacher-to-teacher peer lesson observation between sessions — workshop/peer-based, not recurring expert in-class coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "A whole-staff formative-assessment professional-development program (TLCs); only the teachers' regular instruction changes — no tutoring or added student-facing dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Effectiveness trial in schools new to EFA; the 18 monthly TLCs ran over the trial period and GCSE outcomes were measured at the end of that single implementation rollout (teachers new to the program).",
+  "confidence": "high"
+}

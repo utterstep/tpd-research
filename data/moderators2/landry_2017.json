@@ -1,0 +1,19 @@
+{
+  "slug": "landry_2017",
+  "study": "Landry et al. 2017, TEEM teacher PD x PALS parent program (2x2 factorial), Head Start pre-k (ECRQ)",
+  "eval_independence": "developer",
+  "eval_evidence": "Conducted/authored by the Children's Learning Institute team that developed TEEM and PALS (IES R305A100212); the developers ran and reported the impact evaluation.",
+  "developer_delivered": "yes",
+  "developer_evidence": "TEEM PD (initial training, in-class coaching, coursework) delivered by project coaches supervised by senior research staff to ensure fidelity (p.683-696, 815).",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Project coaches (research-team staff, supervised by senior research staff) deliver in-class coaching directly to teachers; no school lead-teacher train-the-trainer hop.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "TPD contrast is the TEEM main effect; 'No TEEM' arm is explicitly 'control or business as usual' (n=38) (abstract p.43, p.653-654). PALS is a separate crossed parent factor, not a control alternative.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "TEEM included individualized in-class coaching in fourteen 2-hr sessions approximately biweekly (~4 hr/month) plus side-by-side coaching and modeled lessons (p.693-696).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "TPD-vs-control contrast = TEEM main effect (teacher PD), which only changes the teacher's instruction; the PALS parent component is a separate crossed factor (parent-directed home program), not a direct student-facing instructional dose, and is collapsed across in the TEEM main effect.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Children measured pre-post across one Head Start pre-k year; school-readiness program implemented over a single academic year with no multi-year maturation axis.",
+  "confidence": "high"
+}

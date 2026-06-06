@@ -1,0 +1,19 @@
+{
+  "slug": "thurston_2016",
+  "study": "Thurston 2016 / Lloyd et al. (2015), Paired Reading peer-tutoring — EEF trial (Thurston & Cockerill developer; NatCen Social Research evaluator)",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF evaluation conducted by NatCen Social Research (Lloyd, Edovald, Kiss, Morris, Skipp, Ahmed) — an independent EEF evaluator. The programme developers (Allen Thurston & Maria Cockerill, Queen's University Belfast / North Tyneside Council) were the subjects, not the evaluators.",
+  "developer_delivered": "yes",
+  "developer_evidence": "'The programme was implemented by a delivery team led by Maria Cockerill ... in partnership with Allen Thurston' (the developers). 'Teachers in participating schools received training from the delivery team.' The developer-led delivery team delivered teacher training.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "The Paired Reading delivery team (developers + their staff) 'were responsible for providing teacher training for both Year 7 and' Year 9 directly to school teachers; no train-the-trainer/lead-teacher cascade.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "'Control group classes followed business as usual during the trial and did not receive any Paired Reading materials or training.' BAU could include unrelated school literacy provision (e.g. Literacy Clubs), which is normal BAU, not contamination by the same branded peer-tutoring program -> business_as_usual.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Teacher support = initial training + detailed programme manual + digital resources + 'ongoing technology support' from the delivery team. No in-class coaching cycles or observation-feedback visits for teachers were provided -> none.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "Paired Reading is a structured cross-age peer-tutoring programme: pupils do 20 min/week of paired reading tutoring (Year 9 tutors with Year 7 tutees) over 16 weeks — a direct student-facing instructional dose/activity beyond regular instruction, and the outcomes are measured on the tutored/tutoring pupils.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Fixed 16-week peer-tutoring programme delivered over a single school year (one implementation, no multi-year rollout / maturity axis) -> single_year_design.",
+  "confidence": "high"
+}

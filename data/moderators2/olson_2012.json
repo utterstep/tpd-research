@@ -1,0 +1,19 @@
+{
+  "slug": "olson_2012",
+  "study": "Olson et al. 2012 (Pathway Project cognitive-strategies PD, SAUSD; AERJ 49(2); IES R305W06016)",
+  "eval_independence": "developer",
+  "eval_evidence": "Authored/conducted by the Pathway Project developers (Carol Booth Olson and colleagues, UCI Writing Project) under their own IES grant; no independent third-party evaluator -- the developers ran the RCT and the impact analyses.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The Pathway PD (46h training + coaching) was delivered by the Pathway Project developers/UCI Writing Project team (the program's developers), supported by experienced Pathway teacher-coaches.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Developers/UCI Writing Project team led the training directly for the SAUSD secondary English teachers; veteran-teacher coaches provided support but the developer team delivered the PD (no intermediary org trained between developer and teachers).",
+  "counterfactual": "active_or_contaminated",
+  "counterfactual_evidence": "Control was NOT pure BAU: control teachers received the typical 26h of district PD, while Pathway teachers got that SAME 26h PLUS 46h Pathway PD; the control thus got an active (district) PD program. Coded active_or_contaminated.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "PD is primarily 46h of workshop/release-day training plus coaching from experienced Pathway teachers; the report does not document recurring (monthly+/biweekly+) in-class coaching cycles -> occasional.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Pure teacher PD; only the teachers' own ELA (interpretive reading/analytical writing) instruction changes. No tutoring, pull-out, or added student-facing dose.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Extracted/headline wave is Year 2 (2008-09) end-of-treatment; teachers had completed a prior implementation year (Year 1, 2007-08, replicating an earlier d=.35), so the measured cohort's teachers are in their 2nd year -> mature.",
+  "confidence": "medium"
+}

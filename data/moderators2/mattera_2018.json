@@ -1,0 +1,19 @@
+{
+  "slug": "mattera_2018",
+  "study": "Mattera et al. 2018, Making Pre-K Count (Building Blocks curriculum + PD) +/- High 5s K supplement, end-of-K outcomes (MDRC)",
+  "eval_independence": "developer",
+  "eval_evidence": "Evaluation conducted by MDRC, which also operated the program: MDRC ran Making Pre-K Count and 'developed' the High 5s supplement ('Making Pre-K Count and High 5s were developed in a partnership between the Robin Hood Foundation... and MDRC'). MDRC thus has a program/operator stake (esp. for the High 5s/Comparison 3 contrast), so coded developer. (The underlying Building Blocks curriculum itself was developed by Clements & Sarama.)",
+  "developer_delivered": "no",
+  "developer_evidence": "PD delivery was not done by MDRC or the Building Blocks authors directly: 'our partners at Bank Street College... provided coaching, facilitation, and supervision'; Clements & Sarama provided ongoing consultation only. Bank Street coaches delivered the teacher coaching.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Extra hop: Building Blocks developers (Clements/Sarama) consulted, and Bank Street College coaches (an intermediary partner) provided the in-class coaching/facilitation to the pre-K teachers, rather than the developers coaching teachers directly.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control = 'pre-K-as-usual' / 'pre-K-and-kindergarten-as-usual' with no math enrichment; true BAU comparison (Comparisons 1 and 3).",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Teachers received training and coaching over two years and 'met with coaches two to four times a month' (Bank Street coaches); recurring (>=monthly) in-class coaching cycles.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "Comparison 3 (row 76, MPC + High 5s) adds High 5s: 'supplemental small-group math clubs, which took place outside of regular instructional time' (~12 added math minutes/morning) = a direct student-facing pull-out dose. NOTE: Comparison 1 (row 75, MPC alone) has NO student dose (curriculum + teacher PD only); the student_component applies specifically to the High 5s arm.",
+  "program_maturity": "mature",
+  "maturity_evidence": "'Program impacts were assessed in the second year of implementation, after teachers were comfortable with the curriculum' (MPC began fall 2013, two years of implementation); teachers experienced with Building Blocks by the measurement wave.",
+  "confidence": "medium"
+}

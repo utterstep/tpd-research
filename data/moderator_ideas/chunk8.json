@@ -1,0 +1,71 @@
+{
+  "chunk": 8,
+  "studies": [
+    "kutaka_2017",
+    "landry_2014",
+    "landry_2017",
+    "landry_2021",
+    "lang_2009",
+    "lesaux_2014",
+    "lewis_presser_2015",
+    "llosa_2016"
+  ],
+  "suggestions": [
+    {
+      "moderator": "Coaching cadence / frequency (sessions per month)",
+      "definition": "How often the in-class coach actually meets the teacher, holding total hours aside: candidate levels (a) weekly or near-weekly job-embedded coaching, (b) biweekly / ~monthly, (c) a few visits only, (d) none (workshop-only). This is the rate of coaching, not its mere presence (already coded) or total hours.",
+      "rationale": "Strong within-batch variation that the binary coaching code cannot capture: landry_2014 gave WEEKLY in-class coaching for 37 weeks, landry_2017 used 14 biweekly 2-h sessions (~4 h/month), lesaux_2014 supplied only sporadic observation/support visits, and llosa_2016 had NO coaching (five workshops only). More frequent contact gives tighter feedback loops on practice between lessons, plausibly speeding transfer to instruction; spacing may matter as much as total dose for whether PD reaches students.",
+      "studies_observed": ["landry_2014", "landry_2017", "landry_2021", "lesaux_2014", "lang_2009", "llosa_2016"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Ongoing in-class coaching present vs front-loaded workshop-only PD",
+      "definition": "Whether the PD includes job-embedded, in-the-classroom coaching/modeling during implementation, or consists only of front-loaded off-site workshops/courses with no in-class support. Levels: in-class coaching present / workshop-only.",
+      "rationale": "Cleanly splits this batch and aligns with outcomes: the coached early-childhood programs (landry_2014/2017/2021, with weekly-to-biweekly side-by-side modeling) target practice change in situ, whereas llosa_2016 (5 full-day workshops, no coaching) and lesaux_2014 (curriculum + light support) rely on teachers transferring workshop content unaided. In-class coaching is the lever the authors repeatedly credit for moving responsive teaching; its absence is a candidate explanation for null curriculum-PD effects. Sharper than the existing coaching principle because it isolates locus (in-classroom, during teaching) from generic 'coaching' flags.",
+      "studies_observed": ["landry_2014", "landry_2017", "landry_2021", "llosa_2016", "lesaux_2014", "kutaka_2017"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Student-facing digital/tablet component (technology intensity)",
+      "definition": "Whether the trained-for program puts technology directly in children's hands as part of the intervention, and at what intensity. Levels: no student tech / light blended (small tablet ratio used in groups) / heavy 1:1 device use.",
+      "rationale": "lewis_presser_2015 is built around tablet games with a deliberate 5:1 ratio of physical-to-digital activity (one teacher iPad + four child iPads per class, used in small groups), and the authors explicitly contrast this 'selective' integration with isolated heavy screen exposure; no other study in the batch has a student-facing device component. Technology can add an engaging, standardized dose of the active ingredient to children regardless of teacher skill, or distract from instruction, so it is a plausible two-sided moderator distinct from delivery mode of the PD itself (which concerns how teachers are trained, not what children use).",
+      "studies_observed": ["lewis_presser_2015", "landry_2014", "llosa_2016", "lesaux_2014"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Educative / scripted student curriculum materials accompanying the PD",
+      "definition": "Degree to which the new student materials are themselves 'educative' for the teacher: scripted day-by-day lesson cycles with embedded teaching guidance and differentiation prompts, vs loosely specified materials. Levels: highly scripted/educative teacher guide / structured-but-flexible / minimal.",
+      "rationale": "Varies sharply: lesaux_2014 supplies a 9-day lesson cycle with sample scripts per lesson, llosa_2016 leans explicitly on 'educative curriculum materials' (teacher's guide with embedded guidance and tiered scaffolds for ELLs), while the Landry early-childhood models rely more on responsive-teaching principles coached in person. Educative materials can substitute for live PD by carrying instructional guidance into every lesson, raising fidelity for teachers with weaker baseline knowledge; this is a property of the materials, distinct from the already-coded 'curriculum-coupled' yes/no flag.",
+      "studies_observed": ["lesaux_2014", "llosa_2016", "lewis_presser_2015", "landry_2014"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Credential-bearing / degree-track PD vs project-specific training",
+      "definition": "Whether the PD is a formal credit- or credential-bearing program (graduate-level courses, specialist endorsement, multi-course sequence with academic credit) vs project-specific training created solely to deliver one intervention. Levels: credential/credit-bearing / project-specific.",
+      "rationale": "kutaka_2017's 'Primarily Math' is six graduate-level courses over 13 months plus two 2-week summer institutes leading toward an elementary math-specialist credential — a fundamentally different selection, motivation, and depth profile than the bounded project trainings in the rest of the batch (Landry models, ALIAS, P-SELL, the reading programs). Credential-track PD recruits more committed teachers and pushes deeper content mastery, plausibly yielding more durable practice change; the formality/stakes of the PD is unmeasured by hours or trainer identity alone.",
+      "studies_observed": ["kutaka_2017", "landry_2017", "lesaux_2014", "llosa_2016", "lang_2009"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Concurrent home/parent intervention component",
+      "definition": "Whether the study layers a parallel parent-/home-facing program (coached home strategies) on top of the classroom TPD, potentially adding a second, family-side dose to the same children. Levels: classroom PD only / classroom PD + parent program.",
+      "rationale": "landry_2017 and landry_2021 use 2x2 factorial designs crossing teacher PD (TEEM/eTEEM) with a coached parent program (PALS/ePALS), and the authors are centrally interested in whether the combined dose enhances child outcomes — i.e., student achievement may reflect a home component, not the TPD alone. Where present, this confounds or amplifies TPD effects; coding it lets the meta-analysis isolate the classroom-PD contribution and test additivity. Rare but high-leverage where it appears.",
+      "studies_observed": ["landry_2017", "landry_2021", "landry_2014"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Multiple-program contrast within one trial (active program comparison)",
+      "definition": "Whether the achievement effect comes from a head-to-head among several distinct intervention programs (vs a single program against business-as-usual), so the same PD scaffolding is held roughly constant across arms. Levels: single program vs BAU / multiple programs compared.",
+      "rationale": "lang_2009 randomized struggling readers across THREE distinct reading programs (READ 180, REACH, RISE) plus a control, all with comparable publisher/coach support — letting program content vary while PD structure is similar, and finding the Risk x Program interaction significant. Effect sizes from multi-program trials are program-vs-program-flavored and may be smaller/noisier than program-vs-BAU contrasts; flagging this guards against treating within-trial active comparisons like clean BAU contrasts in the meta-analysis.",
+      "studies_observed": ["lang_2009", "landry_2014", "landry_2017"],
+      "reportability": "usually_reported",
+      "strength": "weak"
+    }
+  ]
+}

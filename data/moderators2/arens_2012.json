@@ -1,0 +1,19 @@
+{
+  "slug": "arens_2012",
+  "study": "Arens et al. 2012 (OWE curriculum + RISE PD, REL Central, NCEE 2012-4013)",
+  "eval_independence": "independent",
+  "eval_evidence": "REL Central / McREL conducted the IES-funded NCEE evaluation; OWE and RISE are commercial products (Rigby / Harcourt Achieve), so evaluators have no developer stake. Conflict-of-interest disclosure is the standard IES contractor notice.",
+  "developer_delivered": "no",
+  "developer_evidence": "'Most teachers in the intervention group received their RISE training from a publisher-trained site coordinator rather than directly from the publisher.'",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Train-the-trainer cascade: the publisher trained site coordinators, who in turn trained most teachers (publisher -> site coordinator -> teacher, >=1 extra hop).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control group received business-as-usual ESL instruction.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "RISE delivered mainly as eight two-hour workshops over one school year (professional-consultant model) with facilitator instructional demonstrations and some coaching; no documented recurring monthly+ in-class coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "OWE is a teacher-delivered ELL curriculum used during regular ESL instruction (>=30 min/day); it changes what the teacher teaches rather than adding a separate tutoring/pull-out/extra-minutes student dose. (An extra OWE oral-language strand was supplied but is still teacher-delivered in regular time.)",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Year 1 (2008/09) was training/baseline; Year 2 (2009/10) was the first implementation year, when OWE+RISE were used and the spring-2010 outcome was measured -- the program's first implementation year.",
+  "confidence": "high"
+}

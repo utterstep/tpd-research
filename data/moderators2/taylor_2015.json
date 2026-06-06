@@ -1,0 +1,19 @@
+{
+  "slug": "taylor_2015",
+  "study": "Taylor et al. (2015), BSCS Science: An Inquiry Approach curriculum + curriculum-based PD, efficacy trial, Am. Educ. Res. J.",
+  "eval_independence": "developer",
+  "eval_evidence": "Study conducted/authored by BSCS staff (all authors at Biological Sciences Curriculum Study), who 'were also developers of the curriculum materials.' IES-funded (R305K060142 to BSCS) but developer-conducted, not an independent third-party contractor.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The PD was delivered by 'PD facilitators from BSCS'; 'two of the developers of An Inquiry Approach were also on the' PD team. The developing organization (BSCS) itself delivered the curriculum-based PD to teachers.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "BSCS PD facilitators delivered the seven-day/year PD (3-day summer institute + four one-day sessions) directly to the treatment teachers; no train-the-trainer or lead-teacher cascade described.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Comparison schools used 'business-as-usual materials planned by their schools and districts' — one of eight different textbooks in Grade 9, progressing to their usual Grade-10 programs. Standard BAU contrast; no shared branded program or assessment contaminating control.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "PD = 3-day summer institute + four one-day group sessions during the year (off-site/group workshop-institute format). Classroom observations were conducted only to measure fidelity (RTOP), not as ongoing in-class coaching. No in-class coaching cycles -> none.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention changes only the teacher's regular science instruction (the An Inquiry Approach curriculum enacted in class); no tutoring, pull-out, extra minutes, or student-facing software dose added.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Primary outcome measured spring of Grade 10 after TWO years of program implementation (Grades 9 then 10); pupils/teachers had a full prior implementation year (Grade 9) before the Grade-10 measurement wave -> measured after >=1 prior year.",
+  "confidence": "high"
+}

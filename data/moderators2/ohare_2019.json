@@ -1,0 +1,19 @@
+{
+  "slug": "ohare_2019",
+  "study": "O'Hare et al. 2019 (FFT Literacy Reciprocal Reading, EEF efficacy trial; QUB CESI evaluation)",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF-commissioned independent evaluation by the Centre for Evidence and Social Innovation, Queen's University Belfast (O'Hare et al.); the developer (FFT Literacy) delivered the programme while QUB independently evaluated it -- standard EEF independent-evaluator model.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Reciprocal Reading is FFT Literacy's programme; the developer (FFT) trained and supported the participating teachers to deliver it (developer-led efficacy trial). QUB only evaluated.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "FFT (the developer) trained the schools'/teachers' delivery directly in this efficacy trial; no train-the-trainer intermediary documented. (Note: design/extraction record does not detail an extra cascade hop.)",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Cluster RCT with business-as-usual control (49 control schools continued normal reading provision); extraction record and EEF report state BAU comparison.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Programme is teacher training in the Reciprocal Reading approach (initial training + materials/support) delivered by FFT; no ongoing in-class coaching cycles described in the extraction record/report for the universal arm.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Universal arm (the registry-matched 'All' population, Year 4): whole-class teaching changes only -- the teacher's own reading instruction. (Targeted arm uses small-group pull-out for pre-selected poor comprehenders, but that arm is the non-full-sample secondary contrast; the registry row maps to the universal whole-class arm.)",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "One-academic-year intervention; outcomes measured immediately post (~1 year). EEF efficacy trial designed as a single year; no maturity wave.",
+  "confidence": "high"
+}

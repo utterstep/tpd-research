@@ -1,0 +1,19 @@
+{
+  "slug": "herman_2022",
+  "study": "Herman et al. 2022, CHAMPS classroom-management TPD (middle school)",
+  "eval_independence": "independent",
+  "eval_evidence": "IES-funded efficacy trial conducted by the Missouri Prevention Science Institute (Herman, Reinke, Bradshaw), a research team separate from the program's developer (Randy Sprick / Safe & Civil Schools); trainers and coaches were 'supervised by the program developer' but the evaluation itself was run by the independent university research team.",
+  "developer_delivered": "no",
+  "developer_evidence": "Training was 'facilitated by a certified CHAMPS trainer supervised by the program developer', and an on-site doctoral-level coach 'trained and supervised by the program developer' delivered coaching; the study research team did not personally deliver the PD, and the developer supervised rather than delivered it.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Developer (Sprick) supervised/trained a certified CHAMPS trainer and an on-site coach, who in turn trained and supported the teachers: developer -> certified trainer/coach -> teacher (>=1 hop).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Wait-list control within school: control teachers 'continued their business as usual teaching and professional development' and were offered CHAMPS later. True BAU, no active alternative.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "An on-site coach worked with teachers in the classroom and met with them individually for up to 1 hr on a weekly basis (minimum dose four visits), reviewing workshop content and supporting goal-setting — recurring in-class coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "CHAMPS changes the teacher's classroom-management practice within regular instruction; no tutoring, pull-out, extra minutes, or student-facing software dose is added.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Delivered in four sequential annual cohorts, each receiving training and coaching within a single school year; academic outcomes measured at the end of that one implementation year (spring MAP / SAT-10). Single-year program for each teacher cohort.",
+  "confidence": "high"
+}

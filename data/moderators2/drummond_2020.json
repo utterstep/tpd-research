@@ -1,0 +1,19 @@
+{
+  "slug": "drummond_2020",
+  "study": "Drummond et al. 2020, Children's Literacy Initiative (CLI) i3 Scale-Up (AIR)",
+  "eval_independence": "independent",
+  "eval_evidence": "Evaluation conducted/authored by American Institutes for Research (AIR); CLI (the program developer/nonprofit) delivered the intervention but AIR ran the impact study.",
+  "developer_delivered": "yes",
+  "developer_evidence": "CLI, a nonprofit, 'provides teachers ... resources ... directly from CLI', including training seminars and coaching; CLI staff/coaches delivered the PD to treatment teachers.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Mixed: CLI coaches train teachers directly, but a core second component has CLI select and train Instructional Lead Teachers (ILTs) per school 'to serve as mentors' to colleagues -> a train-the-trainer/lead-teacher hop, so coded cascade.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control schools 'continue with business-as-usual' literacy instruction; each received only a $1,500-$2,000/yr book-purchase stipend (no active alternative PD program).",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Intervention includes ~105 hours of literacy coaching per year (classroom-embedded), well above occasional; recurring in-class coaching is a core CLI component (Table 4).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention changes K-3 teachers' literacy instruction (training/coaching/books); no tutoring, pull-out, or direct student-facing software dose beyond regular instruction.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Primary extracted wave = Year 3 (2018-19) of a 3-year program; teachers had >=1 prior implementation year. (Year-1 results reported but null.)",
+  "confidence": "high"
+}

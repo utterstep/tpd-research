@@ -1,0 +1,19 @@
+{
+  "slug": "savage_2013",
+  "study": "Savage et al. 2013, ABRACADABRA (ABRA) web-based literacy",
+  "eval_independence": "developer",
+  "eval_evidence": "ABRA was developed by a multiuniversity team (Abrami, Savage et al.); first/second authors Savage & Abrami are the program developers and conducted/authored this RCT.",
+  "developer_delivered": "yes",
+  "developer_evidence": "'A full day of training took place led by three of the research investigators'; members of the research team also ran the demonstrations and support.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Research investigators (developers) delivered the teacher training directly; no train-the-trainer hop.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control classrooms continued business-as-usual ELA instruction (control teachers received ABRA training only after the study).",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Extended in-class 'just-in-time' support: RA present for the first 4 weeks plus monthly meetings; 80 just-in-time in-class support sessions documented — recurring in-class support.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Teachers delivered ABRA to their own regular classrooms (~20 hr/child) as part of regular literacy instruction; no separate pull-out/tutoring dose (whole-class software-supported delivery).",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "One-semester effectiveness trial delivered once; no multi-year rollout / maturity axis.",
+  "confidence": "high"
+}

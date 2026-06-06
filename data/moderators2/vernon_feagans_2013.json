@@ -1,0 +1,19 @@
+{
+  "slug": "vernon_feagans_2013",
+  "study": "Vernon-Feagans et al. (2013), Targeted Reading Intervention (TRI) — live-webcam literacy coaching for K-1 teachers of struggling readers, J. Educ. Psychology",
+  "eval_independence": "developer",
+  "eval_evidence": "Conducted/authored by the research team that developed the TRI (NRCRES, IES grant R305A040056); the program was 'developed by' this team and evaluated by them. Developer-conducted, not an independent third party.",
+  "developer_delivered": "yes",
+  "developer_evidence": "'The intervention director of the project and the trained reading coaches led the 3-day summer institute' and delivered the biweekly webcam coaching; the project's own literacy coaches (research staff) delivered the PD to teachers.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Project literacy coaches (research-team staff) coached the classroom teachers directly via live webcam; the intervention director trained the coaches, who worked one-on-one with teachers. No school-based lead-teacher cascade -> developer_direct.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control = struggling readers in non-intervention control schools (SRC) under business-as-usual instruction; control schools received no TRI materials, training, or coaching. Standard BAU contrast.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Core model is 'ongoing biweekly coaching' delivered via live webcam: coaches observed and gave the teacher real-time feedback during her TRI sessions in her own classroom, ~30 min biweekly throughout the year -> recurring in-class coaching cycles (biweekly) -> frequent_inclass.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "TRI adds a direct student-facing dose: the teacher delivers one-on-one TRI sessions to each struggling reader for '15 min a day' in the classroom (each target child got ~14 individualized sessions), on top of regular instruction. Outcomes are measured on these struggling readers who received the 1-on-1 tutoring -> student_component.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "TRI delivered over a single treatment year with one immediate spring post-test wave; teachers/coaches new to the program, no multi-year rollout or maturity axis -> single_year_design (also consistent with first_year framing; coded single_year_design as the program is a one-year delivery).",
+  "confidence": "high"
+}

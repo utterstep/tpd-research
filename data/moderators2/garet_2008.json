@@ -1,0 +1,19 @@
+{
+  "slug": "garet_2008",
+  "study": "Garet et al. 2008, Early Reading PD Interventions (LETRS institute +/- coaching), NCEE 2008-4030",
+  "eval_independence": "independent",
+  "eval_evidence": "Research team = AIR (prime) + MDRC + REDA International, with no financial stake; the PD itself was delivered by separate providers (Sopris West LETRS, CORE).",
+  "developer_delivered": "yes",
+  "developer_evidence": "Sopris West's LETRS team and the Consortium on Reading Excellence (CORE) 'delivered the teacher and coach PD'; the program providers (PD/coaching developers) delivered directly, not the school system.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "LETRS facilitators (Sopris West) delivered the 8-day institute series to teachers; CORE-trained in-school coaches worked directly with teachers. PD reached teachers via the providers' own facilitators/coaches, not a teacher train-the-trainer chain.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Three-arm design with a 'business as usual control condition'; controls continued their district's regular PD (could seek out other reading PD).",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "ARM-VARYING: Treatment A (row 32, institute only) = none; Treatment B (row 33, institute + coaching) = a half-time in-school coach per school (~5.9 teachers/coach, expected ~60 hrs/yr, multi-step in-class coaching cycle). Coded frequent_inclass for the coaching arm; note arm A has no coaching.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "PD targets grade-2 teachers' early-reading instruction (knowledge/practice); no tutoring/pull-out/extra student minutes or student software dose introduced.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Primary extracted wave = Implementation Year (Spring 2006), the first year teachers received the PD; a separate Follow-Up Year (Spring 2007) is reported but not extracted as primary.",
+  "confidence": "high"
+}

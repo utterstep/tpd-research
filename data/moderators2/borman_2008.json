@@ -1,0 +1,19 @@
+{
+  "slug": "borman_2008",
+  "study": "Borman, Gamoran & Bowdon (2008), elementary science immersion PD (SCALE/LAUSD), J. Res. Educ. Effectiveness",
+  "eval_independence": "developer",
+  "eval_evidence": "Evaluation conducted/authored by SCALE researchers (Borman, Gamoran), the NSF Math-Science-Partnership team that developed and piloted the immersion units ('immersion units were developed and piloted through SCALE'). Developer-conducted, not a third-party contractor.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Summer institutes were 'offered by the SCALE' partnership and ongoing coaching/mentoring supported by 'district staff and their external partners' (SCALE). The developing partnership delivered the PD (to lead teachers), though in-school dissemination then ran through the lead teachers.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Train-the-lead-teacher model: 'teacher leaders from each school participate in an intensive summer institute and ongoing training and then share their learning with colleagues in their own schools.' Classroom teachers beyond the lead teacher receive PD second-hand (>=1 extra hop).",
+  "counterfactual": "active_or_contaminated",
+  "counterfactual_evidence": "Control schools 'were offered the immersion curriculum but not the associated professional development' (p.246) - i.e., control had the same inquiry science curriculum materials, only lacking the PD. Curriculum exposure contaminates a clean BAU contrast.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Core PD model is 'summer institutes and ongoing coaching and mentoring in the use of ... curriculum units'; Grade 4-5 teachers 'were targeted for coaching and mentoring to implement the immersion units in their classrooms.' Ongoing in-class coaching/mentoring (exact cadence not stated).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention changes only the teacher's regular science instruction (inquiry curriculum units taught in class); no tutoring, pull-out, or student-facing software dose added.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Article is titled 'First-year achievement effects'; outcomes measured in the program's 1st implementation year (2006-07), teachers new to immersion PD.",
+  "confidence": "medium"
+}

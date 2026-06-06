@@ -1,0 +1,71 @@
+{
+  "chunk": 12,
+  "studies": [
+    "rudd_2017",
+    "rutherford_2014",
+    "savage_2013",
+    "schmidt_2020",
+    "schneider_2021",
+    "schoen_2020",
+    "shechtman_2019",
+    "simmons_2011"
+  ],
+  "suggestions": [
+    {
+      "moderator": "Counterfactual strength (active/alternative-PD comparison vs pure business-as-usual)",
+      "definition": "What the control group actually received: (a) pure business-as-usual / do-nothing, (b) an ACTIVE alternative — control teachers got their own (non-target) PD, a competing program, or an alternative small-group intervention of matched time/dose. Levels: pure BAU / active-alternative comparison.",
+      "rationale": "This varies sharply within my batch and bites directly on effect size, independent of how good the treatment PD is. Simmons compared ERI not to no-treatment but to a time- and group-size-matched 'typical practice intervention' (some controls used commercial phonics programs); Schoen's comparison schools received a different district-chosen PD program (2 days of workshops); Schneider's controls received a 1-day NGSS workshop. By contrast Rudd, Rutherford, and Schmidt are essentially pure BAU. A strong active counterfactual mechanically shrinks the contrast and can turn a real treatment gain into a null. The authors of Simmons explicitly warn against pooling active-comparison effects with no-treatment-control effects. Distinct from the coded curriculum-coupling / delivery-mode set.",
+      "studies_observed": ["simmons_2011", "schoen_2020", "schneider_2021", "rudd_2017", "rutherford_2014", "schmidt_2020"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Achieved implementation fidelity / realized dose (was the model actually delivered)",
+      "definition": "Whether the PD model was implemented to its own pre-specified fidelity thresholds in the field, as reported post-hoc. Levels: full/adequate fidelity at all sites / partial or site-variable fidelity / failed to reach threshold at any site. (Post-treatment, so for descriptive moderation, not causal coding.)",
+      "rationale": "The clearest dividing line between nulls and effects in this batch. Schmidt is the canonical failure: the NTC induction model 'was not implemented with adequate fidelity in any of the five sites' and mentoring barely differed from control -> null on every outcome; yet within-treatment, mentoring that MET NTC's frequency/duration thresholds correlated positively with math achievement. Savage found that intervention teachers who reached the 'adaptation' fidelity level produced significantly greater gains than entry/adoption-level teachers. A study can have excellent PD content yet near-zero ITT impact purely because the dose never reached classrooms.",
+      "studies_observed": ["schmidt_2020", "savage_2013", "rutherford_2014", "schoen_2020"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Content-match between PD focus and the grade/skills the test measures",
+      "definition": "How well the specific content emphasized in the PD's first/measured year lines up with the achievement test's content at that grade. Levels: tight match / partial or grade-offset mismatch.",
+      "rationale": "Two studies show a measurable within-study cost of mismatch. Schoen's CGI Year-1 content centered on grade-1 number/operations; the grade-2 computation outcome went NEGATIVE (g=-0.29 for grade 2 vs +0.03 grade 1) because grade-2 computational expectations outran the year-1 focus — the authors attribute the negative effect to exactly this offset. In Savage, ABRA's code-focused training produced strong phonological-awareness gains but null/negative results on fluency and passage comprehension, which it does not target. A PD program tested on a broad standardized test it only partly addresses will look weaker than one tested on its target skill — a sharper version of proximal/distal alignment that turns on grade/skill timing.",
+      "studies_observed": ["schoen_2020", "savage_2013", "simmons_2011", "rudd_2017"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Out-of-class / at-home dependency of the student-facing component",
+      "definition": "Whether the PD-enabled instructional model requires student access and use OUTSIDE the supervised classroom (home device/internet, take-home tablet, or unsupervised lab time) to deliver its active ingredient. Levels: fully in-class/supervised / depends on out-of-class or at-home access.",
+      "rationale": "Rudd's MathsFlip is built on flipped learning: pupils must access videos at home, and the report documents that many pupils lacked home internet (schools had to set up homework clubs) — a structural leak between PD delivery and student exposure that plausibly diluted the near-null maths effect. Rutherford's ST Math depended on twice-weekly computer-lab sessions whose realized frequency varied. Where the active ingredient lives outside teacher-supervised time, equity of access and uptake — not PD quality — can govern impact.",
+      "studies_observed": ["rudd_2017", "rutherford_2014", "shechtman_2019"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Just-in-time vs front-loaded support timing",
+      "definition": "When in-class/coaching support is concentrated relative to delivery: (a) front-loaded (training before launch, little ongoing), (b) just-in-time / responsive support concentrated at the start of implementation and tapering as teachers gain competence, (c) sustained throughout. Captures the time-profile of support, not its mere presence.",
+      "rationale": "Savage instruments this directly: research assistants provided 'just-in-time' in-class support, and analysis of 80 support sessions showed demand peaked in the first 3-5 lessons and fell sharply over the first 3 weeks as teachers cleared startup hurdles — implying support timed to the startup window may matter more than total hours. Rudd's developers gave 2 days up front plus thinner ongoing support; Shechtman embedded an implementation coordinator across 2 years. The temporal placement of support (front-loaded vs responsive) is distinct from coached-or-not and from total hours, and may govern whether early implementation problems get resolved before they depress outcomes.",
+      "studies_observed": ["savage_2013", "rudd_2017", "shechtman_2019", "schmidt_2020"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Targeted at-risk/low-achieving students vs whole-class universal delivery",
+      "definition": "Whether the PD-enabled instruction is delivered to a pre-screened at-risk subgroup in a pull-out/small-group format vs to the whole class universally. Levels: targeted at-risk small-group / universal whole-class. (Sample-selection feature, distinct from the coded SES/targeted-population field which is about demographic targeting, not screened-risk small-group delivery.)",
+      "rationale": "Delivery format covaries with effect size here. Simmons delivered ERI to kindergarteners pre-screened as at-risk in small groups of 3-5 (~100 sessions) and found large code-skill effects (g up to 0.51); ABRA (Savage) and the CESE/CGI/RM programs are whole-class universal and show smaller effects on average. Screened low-achievers have more headroom and get a more concentrated dose, so targeted small-group PD models may systematically out-perform universal ones — a sample/structure moderator beyond demographic SES targeting.",
+      "studies_observed": ["simmons_2011", "savage_2013", "schneider_2021", "shechtman_2019", "rutherford_2014"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Multi-year program measured at an early (first-year) snapshot",
+      "definition": "Whether a program designed to run over multiple years is being evaluated at the end of only its first implementation year, vs at a mature/terminal year. Levels: first-year-of-multi-year-model / full or terminal year. Flags 'startup' undersampling of the intended dose.",
+      "rationale": "Schoen explicitly evaluates only Year 1 of a 3-year CGI model and returns small/null (and a negative grade-2 computation effect), warning the model's benefits are expected to accrue in later years; Shechtman measures at end of Year 2 of a 2-year rollout (terminal) and is also null. Where a long program is judged on its immature first year, the realized teacher-development dose is a fraction of the design, plausibly depressing measured impact regardless of program quality. Note: a sibling chunk raised 'calendar exposure length'; this is the narrower, sharply-coded special case of a designed multi-year model truncated to year 1, which my batch instantiates cleanly.",
+      "studies_observed": ["schoen_2020", "shechtman_2019", "schmidt_2020"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    }
+  ]
+}

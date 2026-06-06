@@ -1,0 +1,19 @@
+{
+  "slug": "hitchcock_2011",
+  "study": "Hitchcock et al. 2011, Collaborative Strategic Reading (CSR), NCEE/REL Southwest RCT",
+  "eval_independence": "independent",
+  "eval_evidence": "Formally an IES/NCEE REL Southwest contractor evaluation (NCEE 2011-4001). Caveat: CSR co-developer Dr. Joseph Dimino is a report co-author and delivered the training/trained the coaches (Instructional Research Group); the report itself notes contractors' work 'may not be entirely independent.' Coded independent on the REL/NCEE structure but flagging the co-developer's central involvement.",
+  "developer_delivered": "yes",
+  "developer_evidence": "'CSR codeveloper, Dr. Joseph Dimino, provided an initial two-day training session to teachers' — the developer (also a report co-author) personally delivered the core teacher training.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "The developer (Dimino) trained the teachers directly in the initial two-day session; he also trained the coaches who delivered four follow-up coaching sessions, but the teachers' primary PD was developer-to-teacher direct (no intermediary trainer for the core training).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control was a business-as-usual condition: control classrooms used 'the school's normal instructional procedures' for social studies. No active alternative program.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Beyond the two-day initial training, trained coaches 'provided four follow-up coaching sessions to the teachers throughout the year' (fall + spring) — a few periodic coaching/observation visits, i.e. light/occasional support, not monthly+/biweekly+ in-class cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Teachers used CSR strategies when delivering their regular social-studies curriculum; only the teacher's regular instruction changes, no added tutoring/pull-out/extra-minutes or student-facing software dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Implementation period was one school year; teachers were newly trained in CSR and outcomes (GRADE) measured at the end of that single first implementation year.",
+  "confidence": "high"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "droop_2016",
+  "study": "Droop et al. 2016 (Strategic Reading Instruction [SRI] teacher training; Grades 3-4 reading comprehension)",
+  "eval_independence": "developer",
+  "eval_evidence": "Program developed and evaluated by the study authors: the second author 'wrote the manual for the teachers' and supervised the coaches; the authors designed and ran the SRI program and the trial. (An independent Radboud researcher administered some tests, but the evaluation itself is by the program developers.)",
+  "developer_delivered": "yes",
+  "developer_evidence": "Teacher training was given by the project; coaching 'was performed by three certified and experienced coaches under supervision of the second author' (the program developer who wrote the manual).",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Teachers were trained and coached by certified coaches operating directly under the supervision of the developer-author; treated as developer-direct delivery rather than an independent train-the-trainer cascade.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control group used the regular school reading curriculum (business-as-usual); experimental schools were restricted from their own comprehension curriculum to prevent diffusion, but the control simply continued normal practice.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "PD = two 3-hour training meetings (in September) per grade-year, plus a single classroom observation in November each year, each observation followed by one coaching/feedback session. Light/periodic, not recurring in-class coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention changes the teacher's reading-comprehension instruction (strategy instruction during regular read-aloud/reading lessons); no tutoring, pull-out, or extra student dose.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Two-year program implemented across Grade 3 (Year 1) and Grade 4 (Year 2); the significant primary intervention effects were at the end of Grade 4 (the Year-2 wave), after a prior implementation year (Grade-3/Year-1 effects were null/interim).",
+  "confidence": "high"
+}

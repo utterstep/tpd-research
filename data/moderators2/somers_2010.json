@@ -1,0 +1,19 @@
+{
+  "slug": "somers_2010",
+  "study": "Somers et al. 2010 — Enhanced Reading Opportunities (ERO): RAAL & Xtreme Reading supplemental literacy (NCEE 2010-4021, MDRC)",
+  "eval_independence": "independent",
+  "eval_evidence": "Independent NCEE/IES evaluation conducted by MDRC (Somers et al.); program developers are distinct from the evaluation team (collaboration is acknowledged but evaluation is contractor-run, NCEE 2010-4021).",
+  "developer_delivered": "yes",
+  "developer_evidence": "'the programs' developers provided three types of training and technical assistance to the ERO teacher from each school' — initial training, booster sessions, and coaching delivered by the program developers themselves.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Program developers trained and coached the ERO teachers directly (onsite coaching visits to schools); district program coordinators only observed — no train-the-trainer hop to reach teachers.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Within-school student-level random assignment to ERO vs non-ERO; non-ERO students received the regular (business-as-usual) ninth-grade program with no supplemental literacy course.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Developers 'provided onsite support to the ERO teachers through instructional coaching visits to the schools both years' — recurring in-class coaching cycles across the year.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "ERO is a year-long supplemental ELECTIVE literacy COURSE in addition to regular English — students received ~11 hours/month of extra instruction (the non-ERO group did not), a substantial added student-facing instructional dose.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Each student receives a single year-long supplemental course; the reported headline pools two successive implementation cohorts (cohort-1 ES 0.09, cohort-2 0.08), i.e. measurement spans first and second implementation years but the program itself is one academic year per student.",
+  "confidence": "high"
+}

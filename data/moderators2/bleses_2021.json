@@ -1,0 +1,19 @@
+{
+  "slug": "bleses_2021",
+  "study": "Bleses et al. 2021 (SPELL base arm, Grade-2 follow-up, PLoS ONE 16(10))",
+  "eval_independence": "developer",
+  "eval_evidence": "The SPELL intervention was developed AND evaluated by the authors' research group (Aarhus University: Bleses, Dale; Justice an early-literacy intervention developer); 'researchers have developed and evaluated for efficacy.' Developer-conducted (despite the 'no competing interests' boilerplate).",
+  "developer_delivered": "no",
+  "developer_evidence": "SPELL is delivered to children by the regular preschool teachers, who attended a short two-day teacher PD course; teachers (not developers) implement the curriculum in their own classrooms.",
+  "cascade_depth": "unclear",
+  "cascade_evidence": "The publication does not specify who delivered the two-day teacher PD course (developers vs. trained intermediaries); registry codes the trainer as 'External' but the report itself is silent on the number of transmission hops.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Random assignment to SPELL vs. business-as-usual (BAU); BAU centers continued usual practice.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Base SPELL arm = a short two-day teacher PD course only, no ongoing in-class coaching (registry coaching=0). (The separate SPELL+PD arm adds 14 hours of extended PD, but that is not the registry-matched base arm.)",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "SPELL is a 20-week storybook curriculum supplement delivered by teachers as 'two lessons weekly to children in small groups of about 4-6 children' (40 small-group lessons) -- a substantial added student-facing instructional dose beyond regular ECE.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "SPELL is a one-time 20-week preschool delivery (single implementation, teachers new to it); no maturity axis. (The extracted outcome is the Grade-2 long-term follow-up of that single delivery.)",
+  "confidence": "medium"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "murphy_2021",
+  "study": "Murphy, Weinhardt & Wyness 2021, peer-to-peer observation & feedback (Lesson Study), 181 English primary schools RCT, KS2 outcomes (CEP DP1565 = EEF Lesson Study)",
+  "eval_independence": "developer",
+  "eval_evidence": "The authors both ran and evaluated the program ('we conduct and evaluate a teacher peer-to-peer observation and feedback program under [an] RCT'); they are the program operators/designers of this specific trial rather than an arms-length third party (the generic Lesson Study approach was delivered by external Edge Hill experts). Coded developer because the evaluating team also operated the intervention. (Also published as the EEF 'Lesson Study' independent evaluation report.)",
+  "developer_delivered": "no",
+  "developer_evidence": "The PD was delivered by external trainers, not the research team: 'Training consisted of five full training days... conducted by experts in [teaching/mentoring]' / 'educational experts' at Edge Hill University.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "External Edge Hill experts delivered the five training days directly to the participating teachers (the three-teacher 'tripod'); no train-the-trainer intermediary. The peer observation/feedback is a within-school program feature, not a developer->trainer->teacher transmission cascade.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "'control schools received no treatment, training, or materials' = pure business-as-usual.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "External support was the five training days only; ongoing in-class support was teacher peer-to-peer (the teachers observe each other, 18 observations over 2 years). No external in-class coaching of the teacher was provided, so external coaching intensity = none (the peer-observation is the intervention itself, not coaching delivered to the teacher by a coach).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention targets teacher practice via peer observation/feedback; only the teachers' own instruction changes. No tutoring/pull-out/added-minutes/software dose delivered to pupils.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Two-year program; headline cohort 2 received the full 2-year dose and was tested at KS2 one year AFTER the intervention ended (2015/16), so the end-of-treatment/full-dose wave follows >=1 prior implementation year. (Cohort 1 = 1-year dose.)",
+  "confidence": "high"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "prast_2018",
+  "study": "Prast et al. (2018), GROW differentiated-instruction math PD, cluster RCT, Netherlands, Learning and Instruction",
+  "eval_independence": "developer",
+  "eval_evidence": "Evaluation authored by the research team (Prast, Van de Weijer-Bergsma, Kroesbergen, Van Luit) that, with a consortium of educational consultants/teacher trainers, designed and delivered the GROW PD programme ('The PD programme was designed in collaboration with experienced teacher trainers'; the authors developed and ran the intervention). No independent third-party evaluator.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The GROW PD was led by the project's own professional educational consultants/teacher trainers who collaborated on its design ('led by professional educational consultants who had collaborated in [its development]'); the developing project team delivered the core PD to teachers and to the schools' internal project coaches.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Train-the-trainer structure: external consultants/trainers prepared each school's own 'project coaches' (in five additional meetings); project coaches then led four of the meetings and coached the classroom teachers in their own school. Developer also gave coaches a 'follow-up train-the-trainer package to train new project coaches'. >=1 extra hop from developer to teacher.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control cohorts received business-as-usual mathematics teaching with no alternative PD programme (Cohort 2 = control in Year 1, Cohort 3 = control both years); design Table 1.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Each school's project coach functioned as an in-school 'change leader' coaching teachers through implementing differentiated instruction, including classroom observations and recurring coaching across the two-year programme (project coaches led four meetings, conducted observations, and remained available to coach continued implementation). Recurring in-class coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention changes only the teacher's regular mathematics instruction (within-class differentiated/ability-grouped instruction); no tutoring, pull-out, added instructional minutes, or student-facing software dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Headline Year-1 effect (Cohort 1) is the program's first implementation year for those teachers (PD delivered in Year 1, outcomes on Year-1 growth). The secondary Cohort-2 contrast is also a first-year-of-PD wave (PD in Year 2 for teachers new to it; authors note Cohort-2 teachers were less experienced). Both extracted contrasts are first-implementation-year measurements.",
+  "confidence": "high"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "murphy_2020",
+  "study": "Murphy et al. 2020 (JREE), ASSISTments online math homework + teacher PD/coaching, Maine grade-7 RCT, 2nd-year outcomes (ERIC ED657283)",
+  "eval_independence": "independent",
+  "eval_evidence": "Efficacy RCT conducted by SRI International (Robert Murphy et al.) under IES grant R305A120125; SRI is the independent third-party evaluator, distinct from ASSISTments' developer (WPI/Heffernan).",
+  "developer_delivered": "yes",
+  "developer_evidence": "The developer provided the PD: 'WPI hired a former math teacher and experienced ASSISTments user to provide professional development and technical assistance to teachers'; 'the ASSISTments team provided ample training and coaching to teachers.'",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "The WPI(developer)-hired trainer delivered the PD/coaching directly to treatment teachers; no train-the-trainer/lead-teacher intermediary hop.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control = 'business as usual condition' (delayed access to ASSISTments; schools used their existing learning/homework practices); control schools given ASSISTments only after Year 2.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "PD = 'a single two-day summer training and an additional day of technical assistance distributed across the school year via webinars, email, and in-person visits' (plus a 2nd summer session) -> light, mostly-remote periodic support, not recurring in-class coaching cycles.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "ASSISTments is an online math homework platform used directly by students (immediate per-item feedback as they do homework) = a substantial student-facing software dose, on top of the teacher PD/coaching and teacher performance reports.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Outcomes extracted from the SECOND implementation year (2013-14): treatment teachers used ASSISTments in Year 1, then again in Year 2 with a new grade-7 cohort whose outcomes were measured -> measured after >=1 prior implementation year (experienced teachers).",
+  "confidence": "high"
+}

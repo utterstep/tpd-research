@@ -1,0 +1,19 @@
+{
+  "slug": "yang_2020",
+  "study": "Yang, Porter, Massey, Merlino & Desimone 2020, middle-school science PD (Cog-sci curriculum vs Content vs BAU), JRST",
+  "eval_independence": "developer",
+  "eval_evidence": "Study authored/conducted by the program developers (National R&D Center on Cognition and Science Instruction, IES grant R305C080009); no independent third-party evaluator.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The research/developer team itself delivered the PD: 'For both arms, we provided a 2.5-day (18-hr) summer PD session and four 2-hr PLC sessions ... for 2 years' (p.9).",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "The project team delivered the summer institutes and PLC meetings directly to the participating teachers; no train-the-trainer/lead-teacher intermediary.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Three-arm RCT with a 'business-as-usual control condition'; control schools taught the standard (unmodified Holt) curriculum with no alternative PD (pp.2, 4).",
+  "coaching_intensity": "none",
+  "coaching_evidence": "PD was a 2.5-day summer institute plus ~monthly professional learning community (PLC) meetings during each unit; no in-class coaching/observation cycles in teachers' own classrooms.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Cog-sci arm modifies what is taught in the regular science class (cognitive-science-principle-infused Holt units); Content arm changes teacher knowledge only — no added tutoring, extra minutes, or student-facing software dose.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Program is a defined two-year (grade 7-8) sequence; end-of-treatment state-science-test outcome is at the end of grade 8 for each cohort, no separate first-vs-mature implementation-year axis (Cohort 2 included many returning teachers).",
+  "confidence": "medium"
+}

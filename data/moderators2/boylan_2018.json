@@ -1,0 +1,19 @@
+{
+  "slug": "boylan_2018",
+  "study": "Boylan et al. (2018), ScratchMaths efficacy trial (UCL programme, EEF/Sheffield Hallam evaluation)",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF-commissioned independent evaluation by Sheffield Hallam University; the programme was developed by a separate party (UCL Knowledge Lab / UCL Institute of Education). Evaluators are not the developers.",
+  "developer_delivered": "yes",
+  "developer_evidence": "'ScratchMaths was developed and delivered by the UCL Knowledge Lab'; report notes 'the intervention worked under developer-led conditions.' The developing team ran the PD.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Developer-led PD delivered directly to participating teachers at central hub events (2.5 PD days/yr in 7 geographical hubs); no train-the-trainer/lead-teacher tier - UCL ran the PD for the teachers.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Two-arm trial with business-as-usual / wait-list control (control schools continued normal maths/computing; Year-2 waitlist crossover only after the primary outcome). No active alternative PD given to control during the contrast.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "PD was centralised hub workshops (two PD days/yr plus optional follow-up half-days), engaging teachers in the activities; no ongoing in-class coaching of teachers in their own classrooms reported.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "ScratchMaths is a teacher-delivered computing+maths curriculum taught during normal class time; pupils do Scratch activities as part of the regular lesson, not as an added tutoring/pull-out or independent software dose beyond instruction.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Outcomes from the programme's first (and only) rollout, with teachers new to ScratchMaths; KS2 measured at the end of the 2-year programme. Multi-year-by-design (so not single_year_design), but teachers were in their first experience delivering it.",
+  "confidence": "high"
+}

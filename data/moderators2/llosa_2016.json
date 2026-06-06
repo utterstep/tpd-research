@@ -1,0 +1,19 @@
+{
+  "slug": "llosa_2016",
+  "study": "Llosa et al. 2016, P-SELL grade-5 science curriculum + PD for ELLs, Year 1 (AERJ)",
+  "eval_independence": "developer",
+  "eval_evidence": "Authored/conducted by the P-SELL developers (Lee & Llosa, who developed the curriculum and PD); the developers ran and reported the RCT (p.98-99).",
+  "developer_delivered": "no",
+  "developer_evidence": "PD delivered via a train-the-trainer model: 'the district coordinators facilitated the workshops' (p.378); the research team trained district coordinators rather than teaching teachers directly.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "One extra hop: research team trained/prepared district coordinators who then facilitated the five full-day teacher workshops (p.376-378).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control schools 'implemented the district-adopted textbooks (business as usual)' (p.574); no alternative science PD/program provided to controls.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "PD = five full-day workshops across the school year; no in-class coaching component described (p.369-378).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Student books and science supplies are the regular science curriculum materials (a curriculum replacement of the district textbook), not an added tutoring/pull-out/software dose beyond regular science instruction (p.306-336).",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Explicitly 'the results of the first year of implementation of the three-year intervention' (2012-13, Year 1); teachers new to P-SELL, and differences widened in later years (p.290, 1413).",
+  "confidence": "high"
+}

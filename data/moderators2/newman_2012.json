@@ -1,0 +1,19 @@
+{
+  "slug": "newman_2012",
+  "study": "Newman et al. 2012, Alabama Math, Science & Technology Initiative (AMSTI) teacher PD, grades 4-8 RCT, one-year effects (NCEE 2012-4008)",
+  "eval_independence": "independent",
+  "eval_evidence": "IES/NCEE evaluation (NCEE 2012-4008) prepared by Empirical Education Inc. and REL Southeast; a third-party/contractor evaluation with no AMSTI developer stake.",
+  "developer_delivered": "no",
+  "developer_evidence": "AMSTI is the Alabama state initiative delivered through the state/AMSTI regional infrastructure (summer PD, in-school support, materials); the evaluation team (Empirical Education/REL) did not deliver the PD. Treated as the school system / state program delivering, not the research/eval team.",
+  "cascade_depth": "unclear",
+  "cascade_evidence": "Report does not clearly specify the developer->trainer->teacher transmission structure for the AMSTI summer PD and in-school support (state-program delivery); hops not stated, so unclear.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Matched-pair control schools assigned to a business-as-usual control for Year 1 (the uncontaminated TPD-vs-BAU wave); controls entered AMSTI only in Year 2.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "AMSTI = summer PD (institute) plus 'in-school support' / access to materials during the year; the design centers on summer training with periodic in-school support, not recurring (monthly+) in-class coaching cycles -> occasional.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "AMSTI provides teacher PD plus hands-on materials/manipulatives for the teacher to use; only the teacher's own math/science instruction changes. No tutoring/pull-out/added-minutes/software dose delivered directly to students.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "The only uncontaminated TPD-vs-BAU contrast extracted is the END-OF-YEAR-1 (first implementation year) effect; teachers in their first year of AMSTI. (Two-year effects excluded because control entered AMSTI in Year 2.)",
+  "confidence": "high"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "ansari_pianta_2018",
+  "study": "Ansari & Pianta 2018 (NCRECE MyTeachingPartner pre-K coaching RCT, ECRQ 44)",
+  "eval_independence": "developer",
+  "eval_evidence": "MTP is the developers' own program (MTP; Pianta et al.); Pianta is a co-author. NCRECE/CASTL (UVA) developer-conducted coaching trial.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Coaches were 'hired as part of the study' and trained/supervised by NCRECE project staff (weekly reviews, biweekly calls, fidelity checks by NCRECE staff); the project's own coaching team delivered the intervention.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Project-employed/research-team coaches delivered the web-mediated MTP coaching directly to teachers under NCRECE staff supervision; coaches are the program's own delivery agents rather than an external trained-trainer tier.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Teachers randomly assigned to receive PD (treatment) or 'to go about their business as usual (i.e., control condition).'",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Teachers participated in ~10 cycles of coaching across the school year (M = 10.23): videotaped own instruction, observation/feedback/reflection cycles -- roughly monthly+, individualized to the teacher's own classroom.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Teacher coaching PD only; only the teacher's classroom interactions change. No direct student-facing tutoring/dose.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "MTP coaching is delivered as one school year of coaching per teacher with end-of-year child outcomes; one-year dose with no multi-year maturity axis (teachers new to the coaching).",
+  "confidence": "high"
+}

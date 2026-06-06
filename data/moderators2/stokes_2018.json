@@ -1,0 +1,19 @@
+{
+  "slug": "stokes_2018",
+  "study": "Stokes et al. 2018 — EEF Mathematical Reasoning (Nunes & Bryant, U Oxford) effectiveness trial",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF-commissioned effectiveness trial with an independent evaluation team (NIESR — Stokes, Hudson-Sharp, Dorsett, Anders et al.), separate from the Oxford developers.",
+  "developer_delivered": "no",
+  "developer_evidence": "Teacher training was delivered through a network of eight Maths Hubs (coordinated by NCETM), not by the Oxford developers directly: 'delivery operated through a scalable train-the-trainers model'; the developers' role was reduced versus the earlier efficacy trial.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Explicit train-the-trainers model: 'Work Group Leads' were 'trained by the programme developers at the University of Oxford', and those Work Group Leads then trained the class teachers via the Maths Hubs (>=1 intermediary hop to the classroom teacher).",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Single intervention arm vs a business-as-usual (wait-list) control that received the programme the following year; control schools taught their normal maths curriculum in the trial year.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "No in-class coaching; class teachers taught 10 units over 12-15 weeks after training, with only optional remote support ('additional support directly from the Work Group Lead or ask questions through an online Maths Hub' forum) — no recurring in-class coaching.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Programme units are taught by the class teacher 'within normal maths lessons'; only the teacher's regular instruction changes, with no separate tutoring/pull-out/added-minutes student-facing dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Effectiveness trial introducing the scaled train-the-trainers delivery for the first time; teachers were new to the programme and outcomes were measured at the end of that single first implementation year.",
+  "confidence": "high"
+}

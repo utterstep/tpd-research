@@ -1,0 +1,19 @@
+{
+  "slug": "allen_2015",
+  "study": "Allen et al. 2015 (My Teaching Partner-Secondary [MTP-S], JREE 8(4))",
+  "eval_independence": "developer",
+  "eval_evidence": "Authored by the MTP developers (Pianta, Allen); explicit conflict-of-interest note: Robert Pianta is co-owner of the company charged with disseminating MyTeachingPartner. Developer-conducted evaluation.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Master-teacher coaches 'from the research team who were trained in the CLASS-S' served as the primary coaches 'responsible for implementing' the MTP-S intervention.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Research-team master-teacher coaches delivered the web-mediated coaching directly to participating teachers; no separate trained intermediary tier.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control group received business-as-usual in-service professional development (per design/extraction).",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Web-mediated video coaching cycles tied to teachers' own classroom recordings, but intensity was reduced in this replication to ~5-6 coaching cycles per year (vs. 10-12 in the original) -- roughly every 6-7 weeks, below the monthly/biweekly anchor for frequent_inclass; also remote rather than in-person in-class.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Teacher-coaching intervention only; only the teacher's own instruction changes. No tutoring/pull-out/added student dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Two-year intervention; achievement measured at end of Year 2 for the single cohort of teachers new to MTP-S (the program's first/only run for them, no prior implementation year).",
+  "confidence": "high"
+}

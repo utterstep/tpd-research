@@ -1,0 +1,19 @@
+{
+  "slug": "borman_2021",
+  "study": "Borman, Pyne, Rozek & Schmidt (2021/2022), self/values-affirmation identity intervention, AERJ",
+  "eval_independence": "developer",
+  "eval_evidence": "Authored/conducted by the research team that designed and replicates this affirmation intervention (Borman et al.); 'The research team implemented the study across 11 ... middle schools.' Developer-conducted, no independent third-party evaluator.",
+  "developer_delivered": "no",
+  "developer_evidence": "PD/administration was by classroom teachers, not the researchers: 'Teachers, rather than researchers, implemented the interventions.' Teachers administered the brief writing exercises to students.",
+  "cascade_depth": "unclear",
+  "cascade_evidence": "Paper states the research team implemented the study and teachers administered the exercises, but does not describe a teacher-training tier or its hops (materials/administration detail are in an online-only supplement not in the PDF). Transmission depth to the delivering teachers is not specified.",
+  "counterfactual": "active_or_contaminated",
+  "counterfactual_evidence": "Control students received a structured 'neutral, nonaffirming' writing exercise 'virtually identical in appearance and demand' to treatment, completed in the same class period - an active matched-attention alternative, not pure BAU.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "No ongoing in-class coaching of teachers; teachers simply administer 3-4 standardized 15-20 min writing exercises. No coaching component described.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "The intervention is itself a direct student-facing dose: students complete 3-4 expressive/values-affirmation writing exercises (~15-20 min each) during class, beyond regular instruction.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Delivered within a single 7th-grade school year (3-4 exercises across the year); no second-year/teacher-experience maturity axis. Two independent yearly cohorts are replications, not a maturity progression.",
+  "confidence": "medium"
+}

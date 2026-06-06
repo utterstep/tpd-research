@@ -1,0 +1,19 @@
+{
+  "slug": "james_burdumy_2010",
+  "study": "James-Burdumy et al. 2010 (NCEE 2010-4015) — supplemental reading comprehension curricula (CRISS, ReadAbout, Read for Real)",
+  "eval_independence": "independent",
+  "eval_evidence": "IES/NCEE national evaluation (NCEE 2010-4015) conducted by independent federal contractors (Mathematica Policy Research with RG Research Group / RMC observers); the curriculum developers (CRISS, Scholastic, Chapman Univ.) were the subjects, not the evaluators.",
+  "developer_delivered": "yes",
+  "developer_evidence": "Report states 'the developers provided teacher training' and 'Curriculum developers provided training and follow-up support to teachers throughout the two study years' — each curriculum's own developer/publisher delivered the PD, not the IES evaluators or generic intermediaries.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Each curriculum developer's national trainer delivered initial training and on-site follow-up directly to the study's grade-5 teachers; no train-the-trainer/lead-teacher cascade.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control schools/teachers continued business-as-usual reading instruction with no assigned supplemental comprehension curriculum; control teachers used their own (varied) comprehension practices — standard BAU for a supplemental-curriculum trial, not contamination by the same branded program.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Varies by arm (study-level modal = periodic on-site follow-up). Project CRISS (row 56) prescribed MONTHLY on-site follow-up training/observation-feedback visits during the year; ReadAbout and Read for Real (rows 54/55) provided only group follow-up training (6-12 hrs), no in-class coaching. Net: light/periodic on-site support, not recurring per-teacher in-class coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Modal = none (CRISS and Read for Real are teacher-delivered instructional curricula; only the teacher's reading-comprehension instruction changes). EXCEPTION: ReadAbout (row 54, Scholastic) teaches comprehension 'primarily through a computer program' — that arm adds a substantial student-facing software dose; coded at the dominant study level as none with this arm flagged.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Extracted primary effect sizes are Cohort 1 (spring 2007, end of grade 5), in schools with NO prior experience with the curriculum — the program's first implementation year. (Cohort 2, with 1 prior year of school experience, is a separate non-primary wave.)",
+  "confidence": "medium"
+}

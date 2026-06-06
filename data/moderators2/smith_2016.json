@@ -1,0 +1,19 @@
+{
+  "slug": "smith_2016",
+  "study": "Smith et al. 2016 — Enhanced Core Reading Instruction (ECRI), grade-1 multitiered, IES Project ECRI (U Oregon)",
+  "eval_independence": "developer",
+  "eval_evidence": "Efficacy trial conducted and authored by the ECRI developers/research team (Smith, Nelson, Smolkowski, Baker, Fien — University of Oregon; IES Award R324A090104). Developer-conducted evaluation.",
+  "developer_delivered": "yes",
+  "developer_evidence": "PD and coaching delivered by 'ECRI expert coaches' (the research team): 'All professional development included teaching demonstrations by ECRI expert coaches and participant practice with coach feedback'; study-group meetings 'facilitated by an ECRI coach'.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "ECRI expert coaches (developer staff) train and coach the grade-1 teachers and small-group instructors directly; no train-the-trainer intermediary.",
+  "counterfactual": "active_or_contaminated",
+  "counterfactual_evidence": "Comparison schools implemented the district-adopted core reading program AND their own multitiered service-delivery model, with Tier-2 students receiving an additional 30 min small-group instruction 'across conditions' — an active alternative, not a true do-nothing BAU.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "'comprehensive coaching support through classroom and small-group visits conducted once per month and regular study-group meetings' — recurring (monthly) in-class coaching.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "ECRI restructures the content/alignment of Tier-1 and Tier-2 instruction, but the +30 min daily small-group Tier-2 time was given to at-risk students in BOTH conditions ('across conditions'); no added student-facing minutes unique to treatment.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Single-cohort efficacy trial; teachers implemented ECRI in the study year (PD began that fall) — first implementation year. No prior-year wave reported.",
+  "confidence": "high"
+}

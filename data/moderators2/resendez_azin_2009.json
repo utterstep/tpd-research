@@ -1,0 +1,19 @@
+{
+  "slug": "resendez_azin_2009",
+  "study": "Resendez & Azin (2009), Pearson enVisionMATH curriculum + PD efficacy RCT (2-yr), PRES Associates, math",
+  "eval_independence": "developer",
+  "eval_evidence": "Borderline. The report was produced by PRES Associates (a self-described independent evaluation firm), BUT it is a publisher-commissioned/funded efficacy study of Pearson's own enVisionMATH program (a vendor efficacy RCT), so there is a clear developer/commercial stake. Coded 'developer' on the stake criterion; note the report was authored by a contracted third-party firm.",
+  "developer_delivered": "yes",
+  "developer_evidence": "PD delivered by the program publisher/developer: 'Teachers were trained by a Pearson staff member for about 5-6 hours before the enVisionMATH curriculum was used', plus a 3-hour Pearson follow-up and (at several sites) 1-2 additional Pearson follow-up sessions.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Pearson's own staff trainer trained the treatment teachers directly (no lead-teacher/train-the-trainer intermediary reported).",
+  "counterfactual": "active_or_contaminated",
+  "counterfactual_evidence": "Control teachers continued the school's existing/business-as-usual math curriculum - i.e., an active alternative core math program, not a no-curriculum BAU (WWC noted comparison curricula were distinct from enVisionMATH). An active alternative curriculum.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Only pre-implementation training plus follow-up training sessions (5-6 hr + 3 hr + occasional 3-4 hr); described as training with implementation guidelines/monitoring, not ongoing in-class coaching cycles. No classroom coaching reported.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention is a core math curriculum replacing the teacher's regular math instruction; no added tutoring, pull-out, extra minutes, or separate student-facing software dose.",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Same students/teachers followed across the program's first two implementation years (Year 1 grades 2&4 = 2007-08, first year teachers used enVisionMATH; Year 2 grades 3&5 = 2008-09). enVisionMATH was newly introduced; teachers were new to it at rollout (no prior-implementation-year experience before the study began).",
+  "confidence": "medium"
+}

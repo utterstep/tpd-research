@@ -1,0 +1,19 @@
+{
+  "slug": "landry_2014",
+  "study": "Landry et al. 2014, Responsive Early Childhood Program (RECC/RECC+), toddler care (Developmental Psychology)",
+  "eval_independence": "developer",
+  "eval_evidence": "Authored and conducted by the program's research team (Landry/Children's Learning Institute and collaborators); RECC and the responsive-teaching PD are the authors' own program (NICHD P01 HD048497).",
+  "developer_delivered": "yes",
+  "developer_evidence": "Coaches who delivered the responsive-teaching PD/curriculum were selected and 'systematically trained to deliver the intervention by the principal investigator and supervisor' and supervised by senior research staff (p.~533-536).",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Project coaches (research-team staff trained and supervised by the PI/senior research staff) work directly with intervention teachers; not a school-system lead-teacher train-the-trainer cascade.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control condition 'received no training or curriculum' (only data-submission stipends); business-as-usual is the stated control arm (p.~518; abstract/methods).",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Teachers received weekly in-class coaching for 9 months (37 weeks), ~20 in-class sessions; described as relatively high-demand 'weekly coaching sessions across 37 weeks' (p.538-539, 1665).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention = curriculum + teacher coaching changing the teacher's own instruction; no tutoring/pull-out/software dose delivered to children. (RECC+ adds a teacher-delivered SE supplement, still teacher-mediated.)",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Each cohort received the program across one academic year (37-week school year) with child outcomes measured pre-post within that year; no multi-year maturation axis (multiple cohorts are staggered single-year implementations).",
+  "confidence": "high"
+}

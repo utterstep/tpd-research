@@ -1,0 +1,19 @@
+{
+  "slug": "shechtman_2019",
+  "study": "Shechtman et al. 2019, Reasoning Mind RM-CC5 digital core math curriculum (MCIS)",
+  "eval_independence": "independent",
+  "eval_evidence": "Report states the 'study was conducted by an independent evaluation team, not Reasoning Mind' (SRI/MCIS, IES/NCEE efficacy grant).",
+  "developer_delivered": "yes",
+  "developer_evidence": "Implementation coordinators (ICs) 'employed by Reasoning Mind' (the program developer) provided the ~60 hours of teacher PD and ongoing coaching; developer staff delivered the PD (even though the impact evaluation was independent).",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Reasoning Mind ICs delivered the PD and coaching directly to teachers (each school assigned an IC); no train-the-trainer hop.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control schools continued their existing business-as-usual Grade 5 mathematics curriculum/resources.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "ICs 'conducted classroom observations regularly... and coached teachers in improving instruction... throughout the year'; each school had an assigned IC providing ongoing in-class coaching.",
+  "added_student_dose": "student_component",
+  "student_dose_evidence": "RM-CC5 is an adaptive, blended digital core curriculum students work through on the computer with software feedback — a substantial student-facing software dose.",
+  "program_maturity": "mature",
+  "maturity_evidence": "2-year RCT: Year 1 (SY2014-15) was the 'warm-up year' for teacher development; Year 2 (SY2015-16) was the 'measurement year' — outcomes measured after one prior implementation year (experienced teachers).",
+  "confidence": "high"
+}

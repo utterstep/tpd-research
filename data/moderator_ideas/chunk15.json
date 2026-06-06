@@ -1,0 +1,70 @@
+{
+  "chunk": 15,
+  "studies": ["wakabayashi_2020", "west_2016", "whittaker_2020", "wiggins_2017", "wiggins_2019", "wijekumar_2009", "wijekumar_2017", "wolf_2018"],
+  "suggestions": [
+    {
+      "moderator": "Locus of the active ingredient: teacher-practice change vs delivered student-facing product",
+      "definition": "Whether the intervention's main mechanism is changing what teachers do (PD/coaching reshapes general instruction) vs delivering a self-contained student-facing product that does the instructional work while the teacher mainly administers/facilitates it. Levels: practice-change PD / product-delivery (software or scripted student program) / hybrid. Distinct from the already-coded curriculum-coupled and delivery-mode tags: this is about WHO/what is the causal lever, not whether new materials are bundled.",
+      "rationale": "Several of these are really evaluations of a student-facing technology or program where the PD is thin and instrumental: Odyssey Math (web math software, ~5 days PD), ITSS (web reading software, ~3hr PD), the Learner Response System (handheld feedback devices), ANet (data platform + interim tests). Where the lever is a delivered product, student impact hinges on the product's quality and pupil dose rather than on durable teacher learning; these product-led cases here cluster near null/small, whereas the practice-change models with heavy coaching (Numbers Plus, MTP-M/S) at least move proximal measures. The TPD->achievement chain is fundamentally different, so this could be a primary source of heterogeneity.",
+      "studies_observed": ["wijekumar_2009", "wijekumar_2017", "wiggins_2017", "west_2016", "wakabayashi_2020", "whittaker_2020"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "PD dose relative to intervention complexity (thin-onboarding vs sustained-support PD)",
+      "definition": "Magnitude and continuity of the teacher PD beyond raw hours: a one-off front-loaded onboarding (a single short workshop to launch a tool/curriculum) vs sustained PD spread across the year with recurring coaching/training touchpoints. Levels: thin front-loaded (<=1-2 sessions, no ongoing support) / front-loaded + periodic / sustained job-embedded across the year. Complements the already-coded raw TPD hours by capturing the temporal distribution and whether support recurs.",
+      "rationale": "These papers vary sharply: Wijekumar 2017 gives ~3 hours total; Wijekumar 2009 ~5 days; Wiggins 2017 a 2-day launch plus half-termly sessions; vs Numbers Plus (6 days + ~20 coaching contacts/year) and MTP-M/S (year-long video-mediated coaching cycles). Distributed, recurring support is theorized to change practice more durably than a single onboarding; raw hour counts can be equal while the temporal pattern differs, so the distribution (not just the total) may explain why some PD sticks.",
+      "studies_observed": ["wijekumar_2017", "wijekumar_2009", "wiggins_2017", "wakabayashi_2020", "whittaker_2020"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Cumulative student exposure to the intervention (one year vs multi-year dose)",
+      "definition": "Number of consecutive school years the measured student cohort was exposed to the intervention/treated teachers before the outcome was taken. Levels: 1 year / 2 years / multi-year. Within-study variation exists where the same trial reports separate 1-year and 2-year pupil cohorts. Distinct from already-coded TPD hours (a teacher-side quantity) and from outcome-timing immediate/delayed: this is the dose of treated schooling the child actually received.",
+      "rationale": "Two studies here deliberately contrast a 1-year-exposed and a 2-year-exposed pupil cohort (Wiggins 2017 LRS; Wiggins 2019 RISE), letting cumulative dose be read almost experimentally. If effects grow (or fade) with years of exposure, then studies measuring after a single year understate (or overstate) a program's reachable effect, making exposure-length a direct explanation for cross-study spread. In both cases here the 2-year cohort did not clearly beat the 1-year cohort, which is itself an informative pattern worth coding.",
+      "studies_observed": ["wiggins_2017", "wiggins_2019"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Evaluator independence and developer role in delivery",
+      "definition": "Whether the impact evaluation was run by an independent third party and, separately, whether the program developer delivered/supported the intervention during the trial. Levels: independent evaluator + arm's-length developer / independent evaluator + developer-delivered (efficacy 'ideal conditions') / developer-conducted evaluation. Goes beyond the already-coded 'TPD trainer (researcher/developer vs external)' by targeting the EVALUATION's independence and the developer's hands-on role in the trial.",
+      "rationale": "This batch spans the spectrum: West (Harvard CEPR), Wijekumar 2009 (REL Mid-Atlantic/NCEE), and the two EEF trials (UCL IoE) are independently evaluated, while Wiggins 2019 explicitly flags that RISE was 'delivered by the developer' under 'ideal conditions' and warns this limits generalizability. Developer-delivered efficacy trials and developer-run evaluations tend to report larger effects than independent effectiveness trials; coding both facets could absorb a known optimism bias driving heterogeneity.",
+      "studies_observed": ["wiggins_2019", "west_2016", "wijekumar_2009", "wiggins_2017", "whittaker_2020", "wakabayashi_2020"],
+      "reportability": "usually_reported",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Counterfactual activity level (business-as-usual vs active/contaminated control)",
+      "definition": "What the control group actually experienced: a true do-nothing business-as-usual baseline vs an 'active' counterfactual where controls had access to similar supports (their own interim assessments, comparable software, district data coaching) that narrow the treatment-control gap. Levels: inert BAU / active or partially-contaminated control / delayed-treatment control. Not previously coded; the registry codes the treatment side, not the strength of the comparison.",
+      "rationale": "West is explicit that ANet control schools were free to use their own interim assessments and district data supports, so the estimate is ANet's value OVER AND ABOVE typical data-driven practice, which mechanically shrinks the contrast toward null. Where 'business-as-usual' already contains much of the treatment's content (common for data/assessment and now-ubiquitous ed-tech), the same program will look weaker than where the control is genuinely inert. This makes counterfactual strength a plausible explanation for why otherwise-similar PD shows different effects.",
+      "studies_observed": ["west_2016", "wakabayashi_2020", "wijekumar_2009", "wiggins_2017"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Student-facing usage dose / fidelity of the pupil-side component",
+      "definition": "For interventions with a defined student-facing dose (minutes/sessions per week of software or program use), the intended dose and whether pupils actually reached it. Levels: high prescribed dose met / prescribed dose under-delivered / no defined pupil-side dose. Separate from teacher-side implementation fidelity: this is whether the CHILDREN received the intended amount of the active component.",
+      "rationale": "Odyssey Math prescribed ~60 min/week but the team did not intervene when classes used it less, so realized pupil dose varied and the effect was null (g~0.02); ITSS prescribed 30-45 min 1-2x/week. When the active ingredient is pupil time-on-product, under-dosing at the student level severs the TPD->achievement link regardless of how well teachers were trained, so the realized student-side dose could moderate effects more directly than teacher fidelity.",
+      "studies_observed": ["wijekumar_2009", "wijekumar_2017", "wiggins_2017"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Backwards/staggered grade rollout with single-year teacher exposure",
+      "definition": "Whether a multi-year trial rolls the program out one grade per year (often backwards from upper to lower grades), so each measured cohort's teachers are in their FIRST implementation year, vs a stable design where teachers accumulate implementation experience across cohorts. Levels: staggered single-year-per-cohort rollout / stable multi-year same-teacher implementation. A design feature distinct from student exposure length.",
+      "rationale": "Wolf 2018 (ELLA-V) rolls out grade 3 -> 2 -> 1 -> K across four years, so every cohort is taught by first-year implementers; Whittaker's two consecutive single-year cohorts are similar. First-year-implementation effects are typically depressed (the 'implementation dip'), so studies dominated by first-year teaching may systematically understate a mature program's effect, contributing to between-study heterogeneity.",
+      "studies_observed": ["wolf_2018", "whittaker_2020"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "English-learner / language-minority concentration of the student sample",
+      "definition": "Share of the treated students who are English learners / language-minority (or the intervention's explicit targeting of EL/oral-language development). Levels: majority-EL / mixed / non-EL-focused. Goes beyond the already-coded SES and targeted-population tags by isolating LANGUAGE status, which interacts specifically with literacy/oral-language PD.",
+      "rationale": "Wolf 2018 (ELLA-V) is a majority-English-learner sample with an explicit English-language-development design, and its clearest positive effects were on oral-language/ELD outcomes; pre-K oral-language and literacy PD (Whittaker, Wakabayashi context) may have larger headroom where many children are still acquiring the language of instruction. Where the PD's mechanism is language/literacy-rich instruction, the EL concentration of the sample plausibly scales the achievable gain, so it could moderate effects within the literacy subset.",
+      "studies_observed": ["wolf_2018"],
+      "reportability": "usually_reported",
+      "strength": "weak"
+    }
+  ]
+}

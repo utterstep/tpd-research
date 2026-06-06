@@ -1,0 +1,19 @@
+{
+  "slug": "sutherland_2019",
+  "study": "Sutherland et al. (2019), Digital Feedback in Primary Maths — EEF efficacy trial (KYRA Teaching School Alliance developer; RAND Europe evaluator)",
+  "eval_independence": "independent",
+  "eval_evidence": "EEF-commissioned efficacy trial 'independently evaluated by RAND Europe' (title page/citation); the developer (James Siddle / KYRA Teaching School Alliance) was the subject, RAND Europe the third-party evaluator with no developer stake.",
+  "developer_delivered": "yes",
+  "developer_evidence": "PD was 'developed and delivered by KYRA Teaching School Alliance'; the KYRA delivery team (James Siddle et al.) 'were responsible for ... the training' and 'provided teachers with diagnostic assessments' plus initial one-day training. The developer/delivery team delivered the teacher training directly.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Mixed: KYRA delivery team gave initial training directly to teachers (direct), but ongoing in-school coaching was delivered by school-based 'Research Leads' — peer coaches selected by each school and trained by KYRA who then coached their own colleagues. The coaching channel runs developer -> Research Lead -> teacher (>=1 extra hop), so the overall model is a lead-teacher cascade.",
+  "counterfactual": "active_or_contaminated",
+  "counterfactual_evidence": "Nominal control was true business-as-usual ('No incentives, wait-list or alternative curriculum'), BUT the report explicitly flags contamination from class-level (within-school) randomisation: 'some teachers in the control group being given tasks related to the intervention.' Documented BAU contamination -> active_or_contaminated.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Research Leads were intended to coach teachers frequently (observe + meet, weekly coaching logs), but the report states coaching 'happened on an irregular basis,' 'less than once a month' was the modal response, and many coaching sessions did not take place. Net delivered intensity = light/periodic in-class support, not recurring monthly+ cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "The 'Explain Everything' tablet app is a TEACHER tool for recording video feedback to pupils within regular maths lessons; it changes how the teacher gives feedback in normal instruction. No tutoring, pull-out, extra minutes, or independent student-facing software dose is added (pupils only review the teacher's feedback videos).",
+  "program_maturity": "first_year",
+  "maturity_evidence": "Efficacy trial implemented over a single school year (2017/2018), schools/teachers new to the programme; outcomes measured at the end of that first implementation year (June 2018).",
+  "confidence": "high"
+}

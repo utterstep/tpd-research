@@ -1,0 +1,19 @@
+{
+  "slug": "fancsali_2015",
+  "study": "Fancsali et al. 2015, RAISE / Reading Apprenticeship (WestEd SLI), Empirical Education i3 report",
+  "eval_independence": "independent",
+  "eval_evidence": "Impact evaluation 'conducted by IMPAQ International and Empirical Education Inc.' (third-party evaluators); WestEd's SLI developed/delivered the PD but did not run the impact study.",
+  "developer_delivered": "yes",
+  "developer_evidence": "'SLI staff and consultants provided Reading Apprenticeship' PD (65 hrs / 10 days via Springboard Institutes); the developer organization (WestEd SLI) delivered the core PD directly to teachers.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "Core 65-hr PD delivered by SLI directly, but ongoing support ran through SLI-developed 'teacher leaders' (trained by SLI/state site coordinators) who facilitated monthly on-site team meetings -> a lead-teacher cascade for the support layer.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "'control schools conducted business as usual' while treatment schools received the 65-hr PD plus ongoing support; no active alternative PD for controls.",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Ongoing support = monthly on-site team meetings led by a RAISE-trained teacher leader (collaboration, some coaching/mentoring/model-lessons); periodic group support, not recurring individual in-class coaching cycles.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "RAISE changes disciplinary teachers' instruction ('increased in-class opportunities for reading') within regular ELA/science/history classes; no tutoring, pull-out, or separate student dose.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Primary extracted wave = spring Year 2 (full 42-school sample after the complete 12-month PD dose); teachers had a prior implementation year (Year-1 results reported separately).",
+  "confidence": "high"
+}

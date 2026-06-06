@@ -1,0 +1,19 @@
+{
+  "slug": "lesaux_2014",
+  "study": "Lesaux et al. 2014, ALIAS academic-vocabulary curriculum, grade-6 (AERJ)",
+  "eval_independence": "developer",
+  "eval_evidence": "Conducted/authored by the research team that developed the ALIAS curriculum (Lesaux/Kieffer et al., IES R305A080631); the developers ran and reported the trial.",
+  "developer_delivered": "no",
+  "developer_evidence": "PD delivered by 'two program specialists, both former teachers with extensive experience in the district and trained by the research team' (p.424), i.e. intermediaries trained by the developers, not the researchers themselves.",
+  "cascade_depth": "cascade",
+  "cascade_evidence": "One extra hop: research team trained two program specialists (former district teachers), who in turn supported/trained the implementing teachers.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control = business-as-usual core ELA instruction; control teachers were only observed (rated on instructional indicators) and received no alternative vocabulary program (p.638, 768-771).",
+  "coaching_intensity": "occasional",
+  "coaching_evidence": "Support = monthly meetings with a program specialist to troubleshoot implementation, plus a password-protected website with materials/video clips; no recurring in-class coaching cycles in the teacher's own classroom (p.424-430).",
+  "added_student_dose": "none",
+  "student_dose_evidence": "ALIAS is a 20-week academic-vocabulary curriculum delivered by the teacher within ELA; changes the teacher's instruction only, no separate tutoring/pull-out/software dose to students.",
+  "program_maturity": "single_year_design",
+  "maturity_evidence": "Single 20-week implementation in one school year (2008-09, pretest Oct 2008 / posttest May 2009); a discrete one-shot curriculum field trial with no multi-year maturation axis. Teachers were new to ALIAS.",
+  "confidence": "medium"
+}

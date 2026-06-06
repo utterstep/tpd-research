@@ -1,0 +1,19 @@
+{
+  "slug": "song_2021",
+  "study": "Song et al. 2021 / Garet et al. 2017 — Impact of Providing Performance Feedback to Teachers and Principals (NCEE 2018-4001, AIR)",
+  "eval_independence": "independent",
+  "eval_evidence": "Independent NCEE/IES evaluation conducted by AIR (Garet, Wayne, Brown, Rickles, Song, Manzeske); a large-scale randomized experiment run by the IES contractor, not a program developer with a stake.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The intervention components (classroom-observation ratings via CLASS/FFT, value-added growth reports, 360 principal survey) were produced and delivered by the study/research team: ratings 'coded by trained observers on the study research team'; study-hired observers fed back to educators.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Study research-team observers rated classrooms and the project delivered feedback reports directly to teachers/principals; no train-the-trainer intermediary between the research team and educators.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control schools continued the standard district feedback/evaluation process (business as usual); treatment educators reported receiving more/more-frequent feedback than controls, as intended.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Intervention is performance FEEDBACK, not coaching; the report explicitly notes 'non-school-based observers excluded coaches or mentors' — observers did not 'support, plan professional development, or guide coaching'. No in-class coaching component.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "A teacher/principal-facing feedback program; students receive only the teacher's regular instruction — no tutoring, pull-out, or added student-facing dose.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Two-year program (2012-13 and 2013-14); the extracted end-of-treatment wave is post-Year-2 (spring 2014), measured after a full prior implementation year, so teachers/principals were experienced with the feedback system.",
+  "confidence": "high"
+}

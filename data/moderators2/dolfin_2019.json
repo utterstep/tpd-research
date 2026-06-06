@@ -1,0 +1,19 @@
+{
+  "slug": "dolfin_2019",
+  "study": "Dolfin et al. 2019 (Teacher Potential Project [TPP]; EL Education ELA curriculum + embedded PD/coaching)",
+  "eval_independence": "independent",
+  "eval_evidence": "Independent evaluation by Mathematica (submitted to EL Education); conducted under an i3 validation grant to EL Education but the impact study was carried out by Mathematica, a third-party evaluator.",
+  "developer_delivered": "yes",
+  "developer_evidence": "EL Education (the developer) designed and delivered TPP: on-site institutes plus 'on-site and video-based coaching from EL Education coaches, including observations, modeling, lesson studies.'",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "EL Education coaches worked directly with the participating ELA teachers (institutes + classroom coaching); no train-the-trainer intermediary.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control schools continued their business-as-usual district ELA curriculum and professional development; design note describes BAU comparison.",
+  "coaching_intensity": "frequent_inclass",
+  "coaching_evidence": "Intensive in-class coaching: ~21 days of on-site plus 3 days of video-based coaching per school in Year 1 (fewer in Year 2), with monthly lesson-study sessions; teachers were expected to participate in coaching at least 10 times during the school year.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Intervention is a teacher-facing ELA curriculum plus embedded PD/coaching delivered through the teacher's regular ELA instruction; no tutoring, pull-out, or extra student dose.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Reported headline/confirmatory impacts are the two-year impacts (S4 overall and S6 two-year schools), measured after a prior implementation year. A clean one-year (first-year) full-sample contrast (S2) is also reported and was null; impacts emerged only after two years.",
+  "confidence": "high"
+}

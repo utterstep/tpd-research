@@ -1,0 +1,62 @@
+{
+  "chunk": 2,
+  "studies": ["borman_2008", "borman_2021", "bottge_2014", "boylan_2018", "buysse_2010", "cabell_2011", "carroll_2020", "castro_2017"],
+  "suggestions": [
+    {
+      "moderator": "Reported implementation fidelity",
+      "definition": "The proportion of treatment teachers/schools that actually delivered the PD-prescribed practices at the intended level, as reported by the study's own fidelity/process evaluation. Candidate levels: high (most teachers high-fidelity) / mixed / low; or a continuous fidelity rate where given. Post-treatment measure (note the usual caveat).",
+      "rationale": "PD can only raise achievement if teachers change practice; several of these studies show null/negative effects sitting on top of poor uptake. Where fidelity is high, effects appear; where low, they vanish. This is the most direct candidate for explaining why some PD 'works' and some does not.",
+      "studies_observed": ["boylan_2018", "cabell_2011", "carroll_2020", "bottge_2014", "castro_2017"],
+      "reportability": "sometimes",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Coaching delivery channel (in-class/onsite vs distance/remote)",
+      "definition": "When the PD includes coaching, whether it is delivered in person in the teacher's own classroom (onsite observation, modeling, side-by-side support) vs delivered remotely (distance/video-conference/off-site review of submitted video). Levels: onsite / distance / blended / none. Distinct from the already-coded binary 'coaching' principle and from in-person-vs-online delivery of the workshop component.",
+      "rationale": "Job-embedded onsite coaching gives teachers feedback in their real instructional context, plausibly a stronger lever on practice than remote coaching; the studies deliberately vary this and some explicitly reduced coaching intensity to a distance model for scalability.",
+      "studies_observed": ["borman_2008", "cabell_2011", "castro_2017", "boylan_2018"],
+      "reportability": "sometimes",
+      "strength": "strong"
+    },
+    {
+      "moderator": "Baseline teacher experience",
+      "definition": "Average or distributional teaching experience of the treated teachers (e.g., share novice <=3 years vs veteran), or experience entered as an effect-moderating covariate. Levels: predominantly novice / mixed / predominantly veteran.",
+      "rationale": "Borman et al. analyze this directly and find PD helps novices but hurts veterans (whose established routines are disrupted). If the direction of the PD effect flips with teacher experience, the experience composition of a study's sample could explain heterogeneity across studies.",
+      "studies_observed": ["borman_2008"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Teacher-PD duration vs student-exposure window mismatch",
+      "definition": "Whether teachers receive a multi-year PD program but the measured student cohort is only exposed for part of it (e.g., 2-year teacher PD, 1-year student dose), vs PD and student exposure being concurrent/coextensive. Levels: matched / teacher-PD-longer-than-student-exposure. Captured separately from raw TPD hours.",
+      "rationale": "Two studies run a 2-year teacher PD but measure 1 year of student outcomes, so first-year students see teachers still mid-training; effects may be diluted relative to studies where teachers are fully trained before the measured student cohort. A first-implementation-year 'dip' (also seen in Borman) is the same mechanism.",
+      "studies_observed": ["castro_2017", "boylan_2018", "borman_2008"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Teacher-student language/cultural match (bilingual staff)",
+      "definition": "For studies with linguistically diverse students, whether the treated classrooms have staff who share the students' home language / the PD is deliverable in that language. Levels: bilingual/matched staff / monolingual mismatch / n.a. (could generalize to teacher-student demographic match more broadly).",
+      "rationale": "Castro's only significant academic effect was the treatment x bilingual-teacher interaction: the PD raised early literacy only where two bilingual teachers were present. Where the PD's language-responsive practices cannot be enacted in the students' language, the same PD yields nulls.",
+      "studies_observed": ["castro_2017", "buysse_2010"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Video-based self-observation / rehearsal with feedback",
+      "definition": "Whether the PD has teachers record their own teaching (or rehearse target practices) and then review it with a coach/peers for feedback, vs PD that is workshop/materials-only with no structured cycle on the teacher's own practice. Levels: present / absent.",
+      "rationale": "A structured 'enact -> record -> get feedback -> revise' cycle is a concrete active-learning mechanism distinct from the generic coaching tick-box; several of these PD models are built around it while others (curriculum + 2-day workshop) are not, giving real variation.",
+      "studies_observed": ["cabell_2011", "buysse_2010", "castro_2017"],
+      "reportability": "usually_reported",
+      "strength": "moderate"
+    },
+    {
+      "moderator": "Cascade / lead-teacher delivery structure",
+      "definition": "Who within the school receives and propagates the PD: all teachers trained directly vs a school 'lead'/'hub lead' trained who then cascades/co-plans with colleagues, vs PD focused on a single designated lead teacher whose own class is measured. Levels: direct-to-all / cascade-via-lead / single-lead-focus.",
+      "rationale": "Cascade models lose fidelity at each transmission hop and dilute dose to non-lead teachers; studies that train and measure the directly-trained lead teacher show different (often larger) effects than schoolwide samples reached only via cascade. Borman's lead-teacher vs schoolwide contrast and Boylan's hub-lead cascade make this concretely variable.",
+      "studies_observed": ["borman_2008", "boylan_2018"],
+      "reportability": "sometimes",
+      "strength": "moderate"
+    }
+  ]
+}

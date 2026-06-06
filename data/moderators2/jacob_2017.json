@@ -1,0 +1,19 @@
+{
+  "slug": "jacob_2017",
+  "study": "Jacob, Hill & Corey 2017 — Math Solutions 3-year math PD RCT",
+  "eval_independence": "independent",
+  "eval_evidence": "Impact evaluation authored by university researchers Jacob, Hill & Corey, who are independent of Math Solutions (the commercial PD vendor whose program was tested). The study team observed the PD sessions but did not develop or own the program.",
+  "developer_delivered": "yes",
+  "developer_evidence": "The PD was delivered by Math Solutions' own staff/associates ('Math Solutions staff worked with the teachers'; 'Math Solutions hand-selects and extensively trains full-time associates'), i.e., the program's developers delivered directly rather than via trained intermediaries or the school system.",
+  "cascade_depth": "developer_direct",
+  "cascade_evidence": "Math Solutions staff/associates delivered the summer institutes and in-service days directly to the study teachers; no train-the-trainer/lead-teacher layer.",
+  "counterfactual": "business_as_usual",
+  "counterfactual_evidence": "Control teachers were 'business as usual'; as an incentive the district offered them an UNRELATED science PD (and a science instructional coach), not an alternative math PD — so the math counterfactual is true BAU.",
+  "coaching_intensity": "none",
+  "coaching_evidence": "Program = week-long summer institute each year + 4-6 in-service days/year (>40 contact hrs/yr), workshop/course format. Report states 'Distance learning and coaching were proposed by the Math Solutions team but not taken up by the teachers' — no ongoing in-class coaching was actually delivered.",
+  "added_student_dose": "none",
+  "student_dose_evidence": "Teacher-facing PD only; changes the teacher's regular math instruction. No tutoring, pull-out, extra instructional minutes, or student-facing software dose.",
+  "program_maturity": "mature",
+  "maturity_evidence": "Three-year PD program; the extracted student-achievement effect sizes are the T4 wave (spring of Year 3, end of the 3-year treatment), by which point teachers had ≥1 prior implementation year (experienced).",
+  "confidence": "high"
+}
